@@ -1,0 +1,185 @@
+class l2_17831_skill extends L2SkillEffect;
+
+
+
+
+//defaultproperties
+//{
+//	Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+//		AttachOn=AM_Trail
+//		bSpawnOnTarget=False
+//		//bRelativeToCylinder=False
+//		Offset=(X=1.000000,Y=0.000000,Z=0.000000)
+//		EffectClass=Class'LineageEffect.el_prominence_ca'
+//	End Object
+//	CastingAction(0)=L2EffectEmitter'L2EffectEmitter0'
+//
+//	Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+//		AttachOn=AM_Trail
+//		bSpawnOnTarget=False
+//		//bRelativeToCylinder=False
+//		Offset=(X=1.000000,Y=0.000000,Z=0.000000)
+//		EffectClass=Class'LineageEffect.d_ar_raina_ca'
+//	End Object
+//	CastingAction(1)=L2EffectEmitter'L2EffectEmitter10'
+//
+//	Begin Object Class=L2EffectEmitter Name=L2EffectEmitter30
+//		AttachOn=AM_RH
+//		bSpawnOnTarget=False		
+//		Offset=(X=1.000000,Y=0.000000,Z=0.000000)
+//		ScaleSize=2
+//		EffectClass=Class'LineageEffect.el_prominence_fl'
+//	End Object
+//	ShotAction(30)=L2EffectEmitter'L2EffectEmitter30'
+//
+//	Begin Object Class=L2EffectEmitter Name=L2EffectEmitter31
+//		bSpawnOnTarget=False
+//		bRelativeToCylinder=False
+//		Offset=(X=1.000000,Y=0.000000,Z=30.000000)
+//		EffectClass=Class'LineageEffect.el_prominence_fl'
+//	End Object
+//	ShotAction(31)=L2EffectEmitter'L2EffectEmitter31'
+//
+//	Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+//		AttachOn=AM_Trail
+//		bSpawnOnTarget=False
+//		bRelativeToCylinder=False
+//		Offset=(X=5.000000,Y=0.000000,Z=0.000000)
+//		EffectClass=Class'LineageEffect.el_prominence_cs'
+//	End Object
+//	ShotAction(1)=L2EffectEmitter'L2EffectEmitter2'
+//
+//	Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+//		AttachOn=AM_Trail
+//		EffectClass=Class'LineageEffect.el_prominence_ta'
+//	End Object
+//	ExplosionAction(0)=L2EffectEmitter'L2EffectEmitter3'
+//
+//	Desc="프로미넌스"
+//	SkillID=1230
+//	FlyingTime=0.400000
+//}
+
+defaultproperties
+{
+     Desc="실드 스턴"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_magicbolt3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_magicbolt3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrfire5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrfire5s_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrfire5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrfire5s_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=130.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.d_wi_mbfire_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbfire_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Y=-50.000000,Z=-50.000000)
+         ControlPointOffset(1)=(X=3.000000,Y=5026.000000,Z=50.000000)
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=130.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.d_wi_mbfire_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbfire_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Y=50.000000,Z=-50.000000)
+         ControlPointOffset(1)=(X=3.000000,Y=-50.000000,Z=50.000000)
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(Z=130.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.d_wi_mbwind_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwind_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Y=50.000000)
+         ControlPointOffset(1)=(X=3.000000,Y=-50.000000)
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(Z=130.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.d_wi_mbwind_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwind_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Y=-50.000000)
+         ControlPointOffset(1)=(X=3.000000,Y=50.000000)
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         offset=(Z=130.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.d_wi_mbwater_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwater_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Z=50.000000)
+         ControlPointOffset(1)=(X=3.000000,Z=-50.000000)
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter7'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         offset=(Z=130.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.d_wi_mbwater_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwater_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Z=-50.000000)
+         ControlPointOffset(1)=(X=3.000000,Z=50.000000)
+     End Object
+     ShotAction(5)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter8'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter9
+         offset=(Z=130.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.d_wi_mbground_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbground_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Y=-50.000000,Z=50.000000)
+         ControlPointOffset(1)=(X=3.000000,Y=50.000000,Z=-50.000000)
+     End Object
+     ShotAction(6)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter9'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         offset=(Z=130.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.d_wi_mbground_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbground_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Y=50.000000,Z=-50.000000)
+         ControlPointOffset(1)=(X=3.000000,Y=-50.000000,Z=50.000000)
+     End Object
+     ShotAction(7)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         offset=(Z=-1.000000)
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.d_Gnuckdown_tara'
+         SimpleEffectClass=Class'LineageEffect.d_Gnuckdown_tara_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17831_skill.L2EffectEmitter11'
+     FlyingTime=2.500000
+}

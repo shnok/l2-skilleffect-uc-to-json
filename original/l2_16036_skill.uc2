@@ -1,0 +1,35 @@
+class l2_16036_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="타우티 연출용"
+     SkillID=16036
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.850000
+         EffectClass=Class'LineageEffect.d_Gnuckdown_ca'
+         SimpleEffectClass=Class'LineageEffect.d_Gnuckdown_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16036_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=4.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.250000
+         EffectClass=Class'LineageEffect.d_tauti_tornado_ca'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_tornado_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16036_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=0.800000
+         EffectClass=Class'LineageEffect.d_tauti_hide_ca'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_hide_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16036_skill.L2EffectEmitter2'
+}

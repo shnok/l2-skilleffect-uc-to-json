@@ -1,0 +1,19 @@
+class l2_5528_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="베레스의 노예 자폭"
+     SkillID=5528
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u528_ta_bigsize_b'
+         SimpleEffectClass=Class'LineageEffect.e_u528_ta_bigsize_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5528_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         EffectClass=Class'LineageEffect.el_flame_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5528_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,22 @@
+class l2_4080_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크 힐"
+     SkillID=4080
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u003_a'
+         SimpleEffectClass=Class'LineageEffect.m_u003_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4080_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.it_healing_potion_ta'
+         SimpleEffectClass=Class'LineageEffect.it_healing_potion_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4080_skill.L2EffectEmitter1'
+}

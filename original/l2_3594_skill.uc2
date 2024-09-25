@@ -1,0 +1,34 @@
+class l2_3594_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인피니티 파워 - 아처리"
+     SkillID=3594
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.700000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.850000
+         EffectClass=Class'LineageEffect.d_ar_bowstrike_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ar_bowstrike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3594_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-0.700000,Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect2.y_boss_helios_holy_spike1_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_holy_spike1_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_3594_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=0.400000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_ar_realtar_ca'
+         SimpleEffectClass=Class'LineageEffect.u_ar_realtar_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3594_skill.L2EffectEmitter2'
+}

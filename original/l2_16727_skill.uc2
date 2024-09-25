@@ -1,0 +1,14 @@
+class l2_16727_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헬리오스 스톰 피스트"
+     SkillID=16727
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16727_skill.L2EffectEmitter3'
+}

@@ -1,0 +1,39 @@
+class l2_14383_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="안타라스 메테오"
+     SkillID=5093
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u828_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u828_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14383_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         SpawnDelay=3.500000
+         EffectClass=Class'LineageEffect.e_u828_2_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u828_2_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14383_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=6.000000,Y=5.000000,Z=-1.000000)
+         SpawnDelay=3.900000
+         EffectClass=Class'LineageEffect.e_u828_conestone2_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u828_conestone2_ta_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14383_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=7.000000,Y=5.000000,Z=-1.000000)
+         SpawnDelay=3.700000
+         EffectClass=Class'LineageEffect.e_u828_conestone2_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u828_conestone2_ta_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_14383_skill.L2EffectEmitter3'
+}

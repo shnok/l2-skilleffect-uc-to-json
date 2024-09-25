@@ -1,0 +1,14 @@
+class l2_16990_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="어둠의 포효"
+     SkillID=16990
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_scene_power_trnas_tara_dark'
+         SimpleEffectClass=Class'LineageEffect2.y_scene_power_trnas_tara_dark_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16990_skill.L2EffectEmitter0'
+}

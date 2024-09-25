@@ -1,0 +1,21 @@
+class l2_6306_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         EffectClass=Class'LineageEffect.z_common_buff_f'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_f_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6306_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_focus_sonic_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_focus_sonic_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6306_skill.L2EffectEmitter11'
+}

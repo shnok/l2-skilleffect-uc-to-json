@@ -1,0 +1,37 @@
+class l2_6423_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이동잠금"
+     SkillID=6423
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6423_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.s_u003_d'
+         SimpleEffectClass=Class'LineageEffect.s_u003_d_simple'
+     End Object
+     PreshotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6423_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u003_b'
+         SimpleEffectClass=Class'LineageEffect.s_u003_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6423_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.p_u004_a'
+         SimpleEffectClass=Class'LineageEffect.p_u004_a_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6423_skill.L2EffectEmitter4'
+}

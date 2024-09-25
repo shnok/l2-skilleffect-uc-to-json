@@ -1,0 +1,25 @@
+class l2_1875_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="남십자의 별"
+     SkillID=1875
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=0.680000
+         EffectClass=Class'LineageEffect2.y_er_star_altair_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_er_star_altair_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1875_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=2.500000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_er_star_crux_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_er_star_crux_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1875_skill.L2EffectEmitter1'
+}

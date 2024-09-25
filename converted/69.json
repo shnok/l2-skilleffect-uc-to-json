@@ -1,0 +1,5 @@
+{
+"SkillId": 69,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.mo_battle_roar_ca","SimpleEffectClass": "ClassLineageEffect.mo_battle_roar_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.wh_greater_heal_ta","SimpleEffectClass": "ClassLineageEffect.wh_greater_heal_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_ro_bleed_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_bleed_ta_simple"}]
+}

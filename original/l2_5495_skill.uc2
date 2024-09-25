@@ -1,0 +1,30 @@
+class l2_5495_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="베레스 출혈_검소환"
+     SkillID=5495
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u844_berethsword_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u844_berethsword_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5495_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u844_berethsword_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u844_berethsword_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5495_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u820_magic_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u820_magic_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5495_skill.L2EffectEmitter2'
+}

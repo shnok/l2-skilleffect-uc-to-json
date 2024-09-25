@@ -1,0 +1,22 @@
+class l2_11565_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레지스트 엘레멘탈"
+     SkillID=11565
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u232_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u232_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11565_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u232_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u232_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11565_skill.L2EffectEmitter1'
+}

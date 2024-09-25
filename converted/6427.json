@@ -1,0 +1,5 @@
+{
+"SkillId": 6427,
+"CastingActions": [{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","bOnMultiTarget": "True","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.e_u329_ta_A","SimpleEffectClass": "ClassLineageEffect.e_u329_ta_A_simple"},{"Name": "L2EffectEmitter11", "offset": "(Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.z_lizard_shockwave","SimpleEffectClass": "ClassLineageEffect.z_lizard_shockwave_simple"},{"Name": "L2EffectEmitter13", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_unholy_hp_down","SimpleEffectClass": "ClassLineageEffect.z_unholy_hp_down_simple"}],
+"ShotActions": []
+}

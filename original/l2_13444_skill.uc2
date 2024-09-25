@@ -1,0 +1,14 @@
+class l2_13444_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="분석"
+     SkillID=13444
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_analysis_ta'
+         SimpleEffectClass=Class'LineageEffect.u_analysis_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_13444_skill.L2EffectEmitter0'
+}

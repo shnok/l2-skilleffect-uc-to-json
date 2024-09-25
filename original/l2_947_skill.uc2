@@ -1,0 +1,46 @@
+class l2_947_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="럭키 스트라이크"
+     SkillID=947
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u224_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u224_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_947_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.at_fatal_strike_cs'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_cs_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_947_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_ro_bleed_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_bleed_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_947_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u224_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u224_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_947_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.el_flame_strike_ra'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_947_skill.L2EffectEmitter4'
+}

@@ -1,0 +1,38 @@
+class l2_1437_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소울 에미션"
+     SkillID=1437
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u820_soul_hand'
+         SimpleEffectClass=Class'LineageEffect.s_u820_soul_hand_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1437_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u811_short_debuff'
+         SimpleEffectClass=Class'LineageEffect.m_u811_short_debuff_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1437_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u820_magic_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u820_magic_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1437_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         RelativeRotation=(Yaw=32768)
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u828_soul_fan_a'
+         SimpleEffectClass=Class'LineageEffect.s_u828_soul_fan_a_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1437_skill.L2EffectEmitter3'
+}

@@ -1,0 +1,16 @@
+class l2_7107_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙궁의숨결_자폭"
+     SkillID=7107
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Y=0.500000,Z=2.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_firework_a'
+         SimpleEffectClass=Class'LineageEffect.d_firework_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_7107_skill.L2EffectEmitter1'
+}

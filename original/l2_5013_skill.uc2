@@ -1,0 +1,14 @@
+class l2_5013_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Frintessa Ghost Drain"
+     SkillID=5013
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mb_frintessa_ghost_drain'
+         SimpleEffectClass=Class'LineageEffect.mb_frintessa_ghost_drain_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5013_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 39271,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Y=30.000000,Z=-0.200000)","bSpawnOnTarget": "False","ScaleSize": "0.350000","EffectClass": "ClassLineageEffect.d_mon_earth_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_earth_ca_simple"},{"Name": "L2EffectEmitter1", "offset": "(X=0.600000,Y=25.000000,Z=0.800000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","SpawnDelay": "1.200000","EffectClass": "ClassLineageEffect.e_u303_aga_gift","SimpleEffectClass": "ClassLineageEffect.e_u303_aga_gift_simple"},{"Name": "L2EffectEmitter2", "offset": "(X=0.600000,Y=35.000000,Z=0.800000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","SpawnDelay": "2.700000","EffectClass": "ClassLineageEffect.e_u303_aga_gift","SimpleEffectClass": "ClassLineageEffect.e_u303_aga_gift_simple"},{"Name": "L2EffectEmitter3", "offset": "(Y=30.000000,Z=10.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","SpawnDelay": "0.500000","EffectPawnClassID": "13528","SequenceName": "spatk01","AnimEndFrame": "0.900000"}],
+"ShotActions": []
+}

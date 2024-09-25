@@ -1,0 +1,30 @@
+class l2_br_018_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="영혼의 방패-소울 아바타"
+     SkillID=110
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_ultimate_defence_cs'
+         SimpleEffectClass=Class'LineageEffect.mo_ultimate_defence_cs_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_018_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Agathion
+         AttachBoneName="bip01"
+         bSpawnOnTarget=False
+         ScaleSize=0.350000
+         EffectClass=Class'LineageEffect.s_u612_ca_a'
+         SimpleEffectClass=Class'LineageEffect.s_u612_ca_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_br_018_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.mo_ultimate_defence_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_ultimate_defence_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_018_skill.L2EffectEmitter1'
+}

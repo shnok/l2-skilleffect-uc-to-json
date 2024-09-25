@@ -1,0 +1,23 @@
+class l2_15510_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="라이도 리페어"
+     SkillID=15510
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_heal1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_heal1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15510_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_mon_heal_cross'
+         SimpleEffectClass=Class'LineageEffect.d_mon_heal_cross_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15510_skill.L2EffectEmitter1'
+}

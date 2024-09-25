@@ -1,0 +1,25 @@
+class l2_15288_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="전신회복"
+     SkillID=15119
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_buff1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_buff1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15288_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.wh_regeneration_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_regeneration_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15288_skill.L2EffectEmitter3'
+}

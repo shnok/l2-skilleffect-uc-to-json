@@ -1,0 +1,16 @@
+class l2_5816_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="티아트_여신관 변신"
+     SkillID=5816
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bAbsolute=True
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u609_oracle'
+         SimpleEffectClass=Class'LineageEffect.e_u609_oracle_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5816_skill.L2EffectEmitter0'
+}

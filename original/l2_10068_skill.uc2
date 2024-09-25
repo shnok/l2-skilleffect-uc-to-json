@@ -1,0 +1,16 @@
+class l2_10068_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 다크 팬서"
+     SkillID=10068
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.su_summon_a_ca'
+         SimpleEffectClass=Class'LineageEffect.su_summon_a_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10068_skill.L2EffectEmitter0'
+}

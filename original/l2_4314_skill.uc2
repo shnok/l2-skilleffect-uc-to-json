@@ -1,0 +1,34 @@
+class l2_4314_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Boss Holy Light Burst"
+     SkillID=4314
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Dummy04"
+         bAbsolute=True
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u082_rainbow'
+         SimpleEffectClass=Class'LineageEffect.e_u082_rainbow_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4314_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Dummy05"
+         bAbsolute=True
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u082_core'
+         SimpleEffectClass=Class'LineageEffect.e_u082_core_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4314_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.e_u082_a'
+         SimpleEffectClass=Class'LineageEffect.e_u082_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4314_skill.L2EffectEmitter2'
+}

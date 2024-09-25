@@ -1,0 +1,5 @@
+{
+"SkillId": 927,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.s_u228_ca_atch","SimpleEffectClass": "ClassLineageEffect.s_u228_ca_atch_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.s_u228_ca_atch","SimpleEffectClass": "ClassLineageEffect.s_u228_ca_atch_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","bRibbonSet": "True","EffectClass": "ClassLineageEffect.RibbonSet","SimpleEffectClass": "ClassLineageEffect.RibbonSet_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u228_ta","SimpleEffectClass": "ClassLineageEffect.s_u228_ta_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.s_u524_ta","SimpleEffectClass": "ClassLineageEffect.s_u524_ta_simple"}]
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 18567,
+"CastingActions": [{"Name": "L2EffectEmitter91", "AttachOn": "AM_BoneSpecified","AttachBoneName": "bip01","bSpawnOnTarget": "False","ScaleSize": "1.400000","EffectClass": "ClassLineageEffect2.y_garnet_debuff_yellow","SimpleEffectClass": "ClassLineageEffect2.y_garnet_debuff_yellow_simple"}],
+"ShotActions": []
+}

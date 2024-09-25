@@ -1,0 +1,16 @@
+class l2_10070_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스틸 라이프"
+     SkillID=10070
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_kn_stealife_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kn_stealife_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10070_skill.L2EffectEmitter0'
+}

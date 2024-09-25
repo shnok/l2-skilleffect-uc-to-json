@@ -1,0 +1,55 @@
+class l2_3260_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하트 샷"
+     SkillID=3260
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u300_heart_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3260_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         RelativeRotation=(Pitch=32768,Yaw=16384)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u300_heart_cs'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_cs_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_3260_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u300_heart_arrow'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_arrow_simple'
+     End Object
+     PreshotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3260_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u300_heart_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3260_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_LH
+         RelativeRotation=(Pitch=32768,Yaw=16384)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u300_heart_cs_a'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_cs_a_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_3260_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.e_u300_heart_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3260_skill.L2EffectEmitter5'
+     FlyingTime=0.400000
+}

@@ -1,0 +1,34 @@
+class l2_6316_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="권능의실현"
+     SkillID=6316
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.wh_regeneration_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_regeneration_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6316_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.z_common_buff_d'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_d_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6316_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter12
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_heal_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_heal_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6316_skill.L2EffectEmitter12'
+}

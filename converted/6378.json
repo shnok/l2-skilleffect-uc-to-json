@@ -1,0 +1,5 @@
+{
+"SkillId": 6378,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(X=1.000000,Z=-0.800000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.z_seed_tacrakahn_ca","SimpleEffectClass": "ClassLineageEffect.z_seed_tacrakahn_ca_simple"},{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.z_dummy_quake","SimpleEffectClass": "ClassLineageEffect.z_dummy_quake_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter21", "offset": "(X=2.000000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.z_seed_tacrakahn_ra","SimpleEffectClass": "ClassLineageEffect.z_seed_tacrakahn_ra_simple"},{"Name": "L2EffectEmitter97", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.z_dummy_quake_2S","SimpleEffectClass": "ClassLineageEffect.z_dummy_quake_2S_simple"}]
+}

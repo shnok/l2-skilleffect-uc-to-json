@@ -1,0 +1,5 @@
+{
+"SkillId": 16627,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_item_helios_defand_red_ca","SimpleEffectClass": "ClassLineageEffect2.y_item_helios_defand_red_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_item_helios_defand_red_ra","SimpleEffectClass": "ClassLineageEffect2.y_item_helios_defand_red_ra_simple"}]
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 19501,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_berserker_spirit_ca","SimpleEffectClass": "ClassLineageEffect2.y_in_berserker_spirit_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_berserker_spirit_buff_ra","SimpleEffectClass": "ClassLineageEffect2.y_in_berserker_spirit_buff_ra_simple"}]
+}

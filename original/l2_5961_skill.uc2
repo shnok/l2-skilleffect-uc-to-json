@@ -1,0 +1,23 @@
+class l2_5961_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="배리어 썬더스톰"
+     SkillID=5961
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-18.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.060000
+         EffectClass=Class'LineageEffect.e_u319_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u319_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5961_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u319_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u319_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5961_skill.L2EffectEmitter1'
+}

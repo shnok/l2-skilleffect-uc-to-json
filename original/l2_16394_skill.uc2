@@ -1,0 +1,14 @@
+class l2_16394_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이스 인챈터의 힘"
+     SkillID=16394
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_in_power_ta'
+         SimpleEffectClass=Class'LineageEffect.u_in_power_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16394_skill.L2EffectEmitter4'
+}

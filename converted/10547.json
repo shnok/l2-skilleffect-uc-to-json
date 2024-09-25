@@ -1,0 +1,5 @@
+{
+"SkillId": 10547,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wa_doomattack_ca","SimpleEffectClass": "ClassLineageEffect.d_wa_doomattack_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter0", "EffectClass": "ClassLineageEffect.d_wa_doomattack2_ta","SimpleEffectClass": "ClassLineageEffect.d_wa_doomattack2_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(X=1.000000)","bSpawnOnTarget": "False","ScaleSize": "4.000000","EffectClass": "ClassLineageEffect.d_ro_spshadow_sw","SimpleEffectClass": "ClassLineageEffect.d_ro_spshadow_sw_simple"}]
+}

@@ -1,0 +1,21 @@
+class l2_6657_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.z_lizard_beserker_ca'
+         SimpleEffectClass=Class'LineageEffect.z_lizard_beserker_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6657_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.wh_regeneration_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_regeneration_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6657_skill.L2EffectEmitter11'
+}

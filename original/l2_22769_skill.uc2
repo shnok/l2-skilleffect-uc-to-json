@@ -1,0 +1,15 @@
+class l2_22769_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서브 퀘스트 완료"
+     SkillID=22769
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_subquest_complete'
+         SimpleEffectClass=Class'LineageEffect.u_subquest_complete_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_22769_skill.L2EffectEmitter1'
+}

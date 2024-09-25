@@ -1,0 +1,31 @@
+class l2_16351_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="카인 소닉 스타"
+     SkillID=16351
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.600000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_spsonics_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_spsonics_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16351_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=-0.600000,Z=-1.000000)
+         EffectClass=Class'LineageEffect.d_wa_spsonics1_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wa_spsonics1_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16351_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_ro_yellow_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_yellow_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16351_skill.L2EffectEmitter3'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s'
+}

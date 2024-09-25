@@ -1,0 +1,15 @@
+class l2_17965_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마스터 연금술 성공"
+     SkillID=17965
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_alchemy_sucess'
+         SimpleEffectClass=Class'LineageEffect.u_alchemy_sucess_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17965_skill.L2EffectEmitter1'
+}

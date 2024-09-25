@@ -1,0 +1,36 @@
+class l2_19223_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="익스페디션 오브 아너스"
+     SkillID=19223
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_honors_ex_ca'
+         SimpleEffectClass=Class'LineageEffect.u_honors_ex_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19223_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_honors_ex_2ca'
+         SimpleEffectClass=Class'LineageEffect.u_honors_ex_2ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19223_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_honors_ex_ta'
+         SimpleEffectClass=Class'LineageEffect.u_honors_ex_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19223_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.u_honors_ex_2ta'
+         SimpleEffectClass=Class'LineageEffect.u_honors_ex_2ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19223_skill.L2EffectEmitter3'
+}

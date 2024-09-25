@@ -1,0 +1,40 @@
+class l2_6320_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="신성마법진소환"
+     SkillID=6320
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_common_buff_f'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_f_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6320_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter23
+         offset=(Z=2.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.z_monastery_red_zone_a_area_cross'
+         SimpleEffectClass=Class'LineageEffect.z_monastery_red_zone_a_area_cross_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6320_skill.L2EffectEmitter23'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.z_monastery_red_zone_a_area'
+         SimpleEffectClass=Class'LineageEffect.z_monastery_red_zone_a_area_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6320_skill.L2EffectEmitter21'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.m_u808_tele_ta_d'
+         SimpleEffectClass=Class'LineageEffect.m_u808_tele_ta_d_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6320_skill.L2EffectEmitter1'
+}

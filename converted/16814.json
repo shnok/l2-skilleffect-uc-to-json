@@ -1,0 +1,5 @@
+{
+"SkillId": 16814,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "bip01","offset": "(X=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect2.y_npc_empower_rush_kd_ca","SimpleEffectClass": "ClassLineageEffect2.y_npc_empower_rush_kd_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect2.y_npc_empower_rush_kd_ta","SimpleEffectClass": "ClassLineageEffect2.y_npc_empower_rush_kd_ta_simple"}]
+}

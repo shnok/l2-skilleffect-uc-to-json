@@ -1,0 +1,23 @@
+class l2_16637_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="오리진 라이트닝 하푼"
+     SkillID=16637
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_purple7_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple7_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16637_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_origin_harpoon_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_origin_harpoon_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16637_skill.L2EffectEmitter4'
+}

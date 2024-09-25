@@ -1,0 +1,15 @@
+class l2_18345_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마법서-스킬습득-노티로 박기로함-안쓰는 스킬아이디임"
+     SkillID=18345
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.010000
+         EffectClass=Class'LineageEffect.u_honors_magicbook'
+         SimpleEffectClass=Class'LineageEffect.u_honors_magicbook_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18345_skill.L2EffectEmitter0'
+}

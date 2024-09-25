@@ -1,0 +1,14 @@
+class l2_885_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에어 블링크"
+     SkillID=885
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u615_tel'
+         SimpleEffectClass=Class'LineageEffect.s_u615_tel_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_885_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 10313,
+"CastingActions": [{"Name": "L2EffectEmitter0", "bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wa_doomattack3_ta","SimpleEffectClass": "ClassLineageEffect.d_wa_doomattack3_ta_simple"},{"Name": "L2EffectEmitter1", "offset": "(X=8.000000)","bSpawnOnTarget": "False","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.d_wa_rushslash3_ru","SimpleEffectClass": "ClassLineageEffect.d_wa_rushslash3_ru_simple"},{"Name": "L2EffectEmitter2", "offset": "(X=16.000000)","bSpawnOnTarget": "False","SpawnDelay": "0.350000","EffectClass": "ClassLineageEffect.d_wa_rushslash3_ru","SimpleEffectClass": "ClassLineageEffect.d_wa_rushslash3_ru_simple"},{"Name": "L2EffectEmitter3", "offset": "(X=24.000000)","bSpawnOnTarget": "False","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.d_wa_rushslash3_ru","SimpleEffectClass": "ClassLineageEffect.d_wa_rushslash3_ru_simple"},{"Name": "L2EffectEmitter4", "offset": "(X=32.000000)","bSpawnOnTarget": "False","SpawnDelay": "0.600000","EffectClass": "ClassLineageEffect.d_wa_rushslash3_ru","SimpleEffectClass": "ClassLineageEffect.d_wa_rushslash3_ru_simple"}],
+"ShotActions": []
+}

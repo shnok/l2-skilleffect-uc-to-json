@@ -1,0 +1,5 @@
+{
+"SkillId": 10953,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_ar_sharparrow_ca","SimpleEffectClass": "ClassLineageEffect.u_ar_sharparrow_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=1.700000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_ar_sharparrow_ta","SimpleEffectClass": "ClassLineageEffect.u_ar_sharparrow_ta_simple"}],
+"ShotActions": []
+}

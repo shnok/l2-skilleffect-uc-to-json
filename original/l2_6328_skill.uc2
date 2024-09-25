@@ -1,0 +1,40 @@
+class l2_6328_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="투사심판"
+     SkillID=6328
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_cast_red_ca'
+         SimpleEffectClass=Class'LineageEffect.z_cast_red_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6328_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=10.000000,Z=20.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.el_prominence_fl'
+         SimpleEffectClass=Class'LineageEffect.el_prominence_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6328_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(X=1.000000,Z=0.500000)
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u329_ta_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_A_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6328_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         ScaleSize=1.100000
+         EffectClass=Class'LineageEffect.rm_self_blaster_ra'
+         SimpleEffectClass=Class'LineageEffect.rm_self_blaster_ra_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6328_skill.L2EffectEmitter21'
+}

@@ -1,0 +1,43 @@
+class l2_507_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="트윈 샷"
+     SkillID=507
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u815_bowgun_b'
+         SimpleEffectClass=Class'LineageEffect.s_u815_bowgun_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_507_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u815_bowgun_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u815_bowgun_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_507_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RA
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.bone_bolt'
+         SimpleEffectClass=Class'LineageEffect.bone_bolt_simple'
+     End Object
+     PreshotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_507_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u814_arrow_test'
+         SimpleEffectClass=Class'LineageEffect.s_u814_arrow_test_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_507_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u820_magic_ta_b'
+         SimpleEffectClass=Class'LineageEffect.s_u820_magic_ta_b_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_507_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+}

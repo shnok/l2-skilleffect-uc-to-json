@@ -1,0 +1,15 @@
+class l2_9445_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 캣더캣"
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_summon_aga'
+         SimpleEffectClass=Class'LineageEffect.d_summon_aga_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9445_skill.L2EffectEmitter0'
+}

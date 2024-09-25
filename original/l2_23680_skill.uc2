@@ -1,0 +1,25 @@
+class l2_23680_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="켈빔의축복"
+     SkillID=23680
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_mez1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_mez1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23680_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_mez2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_mez2_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23680_skill.L2EffectEmitter2'
+}

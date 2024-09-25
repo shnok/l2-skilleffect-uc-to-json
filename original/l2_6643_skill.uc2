@@ -1,0 +1,31 @@
+class l2_6643_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="케고르 강공격"
+     SkillID=6643
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_common_buff_f'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_f_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6643_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_common_buff_f'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_f_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6643_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.z_Slash_ta'
+         SimpleEffectClass=Class'LineageEffect.z_Slash_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6643_skill.L2EffectEmitter1'
+}

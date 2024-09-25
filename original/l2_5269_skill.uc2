@@ -1,0 +1,22 @@
+class l2_5269_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="슬로우트랩"
+     SkillID=5269
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u813_trap_ta_test'
+         SimpleEffectClass=Class'LineageEffect.s_u813_trap_ta_test_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5269_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u009_c'
+         SimpleEffectClass=Class'LineageEffect.m_u009_c_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5269_skill.L2EffectEmitter1'
+}

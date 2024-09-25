@@ -1,0 +1,30 @@
+class l2_10018_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="노블 새크리파이스"
+     SkillID=10018
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_kn_friendship_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_friendship_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10018_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_kn_friendship1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_friendship1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10018_a_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_kn_alterdefense2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_alterdefense2_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10018_a_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,31 @@
+class l2_8899_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드 용무기 꼬리치기"
+     SkillID=8899
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_w_lind_ca_short'
+         SimpleEffectClass=Class'LineageEffect.u_w_lind_ca_short_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_8899_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_anta_tara'
+         SimpleEffectClass=Class'LineageEffect.u_anta_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_8899_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_w_lind_ra'
+         SimpleEffectClass=Class'LineageEffect.u_w_lind_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_8899_skill.L2EffectEmitter2'
+}

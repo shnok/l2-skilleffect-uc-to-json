@@ -1,0 +1,26 @@
+class l2_6916_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하트 샷"
+     SkillID=9153
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine1"
+         bSpawnOnTarget=False
+         ScaleSize=3.000000
+         EffectClass=Class'LineageEffect.d_twinkleage_star'
+         SimpleEffectClass=Class'LineageEffect.d_twinkleage_star_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6916_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine1"
+         bSpawnOnTarget=False
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.d_twinkleage_star'
+         SimpleEffectClass=Class'LineageEffect.d_twinkleage_star_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6916_skill.L2EffectEmitter1'
+     FlyingTime=0.400000
+}

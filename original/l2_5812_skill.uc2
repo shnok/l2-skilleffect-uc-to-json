@@ -1,0 +1,44 @@
+class l2_5812_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="드락_파이야브레쓰"
+     SkillID=5812
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=0.300000,Z=-3.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.s_u503_tiat_a'
+         SimpleEffectClass=Class'LineageEffect.s_u503_tiat_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5812_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         RelativeRotation=(Yaw=40000)
+         offset=(X=0.200000,Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.050000
+         EffectClass=Class'LineageEffect.e_u623_air_breath'
+         SimpleEffectClass=Class'LineageEffect.e_u623_air_breath_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5812_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u105_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u105_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5812_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         RelativeRotation=(Yaw=40000)
+         offset=(X=0.200000,Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.040000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.e_u623_air_breath'
+         SimpleEffectClass=Class'LineageEffect.e_u623_air_breath_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5812_skill.L2EffectEmitter3'
+}

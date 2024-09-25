@@ -1,0 +1,24 @@
+class l2_2906_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="부화 촉진제"
+     SkillID=2906
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u016_a'
+         SimpleEffectClass=Class'LineageEffect.m_u016_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2906_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u240_spray_b'
+         SimpleEffectClass=Class'LineageEffect.s_u240_spray_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2906_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,36 @@
+class l2_5898_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블래스트 오브 앵커"
+     SkillID=5898
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.750000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u308_mantra'
+         SimpleEffectClass=Class'LineageEffect.e_u308_mantra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5898_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=0.800000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u329_fl_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_fl_A_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5898_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u329_ta_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_A_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5898_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u329_ta_B'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_B_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5898_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

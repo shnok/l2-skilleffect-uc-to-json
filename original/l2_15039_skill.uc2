@@ -1,0 +1,33 @@
+class l2_15039_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="불 마법"
+     SkillID=15040
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.550000
+         EffectClass=Class'LineageEffect.d_mon_tauti_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_tauti_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15039_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.s_u822_enuma_cs'
+         SimpleEffectClass=Class'LineageEffect.s_u822_enuma_cs_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15039_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_fire_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15039_skill.L2EffectEmitter2'
+}

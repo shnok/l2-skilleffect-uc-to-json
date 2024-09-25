@@ -1,0 +1,5 @@
+{
+"SkillId": 11011,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect2.y_wi_magicdark_ca","SimpleEffectClass": "ClassLineageEffect2.y_wi_magicdark_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_wi_dark_5s_handca","SimpleEffectClass": "ClassLineageEffect2.y_wi_dark_5s_handca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_LH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_wi_dark_5s_handca","SimpleEffectClass": "ClassLineageEffect2.y_wi_dark_5s_handca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_BoneLocation","AttachBoneName": "Bip01_L_Hand","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect2.y_wi_magicdark_fl","SimpleEffectClass": "ClassLineageEffect2.y_wi_magicdark_fl_simple"}]
+}

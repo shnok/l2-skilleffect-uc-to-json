@@ -1,0 +1,32 @@
+class l2_15077_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="어설트 러시"
+     SkillID=11508
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-32.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_wa_drainst_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_drainst_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15077_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         offset=(X=-32.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_he_spanakim1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_spanakim1_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15077_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_drainst_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_drainst_ta_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_15077_skill.L2EffectEmitter11'
+}

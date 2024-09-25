@@ -1,0 +1,32 @@
+class l2_5909_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="거점공격"
+     SkillID=5909
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5909_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.mo_war_cry_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_war_cry_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5909_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u015_b'
+         SimpleEffectClass=Class'LineageEffect.s_u015_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5909_skill.L2EffectEmitter4'
+}

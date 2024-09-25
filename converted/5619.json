@@ -1,0 +1,5 @@
+{
+"SkillId": 5619,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.ch_gourd_death_long","SimpleEffectClass": "ClassLineageEffect.ch_gourd_death_long_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","ScaleSize": "1.200000","EffectClass": "ClassLineageEffect.at_fatal_strike_ca","SimpleEffectClass": "ClassLineageEffect.at_fatal_strike_ca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","ScaleSize": "1.200000","EffectClass": "ClassLineageEffect.mo_battle_roar_ca","SimpleEffectClass": "ClassLineageEffect.mo_battle_roar_ca_simple"}],
+"ShotActions": []
+}

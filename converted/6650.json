@@ -1,0 +1,5 @@
+{
+"SkillId": 6650,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.z_unholy_hp_down","SimpleEffectClass": "ClassLineageEffect.z_unholy_hp_down_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,25 @@
+class l2_14640_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리플렉트 데미지"
+     SkillID=86
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.d_mon_purple2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14640_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_purple2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple2_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14640_skill.L2EffectEmitter4'
+}

@@ -1,0 +1,40 @@
+class l2_6457_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_ice_freya_death_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_freya_death_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6457_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.z_ice_freya_death_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_freya_death_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6457_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.z_ice_freya_death_fl'
+         SimpleEffectClass=Class'LineageEffect.z_ice_freya_death_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6457_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=0.800000)
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.z_ice_freya_death_ca'
+         SimpleEffectClass=Class'LineageEffect.z_ice_freya_death_ca_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6457_skill.L2EffectEmitter2'
+     FlyingTime=4.000000
+}

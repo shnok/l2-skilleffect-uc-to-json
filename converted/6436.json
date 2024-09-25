@@ -1,0 +1,5 @@
+{
+"SkillId": 6436,
+"CastingActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.bl_curse_poison_ta","SimpleEffectClass": "ClassLineageEffect.bl_curse_poison_ta_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,14 @@
+class l2_20016_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Hero"
+     SkillID=20016
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.e_u091_a'
+         SimpleEffectClass=Class'LineageEffect.e_u091_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_20016_skill.L2EffectEmitter0'
+}

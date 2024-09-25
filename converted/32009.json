@@ -1,0 +1,5 @@
+{
+"SkillId": 32009,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect2.y_raid_seal_call_ta_whtie","SimpleEffectClass": "ClassLineageEffect2.y_raid_seal_call_ta_whtie_simple"}],
+"ShotActions": []
+}

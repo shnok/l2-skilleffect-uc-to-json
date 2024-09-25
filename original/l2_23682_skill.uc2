@@ -1,0 +1,28 @@
+class l2_23682_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크 클라우드"
+     SkillID=23682
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kelbim_darkclou_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_darkclou_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23682_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kelbim_darkclou_fl'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_darkclou_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23682_skill.L2EffectEmitter33'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_mon_unholy3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy3_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23682_skill.L2EffectEmitter2'
+}

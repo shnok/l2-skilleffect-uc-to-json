@@ -1,0 +1,15 @@
+class l2_5573_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="나이트어빌리티 디펜스"
+     SkillID=5573
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_war_cry_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_war_cry_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5573_skill.L2EffectEmitter0'
+}

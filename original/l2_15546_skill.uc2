@@ -1,0 +1,35 @@
+class l2_15546_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="트릭"
+     SkillID=15546
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.800000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.mo_iron_will_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_iron_will_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15546_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.mo_iron_will_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_iron_will_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15546_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.w_mon_hide'
+         SimpleEffectClass=Class'LineageEffect.w_mon_hide_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15546_skill.L2EffectEmitter2'
+}

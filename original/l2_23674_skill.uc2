@@ -1,0 +1,16 @@
+class l2_23674_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이자벨라 블리딩 레인"
+     SkillID=23674
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_debuff_r'
+         SimpleEffectClass=Class'LineageEffect.d_debuff_r_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23674_skill.L2EffectEmitter0'
+}

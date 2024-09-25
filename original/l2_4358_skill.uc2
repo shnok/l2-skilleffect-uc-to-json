@@ -1,0 +1,14 @@
+class l2_4358_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아지트 가이던스"
+     SkillID=4358
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_guidance_ta'
+         SimpleEffectClass=Class'LineageEffect.su_guidance_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4358_skill.L2EffectEmitter0'
+}

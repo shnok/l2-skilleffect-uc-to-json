@@ -1,0 +1,25 @@
+class l2_32014_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에티나의 계시"
+     SkillID=32014
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.220000
+         EffectClass=Class'LineageEffect2.y_mon_seal_red_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_red_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32014_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_mon_seal_buff_red'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_buff_red_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32014_skill.L2EffectEmitter1'
+}

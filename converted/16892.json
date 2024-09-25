@@ -1,0 +1,5 @@
+{
+"SkillId": 16892,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u203_ca","SimpleEffectClass": "ClassLineageEffect.s_u203_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","EffectClass": "ClassLineageEffect2.y_npc_bless_of_ethina_debuff","SimpleEffectClass": "ClassLineageEffect2.y_npc_bless_of_ethina_debuff_simple"}],
+"ShotActions": []
+}

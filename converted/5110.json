@@ -1,0 +1,5 @@
+{
+"SkillId": 5110,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Dummy11","bAbsolute": "True","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.e_u541_cannon_shot","SimpleEffectClass": "ClassLineageEffect.e_u541_cannon_shot_simple"},{"Name": "L2EffectEmitter1", "AttachBoneName": "Dummy11","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.e_u541_cannon_fl","SimpleEffectClass": "ClassLineageEffect.e_u541_cannon_fl_simple"}]
+}

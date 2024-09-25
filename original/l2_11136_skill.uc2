@@ -1,0 +1,31 @@
+class l2_11136_skill extends L2SkillEffect;
+
+	
+
+defaultproperties
+{
+     Desc="블리자드테스트"
+     SkillID=11136
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_wi_blizzard_ca'
+         SimpleEffectClass=Class'LineageEffect.u_wi_blizzard_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11136_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter53
+         AttachOn=AM_Location
+         offset=(Z=-1.000000)
+         bAsyncLifeTime=True
+         EffectClass=Class'LineageEffect.u_wi_blizzard_ra'
+         SimpleEffectClass=Class'LineageEffect.u_wi_blizzard_ra_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11136_skill.L2EffectEmitter53'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_wi_blizzard_ta'
+         SimpleEffectClass=Class'LineageEffect.u_wi_blizzard_ta_simple'
+     End Object
+     UnionTargetAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11136_skill.L2EffectEmitter5'
+}

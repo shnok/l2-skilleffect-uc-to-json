@@ -1,0 +1,5 @@
+{
+"SkillId": 1874,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","SpawnDelay": "0.680000","EffectClass": "ClassLineageEffect2.y_er_star_scorpius_ra","SimpleEffectClass": "ClassLineageEffect2.y_er_star_scorpius_ra_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=2.500000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_er_star_scorpius_ca","SimpleEffectClass": "ClassLineageEffect2.y_er_star_scorpius_ca_simple"}],
+"ShotActions": []
+}

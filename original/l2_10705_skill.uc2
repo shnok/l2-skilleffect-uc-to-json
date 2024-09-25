@@ -1,0 +1,26 @@
+class l2_10705_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="그림 리퍼 퍼제션"
+     SkillID=10704
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_wind_blufing_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_wind_blufing_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10705_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="bip01"
+         offset=(X=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_wind_blufing_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_wind_blufing_ra_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10705_skill.L2EffectEmitter1'
+}

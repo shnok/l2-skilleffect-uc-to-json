@@ -1,0 +1,5 @@
+{
+"SkillId": 35003,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_edragon_ult_ca","SimpleEffectClass": "ClassLineageEffect.u_edragon_ult_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_edragon_ult_ta","SimpleEffectClass": "ClassLineageEffect.u_edragon_ult_ta_simple"}]
+}

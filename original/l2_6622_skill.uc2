@@ -1,0 +1,24 @@
+class l2_6622_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="버섯주약초"
+     SkillID=6622
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_shockwave_d'
+         SimpleEffectClass=Class'LineageEffect.z_shockwave_d_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6622_skill.L2EffectEmitter21'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.z_debuff_b'
+         SimpleEffectClass=Class'LineageEffect.z_debuff_b_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6622_skill.L2EffectEmitter11'
+}

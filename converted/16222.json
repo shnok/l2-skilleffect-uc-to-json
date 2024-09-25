@@ -1,0 +1,5 @@
+{
+"SkillId": 16222,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_mon_wind2_ca","SimpleEffectClass": "ClassLineageEffect.u_mon_wind2_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.el_wind_strike_ta","SimpleEffectClass": "ClassLineageEffect.el_wind_strike_ta_simple"},{"Name": "L2EffectEmitter2", "offset": "(Z=-1.000000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_mon_wind_ra","SimpleEffectClass": "ClassLineageEffect.d_mon_wind_ra_simple"}]
+}

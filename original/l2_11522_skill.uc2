@@ -1,0 +1,49 @@
+class l2_11522_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포엠 오브 트럼펫"
+     SkillID=11522
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_music2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_music2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11522_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectPawnClassID=13332
+         SequenceName="social01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.990000
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11522_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_music2_ra'
+         SimpleEffectClass=Class'LineageEffect.d_in_music2_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11522_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_music2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_music2_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11522_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_music2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_music2_ca_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_11522_skill.L2EffectEmitter4'
+}

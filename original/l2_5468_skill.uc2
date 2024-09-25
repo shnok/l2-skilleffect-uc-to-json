@@ -1,0 +1,15 @@
+class l2_5468_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="화염방사기"
+     SkillID=5468
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.mb_valakas_breath_ta'
+         SimpleEffectClass=Class'LineageEffect.mb_valakas_breath_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5468_skill.L2EffectEmitter0'
+}

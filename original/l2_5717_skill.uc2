@@ -1,0 +1,23 @@
+class l2_5717_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="화룡화이어볼"
+     SkillID=5717
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(X=2.700000,Z=-0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.e_u105_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u105_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5717_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u106_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u106_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5717_skill.L2EffectEmitter1'
+     FlyingTime=0.400000
+}

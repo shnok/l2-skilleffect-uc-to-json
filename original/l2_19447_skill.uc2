@@ -1,0 +1,15 @@
+class l2_19447_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="오버로드 - 쿨다운"
+     SkillID=19447
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect2.y_in_overload_self_buff'
+         SimpleEffectClass=Class'LineageEffect2.y_in_overload_self_buff_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19447_skill.L2EffectEmitter0'
+}

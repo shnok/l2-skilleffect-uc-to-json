@@ -1,0 +1,35 @@
+class l2_19502_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스피리츠 하모니"
+     SkillID=19502
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_in_magic_sprit_buff_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_in_magic_sprit_buff_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19502_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bOnMultiTarget=True
+         ScaleSize=0.800000
+         EffectPawnClassID=13334
+         SequenceName="social01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.990000
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19502_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_in_magic_sprit_buff_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_in_magic_sprit_buff_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19502_skill.L2EffectEmitter3'
+}

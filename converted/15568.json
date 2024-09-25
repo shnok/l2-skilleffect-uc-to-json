@@ -1,0 +1,5 @@
+{
+"SkillId": 15568,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-3.000000,Z=-0.200000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.z_kegor_dash","SimpleEffectClass": "ClassLineageEffect.z_kegor_dash_simple"}],
+"ShotActions": []
+}

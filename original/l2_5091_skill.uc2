@@ -1,0 +1,34 @@
+class l2_5091_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="사이렌 자기 버프"
+     SkillID=5091
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-20.500000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u832_new_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u832_new_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5091_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-20.500000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u832_new_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u832_new_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5091_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-20.500000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u832_new_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u832_new_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5091_skill.L2EffectEmitter2'
+}

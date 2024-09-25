@@ -1,0 +1,16 @@
+class l2_19196_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="램페이지 실드"
+     SkillID=19196
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kn_ramshield_buff'
+         SimpleEffectClass=Class'LineageEffect.u_kn_ramshield_buff_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19196_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 11134,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_wi_meteor_ca","SimpleEffectClass": "ClassLineageEffect.u_wi_meteor_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_wi_meteor_hand","SimpleEffectClass": "ClassLineageEffect.u_wi_meteor_hand_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_LH","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_wi_meteor_hand","SimpleEffectClass": "ClassLineageEffect.u_wi_meteor_hand_simple"}],
+"ShotActions": []
+}

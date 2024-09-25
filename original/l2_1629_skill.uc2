@@ -1,0 +1,61 @@
+class l2_1629_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리스트 쓰로잉 대거"
+     SkillID=1629
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ro_darkp1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_darkp1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1629_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ro_mis_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_mis_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1629_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01_R_Hand"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect2.y_wa_blood_throwring_dagger_a_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_wa_blood_throwring_dagger_a_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1629_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01_R_Hand"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.y_wa_blood_throwring_dagger_b_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_wa_blood_throwring_dagger_b_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1629_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         RelativeRotation=(Yaw=16384,Roll=16384)
+         offset=(X=1.500000,Y=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.s_u210_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u210_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_1629_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(X=-0.500000)
+         EffectClass=Class'LineageEffect.d_ro_darkp1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_darkp1_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1629_skill.L2EffectEmitter5'
+     FlyingTime=0.150000
+}

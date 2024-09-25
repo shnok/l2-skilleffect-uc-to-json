@@ -1,0 +1,14 @@
+class l2_16408_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="트랩 공포"
+     SkillID=16408
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16408_skill.L2EffectEmitter1'
+}

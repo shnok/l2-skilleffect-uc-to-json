@@ -1,0 +1,5 @@
+{
+"SkillId": 19429,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_in_meditaion_mana_ra","SimpleEffectClass": "ClassLineageEffect2.y_in_meditaion_mana_ra_simple"}],
+"ShotActions": []
+}

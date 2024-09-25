@@ -1,0 +1,41 @@
+class l2_5798_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="벌쳐_파이야보루"
+     SkillID=5798
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.350000
+         EffectClass=Class'LineageEffect.s_u215_charge'
+         SimpleEffectClass=Class'LineageEffect.s_u215_charge_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5798_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.350000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.s_u215_charge'
+         SimpleEffectClass=Class'LineageEffect.s_u215_charge_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5798_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=2.500000,Z=-28.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.e_u105_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u105_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5798_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u106_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u106_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5798_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

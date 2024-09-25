@@ -1,0 +1,51 @@
+class l2_6709_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙궁의숨결_자폭"
+     SkillID=6300
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.s_u099_rapier_ca_a'
+         SimpleEffectClass=Class'LineageEffect.s_u099_rapier_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6709_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.150000
+         EffectClass=Class'LineageEffect.z_ice_common_b_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_common_b_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6709_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter23
+         AttachOn=AM_Trail
+         offset=(X=0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect.d_arrows_multi'
+         SimpleEffectClass=Class'LineageEffect.d_arrows_multi_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6709_skill.L2EffectEmitter23'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=0.800000,Z=0.100000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_arrows_multi'
+         SimpleEffectClass=Class'LineageEffect.d_arrows_multi_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6709_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter24
+         AttachOn=AM_Trail
+         offset=(X=0.800000,Z=-0.100000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect.d_arrows_multi'
+         SimpleEffectClass=Class'LineageEffect.d_arrows_multi_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_6709_skill.L2EffectEmitter24'
+}

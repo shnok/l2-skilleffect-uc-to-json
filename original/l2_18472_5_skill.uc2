@@ -1,0 +1,17 @@
+class l2_18472_5_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="11 주년 숫자 이벤트 5_단체형"
+     SkillID=18472
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=60.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_event_5number'
+         SimpleEffectClass=Class'LineageEffect.u_event_5number_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18472_5_skill.L2EffectEmitter21'
+}

@@ -1,0 +1,28 @@
+class l2_4068_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="메크 캐논"
+     SkillID=4068
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u033_a'
+         SimpleEffectClass=Class'LineageEffect.e_u033_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4068_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=6.000000,Z=0.100000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u033_b'
+         SimpleEffectClass=Class'LineageEffect.e_u033_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4068_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u033_c'
+         SimpleEffectClass=Class'LineageEffect.e_u033_c_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4068_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

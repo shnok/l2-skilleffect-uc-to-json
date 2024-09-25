@@ -1,0 +1,54 @@
+class l2_15126_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="타우티 발악"
+     SkillID=15126
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.d_tauti_green_ca_a'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_green_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15126_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.000000
+         EffectPawnClassID=29236
+         SequenceName="axe_fly"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.970000
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15126_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.d_tauti_green_ta_a'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_green_ta_a_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15126_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.d_tauti_green_pa'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_green_pa_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_15126_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         ScaleSize=1.200000
+         SpawnDelay=0.250000
+         EffectClass=Class'LineageEffect.d_greenattack_ra'
+         SimpleEffectClass=Class'LineageEffect.d_greenattack_ra_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_15126_skill.L2EffectEmitter4'
+}

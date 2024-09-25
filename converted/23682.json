@@ -1,0 +1,5 @@
+{
+"SkillId": 23682,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_kelbim_darkclou_ca","SimpleEffectClass": "ClassLineageEffect.u_kelbim_darkclou_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter33", "bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_kelbim_darkclou_fl","SimpleEffectClass": "ClassLineageEffect.u_kelbim_darkclou_fl_simple"}]
+}

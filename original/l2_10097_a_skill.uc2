@@ -1,0 +1,42 @@
+class l2_10097_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="피닉스 글라이드"
+     SkillID=19558
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_kn_riot_sheld_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_riot_sheld_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10097_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect2.y_kn_riot_sheld_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_riot_sheld_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10097_a_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         EffectClass=Class'LineageEffect2.y_kn_riot_sheld_tara'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_riot_sheld_tara_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10097_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.800000)
+         EffectClass=Class'LineageEffect2.y_kn_riot_sheld_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_riot_sheld_ra_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10097_a_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u524_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u524_ta_simple'
+     End Object
+     ExplosionAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10097_a_skill.L2EffectEmitter4'
+}

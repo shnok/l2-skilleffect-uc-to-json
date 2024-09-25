@@ -1,0 +1,37 @@
+class l2_1941_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="네일 어택"
+     SkillID=539
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u804_hand_a'
+         SimpleEffectClass=Class'LineageEffect.s_u804_hand_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1941_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u804_hand_a'
+         SimpleEffectClass=Class'LineageEffect.s_u804_hand_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1941_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_furyst_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_furyst_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_1941_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_red_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_red_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1941_skill.L2EffectEmitter2'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

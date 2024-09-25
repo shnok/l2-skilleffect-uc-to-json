@@ -1,0 +1,23 @@
+class l2_5800_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="변종매 고주파"
+     SkillID=5800
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=3.000000,Z=-15.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         EffectClass=Class'LineageEffect.su_summon_a_ca'
+         SimpleEffectClass=Class'LineageEffect.su_summon_a_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5800_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=0.120000
+         EffectClass=Class'LineageEffect.s_u615_summon'
+         SimpleEffectClass=Class'LineageEffect.s_u615_summon_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5800_skill.L2EffectEmitter1'
+}

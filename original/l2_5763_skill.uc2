@@ -1,0 +1,15 @@
+class l2_5763_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온 재롱_사랑"
+     SkillID=5763
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=1.400000
+         EffectClass=Class'LineageEffect.e_u300_aga_love'
+         SimpleEffectClass=Class'LineageEffect.e_u300_aga_love_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5763_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,38 @@
+class l2_5224_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발러 광폭화"
+     SkillID=5224
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u098_buff_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u098_buff_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5224_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine1"
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u098_buff_ta_b'
+         SimpleEffectClass=Class'LineageEffect.e_u098_buff_ta_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5224_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u098_left'
+         SimpleEffectClass=Class'LineageEffect.e_u098_left_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5224_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u098_right'
+         SimpleEffectClass=Class'LineageEffect.e_u098_right_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5224_skill.L2EffectEmitter3'
+}

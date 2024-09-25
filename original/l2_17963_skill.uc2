@@ -1,0 +1,14 @@
+class l2_17963_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="연금술 습득"
+     SkillID=17963
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.d_down_light'
+         SimpleEffectClass=Class'LineageEffect.d_down_light_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17963_skill.L2EffectEmitter1'
+}

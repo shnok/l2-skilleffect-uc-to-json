@@ -1,0 +1,32 @@
+class l2_10999_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="속박 공격"
+     SkillID=10999
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.600000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_kn_finalven1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_finalven1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10999_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter95
+         offset=(Z=-170.000000)
+         bRelativeToCylinder=False
+         ScaleSize=1.000000
+         EffectPawnClassID=14932
+         SequenceName="spatk02"
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10999_skill.L2EffectEmitter95'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter30
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_ar_nucks_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ar_nucks_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10999_skill.L2EffectEmitter30'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

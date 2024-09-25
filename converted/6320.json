@@ -1,0 +1,5 @@
+{
+"SkillId": 6320,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_common_buff_f","SimpleEffectClass": "ClassLineageEffect.z_common_buff_f_simple"},{"Name": "L2EffectEmitter23", "offset": "(Z=2.300000)","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect.z_monastery_red_zone_a_area_cross","SimpleEffectClass": "ClassLineageEffect.z_monastery_red_zone_a_area_cross_simple"},{"Name": "L2EffectEmitter21", "offset": "(Z=-0.700000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.z_monastery_red_zone_a_area","SimpleEffectClass": "ClassLineageEffect.z_monastery_red_zone_a_area_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.200000","EffectClass": "ClassLineageEffect.m_u808_tele_ta_d","SimpleEffectClass": "ClassLineageEffect.m_u808_tele_ta_d_simple"}]
+}

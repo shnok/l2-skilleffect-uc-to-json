@@ -1,0 +1,23 @@
+class l2_6107_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크리스마스의 축복"
+     SkillID=6107
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_bless_the_body_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_bless_the_body_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6107_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.600000
+         EffectClass=Class'LineageEffect.e_u086_snow'
+         SimpleEffectClass=Class'LineageEffect.e_u086_snow_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6107_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,22 @@
+class l2_1045_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블레스 더 바디"
+     SkillID=1045
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.wh_heal_ca'
+         SimpleEffectClass=Class'LineageEffect.wh_heal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1045_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_bless_the_body_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_bless_the_body_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1045_skill.L2EffectEmitter1'
+}

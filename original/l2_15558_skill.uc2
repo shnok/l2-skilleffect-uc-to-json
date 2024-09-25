@@ -1,0 +1,29 @@
+class l2_15558_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소울 하울링"
+     SkillID=15558
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u009_a'
+         SimpleEffectClass=Class'LineageEffect.m_u009_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15558_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.m_u009_c'
+         SimpleEffectClass=Class'LineageEffect.m_u009_c_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15558_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15558_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,27 @@
+class l2_1425_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="퓨리피케이션 필드"
+     SkillID=1425
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u807_mage_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u807_mage_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1425_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u807_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u807_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1425_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_bless_the_body_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_bless_the_body_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1425_skill.L2EffectEmitter2'
+}

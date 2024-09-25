@@ -1,0 +1,100 @@
+class l2_5734_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="거스트 오브 윈드"
+     SkillID=5734
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_wind_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_ca_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.300000,Y=0.700000,Z=1.000000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5734_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Y=-25.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.el_wind_strike_pr'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5734_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Y=25.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.el_wind_strike_pr'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_pr_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5734_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Y=25.000000,Z=0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.el_wind_strike_pr'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_pr_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=1.000000,Y=1.000000,Z=1.000000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5734_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Y=-25.000000,Z=0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         SpawnDelay=0.900000
+         EffectClass=Class'LineageEffect.el_wind_strike_pr'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_pr_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_5734_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(X=1.500000,Y=-25.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.el_wind_strike_fl'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5734_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(X=1.500000,Y=25.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.el_wind_strike_fl'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5734_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         offset=(X=1.500000,Y=-25.000000,Z=0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.el_wind_strike_fl'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_fl_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5734_skill.L2EffectEmitter7'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         offset=(X=1.500000,Y=25.000000,Z=0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.el_wind_strike_fl'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_fl_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5734_skill.L2EffectEmitter8'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter9
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.el_wind_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_ta_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=1.000000,Y=1.000000,Z=1.000000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5734_skill.L2EffectEmitter9'
+     FlyingTime=0.400000
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 11327,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.u_su_touch_y_ca","SimpleEffectClass": "ClassLineageEffect.u_su_touch_y_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.u_su_touch_y_ta","SimpleEffectClass": "ClassLineageEffect.u_su_touch_y_ta_simple"}]
+}

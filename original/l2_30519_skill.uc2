@@ -1,0 +1,16 @@
+class l2_30519_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="뒤틀린 공간"
+     SkillID=30519
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_dispace_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_dispace_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30519_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,34 @@
+class l2_1627_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파괴자의 외침"
+     SkillID=10271
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-0.200000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.750000
+         EffectClass=Class'LineageEffect2.y_wa_destroyer_cry_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_wa_destroyer_cry_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1627_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect2.y_wa_destroyer_cry_tara'
+         SimpleEffectClass=Class'LineageEffect2.y_wa_destroyer_cry_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1627_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1627_skill.L2EffectEmitter0'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

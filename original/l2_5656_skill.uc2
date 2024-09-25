@@ -1,0 +1,22 @@
+class l2_5656_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="게이트키퍼_오라플래어"
+     SkillID=5656
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u309_ca_a'
+         SimpleEffectClass=Class'LineageEffect.e_u309_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5656_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u309_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u309_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5656_skill.L2EffectEmitter1'
+}

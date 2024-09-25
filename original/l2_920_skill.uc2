@@ -1,0 +1,39 @@
+class l2_920_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파워 크러쉬"
+     SkillID=920
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RA
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u215_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u215_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_920_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         bRibbonSet=True
+         EffectClass=Class'LineageEffect.RibbonSet_sword'
+         SimpleEffectClass=Class'LineageEffect.RibbonSet_sword_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_920_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u015_b'
+         SimpleEffectClass=Class'LineageEffect.s_u015_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_920_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u502_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u502_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_920_skill.L2EffectEmitter4'
+}

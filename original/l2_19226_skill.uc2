@@ -1,0 +1,22 @@
+class l2_19226_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="페이버 오브 아너스"
+     SkillID=19226
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_honors_ca'
+         SimpleEffectClass=Class'LineageEffect.u_honors_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19226_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.u_honors_favor_ta'
+         SimpleEffectClass=Class'LineageEffect.u_honors_favor_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19226_skill.L2EffectEmitter1'
+}

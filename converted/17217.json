@@ -1,0 +1,5 @@
+{
+"SkillId": 17217,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","EffectClass": "ClassLineageEffect.u_yogi_event_buff","SimpleEffectClass": "ClassLineageEffect.u_yogi_event_buff_simple"}],
+"ShotActions": []
+}

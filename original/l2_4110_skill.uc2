@@ -1,0 +1,14 @@
+class l2_4110_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="입 냄새 공격"
+     SkillID=4110
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=2.000000,Z=-1.000000)
+         EffectClass=Class'LineageEffect.e_u044_b'
+         SimpleEffectClass=Class'LineageEffect.e_u044_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4110_skill.L2EffectEmitter0'
+}

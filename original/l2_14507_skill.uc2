@@ -1,0 +1,25 @@
+class l2_14507_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발러공격"
+     SkillID=1071
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_wa_gpunch_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_gpunch_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14507_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.d_wa_gpunch_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_gpunch_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14507_skill.L2EffectEmitter1'
+}

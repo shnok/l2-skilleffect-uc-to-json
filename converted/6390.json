@@ -1,0 +1,5 @@
+{
+"SkillId": 6390,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.z_seed_dopagen_ca","SimpleEffectClass": "ClassLineageEffect.z_seed_dopagen_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter21", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","ScaleSize": "0.900000","EffectClass": "ClassLineageEffect.z_seed_dopagen_ra","SimpleEffectClass": "ClassLineageEffect.z_seed_dopagen_ra_simple"}]
+}

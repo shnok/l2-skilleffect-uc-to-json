@@ -1,0 +1,16 @@
+class l2_16004_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이스티나 연출, 오프닝, 소울 스톤 광채"
+     SkillID=16004
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.t_istina_00_sc'
+         SimpleEffectClass=Class'LineageEffect.t_istina_00_sc_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16004_skill.L2EffectEmitter0'
+}

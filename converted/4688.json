@@ -1,0 +1,5 @@
+{
+"SkillId": 4688,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(X=-3.000000,Z=-1.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","SpawnDelay": "3.000000","EffectClass": "ClassLineageEffect.mb_valakas_lash_ca","SimpleEffectClass": "ClassLineageEffect.mb_valakas_lash_ca_simple"}],
+"ShotActions": []
+}

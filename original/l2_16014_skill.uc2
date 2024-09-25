@@ -1,0 +1,16 @@
+class l2_16014_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="초보존, 사쿰 텔레포트 광채 이펙트"
+     SkillID=16013
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Y=0.300000,Z=2.200000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_s_sakum_trans'
+         SimpleEffectClass=Class'LineageEffect.z_s_sakum_trans_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16014_skill.L2EffectEmitter0'
+}

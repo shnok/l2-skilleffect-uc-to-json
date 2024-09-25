@@ -1,0 +1,5 @@
+{
+"SkillId": 5787,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 Spine","bAbsolute": "True","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u618_echmus_ae","SimpleEffectClass": "ClassLineageEffect.e_u618_echmus_ae_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 L Hand","bAbsolute": "True","RelativeRotation": "(Yaw=16342)","bSpawnOnTarget": "False","ScaleSize": "0.100000","SpawnDelay": "5.000000","EffectClass": "ClassLineageEffect.e_u602_echmus_ca","SimpleEffectClass": "ClassLineageEffect.e_u602_echmus_ca_simple"}],
+"ShotActions": []
+}

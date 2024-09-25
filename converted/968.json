@@ -1,0 +1,5 @@
+{
+"SkillId": ,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=2.000000,Z=-0.800000)","bSpawnOnTarget": "False","ScaleSize": "0.250000","EffectClass": "ClassLineageEffect.z_seed_tacrakahn_ca","SimpleEffectClass": "ClassLineageEffect.z_seed_tacrakahn_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.s_u820_range_ta_a","SimpleEffectClass": "ClassLineageEffect.s_u820_range_ta_a_simple"}]
+}

@@ -1,0 +1,33 @@
+class l2_16629_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레오폴트 밤"
+     SkillID=16629
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Dummy01"
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_charge_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_charge_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16629_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=20.000000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_charge_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_charge_fl_simple'
+         bHermiteInterpolation=True
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16629_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_kn_spshieldw_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_spshieldw_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16629_skill.L2EffectEmitter2'
+     FlyingTime=0.800000
+}

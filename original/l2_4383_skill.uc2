@@ -1,0 +1,17 @@
+class l2_4383_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="NPC Hate Stone"
+     SkillID=4383
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=10.000000
+         EffectClass=Class'LineageEffect.wh_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_recharge_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4383_skill.L2EffectEmitter0'
+}

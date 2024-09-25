@@ -1,0 +1,24 @@
+class l2_30009_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디셉션하이드"
+     SkillID=30009
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_deshide_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_deshide_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30009_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_deshide_ra'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_deshide_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30009_skill.L2EffectEmitter1'
+}

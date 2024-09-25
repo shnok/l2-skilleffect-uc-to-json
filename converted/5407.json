@@ -1,0 +1,5 @@
+{
+"SkillId": 5407,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.s_u823_spec_ta","SimpleEffectClass": "ClassLineageEffect.s_u823_spec_ta_simple"}],
+"ShotActions": []
+}

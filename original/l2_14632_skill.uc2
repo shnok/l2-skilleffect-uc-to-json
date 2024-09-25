@@ -1,0 +1,43 @@
+class l2_14632_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="커스 포이즌"
+     SkillID=1168
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_mon_purple6_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple6_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14632_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         SpawnDelay=1.200000
+         EffectClass=Class'LineageEffect.d_mon_purple6_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple6_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14632_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         SpawnDelay=2.400000
+         EffectClass=Class'LineageEffect.d_mon_purple6_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple6_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14632_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_su_buffr_ta'
+         SimpleEffectClass=Class'LineageEffect.d_su_buffr_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14632_skill.L2EffectEmitter3'
+}

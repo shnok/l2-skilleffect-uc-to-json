@@ -1,0 +1,45 @@
+class l2_10216_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 스턴"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrfire5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrfire5s_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10216_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrfire5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrfire5s_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10216_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter13
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_magicbolt3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_magicbolt3_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10216_skill.L2EffectEmitter13'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wizafire_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wizafire_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10216_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.d_wi_mrfire_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrfire_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10216_skill.L2EffectEmitter2'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

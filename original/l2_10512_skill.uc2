@@ -1,0 +1,49 @@
+class l2_10512_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="대거 익스플로젼"
+     SkillID=10512
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ro_plender_handca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_plender_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10512_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ro_altereva2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_altereva2_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10512_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_ro_dagger_fl'
+         SimpleEffectClass=Class'LineageEffect.u_ro_dagger_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10512_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_ro_dagger_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ro_dagger_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10512_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_ro_dagger'
+         SimpleEffectClass=Class'LineageEffect.u_ro_dagger_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10512_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

@@ -1,0 +1,22 @@
+class l2_15444_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스코프 블리드"
+     SkillID=582
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.bl_berserker_spirit_ca'
+         SimpleEffectClass=Class'LineageEffect.bl_berserker_spirit_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15444_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u808_tolerant_ta_a'
+         SimpleEffectClass=Class'LineageEffect.m_u808_tolerant_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15444_skill.L2EffectEmitter1'
+}

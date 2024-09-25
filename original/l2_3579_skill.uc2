@@ -1,0 +1,23 @@
+class l2_3579_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인피니티 파워 - 리플렉트"
+     SkillID=3579
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_infinity_power_reflect_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_infinity_power_reflect_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3579_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect2.y_infinity_power_reflect_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_infinity_power_reflect_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3579_skill.L2EffectEmitter1'
+}

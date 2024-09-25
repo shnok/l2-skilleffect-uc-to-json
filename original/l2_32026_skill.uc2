@@ -1,0 +1,25 @@
+class l2_32026_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="눈 뜬 자의 분노"
+     SkillID=32026
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect2.y_mon_seal_blue2_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_blue2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32026_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.600000)
+         bOnMultiTarget=True
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.z_new_hp_heal_red'
+         SimpleEffectClass=Class'LineageEffect.z_new_hp_heal_red_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32026_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,26 @@
+class l2_6294_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포효"
+     SkillID=6294
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.z_ice_heavyknight_cry_ca'
+         SimpleEffectClass=Class'LineageEffect.z_ice_heavyknight_cry_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6294_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_buff_a'
+         SimpleEffectClass=Class'LineageEffect.z_buff_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6294_skill.L2EffectEmitter11'
+}

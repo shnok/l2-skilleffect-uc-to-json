@@ -1,0 +1,32 @@
+class l2_11346_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="팬텀파워"
+     SkillID=11346
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.u_su_power_v_ca'
+         SimpleEffectClass=Class'LineageEffect.u_su_power_v_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11346_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_su_power_v_ra'
+         SimpleEffectClass=Class'LineageEffect.u_su_power_v_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11346_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_su_touch_v_ta'
+         SimpleEffectClass=Class'LineageEffect.u_su_touch_v_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11346_skill.L2EffectEmitter2'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

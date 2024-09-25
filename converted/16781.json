@@ -1,0 +1,5 @@
+{
+"SkillId": 16781,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.950000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.u_donutring_ra","SimpleEffectClass": "ClassLineageEffect2.u_donutring_ra_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_ro_red_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_red_ta_simple"}]
+}

@@ -1,0 +1,34 @@
+class l2_14280_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.z_ice_bomb_ca'
+         SimpleEffectClass=Class'LineageEffect.z_ice_bomb_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14280_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.z_freya_self_b_ra'
+         SimpleEffectClass=Class'LineageEffect.z_freya_self_b_ra_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14280_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_ice_bomb_ra'
+         SimpleEffectClass=Class'LineageEffect.z_ice_bomb_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14280_skill.L2EffectEmitter1'
+}

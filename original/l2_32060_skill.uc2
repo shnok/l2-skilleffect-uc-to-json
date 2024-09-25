@@ -1,0 +1,33 @@
+class l2_32060_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="앤세스티 포제션"
+     SkillID=32060
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_mon_blue2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32060_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_mon_blue1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32060_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.400000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_mon_sword_buff_b'
+         SimpleEffectClass=Class'LineageEffect.u_mon_sword_buff_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32060_skill.L2EffectEmitter2'
+}

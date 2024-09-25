@@ -1,0 +1,33 @@
+class l2_6387_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="점프블루"
+     SkillID=6387
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.z_common_buff_e'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_e_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6387_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.z_shockwave_d'
+         SimpleEffectClass=Class'LineageEffect.z_shockwave_d_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6387_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter97
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_dummy_quake'
+         SimpleEffectClass=Class'LineageEffect.z_dummy_quake_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6387_skill.L2EffectEmitter97'
+}

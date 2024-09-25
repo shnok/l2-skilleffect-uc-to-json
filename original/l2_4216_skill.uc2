@@ -1,0 +1,24 @@
+class l2_4216_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="적 분산"
+     SkillID=4216
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u071_a'
+         SimpleEffectClass=Class'LineageEffect.e_u071_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4216_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u071_b'
+         SimpleEffectClass=Class'LineageEffect.e_u071_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4216_skill.L2EffectEmitter1'
+}

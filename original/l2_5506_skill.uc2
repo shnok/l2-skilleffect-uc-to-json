@@ -1,0 +1,15 @@
+class l2_5506_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="가드나이아_블라섬 오브 워터"
+     SkillID=5506
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_hydro_blast_ta'
+         SimpleEffectClass=Class'LineageEffect.el_hydro_blast_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5506_skill.L2EffectEmitter0'
+}

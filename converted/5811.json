@@ -1,0 +1,5 @@
+{
+"SkillId": 5811,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.250000","EffectClass": "ClassLineageEffect.at_fatal_strike_ca","SimpleEffectClass": "ClassLineageEffect.at_fatal_strike_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(X=1.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.250000","EffectClass": "ClassLineageEffect.at_sonic_rage_fl","SimpleEffectClass": "ClassLineageEffect.at_sonic_rage_fl_simple"}]
+}

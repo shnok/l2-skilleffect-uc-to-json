@@ -1,0 +1,15 @@
+class l2_5103_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="혈맹,전직,레벨업"
+     SkillID=5103
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u544_levelup_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u544_levelup_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5103_skill.L2EffectEmitter0'
+}

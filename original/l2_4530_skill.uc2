@@ -1,0 +1,16 @@
+class l2_4530_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Quest - Summoned HP Heal"
+     SkillID=4530
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.wh_heal_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_heal_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4530_skill.L2EffectEmitter0'
+}

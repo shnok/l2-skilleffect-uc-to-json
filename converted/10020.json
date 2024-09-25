@@ -1,0 +1,5 @@
+{
+"SkillId": 10020,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect.d_kn_alterdefense1_ca","SimpleEffectClass": "ClassLineageEffect.d_kn_alterdefense1_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","EffectClass": "ClassLineageEffect.d_kn_alterdefense1_ta","SimpleEffectClass": "ClassLineageEffect.d_kn_alterdefense1_ta_simple"}]
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 19305,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_ro_shadow_revers_handca","SimpleEffectClass": "ClassLineageEffect2.y_ro_shadow_revers_handca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_ro_shadow_revers_ca","SimpleEffectClass": "ClassLineageEffect2.y_ro_shadow_revers_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(X=2.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.at_mortal_blow_cs","SimpleEffectClass": "ClassLineageEffect.at_mortal_blow_cs_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_ro_shadow_revers_ta","SimpleEffectClass": "ClassLineageEffect2.y_ro_shadow_revers_ta_simple"}]
+}

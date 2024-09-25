@@ -1,0 +1,14 @@
+class l2_2577_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인스턴스 디펜스"
+     SkillID=2577
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_ultimate_defence_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_ultimate_defence_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2577_skill.L2EffectEmitter0'
+}

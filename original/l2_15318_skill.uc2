@@ -1,0 +1,42 @@
+class l2_15318_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="피어"
+     SkillID=1092
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=15.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.m_u025_a'
+         SimpleEffectClass=Class'LineageEffect.m_u025_a_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15318_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.700000)
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_magical_ra'
+         SimpleEffectClass=Class'LineageEffect.d_magical_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15318_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u025_c'
+         SimpleEffectClass=Class'LineageEffect.m_u025_c_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15318_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=15.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.m_u025_b'
+         SimpleEffectClass=Class'LineageEffect.m_u025_b_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_15318_skill.L2EffectEmitter3'
+}

@@ -1,0 +1,24 @@
+class l2_5012_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="PC 묶기"
+     SkillID=5012
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=15.000000,Z=15.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.mb_frintessa_ghost_drain'
+         SimpleEffectClass=Class'LineageEffect.mb_frintessa_ghost_drain_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5012_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.mb_frintessa_ghost_clamp_to'
+         SimpleEffectClass=Class'LineageEffect.mb_frintessa_ghost_clamp_to_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5012_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,23 @@
+class l2_4025_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마스터 리차지"
+     SkillID=4025
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.wh_sec_heal_ca'
+         SimpleEffectClass=Class'LineageEffect.wh_sec_heal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4025_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.wh_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_recharge_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4025_skill.L2EffectEmitter1'
+}

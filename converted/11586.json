@@ -1,0 +1,5 @@
+{
+"SkillId": 11586,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=13.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.u_in_freefire_ca","SimpleEffectClass": "ClassLineageEffect.u_in_freefire_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.sa_mass_frenzy_cs","SimpleEffectClass": "ClassLineageEffect.sa_mass_frenzy_cs_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.u_in_pa_ta","SimpleEffectClass": "ClassLineageEffect.u_in_pa_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=0.900000)","bOnMultiTarget": "True","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.u_in_bloodmark_light","SimpleEffectClass": "ClassLineageEffect.u_in_bloodmark_light_simple"}]
+}

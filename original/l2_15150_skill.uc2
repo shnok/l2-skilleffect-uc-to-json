@@ -1,0 +1,16 @@
+class l2_15150_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="그레이터 실드"
+     SkillID=1389
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.m_u204_ta'
+         SimpleEffectClass=Class'LineageEffect.m_u204_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15150_skill.L2EffectEmitter0'
+}

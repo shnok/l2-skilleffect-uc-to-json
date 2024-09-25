@@ -1,0 +1,29 @@
+class l2_3596_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인피니티 파워 - 뱀피릭 마나"
+     SkillID=3596
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_infinity_power_vampiric_mana_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_infinity_power_vampiric_mana_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3596_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.m_u052_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.m_u052_recharge_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3596_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.d_wa_enermove1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_enermove1_ca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_3596_skill.L2EffectEmitter2'
+}

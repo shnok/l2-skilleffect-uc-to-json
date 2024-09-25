@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_ro_plender_handca","SimpleEffectClass": "ClassLineageEffect.d_ro_plender_handca_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.d_ro_reverse_ca","SimpleEffectClass": "ClassLineageEffect.d_ro_reverse_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=3.500000,Z=-0.200000)","bSpawnOnTarget": "False","ScaleSize": "2.000000","EffectClass": "ClassLineageEffect.d_ro_reverse_swca","SimpleEffectClass": "ClassLineageEffect.d_ro_reverse_swca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.d_ro_reverse_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_reverse_ta_simple"}]
+}

@@ -1,0 +1,15 @@
+class l2_16329_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="영혼성불"
+     SkillID=16329
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.e_u204_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u204_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16329_skill.L2EffectEmitter0'
+}

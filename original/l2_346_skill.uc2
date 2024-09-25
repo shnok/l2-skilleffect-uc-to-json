@@ -1,0 +1,39 @@
+class l2_346_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포스 레이지"
+     SkillID=346
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.010000
+         EffectClass=Class'LineageEffect.oa_force_rage_ca'
+         SimpleEffectClass=Class'LineageEffect.oa_force_rage_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_346_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_battle_roar_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_battle_roar_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_346_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.oa_force_rage_fl'
+         SimpleEffectClass=Class'LineageEffect.oa_force_rage_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_346_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.oa_force_rage_ta'
+         SimpleEffectClass=Class'LineageEffect.oa_force_rage_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_346_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

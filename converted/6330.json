@@ -1,0 +1,5 @@
+{
+"SkillId": 6330,
+"CastingActions": [{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_common_buff_d","SimpleEffectClass": "ClassLineageEffect.z_common_buff_d_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=1.000000)","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_cooker_mp_up","SimpleEffectClass": "ClassLineageEffect.z_cooker_mp_up_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=1.000000)","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_cooker_mp_up","SimpleEffectClass": "ClassLineageEffect.z_cooker_mp_up_simple"}]
+}

@@ -1,0 +1,24 @@
+class l2_15056_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         offset=(Z=0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.d_mon_unholy5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy5_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15056_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ta_a'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15056_skill.L2EffectEmitter1'
+}

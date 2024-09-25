@@ -1,0 +1,5 @@
+{
+"SkillId": 6043,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 Spine","bAbsolute": "True","offset": "(Z=-1.500000)","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.m_u809_ca_air","SimpleEffectClass": "ClassLineageEffect.m_u809_ca_air_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 Spine","bAbsolute": "True","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","SpawnDelay": "0.300000","EffectClass": "ClassLineageEffect.m_u809_ca_air","SimpleEffectClass": "ClassLineageEffect.m_u809_ca_air_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-6.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.e_u808_ra","SimpleEffectClass": "ClassLineageEffect.e_u808_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.300000","EffectClass": "ClassLineageEffect.e_u827_ta","SimpleEffectClass": "ClassLineageEffect.e_u827_ta_simple"}]
+}

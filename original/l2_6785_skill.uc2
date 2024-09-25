@@ -1,0 +1,7 @@
+class l2_6785_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙궁의숨결_자폭"
+     SkillID=6300
+}

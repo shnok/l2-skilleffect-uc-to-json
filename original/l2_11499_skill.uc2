@@ -1,0 +1,50 @@
+class l2_11499_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서머너-속박"
+     SkillID=11499
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter60
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01_R_Hand"
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_su_1_handca'
+         SimpleEffectClass=Class'LineageEffect.d_su_1_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11499_skill.L2EffectEmitter60'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter30
+         AttachOn=AM_Trail
+         offset=(X=-0.600000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_su_trade_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_trade_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11499_skill.L2EffectEmitter30'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter95
+         offset=(Z=-40.000000)
+         bRelativeToCylinder=False
+         ScaleSize=1.000000
+         EffectPawnClassID=14935
+         SequenceName="Jump_Vault"
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11499_skill.L2EffectEmitter95'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(X=-0.600000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-0.700000
+         EffectClass=Class'LineageEffect.d_su_spunex1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_spunex1_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11499_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_enerblast_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_enerblast_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11499_skill.L2EffectEmitter5'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

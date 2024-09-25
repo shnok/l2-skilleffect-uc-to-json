@@ -1,0 +1,5 @@
+{
+"SkillId": 5878,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect.at_fatal_strike_ca","SimpleEffectClass": "ClassLineageEffect.at_fatal_strike_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.mo_war_cry_ta","SimpleEffectClass": "ClassLineageEffect.mo_war_cry_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.s_u015_b","SimpleEffectClass": "ClassLineageEffect.s_u015_b_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=1.500000)","bSpawnOnTarget": "False","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.m_u041_vampiric","SimpleEffectClass": "ClassLineageEffect.m_u041_vampiric_simple"}]
+}

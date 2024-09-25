@@ -1,0 +1,14 @@
+class l2_16391_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="페오 위자드의 힘"
+     SkillID=16391
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_wi_power_ta'
+         SimpleEffectClass=Class'LineageEffect.u_wi_power_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16391_skill.L2EffectEmitter4'
+}

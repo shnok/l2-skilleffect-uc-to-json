@@ -1,0 +1,23 @@
+class l2_4709_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="커스트 블로우"
+     SkillID=4709
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4709_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_ro_bleed_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_bleed_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4709_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,49 @@
+class l2_16873_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에티나의 심판"
+     SkillID=16873
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.200000,Z=-1.050000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect2.y_raid_mc_etis_judge_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_etis_judge_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16873_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="ca_Dummy01"
+         bSpawnOnTarget=False
+         ScaleSize=0.350000
+         EffectClass=Class'LineageEffect2.y_raid_mc_etis_judge_body_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_etis_judge_body_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16873_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect2.y_raid_ultra_purge_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_ultra_purge_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16873_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_mon_unholy_ra'
+         SimpleEffectClass=Class'LineageEffect.u_mon_unholy_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16873_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.050000
+         EffectClass=Class'LineageEffect.u_wi_darkcurse_ta'
+         SimpleEffectClass=Class'LineageEffect.u_wi_darkcurse_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16873_skill.L2EffectEmitter4'
+}

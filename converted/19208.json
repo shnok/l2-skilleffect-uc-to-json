@@ -1,0 +1,5 @@
+{
+"SkillId": 19208,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_in_sealwound_ca","SimpleEffectClass": "ClassLineageEffect.u_in_sealwound_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.u_in_sealwound_ta","SimpleEffectClass": "ClassLineageEffect.u_in_sealwound_ta_simple"}]
+}

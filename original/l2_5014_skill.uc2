@@ -1,0 +1,15 @@
+class l2_5014_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프린테샤 악마 일반 공격"
+     SkillID=5014
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.mb_frintessa_normal_a_ta'
+         SimpleEffectClass=Class'LineageEffect.mb_frintessa_normal_a_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5014_skill.L2EffectEmitter0'
+}

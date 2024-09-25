@@ -1,0 +1,24 @@
+class l2_19437_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="뱅가드 오브 발러"
+     SkillID=19437
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_in_vanguard_valor_summon_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_in_vanguard_valor_summon_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19437_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_in_vanguard_valor_summon_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_in_vanguard_valor_summon_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19437_skill.L2EffectEmitter2'
+}

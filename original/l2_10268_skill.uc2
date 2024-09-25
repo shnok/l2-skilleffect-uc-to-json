@@ -1,0 +1,15 @@
+class l2_10268_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="롤링 썬더"
+     SkillID=10268
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_tornado_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_tornado_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10268_skill.L2EffectEmitter0'
+}

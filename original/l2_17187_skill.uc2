@@ -1,0 +1,14 @@
+class l2_17187_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="단디의 도전"
+     SkillID=17187
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.su_haste_ta'
+         SimpleEffectClass=Class'LineageEffect.su_haste_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17187_skill.L2EffectEmitter1'
+}

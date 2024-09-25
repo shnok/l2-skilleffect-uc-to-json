@@ -1,0 +1,31 @@
+class l2_6756_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="라이프 드레인"
+     SkillID=1495
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.bl_berserker_spirit_ca'
+         SimpleEffectClass=Class'LineageEffect.bl_berserker_spirit_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6756_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.s_u201_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u201_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6756_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u820_magic_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u820_magic_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6756_skill.L2EffectEmitter2'
+}

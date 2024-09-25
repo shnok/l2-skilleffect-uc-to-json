@@ -1,0 +1,81 @@
+class l2_5933_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크 블레이드2"
+     SkillID=5933
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5933_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter9
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.075000
+         EffectClass=Class'LineageEffect.e_u622_spread'
+         SimpleEffectClass=Class'LineageEffect.e_u622_spread_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5933_skill.L2EffectEmitter9'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=2.500000,Y=-70.000000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.at_shock_blast_ra'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5933_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=3.200000,Y=-35.000000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         SpawnDelay=0.050000
+         EffectClass=Class'LineageEffect.at_shock_blast_ra'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5933_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=3.500000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.250000
+         SpawnDelay=0.100000
+         EffectClass=Class'LineageEffect.at_shock_blast_ra'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ra_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5933_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(X=3.200000,Y=35.000000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.at_shock_blast_ra'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ra_simple'
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_5933_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(X=2.500000,Y=70.000000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         SpawnDelay=0.250000
+         EffectClass=Class'LineageEffect.at_shock_blast_ra'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ra_simple'
+     End Object
+     ShotAction(5)=L2EffectEmitter'LineageSkillEffect.l2_5933_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u015_b'
+         SimpleEffectClass=Class'LineageEffect.s_u015_b_simple'
+     End Object
+     ShotAction(6)=L2EffectEmitter'LineageSkillEffect.l2_5933_skill.L2EffectEmitter8'
+}

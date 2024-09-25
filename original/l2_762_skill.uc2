@@ -1,0 +1,31 @@
+class l2_762_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인세인 크러셔"
+     SkillID=762
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u202_charge'
+         SimpleEffectClass=Class'LineageEffect.s_u202_charge_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_762_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         bRibbonSet=True
+         EffectClass=Class'LineageEffect.RibbonSet_sword'
+         SimpleEffectClass=Class'LineageEffect.RibbonSet_sword_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_762_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u202_insane'
+         SimpleEffectClass=Class'LineageEffect.s_u202_insane_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_762_skill.L2EffectEmitter2'
+}

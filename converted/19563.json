@@ -1,0 +1,5 @@
+{
+"SkillId": 19563,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect2.y_kn_shield_shock_wave_ta","SimpleEffectClass": "ClassLineageEffect2.y_kn_shield_shock_wave_ta_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,29 @@
+class l2_426_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="배틀 스탠스"
+     SkillID=426
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.850000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u806_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u806_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_426_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u806_cs'
+         SimpleEffectClass=Class'LineageEffect.s_u806_cs_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_426_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u806_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u806_ta_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_426_skill.L2EffectEmitter2'
+}

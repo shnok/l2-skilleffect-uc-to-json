@@ -1,0 +1,5 @@
+{
+"SkillId": 32020,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=0.100000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect2.y_mon_seal_blood_buff_ca","SimpleEffectClass": "ClassLineageEffect2.y_mon_seal_blood_buff_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "bOnMultiTarget": "True","ScaleSize": "0.550000","EffectClass": "ClassLineageEffect2.y_mon_seal_blood_buff_ta","SimpleEffectClass": "ClassLineageEffect2.y_mon_seal_blood_buff_ta_simple"}]
+}

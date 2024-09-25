@@ -1,0 +1,37 @@
+class l2_10158_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 스턴"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_abenforce2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_abenforce2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10158_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_kn_judgec_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgec_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10158_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_kn_alterdefense_ra'
+         SimpleEffectClass=Class'LineageEffect.d_kn_alterdefense_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10158_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_restrictionh_ra'
+         SimpleEffectClass=Class'LineageEffect.d_restrictionh_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10158_skill.L2EffectEmitter2'
+}

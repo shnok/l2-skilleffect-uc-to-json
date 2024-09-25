@@ -1,0 +1,27 @@
+class l2_1503_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="임프로브 실드디펜스"
+     SkillID=1503
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.m_u200_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u200_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1503_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         RelativeRotation=(Pitch=49152)
+         offset=(X=-0.100000,Y=3.200000,Z=0.030000)
+         bOnMultiTarget=True
+         ScaleSize=1.300000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.m_u200_ta_shield'
+         SimpleEffectClass=Class'LineageEffect.m_u200_ta_shield_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1503_skill.L2EffectEmitter1'
+}

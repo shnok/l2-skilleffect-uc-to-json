@@ -1,0 +1,16 @@
+class l2_11584_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매스 댄스 오브 메두사"
+     SkillID=11584
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.800000
+         EffectClass=Class'LineageEffect.u_in_medusa_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_medusa_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11584_skill.L2EffectEmitter0'
+}

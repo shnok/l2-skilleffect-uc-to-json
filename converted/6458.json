@@ -1,0 +1,5 @@
+{
+"SkillId": ,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "3.000000","EffectClass": "ClassLineageEffect.e_u204_aga_ca","SimpleEffectClass": "ClassLineageEffect.e_u204_aga_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "4.000000","SpawnDelay": "1.500000","EffectClass": "ClassLineageEffect.e_u204_aga_ca","SimpleEffectClass": "ClassLineageEffect.e_u204_aga_ca_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "4.000000","SpawnDelay": "2.500000","EffectClass": "ClassLineageEffect.e_u204_aga_ca","SimpleEffectClass": "ClassLineageEffect.e_u204_aga_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u833_transform","SimpleEffectClass": "ClassLineageEffect.s_u833_transform_simple"}]
+}

@@ -1,0 +1,46 @@
+class l2_1070_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="와일드 플렌더"
+     SkillID=10700
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.930000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_ro_fortune_plunder_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_fortune_plunder_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1070_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ro_plender_handca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_plender_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1070_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ro_plender_handca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_plender_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_1070_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=0.300000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_fortune_plunder_fan'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_fortune_plunder_fan_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1070_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.050000
+         EffectClass=Class'LineageEffect2.y_ro_reverse_plunder_ta_money'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_reverse_plunder_ta_money_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1070_skill.L2EffectEmitter4'
+}

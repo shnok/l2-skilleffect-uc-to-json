@@ -1,0 +1,14 @@
+class l2_6632_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마력의기운"
+     SkillID=6632
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.it_quick_step_potion_ta'
+         SimpleEffectClass=Class'LineageEffect.it_quick_step_potion_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6632_skill.L2EffectEmitter0'
+}

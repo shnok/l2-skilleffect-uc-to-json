@@ -1,0 +1,5 @@
+{
+"SkillId": 4113,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","RelativeRotation": "(Yaw=40960,Roll=16384)","offset": "(X=400.000000,Y=-60.000000,Z=-300.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.040000","EffectClass": "ClassLineageEffect.d_wa_spsonics2_tara","SimpleEffectClass": "ClassLineageEffect.d_wa_spsonics2_tara_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_mon_fire_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_fire_ta_simple"}]
+}

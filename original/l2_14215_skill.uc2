@@ -1,0 +1,42 @@
+class l2_14215_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="피해굴절"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=0.400000,Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.d_istinaContempt_ca'
+         SimpleEffectClass=Class'LineageEffect.d_istinaContempt_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14215_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.d_istinaContempt_rata'
+         SimpleEffectClass=Class'LineageEffect.d_istinaContempt_rata_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14215_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.180000
+         EffectClass=Class'LineageEffect.d_he_hemi_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_hemi_ca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14215_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_istinaDamage_ta'
+         SimpleEffectClass=Class'LineageEffect.d_istinaDamage_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14215_skill.L2EffectEmitter5'
+}

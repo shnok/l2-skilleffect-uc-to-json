@@ -1,0 +1,37 @@
+class l2_4549_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Quest 저주 받은 제단"
+     SkillID=4549
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.bl_berserker_spirit_ca'
+         SimpleEffectClass=Class'LineageEffect.bl_berserker_spirit_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4549_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.bl_poison_cloud_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_poison_cloud_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4549_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=10.000000,Y=8.000000,Z=-1.000000)
+         EffectClass=Class'LineageEffect.bl_poison_cloud_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_poison_cloud_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4549_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-10.000000,Y=-10.000000,Z=-1.000000)
+         EffectClass=Class'LineageEffect.bl_poison_cloud_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_poison_cloud_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_4549_skill.L2EffectEmitter3'
+}

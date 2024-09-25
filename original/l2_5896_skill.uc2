@@ -1,0 +1,47 @@
+class l2_5896_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="불멸_소울리스"
+     SkillID=5896
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.750000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u308_mantra'
+         SimpleEffectClass=Class'LineageEffect.e_u308_mantra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5896_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.e_u308_ca_lich'
+         SimpleEffectClass=Class'LineageEffect.e_u308_ca_lich_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5896_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=2.000000,Z=2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.e_u329_fl_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_fl_A_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5896_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u329_ta_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_A_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5896_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u329_ta_B'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_B_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5896_skill.L2EffectEmitter0'
+     FlyingTime=0.400000
+}

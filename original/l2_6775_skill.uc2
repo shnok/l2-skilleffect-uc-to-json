@@ -1,0 +1,54 @@
+class l2_6775_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙궁의숨결_자폭"
+     SkillID=6300
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.s_u019_a'
+         SimpleEffectClass=Class'LineageEffect.s_u019_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6775_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.600000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.d_dark_genuma'
+         SimpleEffectClass=Class'LineageEffect.d_dark_genuma_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6775_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         SpawnDelay=0.030000
+         EffectClass=Class'LineageEffect.s_u822_enuma_cs'
+         SimpleEffectClass=Class'LineageEffect.s_u822_enuma_cs_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6775_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.600000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         SpawnDelay=0.060000
+         EffectClass=Class'LineageEffect.d_dark_genuma'
+         SimpleEffectClass=Class'LineageEffect.d_dark_genuma_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6775_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.500000
+         SpawnDelay=0.100000
+         EffectClass=Class'LineageEffect.s_u225_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u225_ta_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_6775_skill.L2EffectEmitter4'
+}

@@ -1,0 +1,38 @@
+class l2_16623_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헬리오스 분노의 번개"
+     SkillID=16623
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.130000
+         EffectClass=Class'LineageEffect2.y_boss_helios_grandplasma_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_grandplasma_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16623_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_bot_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_bot_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16623_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_alien_weapon_ta'
+         SimpleEffectClass=Class'LineageEffect.u_alien_weapon_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16623_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-1.000000)
+         ScaleSize=3.800000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16623_skill.L2EffectEmitter4'
+}

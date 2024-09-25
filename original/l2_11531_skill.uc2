@@ -1,0 +1,25 @@
+class l2_11531_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="전장 응원곡"
+     SkillID=323
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_in_partyenforceb_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_partyenforceb_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11531_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_buff3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_buff3_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11531_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,14 @@
+class l2_2167_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="SP 주문서"
+     SkillID=2167
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.su_haste_ta'
+         SimpleEffectClass=Class'LineageEffect.su_haste_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2167_skill.L2EffectEmitter0'
+}

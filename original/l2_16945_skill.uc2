@@ -1,0 +1,23 @@
+class l2_16945_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="생명의 저주"
+     SkillID=16945
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect2.y_scene_nidrah_rebirth_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_scene_nidrah_rebirth_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16945_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect2.y_scene_unresurrection_dark_tara'
+         SimpleEffectClass=Class'LineageEffect2.y_scene_unresurrection_dark_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16945_skill.L2EffectEmitter2'
+}

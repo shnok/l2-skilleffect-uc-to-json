@@ -1,0 +1,5 @@
+{
+"SkillId": 6300,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-50.000000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.s_u200_ca","SimpleEffectClass": "ClassLineageEffect.s_u200_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(X=2.000000,Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.e_u327_fl_blood","SimpleEffectClass": "ClassLineageEffect.e_u327_fl_blood_simple"}]
+}

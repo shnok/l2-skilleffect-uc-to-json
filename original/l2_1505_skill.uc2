@@ -1,0 +1,24 @@
+class l2_1505_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서브라임 셀프 새크리파이스"
+     SkillID=1505
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u202_ca_a'
+         SimpleEffectClass=Class'LineageEffect.m_u202_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1505_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u220_barrier'
+         SimpleEffectClass=Class'LineageEffect.s_u220_barrier_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1505_skill.L2EffectEmitter1'
+}

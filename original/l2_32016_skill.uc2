@@ -1,0 +1,52 @@
+class l2_32016_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="혼돈의 파열"
+     SkillID=32016
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.220000
+         EffectClass=Class'LineageEffect2.y_mon_seal_purple_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_purple_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32016_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         SpawnDelay=0.050000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32016_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.500000)
+         ScaleSize=10.000000
+         EffectClass=Class'LineageEffect2.y_in_rampage_beat_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_in_rampage_beat_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32016_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.900000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_su_power_v_ra'
+         SimpleEffectClass=Class'LineageEffect.u_su_power_v_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_32016_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-0.800000)
+         ScaleSize=3.000000
+         EffectClass=Class'LineageEffect2.y_raid_destruction_a'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_destruction_a_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_32016_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(Z=-1.000000)
+         ScaleSize=13.000000
+         EffectClass=Class'LineageEffect.d_magical_ra'
+         SimpleEffectClass=Class'LineageEffect.d_magical_ra_simple'
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_32016_skill.L2EffectEmitter5'
+}

@@ -1,0 +1,24 @@
+class l2_11326_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="도약공격"
+     SkillID=11326
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.s_u807_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u807_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11326_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_kn_judgec_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgec_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11326_skill.L2EffectEmitter2'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

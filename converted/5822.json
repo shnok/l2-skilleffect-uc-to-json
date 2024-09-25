@@ -1,0 +1,5 @@
+{
+"SkillId": 5822,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.s_u820_summon_drake","SimpleEffectClass": "ClassLineageEffect.s_u820_summon_drake_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "0.300000","SpawnDelay": "1.500000","EffectClass": "ClassLineageEffect.s_u820_summon_drake","SimpleEffectClass": "ClassLineageEffect.s_u820_summon_drake_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","ScaleSize": "0.300000","SpawnDelay": "3.000000","EffectClass": "ClassLineageEffect.s_u820_summon_drake","SimpleEffectClass": "ClassLineageEffect.s_u820_summon_drake_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","ScaleSize": "0.300000","SpawnDelay": "4.500000","EffectClass": "ClassLineageEffect.s_u820_summon_drake","SimpleEffectClass": "ClassLineageEffect.s_u820_summon_drake_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,15 @@
+class l2_4019_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이동속도 감소"
+     SkillID=4019
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u021_b'
+         SimpleEffectClass=Class'LineageEffect.m_u021_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4019_skill.L2EffectEmitter0'
+}

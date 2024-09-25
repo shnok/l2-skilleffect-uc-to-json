@@ -1,0 +1,29 @@
+class l2_10547_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="섀도우 어택"
+     SkillID=10547
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_doomattack_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_doomattack_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10547_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         EffectClass=Class'LineageEffect.d_wa_doomattack2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_doomattack2_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10547_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=4.000000
+         EffectClass=Class'LineageEffect.d_ro_spshadow_sw'
+         SimpleEffectClass=Class'LineageEffect.d_ro_spshadow_sw_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10547_skill.L2EffectEmitter2'
+}

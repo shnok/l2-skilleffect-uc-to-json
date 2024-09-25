@@ -1,0 +1,59 @@
+class l2_5786_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에키무스_분리"
+     SkillID=5786
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.600000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         SpawnDelay=9.800000
+         EffectClass=Class'LineageEffect.s_u604_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u604_ta_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5786_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=19.000000
+         EffectClass=Class'LineageEffect.e_u617_tran_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u617_tran_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5786_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(X=-5.800000,Z=4.400000)
+         bSpawnOnTarget=False
+         SpawnDelay=7.400000
+         EffectClass=Class'LineageEffect.e_u619_echmus_f'
+         SimpleEffectClass=Class'LineageEffect.e_u619_echmus_f_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5786_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(X=-5.800000,Z=4.300000)
+         bSpawnOnTarget=False
+         SpawnDelay=7.500000
+         EffectClass=Class'LineageEffect.e_u619_echmus_f'
+         SimpleEffectClass=Class'LineageEffect.e_u619_echmus_f_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5786_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(X=-5.800000,Z=4.200000)
+         bSpawnOnTarget=False
+         SpawnDelay=7.600000
+         EffectClass=Class'LineageEffect.e_u619_echmus_f'
+         SimpleEffectClass=Class'LineageEffect.e_u619_echmus_f_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_5786_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=1.000000,Z=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.e_u617_tran_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u617_tran_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5786_skill.L2EffectEmitter3'
+}

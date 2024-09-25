@@ -1,0 +1,5 @@
+{
+"SkillId": 17966,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_alchemy_rolly","SimpleEffectClass": "ClassLineageEffect.u_alchemy_rolly_simple"}],
+"ShotActions": []
+}

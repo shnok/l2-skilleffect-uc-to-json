@@ -1,0 +1,5 @@
+{
+"SkillId": 8238,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.mo_iron_will_ca","SimpleEffectClass": "ClassLineageEffect.mo_iron_will_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","bRibbonSet": "True","EffectClass": "ClassLineageEffect.RibbonSet_sword","SimpleEffectClass": "ClassLineageEffect.RibbonSet_sword_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.el_aqua_swirl_ta","SimpleEffectClass": "ClassLineageEffect.el_aqua_swirl_ta_simple"}]
+}

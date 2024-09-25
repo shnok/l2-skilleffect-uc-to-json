@@ -1,0 +1,15 @@
+class l2_9488_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크리스마스트리 버프스킬"
+     SkillID=9488
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_lightdown_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_lightdown_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9488_skill.L2EffectEmitter0'
+}

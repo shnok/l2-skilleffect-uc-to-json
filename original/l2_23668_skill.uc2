@@ -1,0 +1,32 @@
+class l2_23668_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매스 파워슬램"
+     SkillID=23668
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_red1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23668_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_red2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red2_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23668_skill.L2EffectEmitter33'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter13
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_elec_red_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec_red_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_23668_skill.L2EffectEmitter13'
+}

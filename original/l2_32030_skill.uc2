@@ -1,0 +1,25 @@
+class l2_32030_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="어둠의 종막"
+     SkillID=32030
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.100000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_mon_seal_blood_buff_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_blood_buff_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32030_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_mon_seal_redmark_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_redmark_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32030_skill.L2EffectEmitter1'
+}

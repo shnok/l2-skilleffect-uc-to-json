@@ -1,0 +1,16 @@
+class l2_br_23401_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Ä®ÀÇ ¹«´ý"
+     SkillID=23402
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect_Br.br_e_23401_skill'
+         SimpleEffectClass=Class'LineageEffect_Br.br_e_23401_skill_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_23401_skill.L2EffectEmitter0'
+}

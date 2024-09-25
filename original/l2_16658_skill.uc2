@@ -1,0 +1,56 @@
+class l2_16658_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="로얄 체인 스트라이크"
+     SkillID=16658
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_mon_earth1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_earth1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16658_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.s_u828_soul_fan'
+         SimpleEffectClass=Class'LineageEffect.s_u828_soul_fan_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16658_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.z_gs_chain_ta_c'
+         SimpleEffectClass=Class'LineageEffect.z_gs_chain_ta_c_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16658_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.d_mon_earth1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_earth1_ta_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_16658_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.z_gstar_channeling_beam'
+         SimpleEffectClass=Class'LineageEffect.z_gstar_channeling_beam_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16658_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.z_gstar_channeling_beam_glow'
+         SimpleEffectClass=Class'LineageEffect.z_gstar_channeling_beam_glow_simple'
+     End Object
+     ChannelingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16658_skill.L2EffectEmitter4'
+}

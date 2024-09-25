@@ -1,0 +1,14 @@
+class l2_6627_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="초강력 생명의 기운"
+     SkillID=6627
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.it_healing_potion_ta'
+         SimpleEffectClass=Class'LineageEffect.it_healing_potion_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6627_skill.L2EffectEmitter0'
+}

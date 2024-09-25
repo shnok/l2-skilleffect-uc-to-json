@@ -1,0 +1,5 @@
+{
+"SkillId": 16869,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.180000","EffectClass": "ClassLineageEffect2.y_raid_mc_front_kick_ca","SimpleEffectClass": "ClassLineageEffect2.y_raid_mc_front_kick_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(X=2.000000,Z=-0.200000)","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.u_er_wi_flare_ta","SimpleEffectClass": "ClassLineageEffect.u_er_wi_flare_ta_simple"},{"Name": "L2EffectEmitter2", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_raid_mc_front_kick_ra","SimpleEffectClass": "ClassLineageEffect2.y_raid_mc_front_kick_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_attacked_arrowr","SimpleEffectClass": "ClassLineageEffect.d_attacked_arrowr_simple"}]
+}

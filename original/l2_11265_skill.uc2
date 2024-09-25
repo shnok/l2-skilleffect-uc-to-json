@@ -1,0 +1,22 @@
+class l2_11265_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 팀메이트"
+     SkillID=11265
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_su_armysummon_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_armysummon_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11265_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.z_buff_short_R'
+         SimpleEffectClass=Class'LineageEffect.z_buff_short_R_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11265_skill.L2EffectEmitter1'
+}

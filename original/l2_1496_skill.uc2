@@ -1,0 +1,24 @@
+class l2_1496_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서비터 배리어"
+     SkillID=1496
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u202_ca_a'
+         SimpleEffectClass=Class'LineageEffect.m_u202_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1496_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_common_short2_ca'
+         SimpleEffectClass=Class'LineageEffect.z_common_short2_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1496_skill.L2EffectEmitter1'
+}

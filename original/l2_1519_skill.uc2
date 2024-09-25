@@ -1,0 +1,30 @@
+class l2_1519_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="챈트 오브 블러드어웨이커닝"
+     SkillID=1519
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=2.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u203_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u203_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1519_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=2.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u203_ca_ex'
+         SimpleEffectClass=Class'LineageEffect.m_u203_ca_ex_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1519_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u203_ta_blood'
+         SimpleEffectClass=Class'LineageEffect.m_u203_ta_blood_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1519_skill.L2EffectEmitter2'
+}

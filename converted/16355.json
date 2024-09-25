@@ -1,0 +1,5 @@
+{
+"SkillId": 16355,
+"CastingActions": [{"Name": "L2EffectEmitter10", "offset": "(Z=0.200000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_mon_unholy5_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_unholy5_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_mon_purple2_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_purple2_ta_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter89", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","ScaleSize": "1.200000","EffectClass": "ClassLineageEffect.d_mon_purple7_ra","SimpleEffectClass": "ClassLineageEffect.d_mon_purple7_ra_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_mon_purple2_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_purple2_ta_simple"}]
+}

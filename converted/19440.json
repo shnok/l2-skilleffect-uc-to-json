@@ -1,0 +1,5 @@
+{
+"SkillId": 19440,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_ainhasard_hand_wing_ta","SimpleEffectClass": "ClassLineageEffect2.y_in_ainhasard_hand_wing_ta_simple"}],
+"ShotActions": []
+}

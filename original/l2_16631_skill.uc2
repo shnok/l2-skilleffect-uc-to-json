@@ -1,0 +1,42 @@
+class l2_16631_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레오폴트 에너지 밤"
+     SkillID=16631
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Dummy01"
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_energy_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_energy_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16631_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=17.000000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_energy_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_energy_fl_simple'
+         bHermiteInterpolation=True
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16631_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.600000)
+         EffectClass=Class'LineageEffect2.y_boss_loepold_energy_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_energy_ra_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16631_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_mon_elec1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec1_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16631_skill.L2EffectEmitter3'
+     FlyingTime=0.800000
+}

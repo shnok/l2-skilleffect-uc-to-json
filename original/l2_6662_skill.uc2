@@ -1,0 +1,15 @@
+class l2_6662_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙결"
+     SkillID=6662
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.su_empower_ta'
+         SimpleEffectClass=Class'LineageEffect.su_empower_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6662_skill.L2EffectEmitter1'
+}

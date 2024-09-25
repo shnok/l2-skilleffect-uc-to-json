@@ -1,0 +1,46 @@
+class l2_19314_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엘레멘탈 스파이크(암흑)"
+     SkillID=11011
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect2.y_wi_magicdark_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_magicdark_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19314_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_wi_dark_5s_handca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_dark_5s_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19314_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_wi_dark_5s_handca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_dark_5s_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_19314_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01_L_Hand"
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect2.y_wi_magicdark_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_magicdark_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19314_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_wi_magicdark_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_magicdark_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19314_skill.L2EffectEmitter4'
+}

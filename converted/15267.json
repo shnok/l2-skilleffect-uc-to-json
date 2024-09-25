@@ -1,0 +1,5 @@
+{
+"SkillId": 15267,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.u_lind_monstorm_hole","SimpleEffectClass": "ClassLineageEffect.u_lind_monstorm_hole_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_lind_common_ta","SimpleEffectClass": "ClassLineageEffect.u_lind_common_ta_simple"}]
+}

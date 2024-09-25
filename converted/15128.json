@@ -1,0 +1,5 @@
+{
+"SkillId": 15128,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.d_mon_tauti_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_tauti_ca_simple"}],
+"ShotActions": []
+}

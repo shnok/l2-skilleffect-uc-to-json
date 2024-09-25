@@ -1,0 +1,16 @@
+class l2_18367_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="별점-5개"
+     SkillID=18367
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=2.500000)
+         bSpawnOnTarget=False
+         SpawnDelay=5.600000
+         EffectClass=Class'LineageEffect.d_firework_c'
+         SimpleEffectClass=Class'LineageEffect.d_firework_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18367_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 15596,
+"CastingActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","SpawnDelay": "2.400000","EffectClass": "ClassLineageEffect.u_lind_smoke_circle","SimpleEffectClass": "ClassLineageEffect.u_lind_smoke_circle_simple"}],
+"ShotActions": []
+}

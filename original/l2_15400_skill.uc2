@@ -1,0 +1,25 @@
+class l2_15400_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러쉬 오브 둠"
+     SkillID=315
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect.d_mon_blue7_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue7_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15400_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect.z_buff_b'
+         SimpleEffectClass=Class'LineageEffect.z_buff_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15400_skill.L2EffectEmitter1'
+}

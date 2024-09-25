@@ -1,0 +1,14 @@
+class l2_5125_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="상태 저항 극대화"
+     SkillID=5125
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_mental_shield_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_mental_shield_ta_simple'
+     End Object
+     UnionTargetAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5125_skill.L2EffectEmitter0'
+}

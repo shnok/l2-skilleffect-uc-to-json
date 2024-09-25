@@ -1,0 +1,15 @@
+class l2_15594_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르_바닥 Area data_피격만"
+     SkillID=15594
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_lind_common_ta'
+         SimpleEffectClass=Class'LineageEffect.u_lind_common_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15594_skill.L2EffectEmitter1'
+}

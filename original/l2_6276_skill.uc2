@@ -1,0 +1,49 @@
+class l2_6276_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프레야_이터널"
+     SkillID=6276
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter89
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_ice_storm_big_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_storm_big_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6276_skill.L2EffectEmitter89'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=3.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.z_ice_storm_big_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_storm_big_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6276_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Y=3.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.z_ice_storm_big_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_storm_big_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6276_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter999
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.z_ice_particle_a_life_filter'
+         SimpleEffectClass=Class'LineageEffect.z_ice_particle_a_life_filter_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_6276_skill.L2EffectEmitter999'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter99
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_dummy_quake_5S'
+         SimpleEffectClass=Class'LineageEffect.z_dummy_quake_5S_simple'
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_6276_skill.L2EffectEmitter99'
+}

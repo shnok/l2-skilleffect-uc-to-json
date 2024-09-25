@@ -1,0 +1,15 @@
+class l2_6646_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="주방장무적 off"
+     SkillID=6646
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.800000
+         EffectClass=Class'LineageEffect.s_u002_a'
+         SimpleEffectClass=Class'LineageEffect.s_u002_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6646_skill.L2EffectEmitter0'
+}

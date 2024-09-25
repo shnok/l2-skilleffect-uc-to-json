@@ -1,0 +1,26 @@
+class l2_6912_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하트 샷"
+     SkillID=9157
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.mo_war_cry_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_war_cry_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6912_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.mo_vengence_ra'
+         SimpleEffectClass=Class'LineageEffect.mo_vengence_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6912_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

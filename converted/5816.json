@@ -1,0 +1,5 @@
+{
+"SkillId": 5816,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 Spine","bAbsolute": "True","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u609_oracle","SimpleEffectClass": "ClassLineageEffect.e_u609_oracle_simple"}],
+"ShotActions": []
+}

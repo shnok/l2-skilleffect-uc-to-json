@@ -1,0 +1,39 @@
+class l2_5623_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="쇠약의 마법진"
+     SkillID=5623
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u308_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u308_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5623_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         EffectClass=Class'LineageEffect.e_u308_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u308_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5623_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.e_u307_ta_c'
+         SimpleEffectClass=Class'LineageEffect.e_u307_ta_c_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5623_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         ScaleSize=2.000000
+         SpawnDelay=10.000000
+         EffectClass=Class'LineageEffect.e_u307_ta_c'
+         SimpleEffectClass=Class'LineageEffect.e_u307_ta_c_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5623_skill.L2EffectEmitter3'
+}

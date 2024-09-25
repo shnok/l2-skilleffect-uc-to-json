@@ -1,0 +1,32 @@
+class l2_10779_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="퀵 파이어"
+     SkillID=10779
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.300000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_ar_fastshot_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ar_fastshot_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10779_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_purple2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple2_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10779_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-0.400000,Z=1.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ar_fastshot2_icon'
+         SimpleEffectClass=Class'LineageEffect.d_ar_fastshot2_icon_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10779_skill.L2EffectEmitter1'
+}

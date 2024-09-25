@@ -1,0 +1,15 @@
+class l2_10535_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스콜피온 포이즌"
+     SkillID=10535
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ro_darkp1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_darkp1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10535_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,14 @@
+class l2_32115_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="혼돈의 소용돌이 지역"
+     SkillID=32115
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-0.900000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_raid_seal_wizaant_tara'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_seal_wizaant_tara_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32115_skill.L2EffectEmitter0'
+}

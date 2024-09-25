@@ -1,0 +1,15 @@
+class l2_5676_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스틸마나_트리거"
+     SkillID=5676
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u204_mana'
+         SimpleEffectClass=Class'LineageEffect.s_u204_mana_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5676_skill.L2EffectEmitter0'
+}

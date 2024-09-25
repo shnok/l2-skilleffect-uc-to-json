@@ -1,0 +1,32 @@
+class l2_886_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에어 쇼크 봄"
+     SkillID=886
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.s_u613_ca_a'
+         SimpleEffectClass=Class'LineageEffect.s_u613_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_886_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.s_u613_fl_a'
+         SimpleEffectClass=Class'LineageEffect.s_u613_fl_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_886_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.s_u613_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u613_ta_a_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_886_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

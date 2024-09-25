@@ -1,0 +1,39 @@
+class l2_30007_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하이드로 플래어_드레인_a"
+     SkillID=30007
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_drain_ca_a'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_drain_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30007_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_drain_ta_a'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_drain_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30007_a_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.u_er_wi_drain_fl'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_drain_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30007_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.u_er_wi_drain_fl'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_drain_fl_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_30007_a_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

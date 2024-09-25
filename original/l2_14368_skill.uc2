@@ -1,0 +1,41 @@
+class l2_14368_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="폭주,능멸"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_mon_buff2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_buff2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14368_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_mon_mez1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_mez1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14368_skill.L2EffectEmitter33'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter34
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.s_u230_ra'
+         SimpleEffectClass=Class'LineageEffect.s_u230_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14368_skill.L2EffectEmitter34'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter35
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.080000
+         EffectClass=Class'LineageEffect.s_u230_ra'
+         SimpleEffectClass=Class'LineageEffect.s_u230_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14368_skill.L2EffectEmitter35'
+}

@@ -1,0 +1,16 @@
+class l2_14839_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-3.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.mo_iron_will_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_iron_will_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14839_skill.L2EffectEmitter1'
+}

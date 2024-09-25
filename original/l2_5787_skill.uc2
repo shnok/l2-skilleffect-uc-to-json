@@ -1,0 +1,28 @@
+class l2_5787_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에키무스 접근"
+     SkillID=5787
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bAbsolute=True
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u618_echmus_ae'
+         SimpleEffectClass=Class'LineageEffect.e_u618_echmus_ae_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5787_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 L Hand"
+         bAbsolute=True
+         RelativeRotation=(Yaw=16342)
+         bSpawnOnTarget=False
+         ScaleSize=0.100000
+         SpawnDelay=5.000000
+         EffectClass=Class'LineageEffect.e_u602_echmus_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u602_echmus_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5787_skill.L2EffectEmitter1'
+}

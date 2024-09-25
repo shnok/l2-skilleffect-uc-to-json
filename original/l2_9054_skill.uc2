@@ -1,0 +1,26 @@
+class l2_9054_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_common_short_ca'
+         SimpleEffectClass=Class'LineageEffect.z_common_short_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9054_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.z_beast_fl_b'
+         SimpleEffectClass=Class'LineageEffect.z_beast_fl_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9054_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.z_beast_ta'
+         SimpleEffectClass=Class'LineageEffect.z_beast_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9054_skill.L2EffectEmitter3'
+}

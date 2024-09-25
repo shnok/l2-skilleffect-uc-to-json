@@ -1,0 +1,22 @@
+class l2_17124_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="카드 이벤트 버프01"
+     SkillID=17124
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_card_buff_ca'
+         SimpleEffectClass=Class'LineageEffect.u_card_buff_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17124_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.u_card_buff_ta'
+         SimpleEffectClass=Class'LineageEffect.u_card_buff_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17124_skill.L2EffectEmitter2'
+}

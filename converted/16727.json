@@ -1,0 +1,5 @@
+{
+"SkillId": 16727,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter3", "bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.at_fatal_strike_ta","SimpleEffectClass": "ClassLineageEffect.at_fatal_strike_ta_simple"}]
+}

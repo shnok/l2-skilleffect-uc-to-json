@@ -1,0 +1,24 @@
+class l2_76_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="토템 스피릿 류 스킬"
+     SkillID=76
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u527_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u527_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_76_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u527_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u527_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_76_skill.L2EffectEmitter1'
+}

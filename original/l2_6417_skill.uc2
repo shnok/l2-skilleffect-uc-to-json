@@ -1,0 +1,34 @@
+class l2_6417_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포이즌샷"
+     SkillID=6417
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=1.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_cast_red_ca'
+         SimpleEffectClass=Class'LineageEffect.z_cast_red_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6417_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bone42"
+         offset=(X=1.000000,Z=10.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.z_seed_reptiles_c_fl'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_c_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6417_skill.L2EffectEmitter22'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_seed_reptiles_c_ta'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_c_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6417_skill.L2EffectEmitter2'
+}

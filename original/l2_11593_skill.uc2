@@ -1,0 +1,32 @@
+class l2_11593_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매스 포엠 오브 하프"
+     SkillID=11593
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_musicde2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_musicde2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11593_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_musicde2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_musicde2_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11593_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(Z=0.700000)
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.u_in_bloodmark_light'
+         SimpleEffectClass=Class'LineageEffect.u_in_bloodmark_light_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11593_skill.L2EffectEmitter5'
+}

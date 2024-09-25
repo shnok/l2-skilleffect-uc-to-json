@@ -1,0 +1,23 @@
+class l2_6419_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="도마뱀초원_정찰자의광채"
+     SkillID=6419
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_buff_c'
+         SimpleEffectClass=Class'LineageEffect.z_buff_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6419_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_custom_striking_ta'
+         SimpleEffectClass=Class'LineageEffect.z_custom_striking_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6419_skill.L2EffectEmitter2'
+}

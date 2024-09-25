@@ -1,0 +1,5 @@
+{
+"SkillId": 5501,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u849_slam_cs","SimpleEffectClass": "ClassLineageEffect.e_u849_slam_cs_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=-1.500000)","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.at_shield_slam_ta","SimpleEffectClass": "ClassLineageEffect.at_shield_slam_ta_simple"}]
+}

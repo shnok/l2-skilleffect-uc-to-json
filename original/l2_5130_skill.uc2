@@ -1,0 +1,14 @@
+class l2_5130_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="플레임 스트라이크 타겟"
+     SkillID=5130
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_flame_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5130_skill.L2EffectEmitter0'
+}

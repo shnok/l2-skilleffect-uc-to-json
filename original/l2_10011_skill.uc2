@@ -1,0 +1,40 @@
+class l2_10011_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 임팩트"
+     SkillID=10011
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.d_kn_shieldshock_handca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_shieldshock_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10011_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_kn_shieldshock_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_shieldshock_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10011_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_kn_shieldshock1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_shieldshock1_ca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10011_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_kn_shieldshock2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_shieldshock2_ca_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10011_skill.L2EffectEmitter2'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

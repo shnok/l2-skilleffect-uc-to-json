@@ -1,0 +1,15 @@
+class l2_2291_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="성형,염색,헤어 체인지 물약"
+     SkillID=2291
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u004_a'
+         SimpleEffectClass=Class'LineageEffect.e_u004_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2291_skill.L2EffectEmitter0'
+}

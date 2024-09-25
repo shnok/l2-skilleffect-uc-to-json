@@ -1,0 +1,13 @@
+class l2_br_019_01_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="플라워 샤워"
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.br_e_u095_flower_shower'
+         SimpleEffectClass=Class'LineageEffect.br_e_u095_flower_shower_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_019_01_skill.L2EffectEmitter1'
+}

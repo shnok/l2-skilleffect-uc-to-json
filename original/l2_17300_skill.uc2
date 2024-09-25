@@ -1,0 +1,15 @@
+class l2_17300_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="씰룩씰룩 바운스"
+     SkillID=17300
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_z_event_complete_y'
+         SimpleEffectClass=Class'LineageEffect.u_z_event_complete_y_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17300_skill.L2EffectEmitter0'
+}

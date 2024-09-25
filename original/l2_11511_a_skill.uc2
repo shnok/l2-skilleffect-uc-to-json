@@ -1,0 +1,23 @@
+class l2_11511_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="팬텀 슬래셔"
+     SkillID=11511
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_in_hellattack_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_in_hellattack_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11511_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_in_hellattack_ta_sword'
+         SimpleEffectClass=Class'LineageEffect2.y_in_hellattack_ta_sword_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11511_a_skill.L2EffectEmitter1'
+}

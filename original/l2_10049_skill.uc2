@@ -1,0 +1,42 @@
+class l2_10049_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="게이트키퍼_오라플래어"
+     SkillID=5656
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wa_gpunch_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_gpunch_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10049_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wa_gpunch_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_gpunch_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10049_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wa_gpunch_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wa_gpunch_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10049_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_wa_gpunch_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_gpunch_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10049_skill.L2EffectEmitter3'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s'
+}

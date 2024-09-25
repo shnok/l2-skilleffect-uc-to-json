@@ -1,0 +1,26 @@
+class l2_11262_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마크 오브 트릭"
+     SkillID=11262
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_su_mark5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_mark5_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11262_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter59
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_su_mark5_ta'
+         SimpleEffectClass=Class'LineageEffect.d_su_mark5_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11262_skill.L2EffectEmitter59'
+     FlyingTime=0.400000
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

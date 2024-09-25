@@ -1,0 +1,89 @@
+class l2_5842_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스피닝 슬래셔"
+     SkillID=5842
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bone62"
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.e_u312_lighting_red'
+         SimpleEffectClass=Class'LineageEffect.e_u312_lighting_red_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=160.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5842_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bone62"
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.e_u312_lighting_trail'
+         SimpleEffectClass=Class'LineageEffect.e_u312_lighting_trail_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=160.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5842_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.660000
+         EffectClass=Class'LineageEffect.s_u502_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u502_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5842_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Y=10.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.e_u849_tiat_slash'
+         SimpleEffectClass=Class'LineageEffect.e_u849_tiat_slash_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5842_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u015_b'
+         SimpleEffectClass=Class'LineageEffect.s_u015_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5842_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(X=3.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.e_u608_tiat_ae'
+         SimpleEffectClass=Class'LineageEffect.e_u608_tiat_ae_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5842_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(X=2.800000,Y=50.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         SpawnDelay=0.100000
+         EffectClass=Class'LineageEffect.e_u608_tiat_ae'
+         SimpleEffectClass=Class'LineageEffect.e_u608_tiat_ae_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5842_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         offset=(X=2.400000,Y=100.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.120000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.e_u608_tiat_ae'
+         SimpleEffectClass=Class'LineageEffect.e_u608_tiat_ae_simple'
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_5842_skill.L2EffectEmitter7'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         offset=(X=1.800000,Y=140.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.100000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.e_u608_tiat_ae'
+         SimpleEffectClass=Class'LineageEffect.e_u608_tiat_ae_simple'
+     End Object
+     ShotAction(5)=L2EffectEmitter'LineageSkillEffect.l2_5842_skill.L2EffectEmitter8'
+}

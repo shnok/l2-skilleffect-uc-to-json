@@ -1,0 +1,16 @@
+class l2_4398_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블레스실드 이벤트"
+     SkillID=4398
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         RelativeRotation=(Pitch=49152)
+         offset=(Z=0.180000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u044_b'
+         SimpleEffectClass=Class'LineageEffect.m_u044_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4398_skill.L2EffectEmitter0'
+}

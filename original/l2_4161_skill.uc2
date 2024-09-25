@@ -1,0 +1,23 @@
+class l2_4161_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="PC 소환"
+     SkillID=4161
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.it_scroll_of_escape_ca'
+         SimpleEffectClass=Class'LineageEffect.it_scroll_of_escape_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4161_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.it_scroll_of_escape_ta'
+         SimpleEffectClass=Class'LineageEffect.it_scroll_of_escape_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4161_skill.L2EffectEmitter1'
+}

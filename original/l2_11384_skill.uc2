@@ -1,0 +1,23 @@
+class l2_11384_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="팬텀 블로우"
+     SkillID=11384
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_Slash_ca'
+         SimpleEffectClass=Class'LineageEffect.z_Slash_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11384_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.z_Slash_ta'
+         SimpleEffectClass=Class'LineageEffect.z_Slash_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11384_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,32 @@
+class l2_30001_b_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하이드로 어택_b"
+     SkillID=30001
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_hyattack_ca_b'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_hyattack_ca_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30001_b_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_hyattack_hand_b'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_hyattack_hand_b_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30001_b_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_hyattack_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_hyattack_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30001_b_skill.L2EffectEmitter1'
+}

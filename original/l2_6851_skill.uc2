@@ -1,0 +1,39 @@
+class l2_6851_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스턴 어택"
+     SkillID=100
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.at_stun_attack_ca'
+         SimpleEffectClass=Class'LineageEffect.at_stun_attack_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6851_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bRibbonSet=True
+         EffectClass=Class'LineageEffect.d_pcasting_y'
+         SimpleEffectClass=Class'LineageEffect.d_pcasting_y_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6851_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.at_stun_attack_ta'
+         SimpleEffectClass=Class'LineageEffect.at_stun_attack_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6851_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.at_shield_stun_cs'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_cs_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6851_skill.L2EffectEmitter2'
+}

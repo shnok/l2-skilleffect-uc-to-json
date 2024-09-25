@@ -1,0 +1,5 @@
+{
+"SkillId": 16624,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_boss_helios_shield_ca","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_shield_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=0.800000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_boss_helios_shield_ta","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_shield_ta_simple"}]
+}

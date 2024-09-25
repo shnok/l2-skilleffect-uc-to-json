@@ -1,0 +1,20 @@
+class l2_99_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="래피드 샷"
+     SkillID=99
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_rapid_shot_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_rapid_shot_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_99_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.mo_rapid_shot_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_rapid_shot_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_99_skill.L2EffectEmitter1'
+}

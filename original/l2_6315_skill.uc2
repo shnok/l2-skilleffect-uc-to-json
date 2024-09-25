@@ -1,0 +1,29 @@
+class l2_6315_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="신성일격"
+     SkillID=6315
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_buff_b'
+         SimpleEffectClass=Class'LineageEffect.z_buff_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6315_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.ph_howl_ta'
+         SimpleEffectClass=Class'LineageEffect.ph_howl_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6315_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter69
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.z_custom_striking_ta'
+         SimpleEffectClass=Class'LineageEffect.z_custom_striking_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6315_skill.L2EffectEmitter69'
+}

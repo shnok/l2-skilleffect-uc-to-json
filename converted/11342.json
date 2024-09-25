@@ -1,0 +1,5 @@
+{
+"SkillId": 11342,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.500000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_wa_doublesonic_ca","SimpleEffectClass": "ClassLineageEffect.d_wa_doublesonic_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_wa_doublesonic_ta","SimpleEffectClass": "ClassLineageEffect.d_wa_doublesonic_ta_simple"},{"Name": "L2EffectEmitter11", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_wa_gpunch_tara","SimpleEffectClass": "ClassLineageEffect.d_wa_gpunch_tara_simple"}]
+}

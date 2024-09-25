@@ -1,0 +1,87 @@
+class l2_5402_skill extends L2SkillEffect;
+
+
+
+
+
+
+
+
+
+
+	//Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+		//AttachOn=AM_Trail
+		//bSpawnOnTarget=False
+		//Offset=(X=0.000000,Y=0.000000,Z=-1.000000)
+		//bAdjustLifeTime=False
+		//SpawnDelay=1.300000
+		//EffectClass=Class'LineageEffect.e_u098_buff_ca'
+	//End Object
+	//CastingAction(0)=L2EffectEmitter'L2EffectEmitter0'
+
+	//Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+		//AttachOn=AM_Trail
+		//EffectClass=Class'LineageEffect.e_u098_buff_ta_b'
+	//End Object
+	//ShotAction(0)=L2EffectEmitter'L2EffectEmitter1'
+
+	//Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+		//AttachOn=AM_RH
+		//EffectClass=Class'LineageEffect.e_u098_right'
+	//End Object
+	//ShotAction(1)=L2EffectEmitter'L2EffectEmitter2'
+
+	//Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+		//AttachOn=AM_LH
+		//EffectClass=Class'LineageEffect.e_u098_left'
+	//End Object
+	//ShotAction(2)=L2EffectEmitter'L2EffectEmitter3'
+
+	//Desc="발러연출_오프닝 포효"
+	//SkillID=5402
+
+defaultproperties
+{
+     Desc="점프공격"
+     SkillID=5228
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u099_jump_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u099_jump_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5402_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u098_right_a'
+         SimpleEffectClass=Class'LineageEffect.e_u098_right_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5402_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u098_left_a'
+         SimpleEffectClass=Class'LineageEffect.e_u098_left_a_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5402_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=1.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u099_jump_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u099_jump_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5402_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u100_punch_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u100_punch_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5402_skill.L2EffectEmitter4'
+}

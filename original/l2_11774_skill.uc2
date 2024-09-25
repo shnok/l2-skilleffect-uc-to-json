@@ -1,0 +1,24 @@
+class l2_11774_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 트리 오브 라이프"
+     SkillID=11774
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_heal_tree_ca'
+         SimpleEffectClass=Class'LineageEffect.d_heal_tree_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11774_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_lightwha_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_lightwha_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11774_skill.L2EffectEmitter1'
+}

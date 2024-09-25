@@ -1,0 +1,46 @@
+class l2_10075_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 스턴"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ro_plender_handca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_plender_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10075_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=3.000000,Z=-0.300000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ro_plender_swca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_plender_swca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10075_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(X=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_ro_altereva2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_altereva2_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10075_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_ro_blue_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_blue_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10075_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_ro_red_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_red_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10075_skill.L2EffectEmitter3'
+}

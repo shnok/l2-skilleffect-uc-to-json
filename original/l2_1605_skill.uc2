@@ -1,0 +1,16 @@
+class l2_1605_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="듀얼 웨폰 디펜스_클래식"
+     SkillID=1605
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=50.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.u_kn_templa_aura'
+         SimpleEffectClass=Class'LineageEffect.u_kn_templa_aura_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1605_skill.L2EffectEmitter0'
+}

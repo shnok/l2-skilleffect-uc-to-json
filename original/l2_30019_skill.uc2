@@ -1,0 +1,32 @@
+class l2_30019_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="사이하의 집행"
+     SkillID=30019
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_spattack1_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_spattack1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30019_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_spattack1_hand'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_spattack1_hand_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30019_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-0.500000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_spattack1_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_spattack1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30019_skill.L2EffectEmitter1'
+}

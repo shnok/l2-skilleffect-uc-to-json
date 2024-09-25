@@ -1,0 +1,26 @@
+class l2_14386_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="안타라스 일반 공격 다른 애니"
+     SkillID=4113
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         RelativeRotation=(Yaw=40960,Roll=16384)
+         offset=(X=400.000000,Y=-60.000000,Z=-300.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.040000
+         EffectClass=Class'LineageEffect.d_wa_spsonics2_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wa_spsonics2_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14386_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_fire_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14386_skill.L2EffectEmitter1'
+}

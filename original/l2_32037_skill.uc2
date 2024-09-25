@@ -1,0 +1,25 @@
+class l2_32037_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="오라클 오브 싸인"
+     SkillID=32037
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.u_er_wi_flare_ca_a_3s'
+         SimpleEffectClass=Class'LineageEffect2.u_er_wi_flare_ca_a_3s_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32037_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect2.y_npc_bless_of_ethina_buff_a'
+         SimpleEffectClass=Class'LineageEffect2.y_npc_bless_of_ethina_buff_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32037_skill.L2EffectEmitter1'
+}

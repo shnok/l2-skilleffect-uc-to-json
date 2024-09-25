@@ -1,0 +1,25 @@
+class l2_6196_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온의 선물"
+     SkillID=6196
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u306_sstar'
+         SimpleEffectClass=Class'LineageEffect.e_u306_sstar_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6196_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bOnMultiTarget=True
+         ScaleSize=0.350000
+         SpawnDelay=1.700000
+         EffectClass=Class'LineageEffect.e_u519_aga_gift'
+         SimpleEffectClass=Class'LineageEffect.e_u519_aga_gift_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6196_skill.L2EffectEmitter1'
+}

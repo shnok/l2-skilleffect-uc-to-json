@@ -1,0 +1,15 @@
+class l2_10036_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바이탈리티 오라"
+     SkillID=10036
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_aurap_ca'
+         SimpleEffectClass=Class'LineageEffect.d_aurap_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10036_skill.L2EffectEmitter0'
+}

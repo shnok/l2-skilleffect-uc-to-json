@@ -1,0 +1,23 @@
+class l2_15541_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프레임 필라"
+     SkillID=15541
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.600000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_mon_fire1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15541_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.850000)
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.s_u228_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u228_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15541_skill.L2EffectEmitter1'
+}

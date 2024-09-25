@@ -1,0 +1,5 @@
+{
+"SkillId": 1869,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.950000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_er_wind_spear_ca","SimpleEffectClass": "ClassLineageEffect2.y_er_wind_spear_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","ScaleSize": "2.000000","EffectClass": "ClassLineageEffect2.y_er_wind_spear_hand_ca","SimpleEffectClass": "ClassLineageEffect2.y_er_wind_spear_hand_ca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_LH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_er_wind_spear_hand_ca","SimpleEffectClass": "ClassLineageEffect2.y_er_wind_spear_hand_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "offset": "(X=-2.000000,Z=-0.200000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_er_wind_spear_fl","SimpleEffectClass": "ClassLineageEffect2.y_er_wind_spear_fl_simple"}]
+}

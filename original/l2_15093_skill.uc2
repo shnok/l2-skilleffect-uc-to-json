@@ -1,0 +1,22 @@
+class l2_15093_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_debuff_red_ta'
+         SimpleEffectClass=Class'LineageEffect.d_debuff_red_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15093_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_shelterr_tara'
+         SimpleEffectClass=Class'LineageEffect.d_he_shelterr_tara_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15093_skill.L2EffectEmitter1'
+}

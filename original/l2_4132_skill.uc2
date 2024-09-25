@@ -1,0 +1,28 @@
+class l2_4132_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="창으로 땅찍기"
+     SkillID=4132
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u010_a'
+         SimpleEffectClass=Class'LineageEffect.s_u010_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4132_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u006_e'
+         SimpleEffectClass=Class'LineageEffect.m_u006_e_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4132_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.m_u006_d'
+         SimpleEffectClass=Class'LineageEffect.m_u006_d_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4132_skill.L2EffectEmitter2'
+}

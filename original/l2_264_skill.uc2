@@ -1,0 +1,15 @@
+class l2_264_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="송 오브 어스"
+     SkillID=264
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.ph_song_of_earth_ta'
+         SimpleEffectClass=Class'LineageEffect.ph_song_of_earth_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_264_skill.L2EffectEmitter0'
+}

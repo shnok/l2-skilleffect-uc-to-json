@@ -1,0 +1,5 @@
+{
+"SkillId": 11617,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_in_mel_r_ca","SimpleEffectClass": "ClassLineageEffect.u_in_mel_r_ca_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_in_bloodmark","SimpleEffectClass": "ClassLineageEffect.u_in_bloodmark_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_in_mel_r_ca","SimpleEffectClass": "ClassLineageEffect.u_in_mel_r_ca_simple"},{"Name": "L2EffectEmitter5", "AttachOn": "AM_Trail","offset": "(Z=0.900000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_in_mel_sword","SimpleEffectClass": "ClassLineageEffect.u_in_mel_sword_simple"}]
+}

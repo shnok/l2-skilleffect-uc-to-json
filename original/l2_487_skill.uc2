@@ -1,0 +1,37 @@
+class l2_487_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="패너트레이트 샷"
+     SkillID=487
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.s_u815_hand_holy'
+         SimpleEffectClass=Class'LineageEffect.s_u815_hand_holy_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_487_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RA
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.bone_bolt'
+         SimpleEffectClass=Class'LineageEffect.bone_bolt_simple'
+     End Object
+     PreshotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_487_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u814_arrow_test'
+         SimpleEffectClass=Class'LineageEffect.s_u814_arrow_test_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_487_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.s_u820_magic_ta_b'
+         SimpleEffectClass=Class'LineageEffect.s_u820_magic_ta_b_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_487_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

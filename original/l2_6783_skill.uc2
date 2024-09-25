@@ -1,0 +1,86 @@
+class l2_6783_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙궁의숨결_자폭"
+     SkillID=6300
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         EffectClass=Class'LineageEffect.d_twist_big'
+         SimpleEffectClass=Class'LineageEffect.d_twist_big_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6783_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.d_twist_big'
+         SimpleEffectClass=Class'LineageEffect.d_twist_big_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6783_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         SpawnDelay=3.000000
+         EffectClass=Class'LineageEffect.d_twist_big'
+         SimpleEffectClass=Class'LineageEffect.d_twist_big_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6783_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         SpawnDelay=4.500000
+         EffectClass=Class'LineageEffect.d_twist_big'
+         SimpleEffectClass=Class'LineageEffect.d_twist_big_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_6783_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         SpawnDelay=6.000000
+         EffectClass=Class'LineageEffect.d_twist_big'
+         SimpleEffectClass=Class'LineageEffect.d_twist_big_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_6783_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         SpawnDelay=7.500000
+         EffectClass=Class'LineageEffect.d_twist_big'
+         SimpleEffectClass=Class'LineageEffect.d_twist_big_simple'
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_6783_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         SpawnDelay=9.000000
+         EffectClass=Class'LineageEffect.d_twist_big'
+         SimpleEffectClass=Class'LineageEffect.d_twist_big_simple'
+     End Object
+     CastingAction(6)=L2EffectEmitter'LineageSkillEffect.l2_6783_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         SpawnDelay=10.500000
+         EffectClass=Class'LineageEffect.d_twist_big'
+         SimpleEffectClass=Class'LineageEffect.d_twist_big_simple'
+     End Object
+     CastingAction(7)=L2EffectEmitter'LineageSkillEffect.l2_6783_skill.L2EffectEmitter7'
+}

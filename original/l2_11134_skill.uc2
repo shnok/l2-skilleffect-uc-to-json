@@ -1,0 +1,50 @@
+class l2_11134_skill extends L2SkillEffect;
+
+	
+
+defaultproperties
+{
+     Desc="메테오"
+     SkillID=11134
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_wi_meteor_ca'
+         SimpleEffectClass=Class'LineageEffect.u_wi_meteor_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11134_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_wi_meteor_hand'
+         SimpleEffectClass=Class'LineageEffect.u_wi_meteor_hand_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11134_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_wi_meteor_hand'
+         SimpleEffectClass=Class'LineageEffect.u_wi_meteor_hand_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11134_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter14
+         AttachOn=AM_Location
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bMyUnionTargetAction=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_wi_meteor_ra'
+         SimpleEffectClass=Class'LineageEffect.u_wi_meteor_ra_simple'
+     End Object
+     UnionTargetAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11134_skill.L2EffectEmitter14'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         SpawnDelay=0.150000
+         EffectClass=Class'LineageEffect.u_wi_meteor_ta'
+         SimpleEffectClass=Class'LineageEffect.u_wi_meteor_ta_simple'
+     End Object
+     UnionTargetAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11134_skill.L2EffectEmitter5'
+}

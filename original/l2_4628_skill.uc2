@@ -1,0 +1,23 @@
+class l2_4628_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="신비한 오라"
+     SkillID=4628
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bone10"
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.etc_strider_breath'
+         SimpleEffectClass=Class'LineageEffect.etc_strider_breath_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4628_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.wh_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_recharge_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4628_skill.L2EffectEmitter1'
+}

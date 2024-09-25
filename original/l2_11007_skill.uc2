@@ -1,0 +1,23 @@
+class l2_11007_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="오리진 파이어"
+     SkillID=11007
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=3.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.sa_mass_frenzy_ca'
+         SimpleEffectClass=Class'LineageEffect.sa_mass_frenzy_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11007_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_devotion_of_shine_ta'
+         SimpleEffectClass=Class'LineageEffect.s_devotion_of_shine_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11007_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,14 @@
+class l2_4325_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="초보용 뱀피릭 레이지"
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_focus_ta'
+         SimpleEffectClass=Class'LineageEffect.su_focus_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4325_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,16 @@
+class l2_17220_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="영웅 에피소드 주문서"
+     SkillID=17220
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.su_focus_ta'
+         SimpleEffectClass=Class'LineageEffect.su_focus_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17220_skill.L2EffectEmitter0'
+}

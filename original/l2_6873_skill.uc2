@@ -1,0 +1,47 @@
+class l2_6873_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="컨퓨전"
+     SkillID=2
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-30.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.m_u018_a'
+         SimpleEffectClass=Class'LineageEffect.m_u018_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6873_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_purplebubble_fl'
+         SimpleEffectClass=Class'LineageEffect.d_purplebubble_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6873_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u018_b'
+         SimpleEffectClass=Class'LineageEffect.m_u018_b_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6873_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_ro_bleed_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_bleed_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6873_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_ro_bleed_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_bleed_ta_simple'
+     End Object
+     ExplosionAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6873_skill.L2EffectEmitter4'
+}

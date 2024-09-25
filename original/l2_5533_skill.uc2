@@ -1,0 +1,16 @@
+class l2_5533_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="베레스 자폭스킬"
+     SkillID=5533
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.e_u818_bereth_selfbomb'
+         SimpleEffectClass=Class'LineageEffect.e_u818_bereth_selfbomb_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5533_skill.L2EffectEmitter0'
+}

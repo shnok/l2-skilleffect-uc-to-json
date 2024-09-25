@@ -1,0 +1,24 @@
+class l2_1502_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="임프로브 크리티컬"
+     SkillID=1502
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u200_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u200_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1502_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u200_ta_critical'
+         SimpleEffectClass=Class'LineageEffect.m_u200_ta_critical_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1502_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,14 @@
+class l2_32116_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="어둠의종막 지역"
+     SkillID=32116
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-0.900000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_raid_seal_diaster_tara'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_seal_diaster_tara_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32116_skill.L2EffectEmitter0'
+}

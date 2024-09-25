@@ -1,0 +1,13 @@
+class l2_82_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마제스티"
+     SkillID=82
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.mo_majesty_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_majesty_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_82_skill.L2EffectEmitter1'
+}

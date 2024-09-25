@@ -1,0 +1,32 @@
+class l2_6329_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="투사일격"
+     SkillID=6329
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_common_buff_e'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_e_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6329_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=0.500000,Z=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u223_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u223_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6329_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u015_b'
+         SimpleEffectClass=Class'LineageEffect.s_u015_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6329_skill.L2EffectEmitter4'
+}

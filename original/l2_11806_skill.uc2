@@ -1,0 +1,16 @@
+class l2_11806_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블레싱 오브 트리"
+     SkillID=11806
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_heal7_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_heal7_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11806_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 18720,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_he_serenity_ta","SimpleEffectClass": "ClassLineageEffect.d_he_serenity_ta_simple"}],
+"ShotActions": []
+}

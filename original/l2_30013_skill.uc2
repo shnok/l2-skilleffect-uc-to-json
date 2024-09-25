@@ -1,0 +1,33 @@
+class l2_30013_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="역풍"
+     SkillID=30013
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_reverse_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_reverse_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30013_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_reverse_pc'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_reverse_pc_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30013_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_reverse_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_reverse_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30013_skill.L2EffectEmitter1'
+}

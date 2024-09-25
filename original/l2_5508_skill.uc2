@@ -1,0 +1,15 @@
+class l2_5508_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="가드나이아_블라섬 오브 어스"
+     SkillID=5508
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.sp_decay_ta'
+         SimpleEffectClass=Class'LineageEffect.sp_decay_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5508_skill.L2EffectEmitter0'
+}

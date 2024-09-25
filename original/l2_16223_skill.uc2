@@ -1,0 +1,31 @@
+class l2_16223_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="어스 블래스트"
+     SkillID=16223
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_earth1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_earth1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16223_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.900000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_earth1_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_earth1_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16223_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_earth1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_earth1_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16223_skill.L2EffectEmitter3'
+}

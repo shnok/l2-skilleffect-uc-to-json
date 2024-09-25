@@ -1,0 +1,44 @@
+class l2_6762_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크니스 프로텍션"
+     SkillID=1442
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6762_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.s_u202_charge'
+         SimpleEffectClass=Class'LineageEffect.s_u202_charge_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6762_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         bRibbonSet=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.RibbonSet_sword'
+         SimpleEffectClass=Class'LineageEffect.RibbonSet_sword_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6762_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_dash_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_dash_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6762_skill.L2EffectEmitter1'
+}

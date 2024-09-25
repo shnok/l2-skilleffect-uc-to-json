@@ -1,0 +1,15 @@
+class l2_16135_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="겜블_00"
+     SkillID=16135
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         ScaleSize=0.010000
+         EffectClass=Class'LineageEffect.d_mon_earth_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_earth_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16135_skill.L2EffectEmitter0'
+}

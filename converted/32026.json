@@ -1,0 +1,5 @@
+{
+"SkillId": 32026,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=0.300000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect2.y_mon_seal_blue2_ca","SimpleEffectClass": "ClassLineageEffect2.y_mon_seal_blue2_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.600000)","bOnMultiTarget": "True","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.z_new_hp_heal_red","SimpleEffectClass": "ClassLineageEffect.z_new_hp_heal_red_simple"}]
+}

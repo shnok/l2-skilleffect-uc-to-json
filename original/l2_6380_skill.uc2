@@ -1,0 +1,43 @@
+class l2_6380_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="로어"
+     SkillID=6380
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         EffectClass=Class'LineageEffect.z_common_buff_f'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_f_simple'
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6380_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=-1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.rm_self_blaster_ra'
+         SimpleEffectClass=Class'LineageEffect.rm_self_blaster_ra_simple'
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6380_skill.L2EffectEmitter21'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter97
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_dummy_quake'
+         SimpleEffectClass=Class'LineageEffect.z_dummy_quake_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6380_skill.L2EffectEmitter97'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter50
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_focus_sonic_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_focus_sonic_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6380_skill.L2EffectEmitter50'
+}

@@ -1,0 +1,43 @@
+class l2_17869_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="커스 데스 링크"
+     SkillID=1159
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 R Hand"
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.s_u226_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u226_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17869_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 R Hand"
+         offset=(Y=-55.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.850000
+         EffectClass=Class'LineageEffect.s_u226_fl'
+         SimpleEffectClass=Class'LineageEffect.s_u226_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17869_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 R Hand"
+         offset=(Y=55.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.850000
+         EffectClass=Class'LineageEffect.s_u226_fl'
+         SimpleEffectClass=Class'LineageEffect.s_u226_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17869_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u226_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u226_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17869_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+}

@@ -1,0 +1,52 @@
+class l2_16867_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="랜스 찌르기"
+     SkillID=16867
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.350000
+         EffectClass=Class'LineageEffect2.y_raid_mc_lance_lunge_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_lance_lunge_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16867_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip02 R Hand"
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.at_shield_stun_ca'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16867_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.at_mortal_blow_cs'
+         SimpleEffectClass=Class'LineageEffect.at_mortal_blow_cs_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16867_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=2.000000,Z=-0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect2.y_raid_mc_lance_lunge_1_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_lance_lunge_1_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16867_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(X=12.000000,Z=-0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=0.020000
+         EffectClass=Class'LineageEffect2.y_raid_mc_lance_lunge_2_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_lance_lunge_2_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16867_skill.L2EffectEmitter4'
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_14207_skill.L2EffectEmitter54'
+}

@@ -1,0 +1,31 @@
+class l2_11598_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파이널 프리징 플레임"
+     SkillID=11598
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=15.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.u_in_freefire_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_freefire_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11598_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_DependOnMagicInfoInClient
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_in_freefire_fl'
+         SimpleEffectClass=Class'LineageEffect.u_in_freefire_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11598_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.u_in_freefire_ta'
+         SimpleEffectClass=Class'LineageEffect.u_in_freefire_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11598_skill.L2EffectEmitter2'
+}

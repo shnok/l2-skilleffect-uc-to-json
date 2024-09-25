@@ -1,0 +1,14 @@
+class l2_5665_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="쇼크"
+     SkillID=5665
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.at_shield_stun_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5665_skill.L2EffectEmitter0'
+}

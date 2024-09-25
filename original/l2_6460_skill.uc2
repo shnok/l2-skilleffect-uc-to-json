@@ -1,0 +1,14 @@
+class l2_6460_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         SpawnDelay=7.400000
+         EffectClass=Class'LineageEffect.z_kegor_comp_b_ca'
+         SimpleEffectClass=Class'LineageEffect.z_kegor_comp_b_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6460_skill.L2EffectEmitter0'
+}

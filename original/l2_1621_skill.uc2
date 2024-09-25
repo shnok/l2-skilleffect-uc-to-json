@@ -1,0 +1,23 @@
+class l2_1621_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 오브 새크리파이스"
+     SkillID=1621
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_kn_scrifi_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kn_scrifi_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1621_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_in_damageref2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_damageref2_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1621_skill.L2EffectEmitter1'
+}

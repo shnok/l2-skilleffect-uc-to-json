@@ -1,0 +1,5 @@
+{
+"SkillId": ,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","SpawnDelay": "0.300000","EffectClass": "ClassLineageEffect.z_gs_chain_ta_c","SimpleEffectClass": "ClassLineageEffect.z_gs_chain_ta_c_simple"},{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_magical_ca","SimpleEffectClass": "ClassLineageEffect.d_magical_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bOnMultiTarget": "True","bChanneling": "True","EffectClass": "ClassLineageEffect.z_gstar_channeling_beam","SimpleEffectClass": "ClassLineageEffect.z_gstar_channeling_beam_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bOnMultiTarget": "True","bChanneling": "True","EffectClass": "ClassLineageEffect.z_gstar_channeling_beam_glow","SimpleEffectClass": "ClassLineageEffect.z_gstar_channeling_beam_glow_simple"}]
+}

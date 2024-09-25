@@ -1,0 +1,5 @@
+{
+"SkillId": 15017,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter1", "bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.d_hellfire_fl","SimpleEffectClass": "ClassLineageEffect.d_hellfire_fl_simple"}]
+}

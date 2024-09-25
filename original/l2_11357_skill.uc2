@@ -1,0 +1,16 @@
+class l2_11357_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="링크 오브 스펙트럴"
+     SkillID=11357
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_su_linkp_ta'
+         SimpleEffectClass=Class'LineageEffect.u_su_linkp_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11357_skill.L2EffectEmitter0'
+}

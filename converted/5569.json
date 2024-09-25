@@ -1,0 +1,5 @@
+{
+"SkillId": 5569,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.el_hurricane_ta","SimpleEffectClass": "ClassLineageEffect.el_hurricane_ta_simple"}],
+"ShotActions": []
+}

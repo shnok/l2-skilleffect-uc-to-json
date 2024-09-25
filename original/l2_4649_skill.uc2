@@ -1,0 +1,22 @@
+class l2_4649_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="독"
+     SkillID=4649
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.bl_poison_cloud_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_poison_cloud_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4649_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4649_skill.L2EffectEmitter1'
+}

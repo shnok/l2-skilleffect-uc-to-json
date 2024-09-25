@@ -1,0 +1,26 @@
+class l2_11395_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="커스 익스포져"
+     SkillID=11395
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wa_vt1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_vt1_ca_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Cylinder,LightColor=(W=0.900000,X=0.500000,Y=0.200000,Z=0.200000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11395_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.100000)
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect2.y_su_curse_exposure_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_su_curse_exposure_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11395_skill.L2EffectEmitter1'
+}

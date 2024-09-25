@@ -1,0 +1,5 @@
+{
+"SkillId": 6300,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.400000","EffectClass": "ClassLineageEffect.m_u202_ca_a","SimpleEffectClass": "ClassLineageEffect.m_u202_ca_a_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","SpawnDelay": "3.500000","EffectClass": "ClassLineageEffect.z_ice_bomb3_ta","SimpleEffectClass": "ClassLineageEffect.z_ice_bomb3_ta_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.900000","EffectClass": "ClassLineageEffect.z_ice_stone_explosion_ta","SimpleEffectClass": "ClassLineageEffect.z_ice_stone_explosion_ta_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_ice_common_b_ta","SimpleEffectClass": "ClassLineageEffect.z_ice_common_b_ta_simple"}]
+}

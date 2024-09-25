@@ -1,0 +1,5 @@
+{
+"SkillId": 23683,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_kelbim_dancibl_ca","SimpleEffectClass": "ClassLineageEffect.u_kelbim_dancibl_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_kelbim_dancibl_ra","SimpleEffectClass": "ClassLineageEffect.u_kelbim_dancibl_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_kn_panrush_ta","SimpleEffectClass": "ClassLineageEffect.u_kn_panrush_ta_simple"}]
+}

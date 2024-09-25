@@ -1,0 +1,14 @@
+class l2_15261_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르네이팜_범위"
+     SkillID=15261
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.u_lind_common_ta'
+         SimpleEffectClass=Class'LineageEffect.u_lind_common_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15261_skill.L2EffectEmitter2'
+}

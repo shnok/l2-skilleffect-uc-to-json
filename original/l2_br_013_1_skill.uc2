@@ -1,0 +1,27 @@
+class l2_br_013_1_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="유저가 내는 썩은호박"
+     SkillID=23021
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=40.000000)
+         bRelativeToCylinder=False
+         ScaleSize=1.150000
+         EffectClass=Class'LineageEffect_Br.br_event_u006_pumkin1_a'
+         SimpleEffectClass=Class'LineageEffect_Br.br_event_u006_pumkin1_a_simple'
+         BR_ForceLifeTime=6.500000
+         BR_Tag="JackGameMark"
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_013_1_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         ScaleSize=1.300000
+         SpawnDelay=6.500000
+         EffectClass=Class'LineageEffect.br_s_u006_win'
+         SimpleEffectClass=Class'LineageEffect.br_s_u006_win_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_br_013_1_skill.L2EffectEmitter1'
+}

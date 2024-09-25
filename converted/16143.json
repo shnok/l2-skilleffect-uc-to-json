@@ -1,0 +1,5 @@
+{
+"SkillId": 16143,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=1.200000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_gam_expectation","SimpleEffectClass": "ClassLineageEffect.u_gam_expectation_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=1.500000)","ScaleSize": "2.500000","SpawnDelay": "2.000000","EffectClass": "ClassLineageEffect.e_u303_aga_hit","SimpleEffectClass": "ClassLineageEffect.e_u303_aga_hit_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 5422,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-0.750000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.ct_npcev_c","SimpleEffectClass": "ClassLineageEffect.ct_npcev_c_simple"}],
+"ShotActions": []
+}

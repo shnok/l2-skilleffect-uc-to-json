@@ -1,0 +1,50 @@
+class l2_5732_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="메이드_플레임 스트라이크"
+     SkillID=5732
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.m_u809_spec_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u809_spec_ca_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=1.000000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5732_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.el_flame_strike_pr'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5732_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.el_flame_strike_fl'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5732_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_flame_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5732_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(X=2.000000,Z=-0.800000)
+         EffectClass=Class'LineageEffect.el_flame_strike_ra'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ra_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5732_skill.L2EffectEmitter5'
+     FlyingTime=0.400000
+}

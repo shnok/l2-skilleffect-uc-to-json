@@ -1,0 +1,24 @@
+class l2_10097_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="라이엇 실드"
+     SkillID=10097
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_kn_spshieldw_ra'
+         SimpleEffectClass=Class'LineageEffect.d_kn_spshieldw_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10097_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_kn_spshieldw_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_spshieldw_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10097_skill.L2EffectEmitter2'
+}

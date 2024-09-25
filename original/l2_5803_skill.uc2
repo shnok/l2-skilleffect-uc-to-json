@@ -1,0 +1,31 @@
+class l2_5803_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="그린 칠리"
+     SkillID=5803
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u327_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u327_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5803_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.700000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u327_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u327_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5803_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u327_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u327_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5803_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

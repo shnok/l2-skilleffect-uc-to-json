@@ -1,0 +1,5 @@
+{
+"SkillId": 19209,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_he_divinity_ca","SimpleEffectClass": "ClassLineageEffect.u_he_divinity_ca_simple"}],
+"ShotActions": []
+}

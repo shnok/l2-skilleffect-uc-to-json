@@ -1,0 +1,46 @@
+class l2_br_019_02_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에코 크리스털"
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=30.000000,Y=30.000000,Z=12.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u059_a'
+         SimpleEffectClass=Class'LineageEffect.e_u059_a_simple'
+         EtcEffect=EET_SoundCrystal
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_019_02_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-30.000000,Y=30.000000,Z=12.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u059_a'
+         SimpleEffectClass=Class'LineageEffect.e_u059_a_simple'
+         EtcEffect=EET_SoundCrystal
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_br_019_02_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=30.000000,Y=-30.000000,Z=12.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u059_a'
+         SimpleEffectClass=Class'LineageEffect.e_u059_a_simple'
+         EtcEffect=EET_SoundCrystal
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_br_019_02_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-30.000000,Y=-30.000000,Z=12.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u059_a'
+         SimpleEffectClass=Class'LineageEffect.e_u059_a_simple'
+         EtcEffect=EET_SoundCrystal
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_br_019_02_skill.L2EffectEmitter3'
+}

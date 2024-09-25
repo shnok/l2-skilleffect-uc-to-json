@@ -1,0 +1,23 @@
+class l2_32020_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="탐욕의 피조물"
+     SkillID=32020
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.100000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_mon_seal_blood_buff_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_blood_buff_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32020_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bOnMultiTarget=True
+         ScaleSize=0.550000
+         EffectClass=Class'LineageEffect2.y_mon_seal_blood_buff_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_blood_buff_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32020_skill.L2EffectEmitter1'
+}

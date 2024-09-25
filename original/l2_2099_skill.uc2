@@ -1,0 +1,23 @@
+class l2_2099_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="귀환 주문서5분"
+     SkillID=2099
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_escape5m_ca'
+         SimpleEffectClass=Class'LineageEffect.u_escape5m_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2099_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.it_scroll_of_escape_ta'
+         SimpleEffectClass=Class'LineageEffect.it_scroll_of_escape_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2099_skill.L2EffectEmitter1'
+}

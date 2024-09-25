@@ -1,0 +1,5 @@
+{
+"SkillId": 7070,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "2.000000","EffectClass": "ClassLineageEffect.s_u809_absorb_soul_ca","SimpleEffectClass": "ClassLineageEffect.s_u809_absorb_soul_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "2.000000","SpawnDelay": "2.250000","EffectClass": "ClassLineageEffect.s_u809_absorb_soul_ta","SimpleEffectClass": "ClassLineageEffect.s_u809_absorb_soul_ta_simple"}],
+"ShotActions": []
+}

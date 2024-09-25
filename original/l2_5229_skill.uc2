@@ -1,0 +1,47 @@
+class l2_5229_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스트롱펀치"
+     SkillID=5229
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u099_range_right'
+         SimpleEffectClass=Class'LineageEffect.e_u099_range_right_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5229_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u099_range_left'
+         SimpleEffectClass=Class'LineageEffect.e_u099_range_left_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5229_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u099_range_body'
+         SimpleEffectClass=Class'LineageEffect.e_u099_range_body_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5229_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u099_range_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u099_range_ca_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5229_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.s_u015_barler_pc_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u015_barler_pc_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5229_skill.L2EffectEmitter4'
+}

@@ -1,0 +1,32 @@
+class l2_5283_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="물리 범위 근거리 물속성"
+     SkillID=5283
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_iron_will_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_iron_will_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5283_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_ro_bleed_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_bleed_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5283_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.100000
+         EffectClass=Class'LineageEffect.d_ro_bleed_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_bleed_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5283_skill.L2EffectEmitter2'
+}

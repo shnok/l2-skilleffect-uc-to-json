@@ -1,0 +1,33 @@
+class l2_14963_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_chainheal_ta'
+         SimpleEffectClass=Class'LineageEffect.d_chainheal_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14963_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         SpawnDelay=1.300000
+         EffectClass=Class'LineageEffect.d_chainheal_ta'
+         SimpleEffectClass=Class'LineageEffect.d_chainheal_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14963_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.100000
+         SpawnDelay=2.600000
+         EffectClass=Class'LineageEffect.d_chainheal_ta'
+         SimpleEffectClass=Class'LineageEffect.d_chainheal_ta_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14963_skill.L2EffectEmitter3'
+}

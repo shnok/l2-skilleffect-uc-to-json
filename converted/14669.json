@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_posteffect_black","SimpleEffectClass": "ClassLineageEffect.d_posteffect_black_simple"}],
+"ShotActions": []
+}

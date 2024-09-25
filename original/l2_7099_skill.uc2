@@ -1,0 +1,23 @@
+class l2_7099_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="펫 공포"
+     SkillID=7099
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_he_darkcost_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_darkcost_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_7099_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         AttachOn=AM_Trail
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_he_darkcost_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_darkcost_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_7099_skill.L2EffectEmitter33'
+}

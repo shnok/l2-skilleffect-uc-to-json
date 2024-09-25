@@ -1,0 +1,5 @@
+{
+"SkillId": 11517,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=10.000000,Y=50.000000,Z=20.000000)","bSpawnOnTarget": "False","ScaleSize": "3.000000","EffectPawnClassID": "13336","SequenceName": "social01","AnimStartFrame": "0.010000","AnimEndFrame": "0.990000"},{"Name": "L2EffectEmitter6", "AttachOn": "AM_Trail","offset": "(X=-10.000000,Y=-50.000000,Z=40.000000)","bSpawnOnTarget": "False","ScaleSize": "3.000000","SpawnDelay": "1.500000","EffectPawnClassID": "13336","SequenceName": "social01","AnimStartFrame": "0.010000","AnimEndFrame": "0.990000"},{"Name": "L2EffectEmitter7", "AttachOn": "AM_Trail","offset": "(X=-10.000000,Y=50.000000,Z=20.000000)","bSpawnOnTarget": "False","ScaleSize": "3.500000","SpawnDelay": "3.000000","EffectPawnClassID": "13336","SequenceName": "social01","AnimStartFrame": "0.010000","AnimEndFrame": "0.990000"}],
+"ShotActions": []
+}

@@ -1,0 +1,31 @@
+class l2_6318_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="신성물리보호"
+     SkillID=6318
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.z_cast_red_ca'
+         SimpleEffectClass=Class'LineageEffect.z_cast_red_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6318_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_focus_ta'
+         SimpleEffectClass=Class'LineageEffect.su_focus_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6318_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         EffectClass=Class'LineageEffect.s_u807_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u807_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6318_skill.L2EffectEmitter21'
+}

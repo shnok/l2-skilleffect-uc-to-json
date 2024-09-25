@@ -1,0 +1,5 @@
+{
+"SkillId": 19443,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_charge_mana_mp_ca","SimpleEffectClass": "ClassLineageEffect2.y_in_charge_mana_mp_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bOnMultiTarget": "True","ScaleSize": "-1.000000","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.m_u052_recharge_ta","SimpleEffectClass": "ClassLineageEffect.m_u052_recharge_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bOnMultiTarget": "True","ScaleSize": "-1.000000","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect2.y_in_charge_mana_mp_music_ra","SimpleEffectClass": "ClassLineageEffect2.y_in_charge_mana_mp_music_ra_simple"}]
+}

@@ -1,0 +1,49 @@
+class l2_32005_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="싸이클론 블레이드"
+     SkillID=32005
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect2.y_raid_mc_hind_kick_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_hind_kick_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32005_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect2.y_raid_kain_spining_sword_hand_red_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_kain_spining_sword_hand_red_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32005_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect2.y_raid_kain_spining_sword_hand_red_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_kain_spining_sword_hand_red_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_32005_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=-1.000000,Z=-0.400000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect2.y_raid_cyclone_blade_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_cyclone_blade_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32005_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.120000
+         EffectClass=Class'LineageEffect.u_golem_shield_ta'
+         SimpleEffectClass=Class'LineageEffect.u_golem_shield_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32005_skill.L2EffectEmitter5'
+}

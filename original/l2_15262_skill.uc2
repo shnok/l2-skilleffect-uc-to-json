@@ -1,0 +1,15 @@
+class l2_15262_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르네이팜_캐스팅"
+     SkillID=15262
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_lind_napalm_explo'
+         SimpleEffectClass=Class'LineageEffect.u_lind_napalm_explo_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15262_skill.L2EffectEmitter0'
+}

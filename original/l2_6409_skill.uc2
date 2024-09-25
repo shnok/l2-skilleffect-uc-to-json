@@ -1,0 +1,42 @@
+class l2_6409_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="어스퀘이크"
+     SkillID=6409
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_seed_reptiles_c_ca'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_c_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6409_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bOnMultiTarget=True
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.at_stun_attack_ta'
+         SimpleEffectClass=Class'LineageEffect.at_stun_attack_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6409_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.z_seed_reptiles_a_ta'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_a_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6409_skill.L2EffectEmitter22'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter97
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_dummy_quake'
+         SimpleEffectClass=Class'LineageEffect.z_dummy_quake_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6409_skill.L2EffectEmitter97'
+}

@@ -1,0 +1,23 @@
+class l2_10297_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스피릿 오브 슬레이어"
+     SkillID=10297
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.400000,Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_dash_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_dash_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10297_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_dash_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_dash_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10297_skill.L2EffectEmitter1'
+}

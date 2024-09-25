@@ -1,0 +1,24 @@
+class l2_30012_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에어러시"
+     SkillID=30012
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="bip01"
+         offset=(X=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_rush'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_rush_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30012_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.u_er_wi_rush_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_rush_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30012_skill.L2EffectEmitter1'
+}

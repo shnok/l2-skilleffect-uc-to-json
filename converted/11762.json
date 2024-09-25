@@ -1,0 +1,5 @@
+{
+"SkillId": 11762,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.400000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_he_serenity_ca","SimpleEffectClass": "ClassLineageEffect.d_he_serenity_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_he_purgation_ta","SimpleEffectClass": "ClassLineageEffect.d_he_purgation_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_he_heal7_ta","SimpleEffectClass": "ClassLineageEffect.d_he_heal7_ta_simple"}]
+}

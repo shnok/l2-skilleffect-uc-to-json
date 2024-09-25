@@ -1,0 +1,5 @@
+{
+"SkillId": 6692,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.at_fatal_strike_ca","SimpleEffectClass": "ClassLineageEffect.at_fatal_strike_ca_simple"},{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_cast_red_ca","SimpleEffectClass": "ClassLineageEffect.z_cast_red_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.p_u004_a","SimpleEffectClass": "ClassLineageEffect.p_u004_a_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.p_u004_a","SimpleEffectClass": "ClassLineageEffect.p_u004_a_simple"},{"Name": "L2EffectEmitter22", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_shockwave_a_ra","SimpleEffectClass": "ClassLineageEffect.z_shockwave_a_ra_simple"}]
+}

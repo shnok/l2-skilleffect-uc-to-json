@@ -1,0 +1,5 @@
+{
+"SkillId": 1062,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.m_u811_short_debuff","SimpleEffectClass": "ClassLineageEffect.m_u811_short_debuff_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.s_u205_ta","SimpleEffectClass": "ClassLineageEffect.s_u205_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.bl_curse_poison_ta","SimpleEffectClass": "ClassLineageEffect.bl_curse_poison_ta_simple"}]
+}

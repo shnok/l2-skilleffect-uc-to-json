@@ -1,0 +1,32 @@
+class l2_11619_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소울(파티) 멜로디"
+     SkillID=11619
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_in_mel_party_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_mel_party_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11619_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_in_mel_b_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_mel_b_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11619_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(Z=0.100000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_in_mel_party_sword'
+         SimpleEffectClass=Class'LineageEffect.u_in_mel_party_sword_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11619_skill.L2EffectEmitter5'
+}

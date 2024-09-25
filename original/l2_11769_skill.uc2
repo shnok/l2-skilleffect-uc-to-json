@@ -1,0 +1,23 @@
+class l2_11769_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크 뱀파이어"
+     SkillID=11769
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_he_darknight_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_darknight_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11769_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_idledark_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_idledark_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11769_skill.L2EffectEmitter1'
+}

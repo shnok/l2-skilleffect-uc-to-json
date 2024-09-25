@@ -1,0 +1,23 @@
+class l2_9058_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="검은빙결핵"
+     SkillID=9058
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_body_obit_10s'
+         SimpleEffectClass=Class'LineageEffect.z_body_obit_10s_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9058_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_freezing_buff'
+         SimpleEffectClass=Class'LineageEffect.z_freezing_buff_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_9058_skill.L2EffectEmitter11'
+}

@@ -1,0 +1,17 @@
+class l2_4113_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="안타라스 일반 공격 다른 애니"
+     SkillID=4113
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 L Hand"
+         RelativeRotation=(Yaw=40960,Roll=16384)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u049_a'
+         SimpleEffectClass=Class'LineageEffect.e_u049_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4113_skill.L2EffectEmitter0'
+}

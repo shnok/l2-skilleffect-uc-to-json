@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_in_abenforce2_ca","SimpleEffectClass": "ClassLineageEffect.d_in_abenforce2_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.d_kn_judgec_ta","SimpleEffectClass": "ClassLineageEffect.d_kn_judgec_ta_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_kn_alterdefense_ra","SimpleEffectClass": "ClassLineageEffect.d_kn_alterdefense_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_restrictionh_ra","SimpleEffectClass": "ClassLineageEffect.d_restrictionh_ra_simple"}]
+}

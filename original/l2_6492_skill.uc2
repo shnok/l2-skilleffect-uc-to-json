@@ -1,0 +1,22 @@
+class l2_6492_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="홀리 어택"
+     SkillID=6492
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.u_mon_holy1_ca'
+         SimpleEffectClass=Class'LineageEffect.u_mon_holy1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6492_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_mon_holy1_ta'
+         SimpleEffectClass=Class'LineageEffect.u_mon_holy1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6492_skill.L2EffectEmitter1'
+}

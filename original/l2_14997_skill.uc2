@@ -1,0 +1,24 @@
+class l2_14997_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="무빙 소나타"
+     SkillID=11530
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_in_partyenforceb_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_partyenforceb_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14997_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_buff2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_buff2_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14997_skill.L2EffectEmitter2'
+}

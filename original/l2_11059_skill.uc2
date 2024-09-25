@@ -1,0 +1,24 @@
+class l2_11059_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="섀도우 헬 지역"
+     SkillID=11059
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=1.000000)
+         bRelativeToCylinder=False
+         ScaleSize=25000.000000
+         EffectClass=Class'LineageEffect.d_wizaant_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wizaant_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11059_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bOnMultiTarget=True
+         ScaleSize=20000.000000
+         EffectClass=Class'LineageEffect.d_wi_fear_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_fear_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11059_skill.L2EffectEmitter1'
+}

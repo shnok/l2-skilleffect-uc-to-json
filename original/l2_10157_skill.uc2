@@ -1,0 +1,45 @@
+class l2_10157_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 스턴"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_abenforce2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_abenforce2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10157_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=1.000000,Z=-0.500000)
+         bSpawnOnTarget=False
+         SpawnDelay=1.400000
+         EffectClass=Class'LineageEffect.d_kn_strike1_shot'
+         SimpleEffectClass=Class'LineageEffect.d_kn_strike1_shot_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10157_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_kn_judgep_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgep_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10157_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.d_kn_alterdefense_ra'
+         SimpleEffectClass=Class'LineageEffect.d_kn_alterdefense_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10157_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         EffectClass=Class'LineageEffect.d_wa_spsonics2_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wa_spsonics2_tara_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10157_skill.L2EffectEmitter3'
+}

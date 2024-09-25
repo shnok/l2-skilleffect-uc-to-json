@@ -1,0 +1,48 @@
+class l2_10289_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="브레이브 스피어"
+     SkillID=10289
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_wa_spinfinite2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_spinfinite2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10289_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect.d_crazymode3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_crazymode3_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10289_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_wa_vt2_ra'
+         SimpleEffectClass=Class'LineageEffect.d_wa_vt2_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10289_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_crazymode3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_crazymode3_ca_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10289_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.d_crazymode3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_crazymode3_ca_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_10289_skill.L2EffectEmitter3'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

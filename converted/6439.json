@@ -1,0 +1,5 @@
+{
+"SkillId": 6439,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.z_new_hp_heal_red","SimpleEffectClass": "ClassLineageEffect.z_new_hp_heal_red_simple"}],
+"ShotActions": []
+}

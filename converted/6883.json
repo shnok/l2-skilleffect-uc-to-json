@@ -1,0 +1,5 @@
+{
+"SkillId": 2166,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_common_short_ca","SimpleEffectClass": "ClassLineageEffect.z_common_short_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","SpawnDelay": "0.150000","EffectClass": "ClassLineageEffect.mo_war_cry_ta","SimpleEffectClass": "ClassLineageEffect.mo_war_cry_ta_simple"}],
+"ShotActions": []
+}

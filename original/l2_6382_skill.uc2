@@ -1,0 +1,34 @@
+class l2_6382_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="롤링크로"
+     SkillID=6382
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.z_common_buff_f'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_f_simple'
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6382_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_shockwave_d'
+         SimpleEffectClass=Class'LineageEffect.z_shockwave_d_simple'
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6382_skill.L2EffectEmitter21'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter69
+         AttachOn=AM_Trail
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.s_u804_a_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u804_a_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6382_skill.L2EffectEmitter69'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 13493,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=0.500000,Z=0.900000)","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.w_9th_stara","SimpleEffectClass": "ClassLineageEffect.w_9th_stara_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=5.000000,Z=2.200000)","ScaleSize": "0.900000","SpawnDelay": "1.500000","EffectClass": "ClassLineageEffect.w_9th_fireplay","SimpleEffectClass": "ClassLineageEffect.w_9th_fireplay_simple"}],
+"ShotActions": []
+}

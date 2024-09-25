@@ -1,0 +1,15 @@
+class l2_19202_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프로텍트 오브 가디언"
+     SkillID=19202
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kn_protect_guard_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kn_protect_guard_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19202_skill.L2EffectEmitter0'
+}

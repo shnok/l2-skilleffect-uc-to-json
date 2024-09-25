@@ -1,0 +1,5 @@
+{
+"SkillId": ,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.z_freya_self_a_ca","SimpleEffectClass": "ClassLineageEffect.z_freya_self_a_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "ScaleSize": "2.000000","EffectClass": "ClassLineageEffect.z_freya_self_b_ra","SimpleEffectClass": "ClassLineageEffect.z_freya_self_b_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_freya_self_ta","SimpleEffectClass": "ClassLineageEffect.z_freya_self_ta_simple"},{"Name": "L2EffectEmitter5", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.200000","SpawnDelay": "0.100000","EffectClass": "ClassLineageEffect.z_freya_self_ta","SimpleEffectClass": "ClassLineageEffect.z_freya_self_ta_simple"}]
+}

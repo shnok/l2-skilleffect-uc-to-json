@@ -1,0 +1,33 @@
+class l2_10098_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프렛지 오브 실드"
+     SkillID=10098
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.u_kn_pledge_y_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kn_pledge_y_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10098_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.700000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kn_pledge_shield'
+         SimpleEffectClass=Class'LineageEffect.u_kn_pledge_shield_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10098_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kn_pledge_y_ta'
+         SimpleEffectClass=Class'LineageEffect.u_kn_pledge_y_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10098_skill.L2EffectEmitter2'
+}

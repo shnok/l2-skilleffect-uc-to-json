@@ -1,0 +1,32 @@
+class l2_16361_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디멘션 매스 넉백"
+     SkillID=16361
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_blue2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16361_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_blue2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue2_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16361_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_purple4_shot'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple4_shot_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16361_skill.L2EffectEmitter1'
+}

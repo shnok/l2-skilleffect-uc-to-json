@@ -1,0 +1,7 @@
+class l2_5825_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="알레그리아 퇴장"
+     SkillID=5825
+}

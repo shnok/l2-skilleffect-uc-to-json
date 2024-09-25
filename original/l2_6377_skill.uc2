@@ -1,0 +1,13 @@
+class l2_6377_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.z_seed_caiona_ca'
+         SimpleEffectClass=Class'LineageEffect.z_seed_caiona_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6377_skill.L2EffectEmitter11'
+}

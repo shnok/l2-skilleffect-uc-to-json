@@ -1,0 +1,16 @@
+class l2_30517_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="중력강화"
+     SkillID=30517
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_gstrong_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_gstrong_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30517_skill.L2EffectEmitter0'
+}

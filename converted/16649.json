@@ -1,0 +1,5 @@
+{
+"SkillId": 16649,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect2.y_raid_ultra_purge_ca","SimpleEffectClass": "ClassLineageEffect2.y_raid_ultra_purge_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-0.200000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_raid_ultra_purge_ra","SimpleEffectClass": "ClassLineageEffect2.y_raid_ultra_purge_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","SpawnDelay": "0.050000","EffectClass": "ClassLineageEffect.d_su_buffb_ta","SimpleEffectClass": "ClassLineageEffect.d_su_buffb_ta_simple"}]
+}

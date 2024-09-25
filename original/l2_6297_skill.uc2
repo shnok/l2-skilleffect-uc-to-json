@@ -1,0 +1,37 @@
+class l2_6297_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="얼음기둥투척"
+     SkillID=6297
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.z_ice_hknight_ca'
+         SimpleEffectClass=Class'LineageEffect.z_ice_hknight_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6297_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.z_ice_heavyknight_fl'
+         SimpleEffectClass=Class'LineageEffect.z_ice_heavyknight_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6297_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.z_ice_hknight_inpact_ca'
+         SimpleEffectClass=Class'LineageEffect.z_ice_hknight_inpact_ca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6297_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.z_ice_heavyknight_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_heavyknight_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6297_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+}

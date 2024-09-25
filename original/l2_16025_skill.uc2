@@ -1,0 +1,18 @@
+class l2_16025_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="전서구 폰 스킬"
+     SkillID=16025
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter95
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_s_u210_ta'
+         SimpleEffectClass=Class'LineageEffect.d_s_u210_ta_simple'
+         EffectPawnClassID=19219
+         SequenceName="spwait05"
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16025_skill.L2EffectEmitter95'
+}

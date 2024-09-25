@@ -1,0 +1,5 @@
+{
+"SkillId": 39194,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "bip01","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_tali_deco_g","SimpleEffectClass": "ClassLineageEffect.d_tali_deco_g_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=0.300000)","bSpawnOnTarget": "False","ScaleSize": "1.500000","SpawnDelay": "0.150000","EffectClass": "ClassLineageEffect.d_ar_attractcubic_ta","SimpleEffectClass": "ClassLineageEffect.d_ar_attractcubic_ta_simple"}],
+"ShotActions": []
+}

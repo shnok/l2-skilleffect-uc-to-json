@@ -1,0 +1,15 @@
+class l2_15537_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블러드 새크리션"
+     SkillID=15537
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_reptiles_ca'
+         SimpleEffectClass=Class'LineageEffect.z_reptiles_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15537_skill.L2EffectEmitter0'
+}

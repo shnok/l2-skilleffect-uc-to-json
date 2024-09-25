@@ -1,0 +1,5 @@
+{
+"SkillId": 14179,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=0.500000)","bSpawnOnTarget": "False","ScaleSize": "200.000000","EffectClass": "ClassLineageEffect.el_hydro_blast_ta","SimpleEffectClass": "ClassLineageEffect.el_hydro_blast_ta_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=0.500000)","bSpawnOnTarget": "False","ScaleSize": "200.000000","EffectClass": "ClassLineageEffect.d_mon_water_ra","SimpleEffectClass": "ClassLineageEffect.d_mon_water_ra_simple"}],
+"ShotActions": []
+}

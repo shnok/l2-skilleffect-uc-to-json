@@ -1,0 +1,66 @@
+class l2_780017_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스트라이킹 파워"
+     SkillID=1432
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_he_darkeating_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_darkeating_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_780017_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_ar_stunshot2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ar_stunshot2_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_780017_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_G_air1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_G_air1_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_780017_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wi_storm_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_storm_ca_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_780017_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         offset=(Y=0.500000,Z=0.600000)
+         bSpawnOnTarget=False
+         ScaleSize=1.100000
+         EffectClass=Class'LineageEffect.d_kn_strike1_shot'
+         SimpleEffectClass=Class'LineageEffect.d_kn_strike1_shot_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_780017_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.d_Gnuck_ta'
+         SimpleEffectClass=Class'LineageEffect.d_Gnuck_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_780017_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.d_he_darkeating_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_darkeating_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_780017_skill.L2EffectEmitter3'
+}

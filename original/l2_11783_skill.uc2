@@ -1,0 +1,50 @@
+class l2_11783_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리셋"
+     SkillID=11783
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.d_he_revolution_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_revolution_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11783_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter90
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_su_1r_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_1r_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11783_skill.L2EffectEmitter90'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_he_revolution_abca'
+         SimpleEffectClass=Class'LineageEffect.d_he_revolution_abca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11783_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_revolution_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_revolution_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11783_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=2.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_revolution_abta'
+         SimpleEffectClass=Class'LineageEffect.d_he_revolution_abta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11783_skill.L2EffectEmitter3'
+}

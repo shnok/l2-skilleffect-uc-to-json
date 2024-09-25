@@ -1,0 +1,16 @@
+class l2_32028_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="혼돈의 소용돌이"
+     SkillID=32028
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect2.y_mon_seal_blue3_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_blue3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32028_skill.L2EffectEmitter0'
+}

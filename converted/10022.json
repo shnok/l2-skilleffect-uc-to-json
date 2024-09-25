@@ -1,0 +1,5 @@
+{
+"SkillId": 10022,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=0.400000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_kn_strike3_ca","SimpleEffectClass": "ClassLineageEffect.d_kn_strike3_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.mo_ultimate_defence_ta","SimpleEffectClass": "ClassLineageEffect.mo_ultimate_defence_ta_simple"}]
+}

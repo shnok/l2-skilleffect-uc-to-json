@@ -1,0 +1,61 @@
+class l2_14208_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포효"
+     SkillID=6294
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.100000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.s_u812_beam_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u812_beam_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14208_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bRibbonSet=True
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_pcasting_y'
+         SimpleEffectClass=Class'LineageEffect.d_pcasting_y_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14208_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         ScaleSize=0.600000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.at_stun_attack_ta'
+         SimpleEffectClass=Class'LineageEffect.at_stun_attack_ta_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14208_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.at_stun_attack_ta'
+         SimpleEffectClass=Class'LineageEffect.at_stun_attack_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14208_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter13
+         AttachOn=AM_Trail
+         offset=(X=3.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.d_Gnuckdown_tara'
+         SimpleEffectClass=Class'LineageEffect.d_Gnuckdown_tara_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14208_skill.L2EffectEmitter13'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter45
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_posteffectr_short'
+         SimpleEffectClass=Class'LineageEffect.d_posteffectr_short_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14208_skill.L2EffectEmitter45'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

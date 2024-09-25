@@ -1,0 +1,14 @@
+class l2_18512_b_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="ÁýÈ¥ ½ÇÆÐ"
+     SkillID=18512
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="bip01"
+         EffectClass=Class'LineageEffect.d_mon_blue3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue3_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18512_b_skill.L2EffectEmitter2'
+}

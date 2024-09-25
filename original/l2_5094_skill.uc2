@@ -1,0 +1,28 @@
+class l2_5094_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="안타라스 부하 자폭"
+     SkillID=5094
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.at_shock_blast_ca'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5094_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u528_ta_bigsize_b'
+         SimpleEffectClass=Class'LineageEffect.e_u528_ta_bigsize_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5094_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         EffectClass=Class'LineageEffect.el_flame_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5094_skill.L2EffectEmitter2'
+}

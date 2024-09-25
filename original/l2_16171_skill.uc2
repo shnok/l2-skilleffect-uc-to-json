@@ -1,0 +1,16 @@
+class l2_16171_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데미지 존_fake_셀프캐스팅"
+     SkillID=16171
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_unholy3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16171_skill.L2EffectEmitter1'
+}

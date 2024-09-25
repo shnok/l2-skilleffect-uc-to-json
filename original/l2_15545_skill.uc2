@@ -1,0 +1,33 @@
+class l2_15545_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="암브러스트"
+     SkillID=15545
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_mon_purple6_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple6_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15545_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.350000
+         EffectClass=Class'LineageEffect.d_guillotine2_fan'
+         SimpleEffectClass=Class'LineageEffect.d_guillotine2_fan_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15545_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_mon_fire_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15545_skill.L2EffectEmitter2'
+}

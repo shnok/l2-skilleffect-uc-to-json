@@ -1,0 +1,26 @@
+class l2_5256_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="죽음의 선고"
+     SkillID=5256
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.ph_hate_ta'
+         SimpleEffectClass=Class'LineageEffect.ph_hate_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5256_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.000000,Z=1.200000)
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.ph_hate_ta'
+         SimpleEffectClass=Class'LineageEffect.ph_hate_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5256_skill.L2EffectEmitter1'
+}

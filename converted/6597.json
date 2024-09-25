@@ -1,0 +1,5 @@
+{
+"SkillId": 6597,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.u_mon_earth1_ca","SimpleEffectClass": "ClassLineageEffect.u_mon_earth1_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.u_mon_earth1_ta","SimpleEffectClass": "ClassLineageEffect.u_mon_earth1_ta_simple"}]
+}

@@ -1,0 +1,15 @@
+class l2_2042_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="해독제"
+     SkillID=2042
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.700000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.it_antidote_ta'
+         SimpleEffectClass=Class'LineageEffect.it_antidote_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2042_skill.L2EffectEmitter0'
+}

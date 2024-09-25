@@ -1,0 +1,23 @@
+class l2_10653_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리플렉트 어택"
+     SkillID=10653
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_ro_altereva1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_altereva1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10653_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_ro_reflect_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ro_reflect_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10653_skill.L2EffectEmitter1'
+}

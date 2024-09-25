@@ -1,0 +1,23 @@
+class l2_1442_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크니스 프로텍션"
+     SkillID=1442
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1442_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ta_b'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ta_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1442_skill.L2EffectEmitter1'
+}

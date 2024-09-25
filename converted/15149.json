@@ -1,0 +1,5 @@
+{
+"SkillId": 14736,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.250000","EffectClass": "ClassLineageEffect.d_he_heal7_ta","SimpleEffectClass": "ClassLineageEffect.d_he_heal7_ta_simple"}],
+"ShotActions": []
+}

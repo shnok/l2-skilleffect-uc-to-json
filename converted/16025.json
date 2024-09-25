@@ -1,0 +1,5 @@
+{
+"SkillId": 16025,
+"CastingActions": [{"Name": "L2EffectEmitter95", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_s_u210_ta","SimpleEffectClass": "ClassLineageEffect.d_s_u210_ta_simple","EffectPawnClassID": "19219","SequenceName": "spwait05"}],
+"ShotActions": []
+}

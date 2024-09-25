@@ -1,0 +1,24 @@
+class l2_15581_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="공포의 일격"
+     SkillID=15581
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15581_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15581_skill.L2EffectEmitter3'
+}

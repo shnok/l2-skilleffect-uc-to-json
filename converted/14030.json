@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.z_ice_bomb_ca","SimpleEffectClass": "ClassLineageEffect.z_ice_bomb_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter33", "bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "1.800000","EffectClass": "ClassLineageEffect.el_ice_dagger_fl","SimpleEffectClass": "ClassLineageEffect.el_ice_dagger_fl_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_freya_self_ta","SimpleEffectClass": "ClassLineageEffect.z_freya_self_ta_simple"}]
+}

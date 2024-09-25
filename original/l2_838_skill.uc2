@@ -1,0 +1,26 @@
+class l2_838_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="체인지 에티튜드"
+     SkillID=838
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.100000
+         EffectClass=Class'LineageEffect.s_u604_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u604_ta_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_838_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         SpawnDelay=3.000000
+         EffectClass=Class'LineageEffect.s_u833_vgd'
+         SimpleEffectClass=Class'LineageEffect.s_u833_vgd_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_838_skill.L2EffectEmitter1'
+}

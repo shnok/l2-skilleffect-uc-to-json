@@ -1,0 +1,17 @@
+class l2_327_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="와이번 이지스"
+     SkillID=327
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_AliasSpecified
+         AttachBoneName="soulshot1"
+         bAbsolute=True
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.su_empower_ta'
+         SimpleEffectClass=Class'LineageEffect.su_empower_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_327_skill.L2EffectEmitter0'
+}

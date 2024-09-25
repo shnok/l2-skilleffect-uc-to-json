@@ -1,0 +1,30 @@
+class l2_468_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크 스트라이크"
+     SkillID=468
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.s_u815_hand'
+         SimpleEffectClass=Class'LineageEffect.s_u815_hand_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_468_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         bRibbonSet=True
+         EffectClass=Class'LineageEffect.RibbonSet_sword'
+         SimpleEffectClass=Class'LineageEffect.RibbonSet_sword_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_468_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u820_magic_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u820_magic_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_468_skill.L2EffectEmitter2'
+}

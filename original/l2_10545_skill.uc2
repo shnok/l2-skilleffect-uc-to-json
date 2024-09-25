@@ -1,0 +1,16 @@
+class l2_10545_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포이즌 패럴라이즈"
+     SkillID=10545
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ro_lakep4_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_lakep4_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10545_skill.L2EffectEmitter0'
+}

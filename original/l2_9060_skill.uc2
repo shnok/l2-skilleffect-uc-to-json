@@ -1,0 +1,15 @@
+class l2_9060_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="플라즈마수집기"
+     SkillID=9060
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter12
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.su_haste_ta'
+         SimpleEffectClass=Class'LineageEffect.su_haste_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9060_skill.L2EffectEmitter12'
+}

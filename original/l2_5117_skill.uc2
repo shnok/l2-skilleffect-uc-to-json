@@ -1,0 +1,23 @@
+class l2_5117_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="사이렌 전용 스턴"
+     SkillID=5117
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-70.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u832_new_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u832_new_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5117_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.at_shield_stun_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5117_skill.L2EffectEmitter1'
+}

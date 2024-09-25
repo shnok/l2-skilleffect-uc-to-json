@@ -1,0 +1,5 @@
+{
+"SkillId": 16609,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.130000","EffectClass": "ClassLineageEffect2.y_boss_helios_plasma_ca","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_plasma_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneLocation","AttachBoneName": "Dummy08","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_boss_helios_plasma1_fl","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_plasma1_fl_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_BoneLocation","AttachBoneName": "Dummy04","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_boss_helios_plasma1_fl","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_plasma1_fl_simple"}]
+}

@@ -1,0 +1,32 @@
+class l2_23685_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="세이스믹 웨이브"
+     SkillID=23685
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kelbim_earthquak_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_earthquak_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23685_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kelbim_earthquak_fan'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_earthquak_fan_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23685_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kelbim_earthquak_ta'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_earthquak_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_23685_skill.L2EffectEmitter3'
+}

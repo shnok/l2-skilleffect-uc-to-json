@@ -1,0 +1,27 @@
+class l2_1255_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파티 리콜"
+     SkillID=1255
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u031_a'
+         SimpleEffectClass=Class'LineageEffect.e_u031_a_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Cylinder,LightColor=(W=1.000000,X=0.300000,Y=0.300000,Z=0.900000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1255_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bRelativeToCylinder=False
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u005_a'
+         SimpleEffectClass=Class'LineageEffect.e_u005_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1255_skill.L2EffectEmitter1'
+}

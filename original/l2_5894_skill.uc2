@@ -1,0 +1,32 @@
+class l2_5894_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마크 오브 디스페어"
+     SkillID=5894
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_dash_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_dash_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5894_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Z=1.700000)
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.bl_berserker_spirit_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_berserker_spirit_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5894_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u808_tele_ta_d'
+         SimpleEffectClass=Class'LineageEffect.m_u808_tele_ta_d_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5894_skill.L2EffectEmitter2'
+}

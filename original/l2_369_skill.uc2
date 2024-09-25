@@ -1,0 +1,43 @@
+class l2_369_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="¿Ã∫£¿ÃµÂ º¶"
+     SkillID=369
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u010_a'
+         SimpleEffectClass=Class'LineageEffect.s_u010_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_369_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.s_u003_d'
+         SimpleEffectClass=Class'LineageEffect.s_u003_d_simple'
+     End Object
+     PreshotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_369_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u003_b'
+         SimpleEffectClass=Class'LineageEffect.s_u003_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_369_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.sp_agility_ta'
+         SimpleEffectClass=Class'LineageEffect.sp_agility_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_369_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.p_u004_a'
+         SimpleEffectClass=Class'LineageEffect.p_u004_a_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_369_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+}

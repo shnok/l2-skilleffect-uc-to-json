@@ -1,0 +1,23 @@
+class l2_30501_b_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="백스핀 블로우_b"
+     SkillID=30501
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_blow_ca_b'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_blow_ca_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30501_b_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_blow_ta_b'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_blow_ta_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30501_b_skill.L2EffectEmitter2'
+}

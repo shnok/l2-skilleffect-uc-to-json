@@ -1,0 +1,17 @@
+class l2_6282_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프레야 마법반사"
+     SkillID=6282
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.z_ice_reflect_ca'
+         SimpleEffectClass=Class'LineageEffect.z_ice_reflect_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6282_skill.L2EffectEmitter0'
+}

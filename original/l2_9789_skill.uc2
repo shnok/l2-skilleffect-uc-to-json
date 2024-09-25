@@ -1,0 +1,14 @@
+class l2_9789_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="올림픽 태권도 선수용 화통해제 포션"
+     SkillID=9789
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_potion_b'
+         SimpleEffectClass=Class'LineageEffect.u_potion_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9789_skill.L2EffectEmitter0'
+}

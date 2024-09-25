@@ -1,0 +1,32 @@
+class l2_16461_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이사도라 블러디 마크 봄버"
+     SkillID=16461
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_unholy6_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy6_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16461_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_mon_unholy1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16461_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16461_skill.L2EffectEmitter2'
+}

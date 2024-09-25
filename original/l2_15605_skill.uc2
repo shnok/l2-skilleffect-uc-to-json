@@ -1,0 +1,16 @@
+class l2_15605_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발전장치"
+     SkillID=15605
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.130000
+         EffectClass=Class'LineageEffect.u_lind_powerplant'
+         SimpleEffectClass=Class'LineageEffect.u_lind_powerplant_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15605_skill.L2EffectEmitter0'
+}

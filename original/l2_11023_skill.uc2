@@ -1,0 +1,45 @@
+class l2_11023_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엘레멘탈 디스트럭션"
+     SkillID=11023
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter60
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_strongfire2_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_strongfire2_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11023_skill.L2EffectEmitter60'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter61
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_strongfire2_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_strongfire2_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11023_skill.L2EffectEmitter61'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.700000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_wi_strongfire2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_strongfire2_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11023_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter64
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_strongfirethin_shot'
+         SimpleEffectClass=Class'LineageEffect.d_wi_strongfirethin_shot_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11023_skill.L2EffectEmitter64'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_wi_strongfire2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_strongfire2_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11023_skill.L2EffectEmitter3'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s_delay'
+}

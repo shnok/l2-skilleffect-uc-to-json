@@ -1,0 +1,24 @@
+class l2_16144_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="겜블_기대감"
+     SkillID=16144
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=1.200000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_gam_expectation'
+         SimpleEffectClass=Class'LineageEffect.u_gam_expectation_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16144_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         ScaleSize=2.500000
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect.e_u303_aga_hit'
+         SimpleEffectClass=Class'LineageEffect.e_u303_aga_hit_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16144_skill.L2EffectEmitter1'
+}

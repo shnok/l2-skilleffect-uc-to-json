@@ -1,0 +1,39 @@
+class l2_br_event_012_0_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="귀신이 내는 호박"
+     SkillID=6465
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.br_event_u006_start'
+         SimpleEffectClass=Class'LineageEffect.br_event_u006_start_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_event_012_0_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=40.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.150000
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect_Br.br_event_u006_pumkin0_a'
+         SimpleEffectClass=Class'LineageEffect_Br.br_event_u006_pumkin0_a_simple'
+         BR_ForceLifeTime=6.000000
+         BR_Tag="JackGameMark"
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_br_event_012_0_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=6.000000
+         EffectClass=Class'LineageEffect.br_event_u006_win'
+         SimpleEffectClass=Class'LineageEffect.br_event_u006_win_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_br_event_012_0_skill.L2EffectEmitter3'
+}

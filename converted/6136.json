@@ -1,0 +1,5 @@
+{
+"SkillId": 6136,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u300_aga_love_a","SimpleEffectClass": "ClassLineageEffect.e_u300_aga_love_a_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.200000)","bSpawnOnTarget": "False","SpawnDelay": "1.000000","EffectClass": "ClassLineageEffect.e_u300_aga_love_a","SimpleEffectClass": "ClassLineageEffect.e_u300_aga_love_a_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 R Hand","bSpawnOnTarget": "False","SpawnDelay": "0.600000","EffectClass": "ClassLineageEffect.e_u306_sstar","SimpleEffectClass": "ClassLineageEffect.e_u306_sstar_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 R Hand","bSpawnOnTarget": "False","SpawnDelay": "0.800000","EffectClass": "ClassLineageEffect.e_u306_sstar","SimpleEffectClass": "ClassLineageEffect.e_u306_sstar_simple"}],
+"ShotActions": []
+}

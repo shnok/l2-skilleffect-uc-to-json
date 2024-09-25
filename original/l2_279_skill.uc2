@@ -1,0 +1,21 @@
+class l2_279_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="라이트닝 스트라이크"
+     SkillID=279
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u023_lightening_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u023_lightening_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_279_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u023_lightening_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u023_lightening_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_279_skill.L2EffectEmitter1'
+}

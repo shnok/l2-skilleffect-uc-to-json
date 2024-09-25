@@ -1,0 +1,5 @@
+{
+"SkillId": 15092,
+"CastingActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.at_shield_stun_ta","SimpleEffectClass": "ClassLineageEffect.at_shield_stun_ta_simple"}],
+"ShotActions": []
+}

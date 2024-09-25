@@ -1,0 +1,5 @@
+{
+"SkillId": 10015,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_kn_judgep_ca","SimpleEffectClass": "ClassLineageEffect.d_kn_judgep_ca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","SpawnDelay": "0.800000","EffectClass": "ClassLineageEffect.z_gs_chain_ta_c","SimpleEffectClass": "ClassLineageEffect.z_gs_chain_ta_c_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","SpawnDelay": "0.800000","EffectClass": "ClassLineageEffect.z_gs_chain_ta_d","SimpleEffectClass": "ClassLineageEffect.z_gs_chain_ta_d_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter4", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bChanneling": "True","EffectClass": "ClassLineageEffect2.beam_wave","SimpleEffectClass": "ClassLineageEffect2.beam_wave_simple"},{"Name": "L2EffectEmitter5", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bChanneling": "True","EffectClass": "ClassLineageEffect2.beam_str","SimpleEffectClass": "ClassLineageEffect2.beam_str_simple"}]
+}

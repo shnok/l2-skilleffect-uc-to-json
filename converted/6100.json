@@ -1,0 +1,5 @@
+{
+"SkillId": 6100,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u201_turkey_gawi","SimpleEffectClass": "ClassLineageEffect.e_u201_turkey_gawi_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","SpawnDelay": "2.000000","EffectClass": "ClassLineageEffect.e_u201_turkey_dis","SimpleEffectClass": "ClassLineageEffect.e_u201_turkey_dis_simple"}]
+}

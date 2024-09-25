@@ -1,0 +1,23 @@
+class l2_10955_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="캐터 필드"
+     SkillID=10955
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_ar_catapult_ca'
+         SimpleEffectClass=Class'LineageEffect.u_ar_catapult_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10955_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=2.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_ar_catapult_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ar_catapult_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10955_skill.L2EffectEmitter1'
+}

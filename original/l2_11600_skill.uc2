@@ -1,0 +1,33 @@
+class l2_11600_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프랫지 컴뱃 소나타"
+     SkillID=11600
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_in_busharm_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_busharm_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11600_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_buff1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_buff1_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11600_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_in_bloodmark_4s'
+         SimpleEffectClass=Class'LineageEffect.u_in_bloodmark_4s_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11600_skill.L2EffectEmitter3'
+}

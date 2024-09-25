@@ -1,0 +1,16 @@
+class l2_6741_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙궁의숨결_자폭"
+     SkillID=6300
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.130000
+         EffectClass=Class'LineageEffect.e_u829_sand_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u829_sand_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6741_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 5528,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u528_ta_bigsize_b","SimpleEffectClass": "ClassLineageEffect.e_u528_ta_bigsize_b_simple"},{"Name": "L2EffectEmitter1", "EffectClass": "ClassLineageEffect.el_flame_strike_ta","SimpleEffectClass": "ClassLineageEffect.el_flame_strike_ta_simple"}],
+"ShotActions": []
+}

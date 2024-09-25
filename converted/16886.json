@@ -1,0 +1,5 @@
+{
+"SkillId": 16886,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_su_ragew_ca","SimpleEffectClass": "ClassLineageEffect.u_su_ragew_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=2.000000)","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect2.y_boss_helios_plasma1_fl","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_plasma1_fl_simple"}]
+}

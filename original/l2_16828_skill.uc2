@@ -1,0 +1,48 @@
+class l2_16828_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="익스플로전 다크 디스페어"
+     SkillID=16828
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=1.100000
+         EffectClass=Class'LineageEffect2.y_npc_explosion_of_despair_kd_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_npc_explosion_of_despair_kd_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16828_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=0.100000,Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_guillotine_fan'
+         SimpleEffectClass=Class'LineageEffect.d_guillotine_fan_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16828_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=0.100000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.y_boss_helios_eye_of_power_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_eye_of_power_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16828_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.u_er_wa_head_ta_b'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_head_ta_b_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16828_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_event_darksmoke'
+         SimpleEffectClass=Class'LineageEffect.u_event_darksmoke_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_16828_skill.L2EffectEmitter4'
+}

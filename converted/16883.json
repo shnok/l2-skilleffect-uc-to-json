@@ -1,0 +1,5 @@
+{
+"SkillId": 16883,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.700000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect2.y_npc_shining_punishment_kd_ca","SimpleEffectClass": "ClassLineageEffect2.y_npc_shining_punishment_kd_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_su_ragew_fl","SimpleEffectClass": "ClassLineageEffect.u_su_ragew_fl_simple"}]
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 9153,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 Spine1","bSpawnOnTarget": "False","ScaleSize": "3.000000","EffectClass": "ClassLineageEffect.d_twinkleage_star","SimpleEffectClass": "ClassLineageEffect.d_twinkleage_star_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 Spine1","bSpawnOnTarget": "False","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.d_twinkleage_star","SimpleEffectClass": "ClassLineageEffect.d_twinkleage_star_simple"}],
+"ShotActions": []
+}

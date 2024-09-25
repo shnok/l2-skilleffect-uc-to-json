@@ -1,0 +1,5 @@
+{
+"SkillId": ,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.500000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.400000","EffectClass": "ClassLineageEffect.z_common_buff_f","SimpleEffectClass": "ClassLineageEffect.z_common_buff_f_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.mo_focus_sonic_ta","SimpleEffectClass": "ClassLineageEffect.mo_focus_sonic_ta_simple"}]
+}

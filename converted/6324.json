@@ -1,0 +1,5 @@
+{
+"SkillId": 6324,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_buff_c","SimpleEffectClass": "ClassLineageEffect.z_buff_c_simple"},{"Name": "L2EffectEmitter44", "AttachOn": "AM_Trail","offset": "(X=1.000000,Z=0.500000)","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect.m_u203_ca","SimpleEffectClass": "ClassLineageEffect.m_u203_ca_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "2.200000","EffectClass": "ClassLineageEffect.s_u524_ta","SimpleEffectClass": "ClassLineageEffect.s_u524_ta_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "offset": "(X=2.000000,Z=16.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.e_u846_berethfire_fl","SimpleEffectClass": "ClassLineageEffect.e_u846_berethfire_fl_simple"}]
+}

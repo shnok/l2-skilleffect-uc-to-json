@@ -1,0 +1,56 @@
+class l2_5721_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블레이드 스트라이크"
+     SkillID=5721
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5721_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.e_u309_dc_b'
+         SimpleEffectClass=Class'LineageEffect.e_u309_dc_b_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=1.000000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5721_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u810_trail'
+         SimpleEffectClass=Class'LineageEffect.s_u810_trail_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5721_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u820_range_ta_b'
+         SimpleEffectClass=Class'LineageEffect.s_u820_range_ta_b_simple'
+         bPawnLight=True
+         PawnLightParam=(LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=1.000000,Y=1.000000,Z=1.000000),LightRadius=30.000000)
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5721_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bOnMultiTarget=True
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.s_u814_ta_d'
+         SimpleEffectClass=Class'LineageEffect.s_u814_ta_d_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5721_skill.L2EffectEmitter4'
+}

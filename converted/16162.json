@@ -1,0 +1,5 @@
+{
+"SkillId": 16162,
+"CastingActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u836_meteo","SimpleEffectClass": "ClassLineageEffect.e_u836_meteo_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","SpawnDelay": "1.000000","EffectClass": "ClassLineageEffect.d_mon_fire_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_fire_ta_simple"},{"Name": "L2EffectEmitter3", "bSpawnOnTarget": "False","ScaleSize": "-1.000000","SpawnDelay": "0.900000","EffectClass": "ClassLineageEffect.d_mon_fire_ra_long","SimpleEffectClass": "ClassLineageEffect.d_mon_fire_ra_long_simple"}],
+"ShotActions": []
+}

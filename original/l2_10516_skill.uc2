@@ -1,0 +1,46 @@
+class l2_10516_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="섀도우 체이스"
+     SkillID=10516
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ro_flash_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_flash_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10516_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ro_flash_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_flash_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10516_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_flash_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_flash_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10516_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.s_u831_bloodsuck_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u831_bloodsuck_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10516_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_ro_shachase_aura'
+         SimpleEffectClass=Class'LineageEffect.u_ro_shachase_aura_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10516_skill.L2EffectEmitter4'
+}

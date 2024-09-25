@@ -1,0 +1,23 @@
+class l2_6428_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="버섯약초"
+     SkillID=6428
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.z_mp_up'
+         SimpleEffectClass=Class'LineageEffect.z_mp_up_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6428_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.e_u329_ta_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_A_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6428_skill.L2EffectEmitter11'
+}

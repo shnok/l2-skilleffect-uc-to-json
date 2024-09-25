@@ -1,0 +1,26 @@
+class l2_18129_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스노우 쿵의 소원상자"
+     SkillID=18129
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Y=30.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.z_ice_soulstone_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_soulstone_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18129_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Y=30.000000,Z=10.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         SpawnDelay=0.200000
+         EffectPawnClassID=13444
+         SequenceName="spatk01"
+         AnimStartFrame=0.400000
+         AnimEndFrame=0.950000
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_18129_skill.L2EffectEmitter1'
+}

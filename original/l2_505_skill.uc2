@@ -1,0 +1,30 @@
+class l2_505_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="샤이닝 엣지"
+     SkillID=505
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u099_rapier_ca_a'
+         SimpleEffectClass=Class'LineageEffect.s_u099_rapier_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_505_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         bRibbonSet=True
+         EffectClass=Class'LineageEffect.RibbonSet_rapier'
+         SimpleEffectClass=Class'LineageEffect.RibbonSet_rapier_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_505_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u015_rapier_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u015_rapier_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_505_skill.L2EffectEmitter2'
+}

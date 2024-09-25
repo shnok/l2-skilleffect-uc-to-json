@@ -1,0 +1,5 @@
+{
+"SkillId": 6124,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.200000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u204_aga_ca_a","SimpleEffectClass": "ClassLineageEffect.e_u204_aga_ca_a_simple"}],
+"ShotActions": []
+}

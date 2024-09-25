@@ -1,0 +1,22 @@
+class l2_5866_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소울 웜"
+     SkillID=5866
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.a_u022_ta_unholy'
+         SimpleEffectClass=Class'LineageEffect.a_u022_ta_unholy_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5866_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.e_u606_currupt'
+         SimpleEffectClass=Class'LineageEffect.e_u606_currupt_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5866_skill.L2EffectEmitter1'
+}

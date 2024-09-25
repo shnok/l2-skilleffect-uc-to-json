@@ -1,0 +1,5 @@
+{
+"SkillId": 2611,
+"CastingActions": [{"Name": "L2EffectEmitter0", "EtcEffect": "EET_FireCracker","EtcEffectInfo": "EEP_FireCrackerSmall"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Y=10.000000,Z=1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","SpawnDelay": "0.400000","EffectClass": "ClassLineageEffect2.e_u519_0_firecracker","SimpleEffectClass": "ClassLineageEffect2.e_u519_0_firecracker_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Y=-15.000000,Z=1.500000)","bSpawnOnTarget": "False","ScaleSize": "0.700000","SpawnDelay": "0.800000","EffectClass": "ClassLineageEffect2.e_u519_0_firecracker","SimpleEffectClass": "ClassLineageEffect2.e_u519_0_firecracker_simple"}],
+"ShotActions": []
+}

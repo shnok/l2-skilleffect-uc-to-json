@@ -1,0 +1,15 @@
+class l2_15548_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="옵티컬 라키시스"
+     SkillID=15548
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.wh_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_recharge_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15548_skill.L2EffectEmitter0'
+}

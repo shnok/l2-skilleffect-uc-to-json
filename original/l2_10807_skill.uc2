@@ -1,0 +1,14 @@
+class l2_10807_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="혹한 함정"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ar_trapwind_ra'
+         SimpleEffectClass=Class'LineageEffect.d_ar_trapwind_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10807_skill.L2EffectEmitter1'
+}

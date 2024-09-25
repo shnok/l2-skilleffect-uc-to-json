@@ -1,0 +1,15 @@
+class l2_br_event_016_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="게이지"
+     SkillID=6490
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.s_u612_ca_a'
+         SimpleEffectClass=Class'LineageEffect.s_u612_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_event_016_skill.L2EffectEmitter1'
+}

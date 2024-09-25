@@ -1,0 +1,26 @@
+class l2_4548_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Quest 감시자의 시선 해제"
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.wh_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_recharge_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4548_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=6.000000,Z=-1.000000)
+         EffectClass=Class'LineageEffect.wh_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_recharge_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4548_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=-5.000000,Y=6.000000,Z=-1.000000)
+         EffectClass=Class'LineageEffect.wh_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_recharge_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_4548_skill.L2EffectEmitter2'
+}

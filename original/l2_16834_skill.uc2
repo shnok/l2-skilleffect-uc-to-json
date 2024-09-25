@@ -1,0 +1,23 @@
+class l2_16834_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="윙드 스피어"
+     SkillID=16834
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_mon_mez1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_mez1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16834_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_su_buffp_ta'
+         SimpleEffectClass=Class'LineageEffect.d_su_buffp_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16834_skill.L2EffectEmitter1'
+}

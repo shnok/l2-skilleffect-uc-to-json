@@ -1,0 +1,32 @@
+class l2_11378_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="[엘레멘탈 슬램]"
+     SkillID=11378
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_wa_doublesonic_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_doublesonic_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11378_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_doublesonic_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_doublesonic_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11378_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_gpunch_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wa_gpunch_tara_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11378_skill.L2EffectEmitter11'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

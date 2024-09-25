@@ -1,0 +1,15 @@
+class l2_16320_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포엠 오브 혼"
+     SkillID=11517
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_event_dance_ra'
+         SimpleEffectClass=Class'LineageEffect.u_event_dance_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16320_skill.L2EffectEmitter2'
+}

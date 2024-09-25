@@ -1,0 +1,41 @@
+class l2_6690_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="드라이어드 루트"
+     SkillID=6690
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.m_u013_a'
+         SimpleEffectClass=Class'LineageEffect.m_u013_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6690_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.sp_dryad_root_ta'
+         SimpleEffectClass=Class'LineageEffect.sp_dryad_root_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6690_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter30
+         AttachOn=AM_Trail
+         offset=(X=0.500000,Z=0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_focus_sonic_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_focus_sonic_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6690_skill.L2EffectEmitter30'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_ice_knight_buff'
+         SimpleEffectClass=Class'LineageEffect.z_ice_knight_buff_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6690_skill.L2EffectEmitter11'
+}

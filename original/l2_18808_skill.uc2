@@ -1,0 +1,25 @@
+class l2_18808_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="불꽃 놀이"
+     SkillID=18808
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_13th_event_firework'
+         SimpleEffectClass=Class'LineageEffect2.y_13th_event_firework_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18808_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-30.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect2.y_13th_event_firework_big'
+         SimpleEffectClass=Class'LineageEffect2.y_13th_event_firework_big_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_18808_skill.L2EffectEmitter1'
+}

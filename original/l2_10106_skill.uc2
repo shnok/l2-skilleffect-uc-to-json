@@ -1,0 +1,15 @@
+class l2_10106_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="센티넬 오라"
+     SkillID=10106
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kn_evas_aura'
+         SimpleEffectClass=Class'LineageEffect.u_kn_evas_aura_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10106_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,23 @@
+class l2_10517_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="섀도우 하이드"
+     SkillID=10517
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ro_warp2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_warp2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10517_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ro_warp1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_warp1_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10517_skill.L2EffectEmitter1'
+}

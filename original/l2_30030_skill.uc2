@@ -1,0 +1,7 @@
+class l2_30030_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="사이하의 번개2"
+     SkillID=30030
+}

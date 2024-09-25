@@ -1,0 +1,5 @@
+{
+"SkillId": 16172,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.u_mon_damzone_ra","SimpleEffectClass": "ClassLineageEffect.u_mon_damzone_ra_simple"}],
+"ShotActions": []
+}

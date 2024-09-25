@@ -1,0 +1,63 @@
+class l2_14392_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="폭풍 돌진"
+     SkillID=484
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         offset=(X=-32.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_mon_unholy4_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy4_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14392_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         AttachOn=AM_Trail
+         offset=(X=-24.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_mon_unholy4_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy4_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14392_skill.L2EffectEmitter7'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         AttachOn=AM_Trail
+         offset=(X=-16.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         SpawnDelay=0.400000
+         EffectClass=Class'LineageEffect.d_mon_unholy4_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy4_ta_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14392_skill.L2EffectEmitter8'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter9
+         AttachOn=AM_Trail
+         offset=(X=-8.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.d_mon_unholy4_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy4_ta_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_14392_skill.L2EffectEmitter9'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         SpawnDelay=0.750000
+         EffectClass=Class'LineageEffect.d_mon_unholy4_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy4_ta_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_14392_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_spinfinite3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_spinfinite3_ca_simple'
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_14392_skill.L2EffectEmitter11'
+}

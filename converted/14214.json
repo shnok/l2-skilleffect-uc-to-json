@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_istinaforce2_ca","SimpleEffectClass": "ClassLineageEffect.d_istinaforce2_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bOnMultiTarget": "True","SpawnDelay": "0.100000","EffectClass": "ClassLineageEffect.d_istinaforce2_ta","SimpleEffectClass": "ClassLineageEffect.d_istinaforce2_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.800000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_istinasub2_ra","SimpleEffectClass": "ClassLineageEffect.d_istinasub2_ra_simple"},{"Name": "L2EffectEmitter97", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_quake_4s_nodelay","SimpleEffectClass": "ClassLineageEffect.d_quake_4s_nodelay_simple"}]
+}

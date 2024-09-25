@@ -1,0 +1,5 @@
+{
+"SkillId": 16835,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.d_wi_magicbolt3_ca","SimpleEffectClass": "ClassLineageEffect.d_wi_magicbolt3_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(X=2.000000,Y=-15.000000)","bSpawnOnTarget": "False","ScaleSize": "1.200000","EffectClass": "ClassLineageEffect.d_wi_firetrail_fl","SimpleEffectClass": "ClassLineageEffect.d_wi_firetrail_fl_simple"}]
+}

@@ -1,0 +1,46 @@
+class l2_11038_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="땅"
+     SkillID=11038
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrground5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrground5s_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11038_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrground5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrground5s_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11038_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_mrground_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrground_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11038_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.d_wi_mrground_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrground_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11038_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.d_wi_stormground_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_stormground_tara_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11038_skill.L2EffectEmitter3'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s_delay'
+}

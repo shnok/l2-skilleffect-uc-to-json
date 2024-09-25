@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_LH","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.d_G_air1_ca","SimpleEffectClass": "ClassLineageEffect.d_G_air1_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.d_G_air1_jump","SimpleEffectClass": "ClassLineageEffect.d_G_air1_jump_simple"}],
+"ShotActions": []
+}

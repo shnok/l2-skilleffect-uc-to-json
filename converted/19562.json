@@ -1,0 +1,5 @@
+{
+"SkillId": 19562,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Y=0.000000,Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_kn_phoenix_reborn_ca","SimpleEffectClass": "ClassLineageEffect2.y_kn_phoenix_reborn_ca_simple"}],
+"ShotActions": []
+}

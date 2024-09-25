@@ -1,0 +1,22 @@
+class l2_15440_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="오라 번"
+     SkillID=1172
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_aura_burn_ca'
+         SimpleEffectClass=Class'LineageEffect.el_aura_burn_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15440_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.el_aura_burn_ta'
+         SimpleEffectClass=Class'LineageEffect.el_aura_burn_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15440_skill.L2EffectEmitter1'
+}

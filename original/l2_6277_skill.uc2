@@ -1,0 +1,25 @@
+class l2_6277_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="정령소환"
+     SkillID=6277
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter89
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.z_freya_self_b_ca'
+         SimpleEffectClass=Class'LineageEffect.z_freya_self_b_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6277_skill.L2EffectEmitter89'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter90
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.z_ice_knight2_ca'
+         SimpleEffectClass=Class'LineageEffect.z_ice_knight2_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6277_skill.L2EffectEmitter90'
+}

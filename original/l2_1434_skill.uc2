@@ -1,0 +1,47 @@
+class l2_1434_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크 익스플로젼"
+     SkillID=1434
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u018_darkball_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u018_darkball_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1434_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u058_darkball_hand'
+         SimpleEffectClass=Class'LineageEffect.e_u058_darkball_hand_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1434_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u058_darkball_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u058_darkball_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1434_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u058_darkball_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u058_darkball_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1434_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.m_u021_black_ta'
+         SimpleEffectClass=Class'LineageEffect.m_u021_black_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1434_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+}

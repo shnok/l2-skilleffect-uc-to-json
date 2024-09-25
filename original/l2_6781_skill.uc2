@@ -1,0 +1,15 @@
+class l2_6781_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포털 붉은 레이"
+     SkillID=6300
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=1.600000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_portal_redline'
+         SimpleEffectClass=Class'LineageEffect.d_portal_redline_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6781_skill.L2EffectEmitter1'
+}

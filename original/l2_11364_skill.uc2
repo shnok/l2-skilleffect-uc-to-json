@@ -1,0 +1,23 @@
+class l2_11364_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="패스트 런 오브 엘레멘탈"
+     SkillID=113644
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_dash_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_dash_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11364_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_wa_enermove1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_enermove1_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11364_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,21 @@
+class l2_110_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="얼터미트 디펜스"
+     SkillID=110
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_ultimate_defence_cs'
+         SimpleEffectClass=Class'LineageEffect.mo_ultimate_defence_cs_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_110_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.mo_ultimate_defence_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_ultimate_defence_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_110_skill.L2EffectEmitter1'
+}

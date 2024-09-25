@@ -1,0 +1,5 @@
+{
+"SkillId": 16041,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectPawnClassID": "15928","SequenceName": "enter01","AnimStartFrame": "0.010000","AnimEndFrame": "0.900000"}],
+"ShotActions": []
+}

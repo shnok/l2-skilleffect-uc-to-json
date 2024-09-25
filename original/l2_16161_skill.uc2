@@ -1,0 +1,22 @@
+class l2_16161_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다리온 블리드"
+     SkillID=16161
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_mon_fire_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16161_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.e_u315_ra_long'
+         SimpleEffectClass=Class'LineageEffect.e_u315_ra_long_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16161_skill.L2EffectEmitter3'
+}

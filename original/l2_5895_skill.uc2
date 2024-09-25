@@ -1,0 +1,41 @@
+class l2_5895_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마크 오브 카워디스"
+     SkillID=5895
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.e_u308_mantra'
+         SimpleEffectClass=Class'LineageEffect.e_u308_mantra_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=160.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5895_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.s_u502_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u502_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5895_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.s_u604_smoke'
+         SimpleEffectClass=Class'LineageEffect.s_u604_smoke_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5895_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.at_bluff_ta'
+         SimpleEffectClass=Class'LineageEffect.at_bluff_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5895_skill.L2EffectEmitter2'
+}

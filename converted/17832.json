@@ -1,0 +1,5 @@
+{
+"SkillId": 9155,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.750000","EffectClass": "ClassLineageEffect.e_u843_darkhorn_ca","SimpleEffectClass": "ClassLineageEffect.e_u843_darkhorn_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_spwave1_shot","SimpleEffectClass": "ClassLineageEffect.d_spwave1_shot_simple"},{"Name": "L2EffectEmitter2", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_spwave2_shot","SimpleEffectClass": "ClassLineageEffect.d_spwave2_shot_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.100000","EffectClass": "ClassLineageEffect.d_wi_abnormalweakly_ta","SimpleEffectClass": "ClassLineageEffect.d_wi_abnormalweakly_ta_simple"}]
+}

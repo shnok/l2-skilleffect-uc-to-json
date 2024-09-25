@@ -1,0 +1,58 @@
+class l2_11305_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매스 서비터 피지컬 실드"
+     SkillID=11305
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_su_3_handca'
+         SimpleEffectClass=Class'LineageEffect.d_su_3_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11305_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_su_3_handca'
+         SimpleEffectClass=Class'LineageEffect.d_su_3_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11305_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.d_su_3_handca'
+         SimpleEffectClass=Class'LineageEffect.d_su_3_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11305_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.d_su_3_handca'
+         SimpleEffectClass=Class'LineageEffect.d_su_3_handca_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_11305_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_su_1b_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_1b_ca_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_11305_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_su_buffblue_ta'
+         SimpleEffectClass=Class'LineageEffect.d_su_buffblue_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11305_skill.L2EffectEmitter6'
+}

@@ -1,0 +1,37 @@
+class l2_1433_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크볼"
+     SkillID=1433
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u018_darkball_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u018_darkball_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1433_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u058_darkball_hand'
+         SimpleEffectClass=Class'LineageEffect.e_u058_darkball_hand_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1433_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u058_darkball_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u058_darkball_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1433_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u058_darkball_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u058_darkball_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1433_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

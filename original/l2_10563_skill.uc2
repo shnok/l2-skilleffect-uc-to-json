@@ -1,0 +1,49 @@
+class l2_10563_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="쇼크 블라스트"
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.at_shock_blast_ca'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10563_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.250000
+         EffectClass=Class'LineageEffect.at_shock_blast_ra'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10563_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.at_shock_blast_ra'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10563_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter16
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.s_u807_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u807_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10563_skill.L2EffectEmitter16'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.at_shock_blast_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ta_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_10563_skill.L2EffectEmitter2'
+}

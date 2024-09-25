@@ -1,0 +1,15 @@
+class l2_983_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="페이션스"
+     SkillID=983
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.z_buff_a'
+         SimpleEffectClass=Class'LineageEffect.z_buff_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_983_skill.L2EffectEmitter11'
+}

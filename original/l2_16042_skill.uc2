@@ -1,0 +1,20 @@
+class l2_16042_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르_공중브레스"
+     SkillID=16042
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_lind_breathair_ra'
+         SimpleEffectClass=Class'LineageEffect.u_lind_breathair_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16042_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.u_lind_common_ta'
+         SimpleEffectClass=Class'LineageEffect.u_lind_common_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16042_skill.L2EffectEmitter3'
+}

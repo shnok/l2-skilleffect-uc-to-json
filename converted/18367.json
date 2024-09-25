@@ -1,0 +1,5 @@
+{
+"SkillId": 18367,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=2.500000)","bSpawnOnTarget": "False","SpawnDelay": "5.600000","EffectClass": "ClassLineageEffect.d_firework_c","SimpleEffectClass": "ClassLineageEffect.d_firework_c_simple"}],
+"ShotActions": []
+}

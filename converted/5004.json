@@ -1,0 +1,5 @@
+{
+"SkillId": 5004,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=20.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.mb_frintessa_portal_a","SimpleEffectClass": "ClassLineageEffect.mb_frintessa_portal_a_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-2.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.mb_frintessa_portal_b","SimpleEffectClass": "ClassLineageEffect.mb_frintessa_portal_b_simple"}]
+}

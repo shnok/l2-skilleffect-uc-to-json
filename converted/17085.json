@@ -1,0 +1,5 @@
+{
+"SkillId": 17085,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Y=25.000000,Z=10.000000)","ScaleSize": "0.600000","EffectPawnClassID": "13397","SequenceName": "NPC_spatk03","AnimStartFrame": "0.010000","AnimEndFrame": "0.990000"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.600000","SpawnDelay": "1.000000","EffectClass": "ClassLineageEffect.e_u503_event_ta","SimpleEffectClass": "ClassLineageEffect.e_u503_event_ta_simple"}],
+"ShotActions": []
+}

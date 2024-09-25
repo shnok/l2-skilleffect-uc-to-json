@@ -1,0 +1,15 @@
+class l2_16330_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바람의 충성"
+     SkillID=16330
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.e_u326_soul_dead'
+         SimpleEffectClass=Class'LineageEffect.e_u326_soul_dead_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16330_skill.L2EffectEmitter0'
+}

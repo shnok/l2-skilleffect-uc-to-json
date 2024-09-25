@@ -1,0 +1,15 @@
+class l2_14989_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="드라이어드 루트"
+     SkillID=1201
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_unholy5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy5_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14989_skill.L2EffectEmitter0'
+}

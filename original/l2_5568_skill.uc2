@@ -1,0 +1,15 @@
+class l2_5568_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프로스트 아머"
+     SkillID=5568
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_ice_bolt_ta'
+         SimpleEffectClass=Class'LineageEffect.el_ice_bolt_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5568_skill.L2EffectEmitter0'
+}

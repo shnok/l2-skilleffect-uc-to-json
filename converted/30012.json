@@ -1,0 +1,5 @@
+{
+"SkillId": 30012,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "bip01","offset": "(X=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_er_wi_rush","SimpleEffectClass": "ClassLineageEffect.u_er_wi_rush_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.u_er_wi_rush_ta","SimpleEffectClass": "ClassLineageEffect.u_er_wi_rush_ta_simple"}]
+}

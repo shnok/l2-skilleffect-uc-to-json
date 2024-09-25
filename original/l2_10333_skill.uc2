@@ -1,0 +1,24 @@
+class l2_10333_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="윙드 스피어"
+     SkillID=10333
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.100000
+         EffectClass=Class'LineageEffect.ab_bleeding'
+         SimpleEffectClass=Class'LineageEffect.ab_bleeding_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10333_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         ScaleSize=0.100000
+         EffectClass=Class'LineageEffect.ab_bleeding'
+         SimpleEffectClass=Class'LineageEffect.ab_bleeding_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10333_skill.L2EffectEmitter3'
+}

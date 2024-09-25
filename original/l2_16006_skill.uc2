@@ -1,0 +1,16 @@
+class l2_16006_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이스티나 연출, 오프닝, 가스 분출"
+     SkillID=16006
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Y=0.300000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.t_istina_02_sc'
+         SimpleEffectClass=Class'LineageEffect.t_istina_02_sc_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16006_skill.L2EffectEmitter0'
+}

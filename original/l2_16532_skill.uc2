@@ -1,0 +1,31 @@
+class l2_16532_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바톤의 광기 일격"
+     SkillID=16532
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_wa_wacrazy1_5s_ca'
+         SimpleEffectClass=Class'LineageEffect.u_wa_wacrazy1_5s_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16532_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.u_wa_wacrazy2_tara'
+         SimpleEffectClass=Class'LineageEffect.u_wa_wacrazy2_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16532_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_Gnuck_ta'
+         SimpleEffectClass=Class'LineageEffect.d_Gnuck_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16532_skill.L2EffectEmitter3'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

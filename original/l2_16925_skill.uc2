@@ -1,0 +1,31 @@
+class l2_16925_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아스타틴 썬더 스톰"
+     SkillID=16925
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.y_mon_red2_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_red2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16925_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect.d_mon_red1_fl'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red1_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16925_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.d_mon_red3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red3_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16925_skill.L2EffectEmitter2'
+}

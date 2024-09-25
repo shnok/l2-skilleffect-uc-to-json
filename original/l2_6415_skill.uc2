@@ -1,0 +1,31 @@
+class l2_6415_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스크래치"
+     SkillID=6415
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_reptiles_ca'
+         SimpleEffectClass=Class'LineageEffect.z_reptiles_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6415_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter26
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.p_u004_a'
+         SimpleEffectClass=Class'LineageEffect.p_u004_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6415_skill.L2EffectEmitter26'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_shockwave_a_ra'
+         SimpleEffectClass=Class'LineageEffect.z_shockwave_a_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6415_skill.L2EffectEmitter22'
+}

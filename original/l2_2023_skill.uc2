@@ -1,0 +1,12 @@
+class l2_2023_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="ø‰¡§ ∫“≤…"
+     SkillID=2023
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         EtcEffect=EET_FireCracker
+         EtcEffectInfo=EEP_FireCrackerSmall
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2023_skill.L2EffectEmitter0'
+}

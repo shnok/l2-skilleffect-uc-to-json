@@ -1,0 +1,25 @@
+class l2_6688_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="죽통"
+     SkillID=6688
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_soup_failure'
+         SimpleEffectClass=Class'LineageEffect.z_soup_failure_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6688_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=0.700000)
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.z_soup_failure_ta'
+         SimpleEffectClass=Class'LineageEffect.z_soup_failure_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6688_skill.L2EffectEmitter2'
+}

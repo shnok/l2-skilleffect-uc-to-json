@@ -1,0 +1,14 @@
+class l2_17964_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마스터 연금술 실패"
+     SkillID=17964
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_alchemy_fail'
+         SimpleEffectClass=Class'LineageEffect.u_alchemy_fail_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17964_skill.L2EffectEmitter1'
+}

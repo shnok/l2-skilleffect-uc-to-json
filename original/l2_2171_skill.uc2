@@ -1,0 +1,15 @@
+class l2_2171_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="행운의 부적"
+     SkillID=2171
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u217_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u217_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2171_skill.L2EffectEmitter0'
+}

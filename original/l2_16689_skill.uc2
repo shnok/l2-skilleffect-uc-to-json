@@ -1,0 +1,14 @@
+class l2_16689_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="검 조각상의 축복"
+     SkillID=16689
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_mon_mez2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_mez2_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16689_skill.L2EffectEmitter0'
+}

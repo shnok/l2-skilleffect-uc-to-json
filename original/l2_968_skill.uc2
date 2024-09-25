@@ -1,0 +1,20 @@
+class l2_968_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=2.000000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.250000
+         EffectClass=Class'LineageEffect.z_seed_tacrakahn_ca'
+         SimpleEffectClass=Class'LineageEffect.z_seed_tacrakahn_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_968_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u820_range_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u820_range_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_968_skill.L2EffectEmitter2'
+}

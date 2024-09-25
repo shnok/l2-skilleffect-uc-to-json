@@ -1,0 +1,5 @@
+{
+"SkillId": ,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.z_kegor_comp_a_ca","SimpleEffectClass": "ClassLineageEffect.z_kegor_comp_a_ca_simple"}],
+"ShotActions": []
+}

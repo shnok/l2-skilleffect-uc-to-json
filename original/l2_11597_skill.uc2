@@ -1,0 +1,33 @@
+class l2_11597_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매스 매지션스 하모니"
+     SkillID=11525
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_in_magharm_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_magharm_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11597_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_partyenforceb_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_partyenforceb_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11597_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.700000)
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.u_in_bloodmark_light'
+         SimpleEffectClass=Class'LineageEffect.u_in_bloodmark_light_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11597_skill.L2EffectEmitter1'
+}

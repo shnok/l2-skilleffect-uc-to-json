@@ -1,0 +1,5 @@
+{
+"SkillId": 16946,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=0.100000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_scene_etina_att_ca","SimpleEffectClass": "ClassLineageEffect2.y_scene_etina_att_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect2.y_scene_etina_att_ra","SimpleEffectClass": "ClassLineageEffect2.y_scene_etina_att_ra_simple"}]
+}

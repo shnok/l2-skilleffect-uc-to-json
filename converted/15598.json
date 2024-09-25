@@ -1,0 +1,5 @@
+{
+"SkillId": 15274,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneLocation","AttachBoneName": "Bip01 Ponytail2Nub","bSpawnOnTarget": "False","ScaleSize": "0.050000","EffectClass": "ClassLineageEffect.u_lind_missile","SimpleEffectClass": "ClassLineageEffect.u_lind_missile_simple"}]
+}

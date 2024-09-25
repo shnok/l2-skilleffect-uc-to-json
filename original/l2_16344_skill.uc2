@@ -1,0 +1,33 @@
+class l2_16344_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데스 블러드 볼트"
+     SkillID=16344
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u019_a'
+         SimpleEffectClass=Class'LineageEffect.s_u019_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16344_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u019_b'
+         SimpleEffectClass=Class'LineageEffect.s_u019_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16344_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.s_u019_c'
+         SimpleEffectClass=Class'LineageEffect.s_u019_c_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16344_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

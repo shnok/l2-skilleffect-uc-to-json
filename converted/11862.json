@@ -1,0 +1,5 @@
+{
+"SkillId": 11862,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_he_recover_ca","SimpleEffectClass": "ClassLineageEffect.d_he_recover_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=0.500000)","ScaleSize": "1.500000","EffectClass": "ClassLineageEffect.u_he_resinear_ta","SimpleEffectClass": "ClassLineageEffect.u_he_resinear_ta_simple"}]
+}

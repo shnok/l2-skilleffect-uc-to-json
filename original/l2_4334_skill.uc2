@@ -1,0 +1,14 @@
+class l2_4334_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="SSQ 캔슬"
+     SkillID=4334
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_sleep_ta'
+         SimpleEffectClass=Class'LineageEffect.su_sleep_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4334_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,31 @@
+class l2_6312_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="신성검기발사"
+     SkillID=6312
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         ScaleSize=1.100000
+         EffectClass=Class'LineageEffect.z_cast_red_ca'
+         SimpleEffectClass=Class'LineageEffect.z_cast_red_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6312_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.el_prominence_fl'
+         SimpleEffectClass=Class'LineageEffect.el_prominence_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6312_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u034_c'
+         SimpleEffectClass=Class'LineageEffect.e_u034_c_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6312_skill.L2EffectEmitter2'
+}

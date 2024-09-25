@@ -1,0 +1,5 @@
+{
+"SkillId": 19554,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_kn_revenging_blackthorn_ca","SimpleEffectClass": "ClassLineageEffect2.y_kn_revenging_blackthorn_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_kn_revenging_blackthorn_ra","SimpleEffectClass": "ClassLineageEffect2.y_kn_revenging_blackthorn_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_kn_revenging_blackthorn_ta","SimpleEffectClass": "ClassLineageEffect2.y_kn_revenging_blackthorn_ta_simple"}]
+}

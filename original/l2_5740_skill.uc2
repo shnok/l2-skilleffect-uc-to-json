@@ -1,0 +1,25 @@
+class l2_5740_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크라테의큐브_회복의항아리"
+     SkillID=5740
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.wh_heal_ca'
+         SimpleEffectClass=Class'LineageEffect.wh_heal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5740_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.wh_greater_heal_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_greater_heal_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5740_skill.L2EffectEmitter1'
+}

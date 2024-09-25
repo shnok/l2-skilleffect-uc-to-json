@@ -1,0 +1,5 @@
+{
+"SkillId": 14573,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.300000","EffectClass": "ClassLineageEffect.d_mon_spa2_tara","SimpleEffectClass": "ClassLineageEffect.d_mon_spa2_tara_simple"},{"Name": "L2EffectEmitter33", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_mon_red3_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_red3_ta_simple"}],
+"ShotActions": []
+}

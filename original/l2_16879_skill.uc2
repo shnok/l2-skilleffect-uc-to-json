@@ -1,0 +1,24 @@
+class l2_16879_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="출혈 공격"
+     SkillID=16879
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.750000
+         EffectClass=Class'LineageEffect2.y_mon_blue_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_blue_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16879_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_unholy4_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy4_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16879_skill.L2EffectEmitter1'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

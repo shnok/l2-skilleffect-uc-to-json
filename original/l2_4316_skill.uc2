@@ -1,0 +1,31 @@
+class l2_4316_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Boss 릴림 드레인"
+     SkillID=4316
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bAbsolute=True
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.mu_lilim_drain_boss_cs'
+         SimpleEffectClass=Class'LineageEffect.mu_lilim_drain_boss_cs_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4316_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.mu_lilim_drain_boss_ca'
+         SimpleEffectClass=Class'LineageEffect.mu_lilim_drain_boss_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4316_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.mu_lilim_drain_boss_ta'
+         SimpleEffectClass=Class'LineageEffect.mu_lilim_drain_boss_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4316_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,16 @@
+class l2_30507_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="L사이드 스탭"
+     SkillID=30507
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="bip01"
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.g_wa_step_green_tr'
+         SimpleEffectClass=Class'LineageEffect.g_wa_step_green_tr_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30507_skill.L2EffectEmitter0'
+}

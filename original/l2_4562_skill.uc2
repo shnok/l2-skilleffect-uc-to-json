@@ -1,0 +1,33 @@
+class l2_4562_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="NPC Solar Flare"
+     SkillID=4562
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_flame_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4562_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_eruption_cs'
+         SimpleEffectClass=Class'LineageEffect.el_eruption_cs_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4562_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_eruption_ta'
+         SimpleEffectClass=Class'LineageEffect.el_eruption_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4562_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 6376,
+"CastingActions": [{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_reptiles_ca","SimpleEffectClass": "ClassLineageEffect.z_reptiles_ca_simple"}],
+"ShotActions": []
+}

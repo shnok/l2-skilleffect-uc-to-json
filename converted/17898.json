@@ -1,0 +1,5 @@
+{
+"SkillId": 17898,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Y=30.000000,Z=-0.900000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_er_npc_deco","SimpleEffectClass": "ClassLineageEffect.u_er_npc_deco_simple"},{"Name": "L2EffectEmitter1", "offset": "(Y=30.000000)","bSpawnOnTarget": "False","EffectPawnClassID": "19575","SequenceName": "spwait02","AnimStartFrame": "0.330000","AnimEndFrame": "0.950000"}],
+"ShotActions": []
+}

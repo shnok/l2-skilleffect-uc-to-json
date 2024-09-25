@@ -1,0 +1,5 @@
+{
+"SkillId": 1540,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.z_unholy_hp_down","SimpleEffectClass": "ClassLineageEffect.z_unholy_hp_down_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.z_unholy_hp_down","SimpleEffectClass": "ClassLineageEffect.z_unholy_hp_down_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "1.200000","EffectClass": "ClassLineageEffect.s_u227_ta","SimpleEffectClass": "ClassLineageEffect.s_u227_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.ph_howl_ta","SimpleEffectClass": "ClassLineageEffect.ph_howl_ta_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","ScaleSize": "0.800000","SpawnDelay": "1.500000","EffectClass": "ClassLineageEffect.d_smoke_darkb","SimpleEffectClass": "ClassLineageEffect.d_smoke_darkb_simple"}]
+}

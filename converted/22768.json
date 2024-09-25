@@ -1,0 +1,5 @@
+{
+"SkillId": 22768,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_noblequest_complete","SimpleEffectClass": "ClassLineageEffect.u_noblequest_complete_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,23 @@
+class l2_10051_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="라이온 로어"
+     SkillID=10051
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_shblast_ra'
+         SimpleEffectClass=Class'LineageEffect.d_wa_shblast_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10051_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         EffectClass=Class'LineageEffect.d_wa_shblast_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_shblast_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10051_skill.L2EffectEmitter4'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

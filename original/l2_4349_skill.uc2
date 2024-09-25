@@ -1,0 +1,15 @@
+class l2_4349_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아지트 매직 배리어"
+     SkillID=4349
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_magic_barrier_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_magic_barrier_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4349_skill.L2EffectEmitter0'
+}

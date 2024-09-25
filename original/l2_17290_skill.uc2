@@ -1,0 +1,14 @@
+class l2_17290_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="향상된 장미빛 유혹"
+     SkillID=17290
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ta_b'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ta_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17290_skill.L2EffectEmitter0'
+}

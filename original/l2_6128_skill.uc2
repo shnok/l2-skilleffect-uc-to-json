@@ -1,0 +1,30 @@
+class l2_6128_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="연출_소 분노"
+     SkillID=6128
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-1.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.450000
+         EffectClass=Class'LineageEffect.s_u202_event_cow'
+         SimpleEffectClass=Class'LineageEffect.s_u202_event_cow_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6128_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.750000
+         SpawnDelay=0.800000
+         EffectClass=Class'LineageEffect.s_u202_event_cow'
+         SimpleEffectClass=Class'LineageEffect.s_u202_event_cow_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6128_skill.L2EffectEmitter1'
+}

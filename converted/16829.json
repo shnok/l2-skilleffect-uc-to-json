@@ -1,0 +1,5 @@
+{
+"SkillId": 16829,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_kelbim_refarmor_ca","SimpleEffectClass": "ClassLineageEffect.u_kelbim_refarmor_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.300000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.u_kelbim_refarmor_ta","SimpleEffectClass": "ClassLineageEffect.u_kelbim_refarmor_ta_simple"}]
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 10523,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.d_ro_lakep4loop_tara","SimpleEffectClass": "ClassLineageEffect.d_ro_lakep4loop_tara_simple"}],
+"ShotActions": []
+}

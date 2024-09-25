@@ -1,0 +1,15 @@
+class l2_17893_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="구사일생"
+     SkillID=17893
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_luckybirth'
+         SimpleEffectClass=Class'LineageEffect.u_luckybirth_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17893_skill.L2EffectEmitter1'
+}

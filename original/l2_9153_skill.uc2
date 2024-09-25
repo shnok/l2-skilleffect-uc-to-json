@@ -1,0 +1,30 @@
+class l2_9153_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하트 샷"
+     SkillID=9153
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u300_heart_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9153_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u300_cow_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u300_cow_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9153_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-20.000000)
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u300_heart_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9153_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

@@ -1,0 +1,33 @@
+class l2_14873_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_magical_ca'
+         SimpleEffectClass=Class'LineageEffect.d_magical_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14873_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter31
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_ar_raina_tara'
+         SimpleEffectClass=Class'LineageEffect.d_ar_raina_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14873_skill.L2EffectEmitter31'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_ro_bleed_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_bleed_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14873_skill.L2EffectEmitter2'
+}

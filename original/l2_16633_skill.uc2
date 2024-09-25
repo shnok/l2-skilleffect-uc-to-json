@@ -1,0 +1,38 @@
+class l2_16633_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레오폴트 스프레이 샷"
+     SkillID=16633
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_blue2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16633_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.500000)
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.z_lightning_ra'
+         SimpleEffectClass=Class'LineageEffect.z_lightning_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16633_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_unholy1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy1_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16633_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-1.000000)
+         ScaleSize=3.500000
+         EffectClass=Class'LineageEffect.u_lind_ground_tara'
+         SimpleEffectClass=Class'LineageEffect.u_lind_ground_tara_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16633_skill.L2EffectEmitter3'
+}

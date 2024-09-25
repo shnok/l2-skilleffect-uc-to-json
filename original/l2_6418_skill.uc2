@@ -1,0 +1,32 @@
+class l2_6418_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포이즌 붐"
+     SkillID=6418
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.z_common_b_cast'
+         SimpleEffectClass=Class'LineageEffect.z_common_b_cast_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6418_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         offset=(X=2.300000,Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.z_reptiles_fl'
+         SimpleEffectClass=Class'LineageEffect.z_reptiles_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6418_skill.L2EffectEmitter22'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_seed_reptiles_b_ta'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_b_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6418_skill.L2EffectEmitter2'
+}

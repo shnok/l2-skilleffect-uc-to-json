@@ -1,0 +1,16 @@
+class l2_18172_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="버프준의 100만 마력"
+     SkillID=18172
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_z_event_complete_b'
+         SimpleEffectClass=Class'LineageEffect.u_z_event_complete_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18172_skill.L2EffectEmitter0'
+}

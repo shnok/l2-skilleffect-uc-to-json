@@ -1,0 +1,15 @@
+class l2_5689_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="pvp방패_리플렉트 데미지"
+     SkillID=5689
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_reflect_damage_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_reflect_damage_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5689_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,22 @@
+class l2_11861_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레지스트 어트리뷰트"
+     SkillID=11861
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_he_recover_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_recover_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11861_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_kn_buff_move'
+         SimpleEffectClass=Class'LineageEffect.d_kn_buff_move_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11861_skill.L2EffectEmitter1'
+}

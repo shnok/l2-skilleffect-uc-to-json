@@ -1,0 +1,24 @@
+class l2_5226_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발러 텔레포트"
+     SkillID=5226
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u100_teleport_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u100_teleport_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5226_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u100_teleport_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u100_teleport_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5226_skill.L2EffectEmitter1'
+}

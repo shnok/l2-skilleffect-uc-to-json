@@ -1,0 +1,15 @@
+class l2_10523_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="중독 상태"
+     SkillID=10523
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.d_ro_lakep4loop_tara'
+         SimpleEffectClass=Class'LineageEffect.d_ro_lakep4loop_tara_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10523_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 5852,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u600_aga_joy","SimpleEffectClass": "ClassLineageEffect.e_u600_aga_joy_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","EffectClass": "ClassLineageEffect.e_u309_ta_block","SimpleEffectClass": "ClassLineageEffect.e_u309_ta_block_simple"}]
+}

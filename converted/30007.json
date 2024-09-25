@@ -1,0 +1,5 @@
+{
+"SkillId": 30007,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_er_wi_drain_ca","SimpleEffectClass": "ClassLineageEffect.u_er_wi_drain_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_er_wi_drain_ta","SimpleEffectClass": "ClassLineageEffect.u_er_wi_drain_ta_simple"},{"Name": "L2EffectEmitter2", "bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.u_er_wi_drain_fl","SimpleEffectClass": "ClassLineageEffect.u_er_wi_drain_fl_simple"},{"Name": "L2EffectEmitter3", "bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.u_er_wi_drain_fl","SimpleEffectClass": "ClassLineageEffect.u_er_wi_drain_fl_simple"}]
+}

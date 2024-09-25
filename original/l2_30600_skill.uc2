@@ -1,0 +1,23 @@
+class l2_30600_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에디셔널 히트"
+     SkillID=30600
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_addihit_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_addihit_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30600_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.u_er_wa_addihit_ra'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_addihit_ra_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30600_skill.L2EffectEmitter1'
+}

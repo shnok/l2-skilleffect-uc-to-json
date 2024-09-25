@@ -1,0 +1,33 @@
+class l2_905_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크 디토네이션"
+     SkillID=905
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u225_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u225_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_905_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u225_ra'
+         SimpleEffectClass=Class'LineageEffect.s_u225_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_905_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.s_u225_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u225_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_905_skill.L2EffectEmitter4'
+}

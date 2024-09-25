@@ -1,0 +1,37 @@
+class l2_32019_b_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="낙인 폭발 - 2단계"
+     SkillID=32019
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.190000
+         EffectClass=Class'LineageEffect2.y_raid_destruction_a_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_destruction_a_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32019_b_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         SpawnDelay=0.050000
+         EffectClass=Class'LineageEffect.d_ro_crossc_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_crossc_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32019_b_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_raid_destruction_b'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_destruction_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32019_b_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.500000)
+         ScaleSize=10.000000
+         EffectClass=Class'LineageEffect.d_wa_winshout_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wa_winshout_tara_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_32019_b_skill.L2EffectEmitter3'
+}

@@ -1,0 +1,15 @@
+class l2_15423_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="현기증"
+     SkillID=15423
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_lind_dizz'
+         SimpleEffectClass=Class'LineageEffect.u_lind_dizz_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15423_skill.L2EffectEmitter0'
+}

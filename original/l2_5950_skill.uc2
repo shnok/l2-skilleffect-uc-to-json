@@ -1,0 +1,13 @@
+class l2_5950_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="생일축하선물"
+     SkillID=5950
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u521_birthday'
+         SimpleEffectClass=Class'LineageEffect.e_u521_birthday_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5950_skill.L2EffectEmitter1'
+}

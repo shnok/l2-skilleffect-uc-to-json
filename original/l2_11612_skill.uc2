@@ -1,0 +1,24 @@
+class l2_11612_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="댄스 오브 릴랙스"
+     SkillID=11612
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_in_dance_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_dance_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11612_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_attackmb_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_attackmb_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11612_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,30 @@
+class l2_5513_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="가드나이아_테인트 오브 파이어"
+     SkillID=5513
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.e_u849_sword_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u849_sword_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5513_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u852_naia_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u852_naia_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5513_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_flame_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5513_skill.L2EffectEmitter2'
+}

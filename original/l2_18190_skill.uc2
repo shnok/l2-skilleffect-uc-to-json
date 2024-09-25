@@ -1,0 +1,14 @@
+class l2_18190_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="우주전투식량_카리스마_charisma"
+     SkillID=18190
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_potion_charisma'
+         SimpleEffectClass=Class'LineageEffect.u_potion_charisma_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18190_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,22 @@
+class l2_884_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="돌격형_에어 어썰트"
+     SkillID=884
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-1.500000,Z=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u616_rush'
+         SimpleEffectClass=Class'LineageEffect.s_u616_rush_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_884_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u322_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u322_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_884_skill.L2EffectEmitter1'
+}

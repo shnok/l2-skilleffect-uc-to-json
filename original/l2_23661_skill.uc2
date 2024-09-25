@@ -1,0 +1,23 @@
+class l2_23661_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="[어스 페이탈 스트라이크]"
+     SkillID=23661
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_mon_earth1_ca'
+         SimpleEffectClass=Class'LineageEffect.u_mon_earth1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23661_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_mon_earth1_ta'
+         SimpleEffectClass=Class'LineageEffect.u_mon_earth1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23661_skill.L2EffectEmitter1'
+}

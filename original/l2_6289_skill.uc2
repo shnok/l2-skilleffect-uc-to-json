@@ -1,0 +1,34 @@
+class l2_6289_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="케고르의용기"
+     SkillID=6289
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.z_cast_red_ca'
+         SimpleEffectClass=Class'LineageEffect.z_cast_red_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6289_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         SpawnDelay=3.000000
+         EffectClass=Class'LineageEffect.z_kegor_brave'
+         SimpleEffectClass=Class'LineageEffect.z_kegor_brave_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6289_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_focus_ta'
+         SimpleEffectClass=Class'LineageEffect.su_focus_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6289_skill.L2EffectEmitter11'
+}

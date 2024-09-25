@@ -1,0 +1,23 @@
+class l2_15173_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="타우티 연출용"
+     SkillID=16036
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.950000)
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_tauti_red_ra'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_red_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15173_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.950000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_red1_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red1_ra_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15173_skill.L2EffectEmitter1'
+}

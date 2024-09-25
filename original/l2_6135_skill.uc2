@@ -1,0 +1,23 @@
+class l2_6135_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소 이벤트_베이직 어택"
+     SkillID=6135
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.550000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6135_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         EffectClass=Class'LineageEffect.e_u309_ta_block'
+         SimpleEffectClass=Class'LineageEffect.e_u309_ta_block_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6135_skill.L2EffectEmitter1'
+}

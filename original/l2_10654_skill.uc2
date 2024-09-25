@@ -1,0 +1,23 @@
+class l2_10654_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="맥시멈 마이트 모탈"
+     SkillID=10654
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_ro_might_ca'
+         SimpleEffectClass=Class'LineageEffect.u_ro_might_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10654_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.su_death_whisper_ta'
+         SimpleEffectClass=Class'LineageEffect.su_death_whisper_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10654_skill.L2EffectEmitter1'
+}

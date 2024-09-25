@@ -1,0 +1,23 @@
+class l2_10064_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="퓨어 새크리파이스"
+     SkillID=10064
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_kn_scrifi_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kn_scrifi_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10064_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_greater_heal_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_greater_heal_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10064_skill.L2EffectEmitter1'
+}

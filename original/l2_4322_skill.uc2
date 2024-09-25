@@ -1,0 +1,15 @@
+class l2_4322_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="초보용 윈드 워크"
+     SkillID=4322
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.sp_wind_walk_ta'
+         SimpleEffectClass=Class'LineageEffect.sp_wind_walk_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4322_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,25 @@
+class l2_16040_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빨아들이기"
+     SkillID=16040
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_lind_hole_ca'
+         SimpleEffectClass=Class'LineageEffect.u_lind_hole_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16040_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_lind_hole_ra'
+         SimpleEffectClass=Class'LineageEffect.u_lind_hole_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16040_skill.L2EffectEmitter1'
+}

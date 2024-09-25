@@ -1,0 +1,7 @@
+class l2_15597_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르_착률"
+     SkillID=15597
+}

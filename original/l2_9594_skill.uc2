@@ -1,0 +1,30 @@
+class l2_9594_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="체인 스트라이크"
+     SkillID=10015
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_kn_judgep_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgep_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9594_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.z_gs_chain_ta_c'
+         SimpleEffectClass=Class'LineageEffect.z_gs_chain_ta_c_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_9594_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.z_gstar_channeling_beam'
+         SimpleEffectClass=Class'LineageEffect.z_gstar_channeling_beam_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9594_skill.L2EffectEmitter1'
+}

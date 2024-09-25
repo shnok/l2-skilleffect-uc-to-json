@@ -1,0 +1,30 @@
+class l2_1528_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디바인 플래쉬"
+     SkillID=1528
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u600_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u600_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1528_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u600_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u600_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1528_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         EffectClass=Class'LineageEffect.s_u601_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u601_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1528_skill.L2EffectEmitter2'
+}

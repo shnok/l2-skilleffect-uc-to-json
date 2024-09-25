@@ -1,0 +1,41 @@
+class l2_6397_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="코크라콘"
+     SkillID=6397
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.z_seed_reptiles_c_ca'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_c_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6397_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         offset=(X=1.000000,Z=40.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.e_u309_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u309_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6397_skill.L2EffectEmitter22'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter30
+         AttachOn=AM_Trail
+         offset=(X=0.500000,Z=0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_focus_sonic_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_focus_sonic_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6397_skill.L2EffectEmitter30'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_seed_reptiles_c_ta'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_c_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6397_skill.L2EffectEmitter2'
+}

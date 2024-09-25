@@ -1,0 +1,25 @@
+class l2_78_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="워 크라이"
+     SkillID=78
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.mo_war_cry_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_war_cry_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_78_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_war_cry_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_war_cry_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_78_skill.L2EffectEmitter1'
+}

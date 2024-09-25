@@ -1,0 +1,25 @@
+class l2_4582_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스케일맞게변경"
+     SkillID=4582
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.bl_berserker_spirit_ca'
+         SimpleEffectClass=Class'LineageEffect.bl_berserker_spirit_ca_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Cylinder,LightColor=(W=0.900000,X=0.500000,Y=0.200000,Z=0.200000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4582_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4582_skill.L2EffectEmitter1'
+}

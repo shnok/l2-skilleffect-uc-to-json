@@ -1,0 +1,41 @@
+class l2_10795_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="호크 클랜스"
+     SkillID=10795
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_kn_finalven1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_finalven1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10795_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         SpawnDelay=1.200000
+         EffectClass=Class'LineageEffect.d_kn_finalven1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_finalven1_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10795_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ar_mark_strongshot'
+         SimpleEffectClass=Class'LineageEffect.d_ar_mark_strongshot_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10795_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ar_finalae2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ar_finalae2_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10795_skill.L2EffectEmitter3'
+}

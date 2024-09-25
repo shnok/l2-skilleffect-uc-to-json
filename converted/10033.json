@@ -1,0 +1,5 @@
+{
+"SkillId": 10033,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_kn_friendship_ca","SimpleEffectClass": "ClassLineageEffect.d_kn_friendship_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.d_kn_alterdefense2_ta","SimpleEffectClass": "ClassLineageEffect.d_kn_alterdefense2_ta_simple"}]
+}

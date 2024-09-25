@@ -1,0 +1,30 @@
+class l2_92_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 스턴"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.at_shield_stun_ca'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_92_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.at_shield_stun_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_92_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.at_shield_stun_cs'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_cs_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_92_skill.L2EffectEmitter2'
+}

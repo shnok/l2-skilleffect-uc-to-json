@@ -1,0 +1,16 @@
+class l2_13526_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="축복받은 린드비오르귀걸이"
+     SkillID=13526
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter91
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="bip01"
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         EffectClass=Class'LineageEffect.z_buff_short_G'
+         SimpleEffectClass=Class'LineageEffect.z_buff_short_G_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_13526_skill.L2EffectEmitter91'
+}

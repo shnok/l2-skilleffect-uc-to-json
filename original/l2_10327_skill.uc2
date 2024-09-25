@@ -1,0 +1,31 @@
+class l2_10327_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포스 플래시"
+     SkillID=10327
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10327_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.u_wa_force2_fl'
+         SimpleEffectClass=Class'LineageEffect.u_wa_force2_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10327_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_ar_sneak_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ar_sneak_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10327_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

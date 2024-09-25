@@ -1,0 +1,48 @@
+class l2_19559_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="19559"
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect2.y_kn_black_thorn_chain_cata'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_black_thorn_chain_cata_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19559_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-0.700000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.y_kn_thorn_chain_strike_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_thorn_chain_strike_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19559_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         bChanneling=True
+         EffectClass=Class'LineageEffect2.y_kn_black_chain_beam'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_black_chain_beam_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19559_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         bChanneling=True
+         EffectClass=Class'LineageEffect2.y_kn_black_chain_glow_beam'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_black_chain_glow_beam_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19559_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect2.y_kn_revenging_blackthorn_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_revenging_blackthorn_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_19559_skill.L2EffectEmitter4'
+}

@@ -1,0 +1,43 @@
+class l2_39271_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빛나는 드래곤의 보물 상자"
+     SkillID=39271
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Y=30.000000,Z=-0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=0.350000
+         EffectClass=Class'LineageEffect.d_mon_earth_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_earth_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_39271_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=0.600000,Y=25.000000,Z=0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=1.200000
+         EffectClass=Class'LineageEffect.e_u303_aga_gift'
+         SimpleEffectClass=Class'LineageEffect.e_u303_aga_gift_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_39271_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=0.600000,Y=35.000000,Z=0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=2.700000
+         EffectClass=Class'LineageEffect.e_u303_aga_gift'
+         SimpleEffectClass=Class'LineageEffect.e_u303_aga_gift_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_39271_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Y=30.000000,Z=10.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=0.500000
+         EffectPawnClassID=13528
+         SequenceName="spatk01"
+         AnimEndFrame=0.900000
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_39271_skill.L2EffectEmitter3'
+}

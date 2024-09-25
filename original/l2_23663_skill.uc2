@@ -1,0 +1,32 @@
+class l2_23663_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="윈드 블래스트"
+     SkillID=23663
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_mon_wind3_ca'
+         SimpleEffectClass=Class'LineageEffect.u_mon_wind3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23663_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_mon_wind1_ta'
+         SimpleEffectClass=Class'LineageEffect.u_mon_wind1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23663_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_mon_wind_ra'
+         SimpleEffectClass=Class'LineageEffect.u_mon_wind_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_23663_skill.L2EffectEmitter2'
+}

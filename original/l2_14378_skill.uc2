@@ -1,0 +1,22 @@
+class l2_14378_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="입 냄새 공격"
+     SkillID=4110
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_mon_earth_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_earth_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14378_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         offset=(X=2.000000,Z=-1.000000)
+         EffectClass=Class'LineageEffect.d_anta_teeth'
+         SimpleEffectClass=Class'LineageEffect.d_anta_teeth_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14378_skill.L2EffectEmitter10'
+}

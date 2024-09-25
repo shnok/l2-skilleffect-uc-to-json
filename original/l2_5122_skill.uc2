@@ -1,0 +1,33 @@
+class l2_5122_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="사이렌 전용 마이트"
+     SkillID=5122
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-70.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u832_new_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u832_new_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5122_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-70.000000)
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect2.e_u832_total'
+         SimpleEffectClass=Class'LineageEffect2.e_u832_total_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5122_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-70.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u832_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u832_ca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5122_skill.L2EffectEmitter2'
+}

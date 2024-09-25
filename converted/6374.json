@@ -1,0 +1,5 @@
+{
+"SkillId": 6374,
+"CastingActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.300000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.z_totem_green_ta","SimpleEffectClass": "ClassLineageEffect.z_totem_green_ta_simple"}],
+"ShotActions": []
+}

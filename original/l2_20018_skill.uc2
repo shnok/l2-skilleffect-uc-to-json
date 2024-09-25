@@ -1,0 +1,23 @@
+class l2_20018_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아카마나프 Level Up"
+     SkillID=20018
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u540_levelup'
+         SimpleEffectClass=Class'LineageEffect.e_u540_levelup_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_20018_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u540_levelup'
+         SimpleEffectClass=Class'LineageEffect.e_u540_levelup_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_20018_skill.L2EffectEmitter1'
+}

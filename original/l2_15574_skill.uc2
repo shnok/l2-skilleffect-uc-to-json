@@ -1,0 +1,37 @@
+class l2_15574_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="시즈 해머"
+     SkillID=15574
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.d_Gnuck_ca'
+         SimpleEffectClass=Class'LineageEffect.d_Gnuck_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15574_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_golem_hamm_light'
+         SimpleEffectClass=Class'LineageEffect.u_golem_hamm_light_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15574_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_golem_hamm_smoke'
+         SimpleEffectClass=Class'LineageEffect.u_golem_hamm_smoke_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15574_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_golem_hamm_ta'
+         SimpleEffectClass=Class'LineageEffect.u_golem_hamm_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_15574_skill.L2EffectEmitter3'
+}

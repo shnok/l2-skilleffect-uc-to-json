@@ -1,0 +1,14 @@
+class l2_4327_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="초보용 헤이스트"
+     SkillID=4327
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_haste_ta'
+         SimpleEffectClass=Class'LineageEffect.su_haste_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4327_skill.L2EffectEmitter0'
+}

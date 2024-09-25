@@ -1,0 +1,5 @@
+{
+"SkillId": 5423,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-7.000000)","EffectClass": "ClassLineageEffect.e_u834_cloud300_trap","SimpleEffectClass": "ClassLineageEffect.e_u834_cloud300_trap_simple"},{"Name": "L2EffectEmitter1", "offset": "(Z=-7.000000)","EffectClass": "ClassLineageEffect.e_u834_cloud300_trap","SimpleEffectClass": "ClassLineageEffect.e_u834_cloud300_trap_simple"},{"Name": "L2EffectEmitter2", "offset": "(Z=-7.000000)","EffectClass": "ClassLineageEffect.e_u834_cloud300_trap","SimpleEffectClass": "ClassLineageEffect.e_u834_cloud300_trap_simple"},{"Name": "L2EffectEmitter3", "offset": "(Z=-7.000000)","EffectClass": "ClassLineageEffect.e_u834_cloud300_trap","SimpleEffectClass": "ClassLineageEffect.e_u834_cloud300_trap_simple"},{"Name": "L2EffectEmitter4", "offset": "(Z=-7.000000)","EffectClass": "ClassLineageEffect.e_u834_cloud300_trap","SimpleEffectClass": "ClassLineageEffect.e_u834_cloud300_trap_simple"},{"Name": "L2EffectEmitter5", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","EffectClass": "ClassLineageEffect.bl_poison_cloud_ta","SimpleEffectClass": "ClassLineageEffect.bl_poison_cloud_ta_simple"}],
+"ShotActions": []
+}

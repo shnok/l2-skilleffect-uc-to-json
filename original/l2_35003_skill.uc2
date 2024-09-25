@@ -1,0 +1,21 @@
+class l2_35003_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="지룡의 보호"
+     SkillID=35003
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_edragon_ult_ca'
+         SimpleEffectClass=Class'LineageEffect.u_edragon_ult_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_35003_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_edragon_ult_ta'
+         SimpleEffectClass=Class'LineageEffect.u_edragon_ult_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_35003_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 18125,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=0.500000)","bSpawnOnTarget": "False","ScaleSize": "1.200000","EffectClass": "ClassLineageEffect.e_u086_snow","SimpleEffectClass": "ClassLineageEffect.e_u086_snow_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,39 @@
+class l2_4766_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="카나디스 파워샷"
+     SkillID=4766
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.750000
+         EffectClass=Class'LineageEffect.s_u003_a'
+         SimpleEffectClass=Class'LineageEffect.s_u003_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4766_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         RelativeRotation=(Yaw=18000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.s_u003_d'
+         SimpleEffectClass=Class'LineageEffect.s_u003_d_simple'
+     End Object
+     PreshotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4766_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u003_b'
+         SimpleEffectClass=Class'LineageEffect.s_u003_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4766_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.p_u004_a'
+         SimpleEffectClass=Class'LineageEffect.p_u004_a_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4766_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

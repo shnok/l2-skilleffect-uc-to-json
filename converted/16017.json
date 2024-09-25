@@ -1,0 +1,5 @@
+{
+"SkillId": 16017,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.200000,Z=0.600000)","bSpawnOnTarget": "False","ScaleSize": "1.500000","EffectClass": "ClassLineageEffect.t_shilen_deco","SimpleEffectClass": "ClassLineageEffect.t_shilen_deco_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 19556,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_kn_inhale_soul_ca","SimpleEffectClass": "ClassLineageEffect2.y_kn_inhale_soul_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_kn_inhale_soul_ra","SimpleEffectClass": "ClassLineageEffect2.y_kn_inhale_soul_ra_simple"}]
+}

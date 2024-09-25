@@ -1,0 +1,16 @@
+class l2_16323_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="운디네타이푼연출"
+     SkillID=16323
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.950000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_event_typhoon_ca'
+         SimpleEffectClass=Class'LineageEffect.u_event_typhoon_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16323_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,25 @@
+class l2_6384_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데들리블로"
+     SkillID=6384
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-1.500000,Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.z_casting_fire_ca'
+         SimpleEffectClass=Class'LineageEffect.z_casting_fire_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6384_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.at_stun_attack_ta'
+         SimpleEffectClass=Class'LineageEffect.at_stun_attack_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6384_skill.L2EffectEmitter3'
+}

@@ -1,0 +1,14 @@
+class l2_6673_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마이트_펫"
+     SkillID=6673
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.z_noblesse_ca'
+         SimpleEffectClass=Class'LineageEffect.z_noblesse_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6673_skill.L2EffectEmitter11'
+}

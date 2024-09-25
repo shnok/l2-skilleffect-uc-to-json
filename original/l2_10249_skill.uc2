@@ -1,0 +1,15 @@
+class l2_10249_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="속박 공격"
+     SkillID=10249
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_kn_judgep_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgep_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10249_skill.L2EffectEmitter2'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

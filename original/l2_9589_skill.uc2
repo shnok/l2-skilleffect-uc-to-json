@@ -1,0 +1,31 @@
+class l2_9589_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="쇼크"
+     SkillID=2839
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u023_lightening_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u023_lightening_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9589_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bOnMultiTarget=True
+         ScaleSize=0.750000
+         EffectClass=Class'LineageEffect.s_u023_lightening_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u023_lightening_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9589_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.at_shield_stun_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_9589_skill.L2EffectEmitter2'
+}

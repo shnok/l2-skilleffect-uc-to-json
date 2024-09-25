@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=0.300000,Z=-0.300000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.d_istinaScret_ca","SimpleEffectClass": "ClassLineageEffect.d_istinaScret_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=7.000000)","EffectClass": "ClassLineageEffect.d_istinaScret_tara","SimpleEffectClass": "ClassLineageEffect.d_istinaScret_tara_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","SpawnDelay": "0.300000","EffectClass": "ClassLineageEffect.d_mon_red2_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_red2_ta_simple"}]
+}

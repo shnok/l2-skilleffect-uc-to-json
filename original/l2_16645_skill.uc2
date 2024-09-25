@@ -1,0 +1,59 @@
+class l2_16645_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="라이드 더 라이트닝 메가 버스트"
+     SkillID=16645
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_raid_ramona_lightening_mega_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_ramona_lightening_mega_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16645_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.d_redelec_ta'
+         SimpleEffectClass=Class'LineageEffect.d_redelec_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16645_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.650000
+         EffectClass=Class'LineageEffect2.y_raid_ramona_lightening_mega_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_ramona_lightening_mega_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16645_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_vala_ra'
+         SimpleEffectClass=Class'LineageEffect.u_vala_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16645_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_plasma_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_plasma_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16645_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.050000
+         EffectClass=Class'LineageEffect.u_er_wi_lightning1_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_lightning1_ta_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_16645_skill.L2EffectEmitter5'
+}

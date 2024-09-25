@@ -1,0 +1,16 @@
+class l2_5790_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에키무스 여운"
+     SkillID=5790
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bAbsolute=True
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u619_echmus_ae'
+         SimpleEffectClass=Class'LineageEffect.e_u619_echmus_ae_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5790_skill.L2EffectEmitter0'
+}

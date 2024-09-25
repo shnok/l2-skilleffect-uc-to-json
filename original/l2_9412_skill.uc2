@@ -1,0 +1,23 @@
+class l2_9412_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하트 샷"
+     SkillID=9153
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine1"
+         bSpawnOnTarget=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.d_hq_aga_b'
+         SimpleEffectClass=Class'LineageEffect.d_hq_aga_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9412_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.e_u300_heart_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9412_skill.L2EffectEmitter5'
+}

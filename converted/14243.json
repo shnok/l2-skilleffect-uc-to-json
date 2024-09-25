@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=0.500000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_mon_rotten_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_rotten_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter52", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_mon_rotten_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_rotten_ca_simple"},{"Name": "L2EffectEmitter78", "bRelativeToCylinder": "False","ScaleSize": "2.000000","SpawnDelay": "1.400000","EffectClass": "ClassLineageEffect.d_quake_8s","SimpleEffectClass": "ClassLineageEffect.d_quake_8s_simple"},{"Name": "L2EffectEmitter8", "AttachOn": "AM_Trail","offset": "(Z=7.000000)","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_istinaScret_tara","SimpleEffectClass": "ClassLineageEffect.d_istinaScret_tara_simple"}]
+}

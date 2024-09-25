@@ -1,0 +1,23 @@
+class l2_9414_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하트 샷"
+     SkillID=9153
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.d_hq_aga_g'
+         SimpleEffectClass=Class'LineageEffect.d_hq_aga_g_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9414_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect.s_u529_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u529_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9414_skill.L2EffectEmitter1'
+}

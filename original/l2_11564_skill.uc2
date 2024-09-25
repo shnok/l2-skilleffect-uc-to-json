@@ -1,0 +1,23 @@
+class l2_11564_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엔젤스 리저렉션"
+     SkillID=11564
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.wh_heal_ca'
+         SimpleEffectClass=Class'LineageEffect.wh_heal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11564_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_resurrection_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_resurrection_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11564_skill.L2EffectEmitter1'
+}

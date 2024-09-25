@@ -1,0 +1,14 @@
+class l2_5762_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블레스 오브 패스파인더"
+     SkillID=5762
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_bless_the_body_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_bless_the_body_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5762_skill.L2EffectEmitter0'
+}

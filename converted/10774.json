@@ -1,0 +1,5 @@
+{
+"SkillId": 10774,
+"CastingActions": [{"Name": "L2EffectEmitter0", "bSpawnOnTarget": "False","ScaleSize": "1.300000","EffectClass": "ClassLineageEffect.d_ar_attractcubic_ta","SimpleEffectClass": "ClassLineageEffect.d_ar_attractcubic_ta_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.300000","EffectClass": "ClassLineageEffect.d_crazymode3_ca","SimpleEffectClass": "ClassLineageEffect.d_crazymode3_ca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.300000","SpawnDelay": "0.600000","EffectClass": "ClassLineageEffect.d_ar_attractcubic_ta","SimpleEffectClass": "ClassLineageEffect.d_ar_attractcubic_ta_simple"}],
+"ShotActions": []
+}

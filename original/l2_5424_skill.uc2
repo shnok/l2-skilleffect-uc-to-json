@@ -1,0 +1,42 @@
+class l2_5424_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="월드트랩 출혈"
+     SkillID=5424
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u829_horn_trap'
+         SimpleEffectClass=Class'LineageEffect.e_u829_horn_trap_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5424_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=4.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u829_horn_trap'
+         SimpleEffectClass=Class'LineageEffect.e_u829_horn_trap_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5424_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=-4.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u829_horn_trap'
+         SimpleEffectClass=Class'LineageEffect.e_u829_horn_trap_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5424_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Y=4.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u829_horn_trap'
+         SimpleEffectClass=Class'LineageEffect.e_u829_horn_trap_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5424_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Y=-4.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u829_horn_trap'
+         SimpleEffectClass=Class'LineageEffect.e_u829_horn_trap_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_5424_skill.L2EffectEmitter4'
+}

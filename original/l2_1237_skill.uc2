@@ -1,0 +1,39 @@
+class l2_1237_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아이스 대거"
+     SkillID=1237
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_ice_dagger_ca'
+         SimpleEffectClass=Class'LineageEffect.el_ice_dagger_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1237_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=20.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.el_ice_dagger_pr'
+         SimpleEffectClass=Class'LineageEffect.el_ice_dagger_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1237_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.el_ice_dagger_fl'
+         SimpleEffectClass=Class'LineageEffect.el_ice_dagger_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1237_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.el_ice_dagger_ta'
+         SimpleEffectClass=Class'LineageEffect.el_ice_dagger_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1237_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

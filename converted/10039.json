@@ -1,0 +1,5 @@
+{
+"SkillId": 10039,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u020_swordshield_ca","SimpleEffectClass": "ClassLineageEffect.s_u020_swordshield_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=1.000000)","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.s_u020_scorn_head","SimpleEffectClass": "ClassLineageEffect.s_u020_scorn_head_simple"}]
+}

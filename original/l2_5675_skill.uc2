@@ -1,0 +1,14 @@
+class l2_5675_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이베이젼 헤이스트"
+     SkillID=5675
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_haste_ta'
+         SimpleEffectClass=Class'LineageEffect.su_haste_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5675_skill.L2EffectEmitter0'
+}

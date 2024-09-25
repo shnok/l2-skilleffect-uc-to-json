@@ -1,0 +1,5 @@
+{
+"SkillId": 514,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u813_hand_test","SimpleEffectClass": "ClassLineageEffect.s_u813_hand_test_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_LH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u813_hand_test","SimpleEffectClass": "ClassLineageEffect.s_u813_hand_test_simple"}],
+"ShotActions": []
+}

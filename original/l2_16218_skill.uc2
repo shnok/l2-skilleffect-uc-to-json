@@ -1,0 +1,31 @@
+class l2_16218_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="홀리 블래스트"
+     SkillID=16218
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_mon_holy3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16218_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.200000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_holy_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16218_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_mon_holy3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy3_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16218_skill.L2EffectEmitter3'
+}

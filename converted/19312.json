@@ -1,0 +1,5 @@
+{
+"SkillId": 19312,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect2.y_wi_holy_5s_handca","SimpleEffectClass": "ClassLineageEffect2.y_wi_holy_5s_handca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect2.y_wi_holy_5s_handca","SimpleEffectClass": "ClassLineageEffect2.y_wi_holy_5s_handca_simple"}],
+"ShotActions": []
+}

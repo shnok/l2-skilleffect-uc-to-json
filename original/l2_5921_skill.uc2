@@ -1,0 +1,46 @@
+class l2_5921_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="미스트 오브 소울이터"
+     SkillID=5921
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bAbsolute=True
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.e_u614_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u614_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5921_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=1.800000
+         EffectClass=Class'LineageEffect.e_u614_fan'
+         SimpleEffectClass=Class'LineageEffect.e_u614_fan_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5921_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u003_b'
+         SimpleEffectClass=Class'LineageEffect.m_u003_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5921_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.e_u615_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u615_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5921_skill.L2EffectEmitter4'
+}

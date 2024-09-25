@@ -1,0 +1,15 @@
+class l2_5960_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="거점 재가동"
+     SkillID=5960
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u311_area_red'
+         SimpleEffectClass=Class'LineageEffect.e_u311_area_red_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5960_skill.L2EffectEmitter1'
+}

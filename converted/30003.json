@@ -1,0 +1,5 @@
+{
+"SkillId": 30003,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_LH","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_er_wi_flare_hand","SimpleEffectClass": "ClassLineageEffect.u_er_wi_flare_hand_simple"},{"Name": "L2EffectEmitter2", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_er_wi_flare_ca","SimpleEffectClass": "ClassLineageEffect.u_er_wi_flare_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=-0.500000)","EffectClass": "ClassLineageEffect.u_er_wi_flare_ta","SimpleEffectClass": "ClassLineageEffect.u_er_wi_flare_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_AliasSpecified","AttachBoneName": "e_bone","bAbsolute": "True","offset": "(Z=1.650000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_er_wi_flareave_ta","SimpleEffectClass": "ClassLineageEffect.u_er_wi_flareave_ta_simple"}]
+}

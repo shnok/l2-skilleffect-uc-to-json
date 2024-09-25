@@ -1,0 +1,32 @@
+class l2_2612_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인챈트성공_4단계"
+     SkillID=2612
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         EtcEffect=EET_FireCracker
+         EtcEffectInfo=EEP_FireCrackerMiddle
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2612_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Y=25.000000,Z=2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         SpawnDelay=0.400000
+         EffectClass=Class'LineageEffect2.e_u519_0_firecracker'
+         SimpleEffectClass=Class'LineageEffect2.e_u519_0_firecracker_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_2612_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Y=-15.000000,Z=2.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         SpawnDelay=0.800000
+         EffectClass=Class'LineageEffect2.e_u519_1_firecracker'
+         SimpleEffectClass=Class'LineageEffect2.e_u519_1_firecracker_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_2612_skill.L2EffectEmitter2'
+}

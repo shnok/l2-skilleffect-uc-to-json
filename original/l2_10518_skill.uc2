@@ -1,0 +1,16 @@
+class l2_10518_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포스 오브 어쌔시네이션"
+     SkillID=10518
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_altereva1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_altereva1_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10518_skill.L2EffectEmitter1'
+}

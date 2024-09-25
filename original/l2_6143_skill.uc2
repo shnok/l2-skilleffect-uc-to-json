@@ -1,0 +1,24 @@
+class l2_6143_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레서골렘 빔어택"
+     SkillID=6143
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(X=2.000000,Y=-15.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.e_u344_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u344_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6143_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.e_u318_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u318_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6143_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

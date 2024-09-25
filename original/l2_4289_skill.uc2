@@ -1,0 +1,30 @@
+class l2_4289_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="와이번 브레스"
+     SkillID=4289
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=2.700000,Z=0.600000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mu_wyvern_breath_fl'
+         SimpleEffectClass=Class'LineageEffect.mu_wyvern_breath_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4289_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.el_flame_strike_ra'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ra_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4289_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.mu_wyvern_breath_ta'
+         SimpleEffectClass=Class'LineageEffect.mu_wyvern_breath_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4289_skill.L2EffectEmitter1'
+     FlyingTime=0.400000
+}

@@ -1,0 +1,24 @@
+class l2_23716_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="횡베기"
+     SkillID=23716
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.z_seed_caiona_ta'
+         SimpleEffectClass=Class'LineageEffect.z_seed_caiona_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23716_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_tauti_green_ta'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_green_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23716_skill.L2EffectEmitter1'
+}

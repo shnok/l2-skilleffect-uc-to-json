@@ -1,0 +1,23 @@
+class l2_6041_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="피닉스_러쉬"
+     SkillID=6041
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-8.000000,Z=8.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.e_u322_phoenix'
+         SimpleEffectClass=Class'LineageEffect.e_u322_phoenix_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6041_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u015_b'
+         SimpleEffectClass=Class'LineageEffect.s_u015_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6041_skill.L2EffectEmitter1'
+}

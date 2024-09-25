@@ -1,0 +1,5 @@
+{
+"SkillId": 5884,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 R Hand","bSpawnOnTarget": "False","ScaleSize": "0.450000","SpawnDelay": "0.350000","EffectClass": "ClassLineageEffect.s_u831_electric","SimpleEffectClass": "ClassLineageEffect.s_u831_electric_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.at_fatal_strike_ca","SimpleEffectClass": "ClassLineageEffect.at_fatal_strike_ca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 L Hand","bSpawnOnTarget": "False","ScaleSize": "0.550000","SpawnDelay": "0.350000","EffectClass": "ClassLineageEffect.s_u831_electric","SimpleEffectClass": "ClassLineageEffect.s_u831_electric_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.at_shield_stun_ta","SimpleEffectClass": "ClassLineageEffect.at_shield_stun_ta_simple"}]
+}

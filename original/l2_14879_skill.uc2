@@ -1,0 +1,32 @@
+class l2_14879_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="핀포인트 샷"
+     SkillID=10763
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-0.700000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_magical_ca'
+         SimpleEffectClass=Class'LineageEffect.d_magical_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14879_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter52
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_ar_tan2_fl'
+         SimpleEffectClass=Class'LineageEffect.d_ar_tan2_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14879_skill.L2EffectEmitter52'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_magical_ta'
+         SimpleEffectClass=Class'LineageEffect.d_magical_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14879_skill.L2EffectEmitter2'
+}

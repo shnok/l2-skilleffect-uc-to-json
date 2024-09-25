@@ -1,0 +1,5 @@
+{
+"SkillId": 18129,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Y=30.000000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.z_ice_soulstone_ta","SimpleEffectClass": "ClassLineageEffect.z_ice_soulstone_ta_simple"},{"Name": "L2EffectEmitter1", "offset": "(Y=30.000000,Z=10.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","SpawnDelay": "0.200000","EffectPawnClassID": "13444","SequenceName": "spatk01","AnimStartFrame": "0.400000","AnimEndFrame": "0.950000"}],
+"ShotActions": []
+}

@@ -1,0 +1,26 @@
+class l2_7106_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="부화성공"
+     SkillID=7106
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.d_firework_b'
+         SimpleEffectClass=Class'LineageEffect.d_firework_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_7106_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Y=1.500000,Z=2.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         SpawnDelay=1.200000
+         EffectClass=Class'LineageEffect.d_firework_a'
+         SimpleEffectClass=Class'LineageEffect.d_firework_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_7106_skill.L2EffectEmitter1'
+}

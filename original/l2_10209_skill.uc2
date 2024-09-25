@@ -1,0 +1,71 @@
+class l2_10209_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 스턴"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_magicbolt_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_magicbolt_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10209_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_sp4elemr_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_sp4elemr_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10209_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_sp4elemb_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_sp4elemb_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10209_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Y=20.000000,Z=10.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_wi_mbfire_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbfire_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10209_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Y=-20.000000,Z=10.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_wi_mbwater_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwater_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10209_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Y=20.000000,Z=-10.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_wi_mbwind_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwind_fl_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10209_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Y=-20.000000,Z=-10.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_wi_mbground_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbground_fl_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_10209_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_wi_mbwind_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwind_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10209_skill.L2EffectEmitter7'
+}

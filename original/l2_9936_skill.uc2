@@ -1,0 +1,23 @@
+class l2_9936_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="자이언트 윈터"
+     SkillID=9936
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.d_mon_ice_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_ice_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9936_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_unholy4_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy4_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9936_skill.L2EffectEmitter3'
+}

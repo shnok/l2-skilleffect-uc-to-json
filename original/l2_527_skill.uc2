@@ -1,0 +1,15 @@
+class l2_527_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아이언 쉴드 "
+     SkillID=527
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u544_yellow'
+         SimpleEffectClass=Class'LineageEffect.e_u544_yellow_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_527_skill.L2EffectEmitter0'
+}

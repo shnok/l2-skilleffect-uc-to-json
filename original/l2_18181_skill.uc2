@@ -1,0 +1,26 @@
+class l2_18181_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="외계인 디버프"
+     SkillID=18181
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_alien_debuff_fan'
+         SimpleEffectClass=Class'LineageEffect.u_alien_debuff_fan_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18181_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         AttachOn=AM_AliasSpecified
+         AttachBoneName="e_bone"
+         bAbsolute=True
+         offset=(Z=-0.200000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_alien_debuff_ta'
+         SimpleEffectClass=Class'LineageEffect.u_alien_debuff_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18181_skill.L2EffectEmitter33'
+}

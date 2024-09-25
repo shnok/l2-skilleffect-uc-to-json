@@ -1,0 +1,35 @@
+class l2_1419_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="볼케이노"
+     SkillID=1419
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u807_mage_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u807_mage_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1419_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Location
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u808_red_a'
+         SimpleEffectClass=Class'LineageEffect.s_u808_red_a_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1419_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Location
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u808_red_b'
+         SimpleEffectClass=Class'LineageEffect.s_u808_red_b_simple'
+     End Object
+     ChannelingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1419_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.el_flame_strike_ta_sound'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ta_sound_simple'
+     End Object
+     UnionTargetAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1419_skill.L2EffectEmitter3'
+}

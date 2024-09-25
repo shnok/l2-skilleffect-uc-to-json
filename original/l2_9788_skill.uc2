@@ -1,0 +1,14 @@
+class l2_9788_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="올림픽 레슬링 선수용 맷집 포션"
+     SkillID=9788
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_potion_y'
+         SimpleEffectClass=Class'LineageEffect.u_potion_y_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9788_skill.L2EffectEmitter0'
+}

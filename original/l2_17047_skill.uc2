@@ -1,0 +1,16 @@
+class l2_17047_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="트릭해제"
+     SkillID=17047
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.dw_spoil_ta'
+         SimpleEffectClass=Class'LineageEffect.dw_spoil_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17047_skill.L2EffectEmitter1'
+}

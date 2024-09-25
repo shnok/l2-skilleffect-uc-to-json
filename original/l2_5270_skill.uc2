@@ -1,0 +1,23 @@
+class l2_5270_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="PC트랩 플래시트랩"
+     SkillID=5270
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u813_trap_ta_test'
+         SimpleEffectClass=Class'LineageEffect.s_u813_trap_ta_test_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5270_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.at_shield_stun_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5270_skill.L2EffectEmitter1'
+}

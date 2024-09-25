@@ -1,0 +1,5 @@
+{
+"SkillId": 5767,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.400000)","bSpawnOnTarget": "False","ScaleSize": "1.300000","EffectClass": "ClassLineageEffect.el_hurricane_pr","SimpleEffectClass": "ClassLineageEffect.el_hurricane_pr_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.700000","EffectClass": "ClassLineageEffect.el_hurricane_ta","SimpleEffectClass": "ClassLineageEffect.el_hurricane_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.el_wind_strike_ta","SimpleEffectClass": "ClassLineageEffect.el_wind_strike_ta_simple"}]
+}

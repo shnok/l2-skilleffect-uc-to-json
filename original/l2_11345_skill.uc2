@@ -1,0 +1,23 @@
+class l2_11345_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="팬텀터치"
+     SkillID=11345
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.u_su_touch_v_ca'
+         SimpleEffectClass=Class'LineageEffect.u_su_touch_v_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11345_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_su_touch_v_ta'
+         SimpleEffectClass=Class'LineageEffect.u_su_touch_v_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11345_skill.L2EffectEmitter1'
+}

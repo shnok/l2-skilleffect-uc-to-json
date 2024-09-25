@@ -1,0 +1,16 @@
+class l2_4689_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발라카스 피어"
+     SkillID=4689
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Dummy05"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u802_fallback'
+         SimpleEffectClass=Class'LineageEffect.e_u802_fallback_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4689_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 4111,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bone01","RelativeRotation": "(Yaw=16384)","offset": "(X=245.000000,Y=-120.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.e_u046_a","SimpleEffectClass": "ClassLineageEffect.e_u046_a_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.e_u046_b","SimpleEffectClass": "ClassLineageEffect.e_u046_b_simple"}]
+}

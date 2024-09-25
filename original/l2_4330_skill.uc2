@@ -1,0 +1,15 @@
+class l2_4330_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="초보용 콘센트레이션"
+     SkillID=4330
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_concentration_ta'
+         SimpleEffectClass=Class'LineageEffect.su_concentration_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4330_skill.L2EffectEmitter0'
+}

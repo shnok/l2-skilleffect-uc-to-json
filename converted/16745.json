@@ -1,0 +1,5 @@
+{
+"SkillId": 16745,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-1.500000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect2.u_kamael_wakeup","SimpleEffectClass": "ClassLineageEffect2.u_kamael_wakeup_simple"}],
+"ShotActions": []
+}

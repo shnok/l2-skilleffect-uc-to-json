@@ -1,0 +1,16 @@
+class l2_9605_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온 소환"
+     SkillID=3268
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u810_aga_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u810_aga_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9605_skill.L2EffectEmitter0'
+}

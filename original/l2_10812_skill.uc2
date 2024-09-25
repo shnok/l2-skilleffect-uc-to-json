@@ -1,0 +1,31 @@
+class l2_10812_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스닉샷"
+     SkillID=10812
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_ar_sneak_ca'
+         SimpleEffectClass=Class'LineageEffect.u_ar_sneak_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10812_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.u_ar_sneak_fl'
+         SimpleEffectClass=Class'LineageEffect.u_ar_sneak_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10812_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_ar_sneak_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ar_sneak_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10812_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

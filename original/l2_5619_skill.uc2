@@ -1,0 +1,30 @@
+class l2_5619_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="쥐돌이 분노"
+     SkillID=5619
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.ch_gourd_death_long'
+         SimpleEffectClass=Class'LineageEffect.ch_gourd_death_long_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5619_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5619_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.mo_battle_roar_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_battle_roar_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5619_skill.L2EffectEmitter2'
+}

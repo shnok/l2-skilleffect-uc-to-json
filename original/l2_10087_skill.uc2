@@ -1,0 +1,15 @@
+class l2_10087_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블러드 팬서 로어"
+     SkillID=10087
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_shblast_ra'
+         SimpleEffectClass=Class'LineageEffect.d_wa_shblast_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10087_skill.L2EffectEmitter0'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

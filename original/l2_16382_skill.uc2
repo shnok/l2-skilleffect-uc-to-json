@@ -1,0 +1,30 @@
+class l2_16382_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디멘션 데스링"
+     SkillID=16382
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_unholy5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy5_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16382_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_unholy5_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy5_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16382_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-1.000000)
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.e_u329_ta_B'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_B_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16382_skill.L2EffectEmitter3'
+}

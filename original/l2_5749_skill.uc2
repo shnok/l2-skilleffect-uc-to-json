@@ -1,0 +1,30 @@
+class l2_5749_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프리미엄펫_썬더볼트"
+     SkillID=5749
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.s_u023_lightening_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u023_lightening_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5749_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.el_aqua_swirl_fl'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5749_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.at_shield_stun_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5749_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

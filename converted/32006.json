@@ -1,0 +1,5 @@
+{
+"SkillId": 32006,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_raid_wing_dark_feather_ca","SimpleEffectClass": "ClassLineageEffect2.y_raid_wing_dark_feather_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-0.700000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_raid_wing_dark_feather_ra_fan","SimpleEffectClass": "ClassLineageEffect2.y_raid_wing_dark_feather_ra_fan_simple"},{"Name": "L2EffectEmitter5", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.500000","SpawnDelay": "0.280000","EffectClass": "ClassLineageEffect.u_wi_soulshock_ta","SimpleEffectClass": "ClassLineageEffect.u_wi_soulshock_ta_simple"}]
+}

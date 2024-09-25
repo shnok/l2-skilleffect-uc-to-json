@@ -1,0 +1,5 @@
+{
+"SkillId": 18195,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.e_u034_a","SimpleEffectClass": "ClassLineageEffect.e_u034_a_simple"},{"Name": "L2EffectEmitter33", "offset": "(X=1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.u_alien_weapon_2fl","SimpleEffectClass": "ClassLineageEffect.u_alien_weapon_2fl_simple"}]
+}

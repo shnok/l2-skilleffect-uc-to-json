@@ -1,0 +1,16 @@
+class l2_15596_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르_이륙"
+     SkillID=15596
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=2.400000
+         EffectClass=Class'LineageEffect.u_lind_smoke_circle'
+         SimpleEffectClass=Class'LineageEffect.u_lind_smoke_circle_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15596_skill.L2EffectEmitter2'
+}

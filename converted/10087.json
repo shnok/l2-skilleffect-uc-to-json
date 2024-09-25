@@ -1,0 +1,5 @@
+{
+"SkillId": 10087,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-0.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wa_shblast_ra","SimpleEffectClass": "ClassLineageEffect.d_wa_shblast_ra_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,48 @@
+class l2_16613_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헬리오스 황제 알현"
+     SkillID=16613
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_audience_chain'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_audience_chain_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16613_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.130000
+         EffectClass=Class'LineageEffect2.y_boss_helios_grandplasma_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_grandplasma_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16613_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         bChanneling=True
+         EffectClass=Class'LineageEffect.z_gstar_channeling_beam'
+         SimpleEffectClass=Class'LineageEffect.z_gstar_channeling_beam_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16613_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         bChanneling=True
+         EffectClass=Class'LineageEffect.s_u812_beam_mon'
+         SimpleEffectClass=Class'LineageEffect.s_u812_beam_mon_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16613_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect2.y_boss_helios_audience_chain'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_audience_chain_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16613_skill.L2EffectEmitter4'
+}

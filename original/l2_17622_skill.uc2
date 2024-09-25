@@ -1,0 +1,22 @@
+class l2_17622_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온 재롱"
+     SkillID=17622
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_twinkleage_star'
+         SimpleEffectClass=Class'LineageEffect.d_twinkleage_star_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17622_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.d_twinkleage_star'
+         SimpleEffectClass=Class'LineageEffect.d_twinkleage_star_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17622_skill.L2EffectEmitter1'
+}

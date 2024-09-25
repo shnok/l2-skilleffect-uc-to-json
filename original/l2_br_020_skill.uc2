@@ -1,0 +1,14 @@
+class l2_br_020_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="큐브 이펙트"
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.br_s_u007_cube'
+         SimpleEffectClass=Class'LineageEffect.br_s_u007_cube_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_020_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 18809,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=10.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect2.y_13th_event_magicfire_big","SimpleEffectClass": "ClassLineageEffect2.y_13th_event_magicfire_big_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-70.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect2.y_13th_event_magicfire_big","SimpleEffectClass": "ClassLineageEffect2.y_13th_event_magicfire_big_simple"}],
+"ShotActions": []
+}

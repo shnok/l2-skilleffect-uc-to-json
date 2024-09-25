@@ -1,0 +1,5 @@
+{
+"SkillId": 16042,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.u_lind_breathair_ra","SimpleEffectClass": "ClassLineageEffect.u_lind_breathair_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.u_lind_common_ta","SimpleEffectClass": "ClassLineageEffect.u_lind_common_ta_simple"}]
+}

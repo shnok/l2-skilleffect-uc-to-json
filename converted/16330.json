@@ -1,0 +1,5 @@
+{
+"SkillId": 16330,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.e_u326_soul_dead","SimpleEffectClass": "ClassLineageEffect.e_u326_soul_dead_simple"}],
+"ShotActions": []
+}

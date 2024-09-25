@@ -1,0 +1,5 @@
+{
+"SkillId": 16808,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect2.y_npc_raven_flush_ca","SimpleEffectClass": "ClassLineageEffect2.y_npc_raven_flush_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect2.y_npc_raven_flush_ra","SimpleEffectClass": "ClassLineageEffect2.y_npc_raven_flush_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_mon_fire_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_fire_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=1.000000)","bSpawnOnTarget": "False","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.m_u003_b","SimpleEffectClass": "ClassLineageEffect.m_u003_b_simple"}]
+}

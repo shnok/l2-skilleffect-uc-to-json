@@ -1,0 +1,5 @@
+{
+"SkillId": 943,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bone13","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u306_sstar","SimpleEffectClass": "ClassLineageEffect.e_u306_sstar_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bone13","bSpawnOnTarget": "False","SpawnDelay": "1.000000","EffectClass": "ClassLineageEffect.e_u306_sstar","SimpleEffectClass": "ClassLineageEffect.e_u306_sstar_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=1.000000)","bOnMultiTarget": "True","ScaleSize": "1.600000","EffectClass": "ClassLineageEffect.e_u086_snow","SimpleEffectClass": "ClassLineageEffect.e_u086_snow_simple"}]
+}

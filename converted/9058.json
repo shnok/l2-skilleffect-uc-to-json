@@ -1,0 +1,5 @@
+{
+"SkillId": 9058,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_body_obit_10s","SimpleEffectClass": "ClassLineageEffect.z_body_obit_10s_simple"},{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_freezing_buff","SimpleEffectClass": "ClassLineageEffect.z_freezing_buff_simple"}]
+}

@@ -1,0 +1,39 @@
+class l2_16856_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하이퍼 해머 샷"
+     SkillID=16856
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect2.y_boss_helios_plasma_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_plasma_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16856_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bone26"
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_raid_mc_hyper_hammer_shot_hanc'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_hyper_hammer_shot_hanc_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16856_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_head_shot_b'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_head_shot_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16856_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_head_ta_b'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_head_ta_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16856_skill.L2EffectEmitter3'
+}

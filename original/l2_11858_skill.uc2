@@ -1,0 +1,21 @@
+class l2_11858_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프로텍티브 힐"
+     SkillID=11858
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_he_recover_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_recover_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11858_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_he_recover_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_recover_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11858_skill.L2EffectEmitter1'
+}

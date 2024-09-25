@@ -1,0 +1,38 @@
+class l2_6815_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="커스 포이즌"
+     SkillID=1168
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6815_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6815_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=0.400000
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6815_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_6815_skill.L2EffectEmitter3'
+}

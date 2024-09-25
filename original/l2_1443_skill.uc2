@@ -1,0 +1,21 @@
+class l2_1443_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크 웨폰"
+     SkillID=1443
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.850000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u808_tolerant_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u808_tolerant_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1443_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.m_u808_tolerant_ta_c'
+         SimpleEffectClass=Class'LineageEffect.m_u808_tolerant_ta_c_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1443_skill.L2EffectEmitter1'
+}

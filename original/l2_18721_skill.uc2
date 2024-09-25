@@ -1,0 +1,16 @@
+class l2_18721_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="고급 가넷 - 스턴/침묵해제"
+     SkillID=18721
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_jewel_garnet_high_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_jewel_garnet_high_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18721_skill.L2EffectEmitter0'
+}

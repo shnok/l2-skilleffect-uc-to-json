@@ -1,0 +1,23 @@
+class l2_16126_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="볼케이노 버스터 "
+     SkillID=16126
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_fire2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16126_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         AttachOn=AM_Trail
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.d_mon_fire3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire3_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16126_skill.L2EffectEmitter33'
+}

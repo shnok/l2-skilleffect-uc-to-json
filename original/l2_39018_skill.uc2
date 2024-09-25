@@ -1,0 +1,15 @@
+class l2_39018_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온 윈드 송"
+     SkillID=39018
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_aga_song_wind_ta'
+         SimpleEffectClass=Class'LineageEffect.u_aga_song_wind_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_39018_skill.L2EffectEmitter0'
+}

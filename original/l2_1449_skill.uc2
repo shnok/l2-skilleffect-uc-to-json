@@ -1,0 +1,37 @@
+class l2_1449_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="트랜스퍼 소울"
+     SkillID=1449
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ca_a'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1449_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u815_hand_holy'
+         SimpleEffectClass=Class'LineageEffect.s_u815_hand_holy_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1449_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u815_hand_holy'
+         SimpleEffectClass=Class'LineageEffect.s_u815_hand_holy_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_1449_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u815_hand_holy'
+         SimpleEffectClass=Class'LineageEffect.s_u815_hand_holy_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1449_skill.L2EffectEmitter3'
+}

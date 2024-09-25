@@ -1,0 +1,5 @@
+{
+"SkillId": 6299,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.800000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.z_ice_bomb_ca","SimpleEffectClass": "ClassLineageEffect.z_ice_bomb_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(X=1.000000)","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_ice_bomb_ta","SimpleEffectClass": "ClassLineageEffect.z_ice_bomb_ta_simple"},{"Name": "L2EffectEmitter89", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.z_ice_bomb_ra","SimpleEffectClass": "ClassLineageEffect.z_ice_bomb_ra_simple"},{"Name": "L2EffectEmitter97", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_dummy_quake_1s","SimpleEffectClass": "ClassLineageEffect.z_dummy_quake_1s_simple"}]
+}

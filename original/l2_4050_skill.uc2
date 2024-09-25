@@ -1,0 +1,11 @@
+class l2_4050_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="≈•∫Ú µÂ∑π¿Œ"
+     SkillID=4050
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         EtcEffect=EET_Cubic
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4050_skill.L2EffectEmitter0'
+}

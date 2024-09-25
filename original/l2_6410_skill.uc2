@@ -1,0 +1,23 @@
+class l2_6410_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="러쉬"
+     SkillID=6410
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-3.000000,Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.s_u616_rush'
+         SimpleEffectClass=Class'LineageEffect.s_u616_rush_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6410_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u322_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u322_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6410_skill.L2EffectEmitter1'
+}

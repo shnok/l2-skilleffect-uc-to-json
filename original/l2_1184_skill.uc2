@@ -1,0 +1,23 @@
+class l2_1184_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아이스 볼트"
+     SkillID=1184
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_ice_bolt_ca'
+         SimpleEffectClass=Class'LineageEffect.el_ice_bolt_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1184_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_ice_bolt_ta'
+         SimpleEffectClass=Class'LineageEffect.el_ice_bolt_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1184_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 5763,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","SpawnDelay": "1.400000","EffectClass": "ClassLineageEffect.e_u300_aga_love","SimpleEffectClass": "ClassLineageEffect.e_u300_aga_love_simple"}],
+"ShotActions": []
+}

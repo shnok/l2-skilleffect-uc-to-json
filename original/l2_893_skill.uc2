@@ -1,0 +1,40 @@
+class l2_893_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="콘센트레이션 에너지 샷"
+     SkillID=893
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u614_ca_a'
+         SimpleEffectClass=Class'LineageEffect.s_u614_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_893_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.s_u614_pr_a'
+         SimpleEffectClass=Class'LineageEffect.s_u614_pr_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_893_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=1.200000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.s_u614_fl_a'
+         SimpleEffectClass=Class'LineageEffect.s_u614_fl_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_893_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u614_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u614_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_893_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

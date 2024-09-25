@@ -1,0 +1,46 @@
+class l2_15051_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.550000)
+         bSpawnOnTarget=False
+         ScaleSize=0.650000
+         EffectClass=Class'LineageEffect.d_awaken_1_deco'
+         SimpleEffectClass=Class'LineageEffect.d_awaken_1_deco_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15051_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-0.550000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         SpawnDelay=1.200000
+         EffectClass=Class'LineageEffect.d_debuff_p'
+         SimpleEffectClass=Class'LineageEffect.d_debuff_p_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15051_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.650000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect.e_u315_el_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u315_el_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15051_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_mon_elec1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec1_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15051_skill.L2EffectEmitter1'
+     bShowCameraEffectOnlyMe=False
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

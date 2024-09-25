@@ -1,0 +1,15 @@
+class l2_15096_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="혈맹의 저주"
+     SkillID=19036
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_castle_ta_b'
+         SimpleEffectClass=Class'LineageEffect.d_castle_ta_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15096_skill.L2EffectEmitter0'
+}

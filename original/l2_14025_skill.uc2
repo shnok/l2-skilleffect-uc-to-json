@@ -1,0 +1,35 @@
+class l2_14025_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bow Bone"
+         bAbsolute=True
+         offset=(X=0.200000,Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.e_u608_deco'
+         SimpleEffectClass=Class'LineageEffect.e_u608_deco_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=160.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14025_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u608_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u608_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14025_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.030000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_u608_ta'
+         SimpleEffectClass=Class'LineageEffect.d_u608_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14025_skill.L2EffectEmitter2'
+}

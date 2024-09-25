@@ -1,0 +1,5 @@
+{
+"SkillId": 32029,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-1.200000)","ScaleSize": "3.400000","EffectClass": "ClassLineageEffect.d_he_darknight_tara","SimpleEffectClass": "ClassLineageEffect.d_he_darknight_tara_simple"},{"Name": "L2EffectEmitter1", "offset": "(Z=-0.300000)","ScaleSize": "4.000000","EffectClass": "ClassLineageEffect.d_mon_spa_tara","SimpleEffectClass": "ClassLineageEffect.d_mon_spa_tara_simple"}],
+"ShotActions": []
+}

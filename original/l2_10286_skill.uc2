@@ -1,0 +1,86 @@
+class l2_10286_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 스턴"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_sphyun_handca'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10286_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_sphyun_handca'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10286_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(X=6.000000)
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_in_sphyun2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun2_ta_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10286_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(X=-6.000000)
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_in_sphyun2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun2_ta_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_10286_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(Y=50.000000)
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_in_sphyun2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun2_ta_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_10286_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         offset=(Y=-50.000000)
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_in_sphyun2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun2_ta_simple'
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_10286_skill.L2EffectEmitter7'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_in_sphyun_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun_ta_simple'
+     End Object
+     CastingAction(6)=L2EffectEmitter'LineageSkillEffect.l2_10286_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_in_sphyun_tara'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10286_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_in_sphyun_tara'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun_tara_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10286_skill.L2EffectEmitter8'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter9
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_in_damageref1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_damageref1_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10286_skill.L2EffectEmitter9'
+}

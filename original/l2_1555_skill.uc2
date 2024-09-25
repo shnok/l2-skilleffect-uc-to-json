@@ -1,0 +1,37 @@
+class l2_1555_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="오라 플래어"
+     SkillID=1231
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_aura_burn_ca'
+         SimpleEffectClass=Class'LineageEffect.el_aura_burn_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1555_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=1.200000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.s_u614_fl_a'
+         SimpleEffectClass=Class'LineageEffect.s_u614_fl_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1555_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u230_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u230_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1555_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.el_aura_burn_ta'
+         SimpleEffectClass=Class'LineageEffect.el_aura_burn_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1555_skill.L2EffectEmitter1'
+}

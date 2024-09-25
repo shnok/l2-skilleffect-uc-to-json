@@ -1,0 +1,5 @@
+{
+"SkillId": 16419,
+"CastingActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_christmas_buff","SimpleEffectClass": "ClassLineageEffect.u_christmas_buff_simple"}],
+"ShotActions": []
+}

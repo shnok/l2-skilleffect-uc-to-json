@@ -1,0 +1,47 @@
+class l2_5708_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="저주받은해적_워터캐논"
+     SkillID=5708
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u314_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u314_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5708_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=50.000000,Z=8.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u314_pr'
+         SimpleEffectClass=Class'LineageEffect.e_u314_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5708_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=2.000000,Z=0.300000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u314_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u314_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5708_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5708_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=1.800000
+         EffectClass=Class'LineageEffect.e_u314_ra'
+         SimpleEffectClass=Class'LineageEffect.e_u314_ra_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5708_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+}

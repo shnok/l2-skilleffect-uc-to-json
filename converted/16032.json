@@ -1,0 +1,5 @@
+{
+"SkillId": 2140,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=17.000000,Z=12.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.d_mrbae_sound","SimpleEffectClass": "ClassLineageEffect.d_mrbae_sound_simple","EtcEffect": "EET_SoundCrystal"}],
+"ShotActions": []
+}

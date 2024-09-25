@@ -1,0 +1,51 @@
+class l2_10777_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="루어 샷"
+     SkillID=10777
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.d_ar_red_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ar_red_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10777_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_ar_tan2_pre'
+         SimpleEffectClass=Class'LineageEffect.d_ar_tan2_pre_simple'
+     End Object
+     PreshotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10777_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ar_stunshot1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ar_stunshot1_ca_simple'
+     End Object
+     PreshotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10777_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01_R_Hand"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_baseTrail2_fl'
+         SimpleEffectClass=Class'LineageEffect.d_baseTrail2_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10777_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.z_striking_red_ta'
+         SimpleEffectClass=Class'LineageEffect.z_striking_red_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10777_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 19431,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_sforzando_sting_ca","SimpleEffectClass": "ClassLineageEffect2.y_in_sforzando_sting_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.u_he_darkforce_ta","SimpleEffectClass": "ClassLineageEffect.u_he_darkforce_ta_simple"}]
+}

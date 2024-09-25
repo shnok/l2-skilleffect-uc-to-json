@@ -1,0 +1,23 @@
+class l2_888_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에너지 플레어"
+     SkillID=888
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.s_u612_ca_a'
+         SimpleEffectClass=Class'LineageEffect.s_u612_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_888_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.s_u613_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u613_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_888_skill.L2EffectEmitter1'
+}

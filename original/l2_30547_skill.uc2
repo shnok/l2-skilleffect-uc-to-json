@@ -1,0 +1,31 @@
+class l2_30547_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="그라비티 헤드 블로우"
+     SkillID=30547
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.g_wa_shock_ca'
+         SimpleEffectClass=Class'LineageEffect.g_wa_shock_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30547_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_head_shot'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_head_shot_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30547_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_head_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_head_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30547_skill.L2EffectEmitter1'
+}

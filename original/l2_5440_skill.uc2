@@ -1,0 +1,29 @@
+class l2_5440_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="연출 트랩활성화"
+     SkillID=5440
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u805_ca_third'
+         SimpleEffectClass=Class'LineageEffect.s_u805_ca_third_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5440_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u081_core_a'
+         SimpleEffectClass=Class'LineageEffect.e_u081_core_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5440_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u805_big_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u805_big_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5440_skill.L2EffectEmitter2'
+}

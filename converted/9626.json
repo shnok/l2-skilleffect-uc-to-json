@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_itemopen_handca","SimpleEffectClass": "ClassLineageEffect.d_itemopen_handca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_LH","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_itemopen_handca","SimpleEffectClass": "ClassLineageEffect.d_itemopen_handca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.600000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_itemopen2_ta","SimpleEffectClass": "ClassLineageEffect.d_itemopen2_ta_simple"}]
+}

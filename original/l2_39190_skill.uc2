@@ -1,0 +1,16 @@
+class l2_39190_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="사이하의 선물"
+     SkillID=39190
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.100000
+         EffectClass=Class'LineageEffect.social_beauty_FShaman'
+         SimpleEffectClass=Class'LineageEffect.social_beauty_FShaman_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_39190_skill.L2EffectEmitter0'
+}

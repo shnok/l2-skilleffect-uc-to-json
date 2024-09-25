@@ -1,0 +1,5 @@
+{
+"SkillId": 19430,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01_R_Hand","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_in_resonant_halo_handca","SimpleEffectClass": "ClassLineageEffect2.y_in_resonant_halo_handca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01_R_Hand","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_in_resonant_halo_handra","SimpleEffectClass": "ClassLineageEffect2.y_in_resonant_halo_handra_simple"}]
+}

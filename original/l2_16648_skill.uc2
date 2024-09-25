@@ -1,0 +1,32 @@
+class l2_16648_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="댄스 오브 데스"
+     SkillID=16648
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_blue7_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue7_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16648_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.100000
+         EffectClass=Class'LineageEffect.s_u230_ra'
+         SimpleEffectClass=Class'LineageEffect.s_u230_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16648_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_su_ragew_ta'
+         SimpleEffectClass=Class'LineageEffect.u_su_ragew_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16648_skill.L2EffectEmitter2'
+}

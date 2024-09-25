@@ -1,0 +1,24 @@
+class l2_23644_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="로드 오브 엠브리오"
+     SkillID=23644
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_buff1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_buff1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23644_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_mez1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_mez1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23644_skill.L2EffectEmitter2'
+}

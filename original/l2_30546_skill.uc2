@@ -1,0 +1,25 @@
+class l2_30546_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="플라잉 니킥"
+     SkillID=30546
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="bip01"
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.g_wa_step_green_tr'
+         SimpleEffectClass=Class'LineageEffect.g_wa_step_green_tr_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30546_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_su_cat_rush'
+         SimpleEffectClass=Class'LineageEffect.d_su_cat_rush_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30546_skill.L2EffectEmitter1'
+}

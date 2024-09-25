@@ -1,0 +1,15 @@
+class l2_6376_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소닉스트라이크"
+     SkillID=6376
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_reptiles_ca'
+         SimpleEffectClass=Class'LineageEffect.z_reptiles_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6376_skill.L2EffectEmitter11'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 10054,
+"CastingActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wa_hurriarmor_ca","SimpleEffectClass": "ClassLineageEffect.d_wa_hurriarmor_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wa_hurriarmor_ta","SimpleEffectClass": "ClassLineageEffect.d_wa_hurriarmor_ta_simple"}]
+}

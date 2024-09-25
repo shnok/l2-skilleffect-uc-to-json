@@ -1,0 +1,25 @@
+class l2_16328_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="폭발의 빛"
+     SkillID=16328
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.010000
+         EffectClass=Class'LineageEffect.e_u204_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u204_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16328_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.z_fire_explosion_area_b'
+         SimpleEffectClass=Class'LineageEffect.z_fire_explosion_area_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16328_skill.L2EffectEmitter1'
+}

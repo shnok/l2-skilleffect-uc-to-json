@@ -1,0 +1,15 @@
+class l2_17154_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="»ç¶ûÀÇ ¹¦¾à"
+     SkillID=17154
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u300_heart_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17154_skill.L2EffectEmitter1'
+}

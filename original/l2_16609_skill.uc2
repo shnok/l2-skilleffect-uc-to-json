@@ -1,0 +1,39 @@
+class l2_16609_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헬리오스 플라즈마"
+     SkillID=16609
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.130000
+         EffectClass=Class'LineageEffect2.y_boss_helios_plasma_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_plasma_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16609_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Dummy08"
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_boss_helios_plasma1_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_plasma1_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16609_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Dummy04"
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_boss_helios_plasma1_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_plasma1_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16609_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_er_wi_lightning1_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_lightning1_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16609_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

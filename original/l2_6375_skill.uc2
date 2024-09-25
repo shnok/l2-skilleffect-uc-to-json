@@ -1,0 +1,23 @@
+class l2_6375_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="샘플"
+     SkillID=6375
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.z_totem_blue_ta'
+         SimpleEffectClass=Class'LineageEffect.z_totem_blue_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6375_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         offset=(Z=-1.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u608_ra'
+         SimpleEffectClass=Class'LineageEffect.e_u608_ra_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6375_skill.L2EffectEmitter21'
+}

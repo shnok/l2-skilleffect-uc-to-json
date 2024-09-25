@@ -1,0 +1,30 @@
+class l2_16333_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="롱 어택"
+     SkillID=16333
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_blue7_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue7_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16333_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_mon_blue1_fl'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue1_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16333_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_physical_ta'
+         SimpleEffectClass=Class'LineageEffect.d_physical_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16333_skill.L2EffectEmitter2'
+}

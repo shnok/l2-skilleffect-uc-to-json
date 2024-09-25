@@ -1,0 +1,16 @@
+class l2_16994_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마법 장작 화났어"
+     SkillID=16994
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect2.y_wood_fire_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_wood_fire_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16994_skill.L2EffectEmitter0'
+}

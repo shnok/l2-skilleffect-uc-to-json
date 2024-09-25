@@ -1,0 +1,16 @@
+class l2_17113_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="배기성보물상자"
+     SkillID=17101
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_event_star'
+         SimpleEffectClass=Class'LineageEffect.z_event_star_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17113_skill.L2EffectEmitter1'
+}

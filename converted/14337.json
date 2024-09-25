@@ -1,0 +1,5 @@
+{
+"SkillId": 6300,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.d_ro_darkp2_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_darkp2_ta_simple"}]
+}

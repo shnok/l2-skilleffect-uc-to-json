@@ -1,0 +1,5 @@
+{
+"SkillId": 5396,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u806_ca","SimpleEffectClass": "ClassLineageEffect.s_u806_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=5.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u806_channeling_mesh","SimpleEffectClass": "ClassLineageEffect.s_u806_channeling_mesh_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.s_u806_ta","SimpleEffectClass": "ClassLineageEffect.s_u806_ta_simple"}]
+}

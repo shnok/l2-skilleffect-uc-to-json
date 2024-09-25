@@ -1,0 +1,5 @@
+{
+"SkillId": 1891,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_er_bless_of_wind_ca","SimpleEffectClass": "ClassLineageEffect2.y_er_bless_of_wind_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_er_bless_of_wind_ra","SimpleEffectClass": "ClassLineageEffect2.y_er_bless_of_wind_ra_simple"}]
+}

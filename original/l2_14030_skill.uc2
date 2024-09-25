@@ -1,0 +1,39 @@
+class l2_14030_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.z_ice_bomb_ca'
+         SimpleEffectClass=Class'LineageEffect.z_ice_bomb_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14030_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.800000
+         EffectClass=Class'LineageEffect.el_ice_dagger_fl'
+         SimpleEffectClass=Class'LineageEffect.el_ice_dagger_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14030_skill.L2EffectEmitter33'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_ice_bomb_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_bomb_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14030_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_freya_self_ta'
+         SimpleEffectClass=Class'LineageEffect.z_freya_self_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14030_skill.L2EffectEmitter3'
+}

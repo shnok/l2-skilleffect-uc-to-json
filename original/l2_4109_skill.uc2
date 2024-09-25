@@ -1,0 +1,13 @@
+class l2_4109_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="안타라스의 저주"
+     SkillID=4109
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u050_b'
+         SimpleEffectClass=Class'LineageEffect.e_u050_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4109_skill.L2EffectEmitter0'
+}

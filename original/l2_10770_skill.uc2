@@ -1,0 +1,42 @@
+class l2_10770_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리코일 샷"
+     SkillID=10770
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-0.700000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.850000
+         EffectClass=Class'LineageEffect.d_ar_raina_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ar_raina_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10770_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_ar_stunshot1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ar_stunshot1_ca_simple'
+     End Object
+     PreshotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10770_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter52
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01_R_Hand"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_ar_tan3_fl'
+         SimpleEffectClass=Class'LineageEffect.d_ar_tan3_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10770_skill.L2EffectEmitter52'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ar_nucks_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ar_nucks_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10770_skill.L2EffectEmitter2'
+}

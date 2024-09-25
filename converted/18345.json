@@ -1,0 +1,5 @@
+{
+"SkillId": 18345,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.010000","EffectClass": "ClassLineageEffect.u_honors_magicbook","SimpleEffectClass": "ClassLineageEffect.u_honors_magicbook_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 16135,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-2.000000)","ScaleSize": "0.010000","EffectClass": "ClassLineageEffect.d_mon_earth_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_earth_ta_simple"}],
+"ShotActions": []
+}

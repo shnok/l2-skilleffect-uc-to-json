@@ -1,0 +1,33 @@
+class l2_16037_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="타우티 범위 연출"
+     SkillID=16037
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.980000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_tauti_range_ca'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_range_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16037_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_tauti_green_ra'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_green_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16037_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_tauti_green_ta_a'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_green_ta_a_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16037_skill.L2EffectEmitter2'
+}

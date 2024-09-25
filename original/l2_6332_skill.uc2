@@ -1,0 +1,16 @@
+class l2_6332_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="모닥불배부름"
+     SkillID=6332
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.010000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6332_skill.L2EffectEmitter0'
+}

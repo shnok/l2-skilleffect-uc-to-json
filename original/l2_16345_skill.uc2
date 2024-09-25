@@ -1,0 +1,14 @@
+class l2_16345_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파이어 스파크"
+     SkillID=16345
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u808_tolerant_ta_a'
+         SimpleEffectClass=Class'LineageEffect.m_u808_tolerant_ta_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16345_skill.L2EffectEmitter1'
+}

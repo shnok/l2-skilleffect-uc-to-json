@@ -1,0 +1,14 @@
+class l2_5007_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프린테샤 힐 억제"
+     SkillID=5007
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_hurricane_ta'
+         SimpleEffectClass=Class'LineageEffect.el_hurricane_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5007_skill.L2EffectEmitter0'
+}

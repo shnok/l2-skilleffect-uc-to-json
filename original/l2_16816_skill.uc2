@@ -1,0 +1,37 @@
+class l2_16816_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데스티니 웨이트"
+     SkillID=16816
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_npc_destiny_weight_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_npc_destiny_weight_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16816_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         ScaleSize=3.000000
+         EffectClass=Class'LineageEffect.u_mon_unholy_ra'
+         SimpleEffectClass=Class'LineageEffect.u_mon_unholy_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16816_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-1.000000)
+         ScaleSize=3.500000
+         EffectClass=Class'LineageEffect.d_wi_weak_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_weak_tara_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16816_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_su_fear_ta'
+         SimpleEffectClass=Class'LineageEffect.d_su_fear_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16816_skill.L2EffectEmitter3'
+}

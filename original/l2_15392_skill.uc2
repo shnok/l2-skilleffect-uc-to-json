@@ -1,0 +1,24 @@
+class l2_15392_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="셀레스티얼 프로텍션"
+     SkillID=11758
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_purple7_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple7_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15392_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect.d_debuff_p'
+         SimpleEffectClass=Class'LineageEffect.d_debuff_p_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15392_skill.L2EffectEmitter1'
+}

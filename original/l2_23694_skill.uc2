@@ -1,0 +1,23 @@
+class l2_23694_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="토네이도 셰클"
+     SkillID=23694
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_astatine_tornado_ra'
+         SimpleEffectClass=Class'LineageEffect.u_astatine_tornado_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23694_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_kn_judgec_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgec_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23694_skill.L2EffectEmitter3'
+}

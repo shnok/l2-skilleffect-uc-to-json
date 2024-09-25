@@ -1,0 +1,5 @@
+{
+"SkillId": 16021,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "3.600000","EffectClass": "ClassLineageEffect.e_u611_tiat_lose_A","SimpleEffectClass": "ClassLineageEffect.e_u611_tiat_lose_A_simple","BR_ForceLifeTime": "35.000000"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=2500.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "2.000000","EffectClass": "ClassLineageEffect.e_u611_tiat_lose_B","SimpleEffectClass": "ClassLineageEffect.e_u611_tiat_lose_B_simple","BR_ForceLifeTime": "35.000000"}],
+"ShotActions": []
+}

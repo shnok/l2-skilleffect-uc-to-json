@@ -1,0 +1,5 @@
+{
+"SkillId": 6559,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.at_fatal_strike_ca","SimpleEffectClass": "ClassLineageEffect.at_fatal_strike_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter26", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.p_u004_a","SimpleEffectClass": "ClassLineageEffect.p_u004_a_simple"},{"Name": "L2EffectEmitter21", "AttachOn": "AM_Trail","offset": "(Z=-1.500000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.mo_vengence_ra","SimpleEffectClass": "ClassLineageEffect.mo_vengence_ra_simple"}]
+}

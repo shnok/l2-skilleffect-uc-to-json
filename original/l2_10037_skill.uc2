@@ -1,0 +1,23 @@
+class l2_10037_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바이탈리티 오라"
+     SkillID=10037
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u811_short_tole'
+         SimpleEffectClass=Class'LineageEffect.m_u811_short_tole_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10037_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ta_a'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10037_skill.L2EffectEmitter1'
+}

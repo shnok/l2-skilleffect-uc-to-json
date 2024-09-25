@@ -1,0 +1,23 @@
+class l2_5225_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발러_무적"
+     SkillID=5225
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u098_buff_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u098_buff_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5225_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u098_buff_ta_a'
+         SimpleEffectClass=Class'LineageEffect.e_u098_buff_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5225_skill.L2EffectEmitter1'
+}

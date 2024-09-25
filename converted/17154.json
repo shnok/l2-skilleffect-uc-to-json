@@ -1,0 +1,5 @@
+{
+"SkillId": 17154,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.e_u300_heart_ta","SimpleEffectClass": "ClassLineageEffect.e_u300_heart_ta_simple"}],
+"ShotActions": []
+}

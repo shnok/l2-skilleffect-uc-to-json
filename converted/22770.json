@@ -1,0 +1,5 @@
+{
+"SkillId": 22770,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_dualquest_complete","SimpleEffectClass": "ClassLineageEffect.u_dualquest_complete_simple"}],
+"ShotActions": []
+}

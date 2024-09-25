@@ -1,0 +1,23 @@
+class l2_30532_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인사이드 포지션"
+     SkillID=30532
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_right_up'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_right_up_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30532_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=2.500000,Y=-15.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_right_dir'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_right_dir_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30532_skill.L2EffectEmitter1'
+}

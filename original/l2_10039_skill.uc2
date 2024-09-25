@@ -1,0 +1,23 @@
+class l2_10039_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스피릿 오라"
+     SkillID=10039
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u020_swordshield_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u020_swordshield_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10039_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u020_scorn_head'
+         SimpleEffectClass=Class'LineageEffect.s_u020_scorn_head_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10039_skill.L2EffectEmitter1'
+}

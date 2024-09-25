@@ -1,0 +1,5 @@
+{
+"SkillId": 5226,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","bAdjustLifeTime": "False","EffectClass": "ClassLineageEffect.e_u100_teleport_ca","SimpleEffectClass": "ClassLineageEffect.e_u100_teleport_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bAdjustLifeTime": "False","EffectClass": "ClassLineageEffect.e_u100_teleport_ta","SimpleEffectClass": "ClassLineageEffect.e_u100_teleport_ta_simple"}]
+}

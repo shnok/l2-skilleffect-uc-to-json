@@ -1,0 +1,16 @@
+class l2_9455_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="타겟 해제"
+     SkillID=10544
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.650000
+         EffectClass=Class'LineageEffect.d_ro_lakep2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_lakep2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9455_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,46 @@
+class l2_10015_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="체인 스트라이크"
+     SkillID=10015
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_kn_judgep_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgep_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10015_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         SpawnDelay=0.800000
+         EffectClass=Class'LineageEffect.z_gs_chain_ta_c'
+         SimpleEffectClass=Class'LineageEffect.z_gs_chain_ta_c_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10015_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         SpawnDelay=0.800000
+         EffectClass=Class'LineageEffect.z_gs_chain_ta_d'
+         SimpleEffectClass=Class'LineageEffect.z_gs_chain_ta_d_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10015_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect2.beam_wave'
+         SimpleEffectClass=Class'LineageEffect2.beam_wave_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10015_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect2.beam_str'
+         SimpleEffectClass=Class'LineageEffect2.beam_str_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10015_skill.L2EffectEmitter5'
+}

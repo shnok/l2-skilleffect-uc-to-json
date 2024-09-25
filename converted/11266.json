@@ -1,0 +1,5 @@
+{
+"SkillId": 11266,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.500000,Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_su_spdoor_ca","SimpleEffectClass": "ClassLineageEffect.d_su_spdoor_ca_simple"},{"Name": "L2EffectEmitter10", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.d_wa_samsh2_handca","SimpleEffectClass": "ClassLineageEffect.d_wa_samsh2_handca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","SpawnDelay": "1.000000","EffectClass": "ClassLineageEffect.wh_regeneration_ta","SimpleEffectClass": "ClassLineageEffect.wh_regeneration_ta_simple"}]
+}

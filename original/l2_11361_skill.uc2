@@ -1,0 +1,24 @@
+class l2_11361_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 무빙포털1"
+     SkillID=11361
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_movingportal_ca'
+         SimpleEffectClass=Class'LineageEffect.u_movingportal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11361_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_movingportal'
+         SimpleEffectClass=Class'LineageEffect.u_movingportal_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11361_skill.L2EffectEmitter1'
+}

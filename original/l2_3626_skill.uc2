@@ -1,0 +1,33 @@
+class l2_3626_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="카보클라"
+     SkillID=3626
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u805_ca_third'
+         SimpleEffectClass=Class'LineageEffect.s_u805_ca_third_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3626_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.s_u805_channeling_mesh'
+         SimpleEffectClass=Class'LineageEffect.s_u805_channeling_mesh_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3626_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.s_u805_channeling_beam'
+         SimpleEffectClass=Class'LineageEffect.s_u805_channeling_beam_simple'
+     End Object
+     ChannelingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_3626_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,42 @@
+class l2_5962_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="방공캐논"
+     SkillID=5962
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=2.000000,Z=-6.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.e_u318_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u318_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5962_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=2.000000,Z=-6.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.e_u318_pr'
+         SimpleEffectClass=Class'LineageEffect.e_u318_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5962_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=2.000000,Z=-6.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.e_u318_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u318_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5962_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u318_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u318_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5962_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

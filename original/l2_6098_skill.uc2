@@ -1,0 +1,15 @@
+class l2_6098_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="PC_바위"
+     SkillID=6098
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u201_pc_bawi'
+         SimpleEffectClass=Class'LineageEffect.e_u201_pc_bawi_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6098_skill.L2EffectEmitter3'
+}

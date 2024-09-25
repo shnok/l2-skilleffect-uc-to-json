@@ -1,0 +1,15 @@
+class l2_19442_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="메이저 트라이어드"
+     SkillID=19442
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_in_note_self_buff'
+         SimpleEffectClass=Class'LineageEffect2.y_in_note_self_buff_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19442_skill.L2EffectEmitter0'
+}

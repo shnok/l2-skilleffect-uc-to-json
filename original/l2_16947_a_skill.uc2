@@ -1,0 +1,50 @@
+class l2_16947_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="¾îµÒÀÇ ±â¿î"
+     SkillID=16947
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.s_gyt_dark_beam_ca'
+         SimpleEffectClass=Class'LineageEffect2.s_gyt_dark_beam_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16947_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.250000)
+         ScaleSize=18.000000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect2.s_gyt_dark_beam_tg_ca'
+         SimpleEffectClass=Class'LineageEffect2.s_gyt_dark_beam_tg_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16947_a_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect2.s_gyt_dark_handca'
+         SimpleEffectClass=Class'LineageEffect2.s_gyt_dark_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16947_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         bSpawnOnTarget=False
+         bChanneling=True
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.d_channeling2b_beam'
+         SimpleEffectClass=Class'LineageEffect.d_channeling2b_beam_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_16947_a_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_scene_etina_dark_beam_tara'
+         SimpleEffectClass=Class'LineageEffect2.y_scene_etina_dark_beam_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16947_a_skill.L2EffectEmitter6'
+}

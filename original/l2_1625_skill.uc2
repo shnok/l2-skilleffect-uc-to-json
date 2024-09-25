@@ -1,0 +1,25 @@
+class l2_1625_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스피어 샷"
+     SkillID=1625
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_ro_bloodstep_ca'
+         SimpleEffectClass=Class'LineageEffect.u_ro_bloodstep_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1625_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=0.100000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_origin_harpoon_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_origin_harpoon_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1625_skill.L2EffectEmitter2'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s'
+}

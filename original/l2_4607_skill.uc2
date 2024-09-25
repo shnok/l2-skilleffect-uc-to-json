@@ -1,0 +1,43 @@
+class l2_4607_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Magma Attack"
+     SkillID=4607
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bone01"
+         bAbsolute=True
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_flame_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4607_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bone09"
+         bAbsolute=True
+         offset=(Y=-10.000000,Z=-10.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.el_flame_strike_pr'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4607_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=3.500000,Z=0.300000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.el_flame_strike_fl'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4607_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.el_flame_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4607_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

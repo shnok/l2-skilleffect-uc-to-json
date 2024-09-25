@@ -1,0 +1,5 @@
+{
+"SkillId": 4289,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter2", "offset": "(X=2.700000,Z=0.600000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.mu_wyvern_breath_fl","SimpleEffectClass": "ClassLineageEffect.mu_wyvern_breath_fl_simple"}]
+}

@@ -1,0 +1,24 @@
+class l2_30511_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="그라비티 파워"
+     SkillID=30511
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_gpower_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_gpower_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30511_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_gpower_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_gpower_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30511_skill.L2EffectEmitter2'
+}

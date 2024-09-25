@@ -1,0 +1,5 @@
+{
+"SkillId": 11066,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wi_sp4elem_ca","SimpleEffectClass": "ClassLineageEffect.d_wi_sp4elem_ca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_LH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wi_mrfire5s_handca","SimpleEffectClass": "ClassLineageEffect.d_wi_mrfire5s_handca_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wi_mrwater5s_handca","SimpleEffectClass": "ClassLineageEffect.d_wi_mrwater5s_handca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wi_sp4elem_pafix","SimpleEffectClass": "ClassLineageEffect.d_wi_sp4elem_pafix_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.d_wi_sp4elem_ta","SimpleEffectClass": "ClassLineageEffect.d_wi_sp4elem_ta_simple"}]
+}

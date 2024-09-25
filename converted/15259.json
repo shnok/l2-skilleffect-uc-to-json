@@ -1,0 +1,5 @@
+{
+"SkillId": 7106,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=2.000000)","bSpawnOnTarget": "False","ScaleSize": "2.000000","EffectClass": "ClassLineageEffect.d_firework_b","SimpleEffectClass": "ClassLineageEffect.d_firework_b_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Y=1.500000,Z=2.500000)","bSpawnOnTarget": "False","ScaleSize": "1.500000","SpawnDelay": "1.200000","EffectClass": "ClassLineageEffect.d_firework_a","SimpleEffectClass": "ClassLineageEffect.d_firework_a_simple"}],
+"ShotActions": []
+}

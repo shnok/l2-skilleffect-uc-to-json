@@ -1,0 +1,16 @@
+class l2_19201_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프로텍트 오브 팰러딘"
+     SkillID=19201
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kn_protect_pal_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kn_protect_pal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19201_skill.L2EffectEmitter0'
+}

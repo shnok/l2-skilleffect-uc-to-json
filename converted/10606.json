@@ -1,0 +1,5 @@
+{
+"SkillId": 10606,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_ro_shdodge_ca","SimpleEffectClass": "ClassLineageEffect.u_ro_shdodge_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_ro_shdodge_ta","SimpleEffectClass": "ClassLineageEffect.u_ro_shdodge_ta_simple"}]
+}

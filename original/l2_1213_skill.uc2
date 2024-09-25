@@ -1,0 +1,32 @@
+class l2_1213_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실 오브 미라쥬"
+     SkillID=1213
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=5.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.m_u025_a'
+         SimpleEffectClass=Class'LineageEffect.m_u025_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1213_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=5.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.m_u025_b'
+         SimpleEffectClass=Class'LineageEffect.m_u025_b_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1213_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u025_c'
+         SimpleEffectClass=Class'LineageEffect.m_u025_c_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1213_skill.L2EffectEmitter2'
+}

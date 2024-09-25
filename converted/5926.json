@@ -1,0 +1,5 @@
+{
+"SkillId": 5926,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.s_u201_ca","SimpleEffectClass": "ClassLineageEffect.s_u201_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 head","RelativeRotation": "(Yaw=46500,Roll=32684)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.200000","SpawnDelay": "1.500000","EffectClass": "ClassLineageEffect.e_u615_fan","SimpleEffectClass": "ClassLineageEffect.e_u615_fan_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bOnMultiTarget": "True","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect.e_u615_ta","SimpleEffectClass": "ClassLineageEffect.e_u615_ta_simple"}]
+}

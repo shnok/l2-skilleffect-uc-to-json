@@ -1,0 +1,5 @@
+{
+"SkillId": 32004,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.950000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_raid_seal_call_tara_10s_yellow","SimpleEffectClass": "ClassLineageEffect2.y_raid_seal_call_tara_10s_yellow_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_LH","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_raid_seal_call_10s_handca_yellow","SimpleEffectClass": "ClassLineageEffect2.y_raid_seal_call_10s_handca_yellow_simple"}],
+"ShotActions": []
+}

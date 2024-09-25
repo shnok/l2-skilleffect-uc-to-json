@@ -1,0 +1,16 @@
+class l2_30515_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="공간 왜곡"
+     SkillID=30515
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_spaceref_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_spaceref_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30515_skill.L2EffectEmitter0'
+}

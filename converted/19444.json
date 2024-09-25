@@ -1,0 +1,5 @@
+{
+"SkillId": 19444,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_doomcryer_drum_ca","SimpleEffectClass": "ClassLineageEffect2.y_in_doomcryer_drum_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneSpecified","AttachBoneName": "bip01","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_drumbeat_for_advance_ra","SimpleEffectClass": "ClassLineageEffect2.y_in_drumbeat_for_advance_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_drumbeat_for_advance_buff_a","SimpleEffectClass": "ClassLineageEffect2.y_in_drumbeat_for_advance_buff_a_simple"}]
+}

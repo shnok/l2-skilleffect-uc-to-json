@@ -1,0 +1,5 @@
+{
+"SkillId": 16993,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect2.y_raid_zaken_typhoon_slash_body_c","SimpleEffectClass": "ClassLineageEffect2.y_raid_zaken_typhoon_slash_body_c_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.u_su_power_v_ra","SimpleEffectClass": "ClassLineageEffect.u_su_power_v_ra_simple"}]
+}

@@ -1,0 +1,30 @@
+class l2_23683_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="댄싱 블레이드"
+     SkillID=23683
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kelbim_dancibl_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_dancibl_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23683_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kelbim_dancibl_ra'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_dancibl_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23683_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kn_panrush_ta'
+         SimpleEffectClass=Class'LineageEffect.u_kn_panrush_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_23683_skill.L2EffectEmitter3'
+}

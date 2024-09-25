@@ -1,0 +1,5 @@
+{
+"SkillId": 8247,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.s_u833_transform","SimpleEffectClass": "ClassLineageEffect.s_u833_transform_simple"}],
+"ShotActions": []
+}

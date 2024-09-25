@@ -1,0 +1,23 @@
+class l2_10035_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레지스트 오라"
+     SkillID=10035
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         bRibbonSet=True
+         EffectClass=Class'LineageEffect.RibbonSet_sword'
+         SimpleEffectClass=Class'LineageEffect.RibbonSet_sword_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10035_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u821_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u821_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10035_skill.L2EffectEmitter1'
+}

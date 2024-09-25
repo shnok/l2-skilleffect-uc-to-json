@@ -1,0 +1,23 @@
+class l2_3590_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인피니티 파워 - 모탈"
+     SkillID=3590
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_infinity_power_motal_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_infinity_power_motal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3590_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_in_attackmr2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_attackmr2_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3590_skill.L2EffectEmitter1'
+}

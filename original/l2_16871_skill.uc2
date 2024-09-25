@@ -1,0 +1,44 @@
+class l2_16871_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에티나의 부름"
+     SkillID=16871
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.060000,Z=2.100000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         SpawnDelay=8.000000
+         EffectClass=Class'LineageEffect.d_he_safebirth_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_safebirth_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16871_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="ca_Dummy01"
+         bSpawnOnTarget=False
+         ScaleSize=0.450000
+         EffectClass=Class'LineageEffect2.y_raid_mc_etis_called_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_etis_called_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16871_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect2.y_raid_mc_etis_called_bottom_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_etis_called_bottom_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16871_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_safebirth_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_safebirth_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16871_skill.L2EffectEmitter3'
+}

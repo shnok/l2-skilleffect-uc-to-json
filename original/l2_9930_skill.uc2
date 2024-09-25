@@ -1,0 +1,24 @@
+class l2_9930_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="자이언트 리플렉트 데미지"
+     SkillID=9930
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_reflect_damage_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_reflect_damage_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9930_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_reflect_damage_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_reflect_damage_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9930_skill.L2EffectEmitter1'
+}

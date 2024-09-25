@@ -1,0 +1,15 @@
+class l2_5565_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="익스포즈위크포인트"
+     SkillID=5565
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u018_b'
+         SimpleEffectClass=Class'LineageEffect.m_u018_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5565_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,15 @@
+class l2_30027_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="사이하 표식_번개"
+     SkillID=30027
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_spattack2_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_spattack2_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30027_skill.L2EffectEmitter0'
+}

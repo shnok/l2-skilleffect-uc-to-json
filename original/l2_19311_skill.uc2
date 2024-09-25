@@ -1,0 +1,38 @@
+class l2_19311_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="드워븐 스페셜 뱅"
+     SkillID=19311
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_ro_windbluf_handca'
+         SimpleEffectClass=Class'LineageEffect.u_ro_windbluf_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19311_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_ro_windbluf_handca'
+         SimpleEffectClass=Class'LineageEffect.u_ro_windbluf_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19311_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_fortune_fanrange_bluff_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_fortune_fanrange_bluff_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19311_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.u_ro_windbluf_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ro_windbluf_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19311_skill.L2EffectEmitter4'
+}

@@ -1,0 +1,23 @@
+class l2_9937_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="자이언트 위크니스 크리티컬"
+     SkillID=9937
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ro_darkp2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_darkp2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9937_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_darkp2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_darkp2_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9937_skill.L2EffectEmitter1'
+}

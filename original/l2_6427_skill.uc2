@@ -1,0 +1,32 @@
+class l2_6427_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="버섯부약초"
+     SkillID=6427
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.e_u329_ta_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_A_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6427_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_lizard_shockwave'
+         SimpleEffectClass=Class'LineageEffect.z_lizard_shockwave_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6427_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter13
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_unholy_hp_down'
+         SimpleEffectClass=Class'LineageEffect.z_unholy_hp_down_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6427_skill.L2EffectEmitter13'
+}

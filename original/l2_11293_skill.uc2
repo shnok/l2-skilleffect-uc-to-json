@@ -1,0 +1,14 @@
+class l2_11293_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="큐빅 캔슬"
+     SkillID=11293
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_unlock_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_unlock_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11293_skill.L2EffectEmitter0'
+}

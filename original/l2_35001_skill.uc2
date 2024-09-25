@@ -1,0 +1,22 @@
+class l2_35001_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="화룡의 가호"
+     SkillID=35001
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_antapendant_02_ca'
+         SimpleEffectClass=Class'LineageEffect.u_antapendant_02_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_35001_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.u_antapendant_02_ta'
+         SimpleEffectClass=Class'LineageEffect.u_antapendant_02_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_35001_skill.L2EffectEmitter1'
+}

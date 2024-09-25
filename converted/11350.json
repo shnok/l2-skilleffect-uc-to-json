@@ -1,0 +1,5 @@
+{
+"SkillId": 11350,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_su_ragey_ca","SimpleEffectClass": "ClassLineageEffect.u_su_ragey_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneLocation","AttachBoneName": "Bip01_L_Hand","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_su_ragey_fl","SimpleEffectClass": "ClassLineageEffect.u_su_ragey_fl_simple"}]
+}

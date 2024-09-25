@@ -1,0 +1,22 @@
+class l2_10783_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마인드 아이즈"
+     SkillID=10783
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ar_spspirit_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ar_spspirit_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10783_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ar_spspirit_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ar_spspirit_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10783_skill.L2EffectEmitter1'
+}

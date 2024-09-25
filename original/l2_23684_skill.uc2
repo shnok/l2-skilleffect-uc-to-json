@@ -1,0 +1,46 @@
+class l2_23684_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="익스플로즌 피어"
+     SkillID=23684
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kelbim_fear_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_fear_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23684_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter60
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kelbim_fear_handca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_fear_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_23684_skill.L2EffectEmitter60'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter62
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kelbim_fear_handca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_fear_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_23684_skill.L2EffectEmitter62'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kelbim_fear_ra'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_fear_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23684_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kelbim_fear_ta'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_fear_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_23684_skill.L2EffectEmitter3'
+}

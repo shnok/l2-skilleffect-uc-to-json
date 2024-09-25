@@ -1,0 +1,5 @@
+{
+"SkillId": 10516,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_LH","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_ro_flash_ca","SimpleEffectClass": "ClassLineageEffect.d_ro_flash_ca_simple"},{"Name": "L2EffectEmitter5", "AttachOn": "AM_RH","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_ro_flash_ca","SimpleEffectClass": "ClassLineageEffect.d_ro_flash_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=1.500000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_ro_flash_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_flash_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.s_u831_bloodsuck_ta","SimpleEffectClass": "ClassLineageEffect.s_u831_bloodsuck_ta_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_ro_shachase_aura","SimpleEffectClass": "ClassLineageEffect.u_ro_shachase_aura_simple"}]
+}

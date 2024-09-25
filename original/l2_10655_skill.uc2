@@ -1,0 +1,21 @@
+class l2_10655_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="팬터마이즈"
+     SkillID=10653
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_ro_ghost_reflect_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_ghost_reflect_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10655_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect2.y_ro_ghost_reflect_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_ghost_reflect_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10655_skill.L2EffectEmitter1'
+}

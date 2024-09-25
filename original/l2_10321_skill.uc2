@@ -1,0 +1,25 @@
+class l2_10321_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="썬더 스피어"
+     SkillID=10321
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_wa_thunder2_ca'
+         SimpleEffectClass=Class'LineageEffect.u_wa_thunder2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10321_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_wa_thunder_ta'
+         SimpleEffectClass=Class'LineageEffect.u_wa_thunder_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10321_skill.L2EffectEmitter2'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 30601,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_er_wa_addihit_ta","SimpleEffectClass": "ClassLineageEffect.u_er_wa_addihit_ta_simple"}],
+"ShotActions": []
+}

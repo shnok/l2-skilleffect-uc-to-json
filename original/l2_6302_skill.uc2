@@ -1,0 +1,14 @@
+class l2_6302_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="냉기"
+     SkillID=6302
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.z_mp_up'
+         SimpleEffectClass=Class'LineageEffect.z_mp_up_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6302_skill.L2EffectEmitter0'
+}

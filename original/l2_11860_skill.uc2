@@ -1,0 +1,15 @@
+class l2_11860_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="플래그 오브 힐"
+     SkillID=11860
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_heal_tree_ca'
+         SimpleEffectClass=Class'LineageEffect.d_heal_tree_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11860_skill.L2EffectEmitter0'
+}

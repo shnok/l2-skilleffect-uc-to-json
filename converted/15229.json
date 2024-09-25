@@ -1,0 +1,5 @@
+{
+"SkillId": 6775,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_mon_purple2_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_purple2_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.600000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.d_dark_genuma","SimpleEffectClass": "ClassLineageEffect.d_dark_genuma_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.d_mon_purple1_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_purple1_ta_simple"}]
+}

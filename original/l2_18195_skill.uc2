@@ -1,0 +1,32 @@
+class l2_18195_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="넉백 _외계인 장난감총"
+     SkillID=18195
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.e_u034_a'
+         SimpleEffectClass=Class'LineageEffect.e_u034_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18195_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.u_alien_weapon_2fl'
+         SimpleEffectClass=Class'LineageEffect.u_alien_weapon_2fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_18195_skill.L2EffectEmitter33'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_spshadow_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_spshadow_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18195_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

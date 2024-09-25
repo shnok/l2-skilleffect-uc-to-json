@@ -1,0 +1,49 @@
+class l2_6325_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디바인노바"
+     SkillID=6325
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_common_buff_d'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_d_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6325_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=1.300000
+         EffectClass=Class'LineageEffect.wh_regeneration_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_regeneration_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6325_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_monastery_a_ta'
+         SimpleEffectClass=Class'LineageEffect.z_monastery_a_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6325_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.z_monastery_a_area'
+         SimpleEffectClass=Class'LineageEffect.z_monastery_a_area_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6325_skill.L2EffectEmitter21'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter97
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_dummy_quake_1s'
+         SimpleEffectClass=Class'LineageEffect.z_dummy_quake_1s_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6325_skill.L2EffectEmitter97'
+}

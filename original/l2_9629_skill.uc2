@@ -1,0 +1,15 @@
+class l2_9629_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="고급 투지의 물약"
+     SkillID=2166
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_war_cry_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_war_cry_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9629_skill.L2EffectEmitter0'
+}

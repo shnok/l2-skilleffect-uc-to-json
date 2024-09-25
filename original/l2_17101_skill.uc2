@@ -1,0 +1,28 @@
+class l2_17101_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="배기성보물상자"
+     SkillID=17101
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Y=30.000000,Z=10.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectPawnClassID=13397
+         SequenceName="NPC_spatk02"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.980000
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17101_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.500000
+         SpawnDelay=1.700000
+         EffectClass=Class'LineageEffect_Br.br_e_aga_cheerleader_spatk_a'
+         SimpleEffectClass=Class'LineageEffect_Br.br_e_aga_cheerleader_spatk_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17101_skill.L2EffectEmitter3'
+}

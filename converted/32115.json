@@ -1,0 +1,5 @@
+{
+"SkillId": 32115,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-0.900000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_raid_seal_wizaant_tara","SimpleEffectClass": "ClassLineageEffect2.y_raid_seal_wizaant_tara_simple"}],
+"ShotActions": []
+}

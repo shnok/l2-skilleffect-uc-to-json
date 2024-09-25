@@ -1,0 +1,21 @@
+class l2_501_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바이어런트 템퍼"
+     SkillID=501
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u811_short_debuff'
+         SimpleEffectClass=Class'LineageEffect.m_u811_short_debuff_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_501_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u820_range_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u820_range_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_501_skill.L2EffectEmitter2'
+}

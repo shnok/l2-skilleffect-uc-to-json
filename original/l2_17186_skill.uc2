@@ -1,0 +1,14 @@
+class l2_17186_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="단디의 응원"
+     SkillID=17186
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_mez2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_mez2_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17186_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 15510,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.d_mon_heal1_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_heal1_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=1.500000)","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_mon_heal_cross","SimpleEffectClass": "ClassLineageEffect.d_mon_heal_cross_simple"}]
+}

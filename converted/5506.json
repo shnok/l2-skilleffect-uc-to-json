@@ -1,0 +1,5 @@
+{
+"SkillId": 5506,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.el_hydro_blast_ta","SimpleEffectClass": "ClassLineageEffect.el_hydro_blast_ta_simple"}]
+}

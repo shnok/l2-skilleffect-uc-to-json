@@ -1,0 +1,5 @@
+{
+"SkillId": 6402,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_common_short_ca","SimpleEffectClass": "ClassLineageEffect.z_common_short_ca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.bl_curse_poison_ta","SimpleEffectClass": "ClassLineageEffect.bl_curse_poison_ta_simple"}],
+"ShotActions": []
+}

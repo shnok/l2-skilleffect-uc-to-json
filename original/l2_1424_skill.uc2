@@ -1,0 +1,21 @@
+class l2_1424_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="안티 서먼 필드"
+     SkillID=1424
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u807_fighter_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u807_fighter_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1424_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.it_scroll_of_escape_ta_sound'
+         SimpleEffectClass=Class'LineageEffect.it_scroll_of_escape_ta_sound_simple'
+     End Object
+     UnionTargetAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1424_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 910,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.el_aqua_swirl_ca","SimpleEffectClass": "ClassLineageEffect.el_aqua_swirl_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.800000)","bSpawnOnTarget": "False","ScaleSize": "2.000000","EffectClass": "ClassLineageEffect.e_u314_uniconian","SimpleEffectClass": "ClassLineageEffect.e_u314_uniconian_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.el_aqua_swirl_ta","SimpleEffectClass": "ClassLineageEffect.el_aqua_swirl_ta_simple"}]
+}

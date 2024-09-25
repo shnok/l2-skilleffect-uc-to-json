@@ -1,0 +1,14 @@
+class l2_10104_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="피닉스 오라"
+     SkillID=10104
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kn_phoenix_aura'
+         SimpleEffectClass=Class'LineageEffect.u_kn_phoenix_aura_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10104_skill.L2EffectEmitter0'
+}

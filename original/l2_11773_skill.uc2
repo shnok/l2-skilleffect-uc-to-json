@@ -1,0 +1,44 @@
+class l2_11773_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빛의 자태"
+     SkillID=11773
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.400000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_he_spanakim_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_spanakim_ca_simple'
+         BR_ForceLifeTime=5.000000
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11773_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_he_spanakim2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_spanakim2_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11773_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_he_spanakim_tara'
+         SimpleEffectClass=Class'LineageEffect.d_he_spanakim_tara_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11773_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_he_spanakim_tara'
+         SimpleEffectClass=Class'LineageEffect.d_he_spanakim_tara_simple'
+         BR_ForceLifeTime=5.000000
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11773_skill.L2EffectEmitter6'
+}

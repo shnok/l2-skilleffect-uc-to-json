@@ -1,0 +1,70 @@
+class l2_6758_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="연출_소 분노"
+     SkillID=6128
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.450000
+         EffectClass=Class'LineageEffect.s_u202_event_cow'
+         SimpleEffectClass=Class'LineageEffect.s_u202_event_cow_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6758_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.750000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.s_u202_event_cow'
+         SimpleEffectClass=Class'LineageEffect.s_u202_event_cow_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6758_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.mo_vengence_ra'
+         SimpleEffectClass=Class'LineageEffect.mo_vengence_ra_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6758_skill.L2EffectEmitter21'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         SpawnDelay=0.100000
+         EffectClass=Class'LineageEffect.mo_vengence_ra'
+         SimpleEffectClass=Class'LineageEffect.mo_vengence_ra_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_6758_skill.L2EffectEmitter22'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter23
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.mo_vengence_ra'
+         SimpleEffectClass=Class'LineageEffect.mo_vengence_ra_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_6758_skill.L2EffectEmitter23'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter24
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=0.450000
+         EffectClass=Class'LineageEffect.s_u202_event_cow'
+         SimpleEffectClass=Class'LineageEffect.s_u202_event_cow_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_6758_skill.L2EffectEmitter24'
+}

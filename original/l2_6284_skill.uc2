@@ -1,0 +1,16 @@
+class l2_6284_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프레야의축북"
+     SkillID=6284
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.z_ice_knight_buff'
+         SimpleEffectClass=Class'LineageEffect.z_ice_knight_buff_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6284_skill.L2EffectEmitter0'
+}

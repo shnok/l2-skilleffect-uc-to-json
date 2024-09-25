@@ -1,0 +1,15 @@
+class l2_16172_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데미지 존"
+     SkillID=16172
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.u_mon_damzone_ra'
+         SimpleEffectClass=Class'LineageEffect.u_mon_damzone_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16172_skill.L2EffectEmitter1'
+}

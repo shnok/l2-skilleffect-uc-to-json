@@ -1,0 +1,5 @@
+{
+"SkillId": 23694,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_astatine_tornado_ra","SimpleEffectClass": "ClassLineageEffect.u_astatine_tornado_ra_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_kn_judgec_ta","SimpleEffectClass": "ClassLineageEffect.d_kn_judgec_ta_simple"}]
+}

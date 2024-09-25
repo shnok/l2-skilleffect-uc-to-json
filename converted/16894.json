@@ -1,0 +1,5 @@
+{
+"SkillId": 16894,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-1.000000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_npc_defence_cannon_kserth_c","SimpleEffectClass": "ClassLineageEffect2.y_npc_defence_cannon_kserth_c_simple"},{"Name": "L2EffectEmitter1", "offset": "(Z=-0.900000)","ScaleSize": "-1.000000","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect2.y_npc_defence_cannon_kserth_d","SimpleEffectClass": "ClassLineageEffect2.y_npc_defence_cannon_kserth_d_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","SpawnDelay": "0.510000","EffectClass": "ClassLineageEffect.d_wa_drainst_ta","SimpleEffectClass": "ClassLineageEffect.d_wa_drainst_ta_simple"}],
+"ShotActions": []
+}

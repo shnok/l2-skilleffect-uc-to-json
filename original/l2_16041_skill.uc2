@@ -1,0 +1,17 @@
+class l2_16041_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="골드이너 엔터 스킬"
+     SkillID=16041
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectPawnClassID=15928
+         SequenceName="enter01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.900000
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16041_skill.L2EffectEmitter1'
+}

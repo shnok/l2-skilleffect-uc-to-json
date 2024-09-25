@@ -1,0 +1,5 @@
+{
+"SkillId": 11519,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_in_music3_ca","SimpleEffectClass": "ClassLineageEffect.d_in_music3_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=10.000000)","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectPawnClassID": "13335","SequenceName": "social01","AnimStartFrame": "0.010000","AnimEndFrame": "0.990000"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_in_music3_ra","SimpleEffectClass": "ClassLineageEffect.d_in_music3_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_in_music3_ta","SimpleEffectClass": "ClassLineageEffect.d_in_music3_ta_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_in_music3_ca","SimpleEffectClass": "ClassLineageEffect.d_in_music3_ca_simple"}]
+}

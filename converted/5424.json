@@ -1,0 +1,5 @@
+{
+"SkillId": 5424,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u829_horn_trap","SimpleEffectClass": "ClassLineageEffect.e_u829_horn_trap_simple"},{"Name": "L2EffectEmitter1", "offset": "(X=4.000000,Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u829_horn_trap","SimpleEffectClass": "ClassLineageEffect.e_u829_horn_trap_simple"},{"Name": "L2EffectEmitter2", "offset": "(X=-4.000000,Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u829_horn_trap","SimpleEffectClass": "ClassLineageEffect.e_u829_horn_trap_simple"},{"Name": "L2EffectEmitter3", "offset": "(Y=4.000000,Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u829_horn_trap","SimpleEffectClass": "ClassLineageEffect.e_u829_horn_trap_simple"},{"Name": "L2EffectEmitter4", "offset": "(Y=-4.000000,Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u829_horn_trap","SimpleEffectClass": "ClassLineageEffect.e_u829_horn_trap_simple"}],
+"ShotActions": []
+}

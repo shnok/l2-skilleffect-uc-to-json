@@ -1,0 +1,23 @@
+class l2_16130_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="오아시스기운"
+     SkillID=16130
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_mon_blue7_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue7_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16130_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         AttachOn=AM_Trail
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.e_u314_uniconian'
+         SimpleEffectClass=Class'LineageEffect.e_u314_uniconian_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16130_skill.L2EffectEmitter33'
+}

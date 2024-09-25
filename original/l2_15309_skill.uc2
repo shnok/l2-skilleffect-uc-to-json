@@ -1,0 +1,37 @@
+class l2_15309_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="뱀피릭 레이지"
+     SkillID=1268
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u205_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u205_ca_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15309_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_debuff_b'
+         SimpleEffectClass=Class'LineageEffect.d_debuff_b_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15309_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u205_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u205_ta_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15309_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,31 @@
+class l2_16641_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하이퍼 메가 플라즈마 샷"
+     SkillID=16641
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_raid_ramona_mega_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_ramona_mega_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16641_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.hyper_mega_plasma_shot_fl'
+         SimpleEffectClass=Class'LineageEffect2.hyper_mega_plasma_shot_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16641_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.hyper_mega_plasma_shot_ta'
+         SimpleEffectClass=Class'LineageEffect2.hyper_mega_plasma_shot_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16641_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

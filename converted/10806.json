@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_ar_trappoison_ra","SimpleEffectClass": "ClassLineageEffect.d_ar_trappoison_ra_simple"}]
+}

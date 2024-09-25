@@ -1,0 +1,5 @@
+{
+"SkillId": 6037,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.100000","EffectClass": "ClassLineageEffect.e_u618_echmus_ae","SimpleEffectClass": "ClassLineageEffect.e_u618_echmus_ae_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,33 @@
+class l2_23291_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="보우스트링"
+     SkillID=827
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.su_empower_ca'
+         SimpleEffectClass=Class'LineageEffect.su_empower_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23291_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.mo_rapid_shot_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_rapid_shot_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23291_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u606_b'
+         SimpleEffectClass=Class'LineageEffect.s_u606_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_23291_skill.L2EffectEmitter2'
+}

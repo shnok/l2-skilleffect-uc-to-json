@@ -1,0 +1,58 @@
+class l2_30708_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아레나 토마호크 캐논볼"
+     SkillID=30708
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Dummy_Effect"
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         SpawnDelay=0.400000
+         EffectClass=Class'LineageEffect.s_u223_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u223_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30708_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Dummy_Effect"
+         bAbsolute=True
+         RelativeRotation=(Pitch=-2096,Yaw=16384,Roll=8192)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.mo_rapid_shot_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_rapid_shot_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30708_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachBoneName="Dummy_Effect"
+         RelativeRotation=(Pitch=24576,Yaw=16384)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_plasma_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_plasma_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Z=3.000000)
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30708_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.800000)
+         ScaleSize=0.850000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_plasma_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_plasma_ra_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30708_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_he_spanakim1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_spanakim1_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30708_skill.L2EffectEmitter4'
+     FlyingTime=1.000000
+}

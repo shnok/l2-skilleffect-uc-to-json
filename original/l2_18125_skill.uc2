@@ -1,0 +1,16 @@
+class l2_18125_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프레야 얼어붙은 램프"
+     SkillID=18125
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.e_u086_snow'
+         SimpleEffectClass=Class'LineageEffect.e_u086_snow_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18125_skill.L2EffectEmitter0'
+}

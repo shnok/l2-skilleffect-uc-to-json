@@ -1,0 +1,31 @@
+class l2_16875_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파워 스트라이크"
+     SkillID=16875
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect.d_mon_blue7_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue7_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16875_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         SpawnDelay=0.050000
+         EffectClass=Class'LineageEffect.d_physical_ta'
+         SimpleEffectClass=Class'LineageEffect.d_physical_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16875_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_counter_shot'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_counter_shot_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16875_skill.L2EffectEmitter2'
+}

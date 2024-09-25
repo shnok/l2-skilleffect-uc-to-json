@@ -1,0 +1,22 @@
+class l2_120_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스터닝 피스트"
+     SkillID=120
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u010_a'
+         SimpleEffectClass=Class'LineageEffect.s_u010_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_120_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.p_u004_a'
+         SimpleEffectClass=Class'LineageEffect.p_u004_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_120_skill.L2EffectEmitter1'
+}

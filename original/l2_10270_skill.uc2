@@ -1,0 +1,25 @@
+class l2_10270_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파이널 포스"
+     SkillID=10270
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.750000
+         EffectClass=Class'LineageEffect.d_wa_enermove3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_enermove3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10270_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.750000
+         EffectClass=Class'LineageEffect.d_wa_enermove1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_enermove1_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10270_skill.L2EffectEmitter2'
+}

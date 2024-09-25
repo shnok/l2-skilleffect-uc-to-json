@@ -1,0 +1,35 @@
+class l2_4683_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발라카스 브레스 하"
+     SkillID=4683
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Dummy05"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         SpawnDelay=1.900000
+         EffectClass=Class'LineageEffect.mb_valakas_breath_low_fl'
+         SimpleEffectClass=Class'LineageEffect.mb_valakas_breath_low_fl_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4683_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Dummy06"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         SpawnDelay=2.100000
+         EffectClass=Class'LineageEffect.mb_valakas_breath_low_fo'
+         SimpleEffectClass=Class'LineageEffect.mb_valakas_breath_low_fo_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4683_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.mb_valakas_breath_ta'
+         SimpleEffectClass=Class'LineageEffect.mb_valakas_breath_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4683_skill.L2EffectEmitter2'
+}

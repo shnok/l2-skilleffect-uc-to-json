@@ -1,0 +1,34 @@
+class l2_5409_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="트위스터"
+     SkillID=5409
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.m_u809_spec_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u809_spec_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5409_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Z=0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.s_u825_deathbeam'
+         SimpleEffectClass=Class'LineageEffect.s_u825_deathbeam_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5409_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=0.500000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.s_u804_a_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u804_a_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5409_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

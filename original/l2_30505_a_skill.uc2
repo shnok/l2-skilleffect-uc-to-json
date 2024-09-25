@@ -1,0 +1,33 @@
+class l2_30505_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="그라비티 쇼크_a"
+     SkillID=30505
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.g_wa_shock_ca_a'
+         SimpleEffectClass=Class'LineageEffect.g_wa_shock_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30505_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.g_wa_shock_ra_a'
+         SimpleEffectClass=Class'LineageEffect.g_wa_shock_ra_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30505_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.g_wa_shock_ta'
+         SimpleEffectClass=Class'LineageEffect.g_wa_shock_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30505_a_skill.L2EffectEmitter1'
+}

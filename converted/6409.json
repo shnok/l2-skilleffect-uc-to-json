@@ -1,0 +1,5 @@
+{
+"SkillId": 6409,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=0.500000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.z_seed_reptiles_c_ca","SimpleEffectClass": "ClassLineageEffect.z_seed_reptiles_c_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(X=-1.000000)","bOnMultiTarget": "True","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.at_stun_attack_ta","SimpleEffectClass": "ClassLineageEffect.at_stun_attack_ta_simple"},{"Name": "L2EffectEmitter22", "offset": "(Z=-0.800000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.z_seed_reptiles_a_ta","SimpleEffectClass": "ClassLineageEffect.z_seed_reptiles_a_ta_simple"},{"Name": "L2EffectEmitter97", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.z_dummy_quake","SimpleEffectClass": "ClassLineageEffect.z_dummy_quake_simple"}]
+}

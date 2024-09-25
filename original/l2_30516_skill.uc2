@@ -1,0 +1,24 @@
+class l2_30516_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="그라비티 배리어"
+     SkillID=30516
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_barrier_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_barrier_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30516_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_barrier_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_barrier_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30516_skill.L2EffectEmitter2'
+}

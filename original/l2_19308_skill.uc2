@@ -1,0 +1,16 @@
+class l2_19308_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리딕 테일즈"
+     SkillID=19308
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_coin_fail_ca_head'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_coin_fail_ca_head_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19308_skill.L2EffectEmitter3'
+}

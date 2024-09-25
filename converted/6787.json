@@ -1,0 +1,5 @@
+{
+"SkillId": 6300,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u099_rapier_ca_a","SimpleEffectClass": "ClassLineageEffect.s_u099_rapier_ca_a_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u100_crystal_spawn","SimpleEffectClass": "ClassLineageEffect.e_u100_crystal_spawn_simple"}],
+"ShotActions": []
+}

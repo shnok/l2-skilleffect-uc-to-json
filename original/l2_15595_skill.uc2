@@ -1,0 +1,15 @@
+class l2_15595_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드 추락데미지"
+     SkillID=15595
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_lind_common_ta'
+         SimpleEffectClass=Class'LineageEffect.u_lind_common_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15595_skill.L2EffectEmitter1'
+}

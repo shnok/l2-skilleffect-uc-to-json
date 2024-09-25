@@ -1,0 +1,22 @@
+class l2_10022_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이그노어 데스"
+     SkillID=10022
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=0.400000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_kn_strike3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_strike3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10022_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.mo_ultimate_defence_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_ultimate_defence_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10022_skill.L2EffectEmitter1'
+}

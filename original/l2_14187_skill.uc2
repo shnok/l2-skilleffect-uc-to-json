@@ -1,0 +1,24 @@
+class l2_14187_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=3.000000
+         EffectClass=Class'LineageEffect.e_u204_aga_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u204_aga_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14187_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=4.000000
+         SpawnDelay=3.500000
+         EffectClass=Class'LineageEffect.e_u204_aga_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u204_aga_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14187_skill.L2EffectEmitter7'
+}

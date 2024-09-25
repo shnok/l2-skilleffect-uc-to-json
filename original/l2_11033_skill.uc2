@@ -1,0 +1,16 @@
+class l2_11033_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데스 하울링"
+     SkillID=11033
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.d_wi_forceblink2_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_forceblink2_tara_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11033_skill.L2EffectEmitter1'
+}

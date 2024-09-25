@@ -1,0 +1,25 @@
+class l2_16889_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엠브리오 버서커"
+     SkillID=16889
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_red5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red5_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16889_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_item_helios_defand_red_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_item_helios_defand_red_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16889_skill.L2EffectEmitter1'
+}

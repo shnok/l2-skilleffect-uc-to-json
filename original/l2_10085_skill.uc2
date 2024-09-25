@@ -1,0 +1,14 @@
+class l2_10085_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="큐빅 폴더"
+     SkillID=10085
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u009_c'
+         SimpleEffectClass=Class'LineageEffect.m_u009_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10085_skill.L2EffectEmitter0'
+}

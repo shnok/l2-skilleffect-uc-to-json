@@ -1,0 +1,5 @@
+{
+"SkillId": 7105,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.300000","EffectClass": "ClassLineageEffect.d_tersi_trans","SimpleEffectClass": "ClassLineageEffect.d_tersi_trans_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=0.400000)","bSpawnOnTarget": "False","ScaleSize": "6.000000","EffectClass": "ClassLineageEffect.d_draco_twinkle","SimpleEffectClass": "ClassLineageEffect.d_draco_twinkle_simple"}],
+"ShotActions": []
+}

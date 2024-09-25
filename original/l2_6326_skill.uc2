@@ -1,0 +1,38 @@
+class l2_6326_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="순교자의기쁨"
+     SkillID=6326
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.z_fire_explosion_area_a'
+         SimpleEffectClass=Class'LineageEffect.z_fire_explosion_area_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6326_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=3.200000
+         EffectClass=Class'LineageEffect.s_u524_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u524_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6326_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter97
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.010000
+         EffectClass=Class'LineageEffect.z_dummy_quake'
+         SimpleEffectClass=Class'LineageEffect.z_dummy_quake_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6326_skill.L2EffectEmitter97'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_custom_striking_ta'
+         SimpleEffectClass=Class'LineageEffect.z_custom_striking_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6326_skill.L2EffectEmitter2'
+}

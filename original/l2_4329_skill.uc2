@@ -1,0 +1,15 @@
+class l2_4329_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="초보용 아큐멘"
+     SkillID=4329
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_acumen_ta'
+         SimpleEffectClass=Class'LineageEffect.su_acumen_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4329_skill.L2EffectEmitter0'
+}

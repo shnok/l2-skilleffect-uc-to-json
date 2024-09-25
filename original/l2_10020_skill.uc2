@@ -1,0 +1,22 @@
+class l2_10020_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포커스 실드"
+     SkillID=10020
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_kn_alterdefense1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_alterdefense1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10020_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.d_kn_alterdefense1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_alterdefense1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10020_skill.L2EffectEmitter2'
+}

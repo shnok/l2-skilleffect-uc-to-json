@@ -1,0 +1,22 @@
+class l2_6416_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포이즌브레스"
+     SkillID=6416
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.z_common_buff_d'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_d_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6416_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.z_striking_unholy_ta'
+         SimpleEffectClass=Class'LineageEffect.z_striking_unholy_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6416_skill.L2EffectEmitter1'
+}

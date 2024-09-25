@@ -1,0 +1,30 @@
+class l2_5500_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다리온 흑룡의 발톱_블랙드래곤 쿨러"
+     SkillID=5500
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u849_sword_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u849_sword_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5500_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u849_sword_cs'
+         SimpleEffectClass=Class'LineageEffect.e_u849_sword_cs_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5500_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.at_sting_cs'
+         SimpleEffectClass=Class'LineageEffect.at_sting_cs_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5500_skill.L2EffectEmitter2'
+}

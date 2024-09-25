@@ -1,0 +1,32 @@
+class l2_19297_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="카운터 트라스트피에"
+     SkillID=19297
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_counter_traspie_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_counter_traspie_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19297_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_counter_traspie_1_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_counter_traspie_1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19297_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=0.300000
+         SpawnDelay=0.400000
+         EffectClass=Class'LineageEffect.e_u841_sand_up'
+         SimpleEffectClass=Class'LineageEffect.e_u841_sand_up_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19297_skill.L2EffectEmitter2'
+}

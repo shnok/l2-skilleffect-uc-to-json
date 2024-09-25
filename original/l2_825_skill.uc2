@@ -1,0 +1,31 @@
+class l2_825_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="샤픈 엣지"
+     SkillID=825
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.su_empower_ca'
+         SimpleEffectClass=Class'LineageEffect.su_empower_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_825_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         SpawnDelay=0.400000
+         EffectClass=Class'LineageEffect.su_death_whisper_ta'
+         SimpleEffectClass=Class'LineageEffect.su_death_whisper_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_825_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u606_b'
+         SimpleEffectClass=Class'LineageEffect.s_u606_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_825_skill.L2EffectEmitter2'
+}

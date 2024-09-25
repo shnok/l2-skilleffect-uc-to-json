@@ -1,0 +1,5 @@
+{
+"SkillId": 30509,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "bip01","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.g_wa_step_green_tr","SimpleEffectClass": "ClassLineageEffect.g_wa_step_green_tr_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,14 @@
+class l2_30521_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="고정데미지"
+     SkillID=30521
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_fixdamage'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_fixdamage_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30521_skill.L2EffectEmitter2'
+}

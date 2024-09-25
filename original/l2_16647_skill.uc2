@@ -1,0 +1,53 @@
+class l2_16647_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="울트라 메가 텔레키네시스"
+     SkillID=16647
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_raid_ramona_a_telekinesis_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_ramona_a_telekinesis_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16647_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect2.y_raid_ramona_a_telekinesis1_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_ramona_a_telekinesis1_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16647_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_raid_ramona_b_telekinesis_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_ramona_b_telekinesis_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16647_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_wind_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_wind_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16647_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.d_mon_holy_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16647_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect2.y_boss_helios_audience_chain'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_audience_chain_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_16647_skill.L2EffectEmitter5'
+}

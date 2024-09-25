@@ -1,0 +1,31 @@
+class l2_1557_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="그레이터 마이트"
+     SkillID=1388
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u016_a'
+         SimpleEffectClass=Class'LineageEffect.m_u016_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1557_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.m_u052_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.m_u052_recharge_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1557_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u205_ta'
+         SimpleEffectClass=Class'LineageEffect.m_u205_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1557_skill.L2EffectEmitter2'
+}

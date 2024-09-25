@@ -1,0 +1,14 @@
+class l2_9204_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="갈기말 탑승/해제"
+     SkillID=8247
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-1.000000)
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.s_u833_transform'
+         SimpleEffectClass=Class'LineageEffect.s_u833_transform_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9204_skill.L2EffectEmitter0'
+}

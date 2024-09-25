@@ -1,0 +1,57 @@
+class l2_17823_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스펠 스탠스"
+     SkillID=427
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_wi_restraint2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_restraint2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17823_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.d_wi_restraint2_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_restraint2_handca_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17823_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 R Hand"
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.d_wi_restraint_chann'
+         SimpleEffectClass=Class'LineageEffect.d_wi_restraint_chann_simple'
+     End Object
+     ChannelingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17823_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 R Hand"
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.d_wi_restraint2_chann'
+         SimpleEffectClass=Class'LineageEffect.d_wi_restraint2_chann_simple'
+     End Object
+     ChannelingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_17823_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u812_beam_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u812_beam_ta_simple'
+     End Object
+     ChannelingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_17823_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u812_beam_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u812_beam_ta_simple'
+     End Object
+     ChannelingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_17823_skill.L2EffectEmitter5'
+}

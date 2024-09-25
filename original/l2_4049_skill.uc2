@@ -1,0 +1,17 @@
+class l2_4049_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Å¥ºò DD"
+     SkillID=4049
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         EtcEffect=EET_Cubic
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4049_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.m_u000_d'
+         SimpleEffectClass=Class'LineageEffect.m_u000_d_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4049_skill.L2EffectEmitter1'
+}

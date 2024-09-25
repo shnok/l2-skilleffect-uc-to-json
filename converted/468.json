@@ -1,0 +1,5 @@
+{
+"SkillId": 468,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.s_u815_hand","SimpleEffectClass": "ClassLineageEffect.s_u815_hand_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","bRibbonSet": "True","EffectClass": "ClassLineageEffect.RibbonSet_sword","SimpleEffectClass": "ClassLineageEffect.RibbonSet_sword_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.s_u820_magic_ta","SimpleEffectClass": "ClassLineageEffect.s_u820_magic_ta_simple"}]
+}

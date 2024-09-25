@@ -1,0 +1,5 @@
+{
+"SkillId": 2360,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u807_mage_ca","SimpleEffectClass": "ClassLineageEffect.s_u807_mage_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.wh_bless_the_body_ta","SimpleEffectClass": "ClassLineageEffect.wh_bless_the_body_ta_simple"}]
+}

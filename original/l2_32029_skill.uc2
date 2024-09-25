@@ -1,0 +1,21 @@
+class l2_32029_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="재앙의 폭발"
+     SkillID=32029
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-1.200000)
+         ScaleSize=3.400000
+         EffectClass=Class'LineageEffect.d_he_darknight_tara'
+         SimpleEffectClass=Class'LineageEffect.d_he_darknight_tara_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32029_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.300000)
+         ScaleSize=4.000000
+         EffectClass=Class'LineageEffect.d_mon_spa_tara'
+         SimpleEffectClass=Class'LineageEffect.d_mon_spa_tara_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32029_skill.L2EffectEmitter1'
+}

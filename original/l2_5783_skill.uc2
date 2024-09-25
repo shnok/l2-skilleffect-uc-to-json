@@ -1,0 +1,55 @@
+class l2_5783_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르_활강먼지"
+     SkillID=5783
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-300.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u622_lindvior_dust'
+         SimpleEffectClass=Class'LineageEffect.e_u622_lindvior_dust_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5783_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-300.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.e_u622_lindvior_dust'
+         SimpleEffectClass=Class'LineageEffect.e_u622_lindvior_dust_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5783_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-300.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=3.500000
+         EffectClass=Class'LineageEffect.e_u622_lindvior_dust'
+         SimpleEffectClass=Class'LineageEffect.e_u622_lindvior_dust_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5783_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-300.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=4.500000
+         EffectClass=Class'LineageEffect.e_u622_lindvior_dust'
+         SimpleEffectClass=Class'LineageEffect.e_u622_lindvior_dust_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5783_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-300.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=5.700000
+         EffectClass=Class'LineageEffect.e_u622_lindvior_dust'
+         SimpleEffectClass=Class'LineageEffect.e_u622_lindvior_dust_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_5783_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(X=-50.000000,Z=480.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=14.000000
+         EffectClass=Class'LineageEffect.e_u621_lindvior_gate'
+         SimpleEffectClass=Class'LineageEffect.e_u621_lindvior_gate_simple'
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_5783_skill.L2EffectEmitter5'
+}

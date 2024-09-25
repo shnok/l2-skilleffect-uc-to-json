@@ -1,0 +1,37 @@
+class l2_8362_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="맹수조련_공격"
+     SkillID=8362
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u837_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u837_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_8362_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.s_u837_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u837_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_8362_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         EffectClass=Class'LineageEffect.s_u837_ta_head'
+         SimpleEffectClass=Class'LineageEffect.s_u837_ta_head_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_8362_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.z_ringwave_b'
+         SimpleEffectClass=Class'LineageEffect.z_ringwave_b_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_8362_skill.L2EffectEmitter3'
+}

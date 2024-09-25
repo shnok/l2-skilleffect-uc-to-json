@@ -1,0 +1,7 @@
+class l2_5789_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="변종매 고주파"
+     SkillID=5789
+}

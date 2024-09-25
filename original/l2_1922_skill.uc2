@@ -1,0 +1,16 @@
+class l2_1922_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.300000,Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_dash_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_dash_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1922_skill.L2EffectEmitter0'
+     CastingCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 6300,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=0.200000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_earthworm2_circle","SimpleEffectClass": "ClassLineageEffect.d_earthworm2_circle_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.d_ro_darkp2_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_darkp2_ta_simple"}]
+}

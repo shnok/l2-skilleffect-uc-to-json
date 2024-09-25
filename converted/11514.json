@@ -1,0 +1,5 @@
+{
+"SkillId": 11514,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.500000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_in_abenforce2_ca","SimpleEffectClass": "ClassLineageEffect.d_in_abenforce2_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_in_sphyun_handca","SimpleEffectClass": "ClassLineageEffect.d_in_sphyun_handca_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_LH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_in_sphyun_handca","SimpleEffectClass": "ClassLineageEffect.d_in_sphyun_handca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_in_sphyunsp_tara","SimpleEffectClass": "ClassLineageEffect.d_in_sphyunsp_tara_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_in_abenforce_ta","SimpleEffectClass": "ClassLineageEffect.d_in_abenforce_ta_simple"}]
+}

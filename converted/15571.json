@@ -1,0 +1,5 @@
+{
+"SkillId": 15571,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.u_golem_attack_ca","SimpleEffectClass": "ClassLineageEffect.u_golem_attack_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.u_golem_attack_ta","SimpleEffectClass": "ClassLineageEffect.u_golem_attack_ta_simple"}]
+}

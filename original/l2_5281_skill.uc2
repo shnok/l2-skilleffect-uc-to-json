@@ -1,0 +1,23 @@
+class l2_5281_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="단일근거리공격 물속성"
+     SkillID=5281
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_iron_will_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_iron_will_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5281_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.at_sonic_blast_ta'
+         SimpleEffectClass=Class'LineageEffect.at_sonic_blast_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5281_skill.L2EffectEmitter1'
+}

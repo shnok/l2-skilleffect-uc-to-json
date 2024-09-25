@@ -1,0 +1,24 @@
+class l2_6405_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="토룸바 로어"
+     SkillID=6405
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_seed_reptiles_c_ca'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_c_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6405_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.z_reptiles_ta'
+         SimpleEffectClass=Class'LineageEffect.z_reptiles_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6405_skill.L2EffectEmitter1'
+}

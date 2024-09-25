@@ -1,0 +1,5 @@
+{
+"SkillId": 1159,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 R Hand","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect.s_u226_ca","SimpleEffectClass": "ClassLineageEffect.s_u226_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 R Hand","offset": "(Y=-55.000000)","bSpawnOnTarget": "False","ScaleSize": "0.850000","EffectClass": "ClassLineageEffect.s_u226_fl","SimpleEffectClass": "ClassLineageEffect.s_u226_fl_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 R Hand","offset": "(Y=55.000000)","bSpawnOnTarget": "False","ScaleSize": "0.850000","EffectClass": "ClassLineageEffect.s_u226_fl","SimpleEffectClass": "ClassLineageEffect.s_u226_fl_simple"}]
+}

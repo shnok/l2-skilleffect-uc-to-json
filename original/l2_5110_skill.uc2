@@ -1,0 +1,33 @@
+class l2_5110_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스우프 미들 샷"
+     SkillID=5110
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Dummy11"
+         bAbsolute=True
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u541_cannon_shot'
+         SimpleEffectClass=Class'LineageEffect.e_u541_cannon_shot_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5110_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachBoneName="Dummy11"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u541_cannon_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u541_cannon_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5110_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Location
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u541_big_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u541_big_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5110_skill.L2EffectEmitter2'
+     FlyingTime=2.000000
+}

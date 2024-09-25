@@ -1,0 +1,5 @@
+{
+"SkillId": 6174,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.800000","EffectClass": "ClassLineageEffect.e_u404_ssq_dp","SimpleEffectClass": "ClassLineageEffect.e_u404_ssq_dp_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-2.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","SpawnDelay": "2.000000","EffectClass": "ClassLineageEffect.e_u611_dpa","SimpleEffectClass": "ClassLineageEffect.e_u611_dpa_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-2.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","SpawnDelay": "4.000000","EffectClass": "ClassLineageEffect.e_u611_dpb","SimpleEffectClass": "ClassLineageEffect.e_u611_dpb_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_mon_earth1_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_earth1_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","bOnMultiTarget": "True","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_mon_earth_ra","SimpleEffectClass": "ClassLineageEffect.d_mon_earth_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","SpawnDelay": "0.100000","EffectClass": "ClassLineageEffect.d_ro_yellow_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_yellow_ta_simple"},{"Name": "L2EffectEmitter97", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_quake_2s","SimpleEffectClass": "ClassLineageEffect.d_quake_2s_simple"}]
+}

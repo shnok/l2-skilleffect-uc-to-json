@@ -1,0 +1,13 @@
+class l2_11360_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프로텍트 오브 아르카나"
+     SkillID=11360
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_su_sumstone_ta'
+         SimpleEffectClass=Class'LineageEffect.u_su_sumstone_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11360_skill.L2EffectEmitter0'
+}

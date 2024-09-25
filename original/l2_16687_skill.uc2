@@ -1,0 +1,14 @@
+class l2_16687_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헬리오스 위압 지대"
+     SkillID=16687
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-0.750000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_audience_area'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_audience_area_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16687_skill.L2EffectEmitter0'
+}

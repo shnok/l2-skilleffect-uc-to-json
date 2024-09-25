@@ -1,0 +1,5 @@
+{
+"SkillId": 9153,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 Spine1","bSpawnOnTarget": "False","ScaleSize": "2.000000","EffectClass": "ClassLineageEffect.d_hq_aga_e","SimpleEffectClass": "ClassLineageEffect.d_hq_aga_e_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.m_u200_ta_critical","SimpleEffectClass": "ClassLineageEffect.m_u200_ta_critical_simple"}]
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 5956,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.300000","SpawnDelay": "1.500000","EffectClass": "ClassLineageEffect.s_u021_aga_anger","SimpleEffectClass": "ClassLineageEffect.s_u021_aga_anger_simple"}],
+"ShotActions": []
+}

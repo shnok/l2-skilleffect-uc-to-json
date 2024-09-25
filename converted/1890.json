@@ -1,0 +1,5 @@
+{
+"SkillId": 1890,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_er_rapid_gun_ca","SimpleEffectClass": "ClassLineageEffect2.y_er_rapid_gun_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=2.500000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_er_rapid_gun_ra","SimpleEffectClass": "ClassLineageEffect2.y_er_rapid_gun_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_RH","bSpawnOnTarget": "False","ScaleSize": "2.000000","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.Social_Slap_hand","SimpleEffectClass": "ClassLineageEffect.Social_Slap_hand_simple"}]
+}

@@ -1,0 +1,23 @@
+class l2_17163_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="천상천하 유아독존 쿠키"
+     SkillID=17163
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_wday_event_ca'
+         SimpleEffectClass=Class'LineageEffect.u_wday_event_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17163_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.e_u300_aga_heart'
+         SimpleEffectClass=Class'LineageEffect.e_u300_aga_heart_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17163_skill.L2EffectEmitter1'
+}

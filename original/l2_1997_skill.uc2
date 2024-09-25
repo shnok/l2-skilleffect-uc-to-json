@@ -1,0 +1,30 @@
+class l2_1997_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="그라비티 엑자일"
+     SkillID=1997
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_unresurrection_ca'
+         SimpleEffectClass=Class'LineageEffect.u_unresurrection_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1997_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         SpawnDelay=0.400000
+         EffectClass=Class'LineageEffect.s_u211_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u211_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1997_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_unresurrection_ta'
+         SimpleEffectClass=Class'LineageEffect.u_unresurrection_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1997_skill.L2EffectEmitter2'
+}

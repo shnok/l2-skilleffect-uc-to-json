@@ -1,0 +1,23 @@
+class l2_834_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블러드 컨트럭트"
+     SkillID=834
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u811_short_speed'
+         SimpleEffectClass=Class'LineageEffect.m_u811_short_speed_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_834_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.wh_greater_heal_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_greater_heal_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_834_skill.L2EffectEmitter1'
+}

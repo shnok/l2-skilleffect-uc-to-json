@@ -1,0 +1,22 @@
+class l2_6280_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="죽음의선고"
+     SkillID=6280
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.d_death_ca'
+         SimpleEffectClass=Class'LineageEffect.d_death_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6280_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         SpawnDelay=2.500000
+         EffectClass=Class'LineageEffect.d_death_ca'
+         SimpleEffectClass=Class'LineageEffect.d_death_ca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6280_skill.L2EffectEmitter5'
+}

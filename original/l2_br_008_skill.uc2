@@ -1,0 +1,26 @@
+class l2_br_008_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="보"
+     SkillID=23021
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=2.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.br_s_u004_bo'
+         SimpleEffectClass=Class'LineageEffect.br_s_u004_bo_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_008_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=2.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         SpawnDelay=5.000000
+         EffectClass=Class'LineageEffect.br_s_u004_end'
+         SimpleEffectClass=Class'LineageEffect.br_s_u004_end_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_br_008_skill.L2EffectEmitter1'
+}

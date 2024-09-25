@@ -1,0 +1,24 @@
+class l2_9624_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="퀵 리콜"
+     SkillID=11563
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_in_quickrecall_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_quickrecall_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9624_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.it_scroll_of_escape_ta'
+         SimpleEffectClass=Class'LineageEffect.it_scroll_of_escape_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9624_skill.L2EffectEmitter1'
+}

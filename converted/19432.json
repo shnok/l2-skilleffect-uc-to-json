@@ -1,0 +1,5 @@
+{
+"SkillId": 19432,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_in_vivasissimo_buff_ca","SimpleEffectClass": "ClassLineageEffect2.y_in_vivasissimo_buff_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect2.y_in_vivasissimo_buff_ra","SimpleEffectClass": "ClassLineageEffect2.y_in_vivasissimo_buff_ra_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,24 @@
+class l2_15373_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데블스 무브먼트"
+     SkillID=11562
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_ro_unlock_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_unlock_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15373_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_unlock_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_unlock_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15373_skill.L2EffectEmitter2'
+}

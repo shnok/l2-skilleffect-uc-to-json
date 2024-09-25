@@ -1,0 +1,15 @@
+class l2_6780_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포털 가운데 유지되는 빛"
+     SkillID=6300
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_portal_continue'
+         SimpleEffectClass=Class'LineageEffect.d_portal_continue_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6780_skill.L2EffectEmitter1'
+}

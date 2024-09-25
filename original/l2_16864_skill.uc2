@@ -1,0 +1,31 @@
+class l2_16864_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="홀리 파이어 샷"
+     SkillID=16864
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_holy3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16864_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.d_mon_holy1_fl'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy1_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16864_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_holy1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy1_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16864_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

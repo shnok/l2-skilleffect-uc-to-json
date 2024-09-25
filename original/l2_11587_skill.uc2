@@ -1,0 +1,33 @@
+class l2_11587_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하이어 실 오브 블럭케이드"
+     SkillID=11587
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=5.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.m_u025_a'
+         SimpleEffectClass=Class'LineageEffect.m_u025_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11587_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=5.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.u_in_blockade_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_blockade_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11587_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.u_in_blockade_ta'
+         SimpleEffectClass=Class'LineageEffect.u_in_blockade_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11587_skill.L2EffectEmitter2'
+}

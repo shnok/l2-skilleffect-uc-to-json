@@ -1,0 +1,56 @@
+class l2_11514_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리졸빙 배쉬"
+     SkillID=11514
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_in_abenforce2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_abenforce2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11514_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_sphyun_handca'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun_handca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11514_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_sphyun_handca'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyun_handca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11514_a_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_sphyunsp_tara'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyunsp_tara_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11514_a_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_abenforce_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_abenforce_ta_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_11514_a_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(Z=1.300000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_in_strike_sword_head_v'
+         SimpleEffectClass=Class'LineageEffect2.y_in_strike_sword_head_v_simple'
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_11514_a_skill.L2EffectEmitter5'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

@@ -1,0 +1,22 @@
+class l2_17130_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="용의 비상"
+     SkillID=17130
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_potion_y'
+         SimpleEffectClass=Class'LineageEffect.u_potion_y_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17130_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.u_particleup_y'
+         SimpleEffectClass=Class'LineageEffect.u_particleup_y_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17130_skill.L2EffectEmitter1'
+}

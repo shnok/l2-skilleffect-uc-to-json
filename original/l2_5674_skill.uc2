@@ -1,0 +1,14 @@
+class l2_5674_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이베이젼 챈스"
+     SkillID=5674
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_death_whisper_ta'
+         SimpleEffectClass=Class'LineageEffect.su_death_whisper_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5674_skill.L2EffectEmitter0'
+}

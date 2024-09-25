@@ -1,0 +1,30 @@
+class l2_1074_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서렌더 투 윈드"
+     SkillID=1074
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u018_a'
+         SimpleEffectClass=Class'LineageEffect.m_u018_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1074_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u018_b'
+         SimpleEffectClass=Class'LineageEffect.m_u018_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1074_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.300000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.a_u022_wind'
+         SimpleEffectClass=Class'LineageEffect.a_u022_wind_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1074_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,20 @@
+class l2_5268_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="PC트랩 독"
+     SkillID=5268
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.bl_poison_cloud_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_poison_cloud_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5268_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5268_skill.L2EffectEmitter1'
+}

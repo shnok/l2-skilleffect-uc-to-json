@@ -1,0 +1,25 @@
+class l2_1243_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블레스 실드"
+     SkillID=1243
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u044_a'
+         SimpleEffectClass=Class'LineageEffect.m_u044_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1243_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         RelativeRotation=(Pitch=49152)
+         offset=(Z=0.180000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u044_b'
+         SimpleEffectClass=Class'LineageEffect.m_u044_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1243_skill.L2EffectEmitter1'
+}

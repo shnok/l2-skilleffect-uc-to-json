@@ -1,0 +1,15 @@
+class l2_19008_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엔라이튼먼트"
+     SkillID=1532
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u223_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u223_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19008_skill.L2EffectEmitter0'
+}

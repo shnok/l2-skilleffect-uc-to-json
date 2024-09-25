@@ -1,0 +1,14 @@
+class l2_6140_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="보그 스트라이드"
+     SkillID=6140
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.ph_zero_g_ta'
+         SimpleEffectClass=Class'LineageEffect.ph_zero_g_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6140_skill.L2EffectEmitter0'
+}

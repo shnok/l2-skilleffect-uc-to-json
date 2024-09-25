@@ -1,0 +1,14 @@
+class l2_6651_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="코크라콘의저주"
+     SkillID=6651
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.z_unholy_hp_down'
+         SimpleEffectClass=Class'LineageEffect.z_unholy_hp_down_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6651_skill.L2EffectEmitter0'
+}

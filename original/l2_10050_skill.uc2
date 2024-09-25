@@ -1,0 +1,23 @@
+class l2_10050_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="차지"
+     SkillID=484
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.z_common_short_ca'
+         SimpleEffectClass=Class'LineageEffect.z_common_short_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10050_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         EffectClass=Class'LineageEffect.d_wa_rushslash_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10050_skill.L2EffectEmitter5'
+     CastingCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

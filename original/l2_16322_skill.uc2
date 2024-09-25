@@ -1,0 +1,16 @@
+class l2_16322_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="운디네휠윈드-효과"
+     SkillID=16322
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.950000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_event_wheelwind_ra'
+         SimpleEffectClass=Class'LineageEffect.u_event_wheelwind_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16322_skill.L2EffectEmitter0'
+}

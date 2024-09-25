@@ -1,0 +1,49 @@
+class l2_6322_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디바인임펙트"
+     SkillID=6322
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_cast_red_ca'
+         SimpleEffectClass=Class'LineageEffect.z_cast_red_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6322_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.z_monastery_blue_zone_a_area'
+         SimpleEffectClass=Class'LineageEffect.z_monastery_blue_zone_a_area_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6322_skill.L2EffectEmitter21'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=1.000000,Z=2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.e_u329_fl_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_fl_A_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6322_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.e_u329_ta_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_A_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6322_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         ScaleSize=1.250000
+         EffectClass=Class'LineageEffect.mo_vengence_ra'
+         SimpleEffectClass=Class'LineageEffect.mo_vengence_ra_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6322_skill.L2EffectEmitter22'
+}

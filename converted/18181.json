@@ -1,0 +1,5 @@
+{
+"SkillId": 18181,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_alien_debuff_fan","SimpleEffectClass": "ClassLineageEffect.u_alien_debuff_fan_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter33", "AttachOn": "AM_AliasSpecified","AttachBoneName": "e_bone","bAbsolute": "True","offset": "(Z=-0.200000)","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_alien_debuff_ta","SimpleEffectClass": "ClassLineageEffect.u_alien_debuff_ta_simple"}]
+}

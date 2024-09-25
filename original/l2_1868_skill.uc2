@@ -1,0 +1,29 @@
+class l2_1868_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바람의 칼날"
+     SkillID=1868
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_er_wind_cutter_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_er_wind_cutter_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1868_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_er_wind_cutter_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_er_wind_cutter_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1868_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect2.y_er_wind_cutter_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_er_wind_cutter_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1868_skill.L2EffectEmitter3'
+}

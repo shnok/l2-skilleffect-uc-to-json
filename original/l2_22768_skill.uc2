@@ -1,0 +1,15 @@
+class l2_22768_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="노블 퀘스트 완료"
+     SkillID=22768
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_noblequest_complete'
+         SimpleEffectClass=Class'LineageEffect.u_noblequest_complete_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_22768_skill.L2EffectEmitter1'
+}

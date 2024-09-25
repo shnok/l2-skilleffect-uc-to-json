@@ -1,0 +1,5 @@
+{
+"SkillId": 6395,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=0.500000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_reptiles_ca","SimpleEffectClass": "ClassLineageEffect.z_reptiles_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_custom_striking_ta","SimpleEffectClass": "ClassLineageEffect.z_custom_striking_ta_simple"}]
+}

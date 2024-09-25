@@ -1,0 +1,23 @@
+class l2_9581_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="시드 오브 파이어"
+     SkillID=1285
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u044_a'
+         SimpleEffectClass=Class'LineageEffect.m_u044_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9581_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         EffectClass=Class'LineageEffect.m_u022_b'
+         SimpleEffectClass=Class'LineageEffect.m_u022_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9581_skill.L2EffectEmitter1'
+}

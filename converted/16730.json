@@ -1,0 +1,5 @@
+{
+"SkillId": 16730,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.u_faction_levelup","SimpleEffectClass": "ClassLineageEffect2.u_faction_levelup_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 23639,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-2.000000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","SpawnDelay": "0.700000","EffectClass": "ClassLineageEffect.d_wa_rushslash1_ru","SimpleEffectClass": "ClassLineageEffect.d_wa_rushslash1_ru_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=-5.000000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","SpawnDelay": "1.200000","EffectClass": "ClassLineageEffect.d_wa_rushslash2_ru","SimpleEffectClass": "ClassLineageEffect.d_wa_rushslash2_ru_simple"}],
+"ShotActions": []
+}

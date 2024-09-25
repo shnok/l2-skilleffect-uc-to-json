@@ -1,0 +1,31 @@
+class l2_11365_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 팬텀 크로스"
+     SkillID=11365
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_su_sumcross_ca'
+         SimpleEffectClass=Class'LineageEffect.u_su_sumcross_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11365_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-0.980000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_su_sumcross_enter'
+         SimpleEffectClass=Class'LineageEffect.u_su_sumcross_enter_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11365_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.980000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.u_su_sumcross'
+         SimpleEffectClass=Class'LineageEffect.u_su_sumcross_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11365_skill.L2EffectEmitter1'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

@@ -1,0 +1,61 @@
+class l2_5924_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디바우어 소울"
+     SkillID=5924
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         ScaleSize=0.400000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.s_u820_magic_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u820_magic_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5924_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         ScaleSize=0.350000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.s_u820_magic_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u820_magic_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5924_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=0.750000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.e_u327_fl_blood'
+         SimpleEffectClass=Class'LineageEffect.e_u327_fl_blood_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5924_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.e_u327_ta_blood'
+         SimpleEffectClass=Class'LineageEffect.e_u327_ta_blood_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5924_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         bShotAndDrain=True
+         EffectClass=Class'LineageEffect.s_u834_fl'
+         SimpleEffectClass=Class'LineageEffect.s_u834_fl_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5924_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         bShotAndDrain=True
+         EffectClass=Class'LineageEffect.s_u834_fl'
+         SimpleEffectClass=Class'LineageEffect.s_u834_fl_simple'
+     End Object
+     ExplosionAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5924_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+}

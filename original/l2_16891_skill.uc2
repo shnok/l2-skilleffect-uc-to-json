@@ -1,0 +1,22 @@
+class l2_16891_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에티나의 축복"
+     SkillID=16891
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_er_wi_flare_ca_a'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_flare_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16891_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect2.y_npc_bless_of_ethina_buff'
+         SimpleEffectClass=Class'LineageEffect2.y_npc_bless_of_ethina_buff_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16891_skill.L2EffectEmitter1'
+}

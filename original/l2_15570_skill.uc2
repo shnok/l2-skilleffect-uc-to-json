@@ -1,0 +1,22 @@
+class l2_15570_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="시즈실드"
+     SkillID=15570
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.u_golem_shield_ca'
+         SimpleEffectClass=Class'LineageEffect.u_golem_shield_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15570_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_golem_shield_ta'
+         SimpleEffectClass=Class'LineageEffect.u_golem_shield_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15570_skill.L2EffectEmitter11'
+}

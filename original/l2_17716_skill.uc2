@@ -1,0 +1,23 @@
+class l2_17716_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="BM스피릿스킬_중"
+     SkillID=17716
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_spritskill_y_ca'
+         SimpleEffectClass=Class'LineageEffect.u_spritskill_y_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17716_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_spritskill_y_ta'
+         SimpleEffectClass=Class'LineageEffect.u_spritskill_y_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17716_skill.L2EffectEmitter4'
+}

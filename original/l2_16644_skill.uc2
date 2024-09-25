@@ -1,0 +1,50 @@
+class l2_16644_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="라이드 더 라이트닝"
+     SkillID=16644
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_ro_summontre_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_summontre_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16644_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.s_u812_beam_mon_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u812_beam_mon_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16644_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.630000
+         EffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_bot_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_bot_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16644_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_elec2_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec2_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16644_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_lightning1_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_lightning1_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16644_skill.L2EffectEmitter4'
+}

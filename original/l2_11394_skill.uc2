@@ -1,0 +1,22 @@
+class l2_11394_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서렌더 투 엘레멘탈"
+     SkillID=11394
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_su_surrender_ele_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_su_surrender_ele_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11394_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect2.y_su_surrender_ele_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_su_surrender_ele_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11394_skill.L2EffectEmitter1'
+}

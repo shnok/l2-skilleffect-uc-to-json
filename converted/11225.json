@@ -1,0 +1,5 @@
+{
+"SkillId": 11225,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.500000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.900000","EffectClass": "ClassLineageEffect.d_wi_magicforce1_ca","SimpleEffectClass": "ClassLineageEffect.d_wi_magicforce1_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","bRibbonSet": "True","EffectClass": "ClassLineageEffect.d_ro_crossc_handca","SimpleEffectClass": "ClassLineageEffect.d_ro_crossc_handca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_wi_defense_ta","SimpleEffectClass": "ClassLineageEffect.u_wi_defense_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=1.200000)","bSpawnOnTarget": "False","ScaleSize": "1.200000","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.u_wi_defense_shield","SimpleEffectClass": "ClassLineageEffect.u_wi_defense_shield_simple"}]
+}

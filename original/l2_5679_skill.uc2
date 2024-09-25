@@ -1,0 +1,22 @@
+class l2_5679_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="PC트랩 오블리비언트랩"
+     SkillID=5679
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u308_trap_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u308_trap_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5679_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         EffectClass=Class'LineageEffect.e_u308_trap'
+         SimpleEffectClass=Class'LineageEffect.e_u308_trap_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5679_skill.L2EffectEmitter1'
+}

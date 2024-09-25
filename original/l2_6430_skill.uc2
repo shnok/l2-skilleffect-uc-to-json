@@ -1,0 +1,22 @@
+class l2_6430_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="로즈힐힙"
+     SkillID=6430
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.su_empower_ta'
+         SimpleEffectClass=Class'LineageEffect.su_empower_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6430_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.e_u329_ta_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_A_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6430_skill.L2EffectEmitter11'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 1471,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.m_u809_spec_ca","SimpleEffectClass": "ClassLineageEffect.m_u809_spec_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(X=3.000000,Z=0.200000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u825_death_beam_ta_short","SimpleEffectClass": "ClassLineageEffect.s_u825_death_beam_ta_short_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.s_u804_a_ta","SimpleEffectClass": "ClassLineageEffect.s_u804_a_ta_simple"}]
+}

@@ -1,0 +1,15 @@
+class l2_5662_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="부활가능"
+     SkillID=5662
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u608_abdead'
+         SimpleEffectClass=Class'LineageEffect.s_u608_abdead_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5662_skill.L2EffectEmitter0'
+}

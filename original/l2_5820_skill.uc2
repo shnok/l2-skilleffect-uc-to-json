@@ -1,0 +1,45 @@
+class l2_5820_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="티아트_여신관 변신"
+     SkillID=5820
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.e_u312_lighting_red'
+         SimpleEffectClass=Class'LineageEffect.e_u312_lighting_red_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5820_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bAbsolute=True
+         offset=(Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         SpawnDelay=2.600000
+         EffectClass=Class'LineageEffect.e_u312_lighting_red'
+         SimpleEffectClass=Class'LineageEffect.e_u312_lighting_red_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5820_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.500000)
+         bSpawnOnTarget=False
+         SpawnDelay=4.600000
+         EffectClass=Class'LineageEffect.e_u048_a'
+         SimpleEffectClass=Class'LineageEffect.e_u048_a_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5820_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=6.950000
+         EffectClass=Class'LineageEffect.e_u610_tiat_release'
+         SimpleEffectClass=Class'LineageEffect.e_u610_tiat_release_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5820_skill.L2EffectEmitter0'
+}

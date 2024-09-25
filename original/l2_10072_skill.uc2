@@ -1,0 +1,16 @@
+class l2_10072_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에바스 스피릿"
+     SkillID=10072
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_kn_evaspirit'
+         SimpleEffectClass=Class'LineageEffect.u_kn_evaspirit_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10072_skill.L2EffectEmitter0'
+}

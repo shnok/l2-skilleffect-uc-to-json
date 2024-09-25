@@ -1,0 +1,5 @@
+{
+"SkillId": 5497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.750000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u843_darkhorn_ca","SimpleEffectClass": "ClassLineageEffect.e_u843_darkhorn_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.700000)","EffectClass": "ClassLineageEffect.e_u843_darkhorn_ta","SimpleEffectClass": "ClassLineageEffect.e_u843_darkhorn_ta_simple"}]
+}

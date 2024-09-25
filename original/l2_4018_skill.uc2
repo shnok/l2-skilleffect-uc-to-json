@@ -1,0 +1,21 @@
+class l2_4018_skill extends L2SkillEffect;	// 여왕개미 이동 속도 감소
+
+defaultproperties
+{
+     Desc="이동속도 감소"
+     SkillID=4018
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u000_c'
+         SimpleEffectClass=Class'LineageEffect.m_u000_c_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4018_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.m_u000_d'
+         SimpleEffectClass=Class'LineageEffect.m_u000_d_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4018_skill.L2EffectEmitter1'
+     FlyingTime=0.400000
+}

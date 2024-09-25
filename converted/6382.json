@@ -1,0 +1,5 @@
+{
+"SkillId": 6382,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.z_common_buff_f","SimpleEffectClass": "ClassLineageEffect.z_common_buff_f_simple","PawnLightParam": "(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)"}],
+"ShotActions": [{"Name": "L2EffectEmitter21", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_shockwave_d","SimpleEffectClass": "ClassLineageEffect.z_shockwave_d_simple","PawnLightParam": "(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)"},{"Name": "L2EffectEmitter69", "AttachOn": "AM_Trail","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.s_u804_a_ta","SimpleEffectClass": "ClassLineageEffect.s_u804_a_ta_simple"}]
+}

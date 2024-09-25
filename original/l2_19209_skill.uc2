@@ -1,0 +1,15 @@
+class l2_19209_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디비니티 오브 아인하사드"
+     SkillID=19209
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_he_divinity_ca'
+         SimpleEffectClass=Class'LineageEffect.u_he_divinity_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19209_skill.L2EffectEmitter0'
+}

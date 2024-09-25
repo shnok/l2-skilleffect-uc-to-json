@@ -1,0 +1,5 @@
+{
+"SkillId": 6300,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u815_bowgun_ca","SimpleEffectClass": "ClassLineageEffect.s_u815_bowgun_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.s_u834_cs","SimpleEffectClass": "ClassLineageEffect.s_u834_cs_simple"},{"Name": "L2EffectEmitter3", "offset": "(Z=1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u058_darkball_fl","SimpleEffectClass": "ClassLineageEffect.e_u058_darkball_fl_simple"}]
+}

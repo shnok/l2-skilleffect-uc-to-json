@@ -1,0 +1,5 @@
+{
+"SkillId": 1613,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.100000","EffectClass": "ClassLineageEffect.y_wa_crush_ca","SimpleEffectClass": "ClassLineageEffect.y_wa_crush_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "1.300000","EffectClass": "ClassLineageEffect.d_wa_samsh2_handca","SimpleEffectClass": "ClassLineageEffect.d_wa_samsh2_handca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(X=-1.000000)","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.at_stun_attack_ta","SimpleEffectClass": "ClassLineageEffect.at_stun_attack_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.sa_mass_frenzy_cs","SimpleEffectClass": "ClassLineageEffect.sa_mass_frenzy_cs_simple"}]
+}

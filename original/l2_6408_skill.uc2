@@ -1,0 +1,15 @@
+class l2_6408_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="약화된심신"
+     SkillID=6408
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_buff_c'
+         SimpleEffectClass=Class'LineageEffect.z_buff_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6408_skill.L2EffectEmitter11'
+}

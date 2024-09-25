@@ -1,0 +1,5 @@
+{
+"SkillId": 15277,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_mon_blue3_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_blue3_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_tauti_wheelwind_ta","SimpleEffectClass": "ClassLineageEffect.d_tauti_wheelwind_ta_simple"}]
+}

@@ -1,0 +1,14 @@
+class l2_4343_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아지트 디크리즈 웨이트"
+     SkillID=4343
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_detection_ta'
+         SimpleEffectClass=Class'LineageEffect.su_detection_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4343_skill.L2EffectEmitter0'
+}

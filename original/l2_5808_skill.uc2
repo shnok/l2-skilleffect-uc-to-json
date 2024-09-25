@@ -1,0 +1,81 @@
+class l2_5808_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="버스팅 플레임"
+     SkillID=5808
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.140000
+         EffectClass=Class'LineageEffect.m_u809_ca_air'
+         SimpleEffectClass=Class'LineageEffect.m_u809_ca_air_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=1.000000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5808_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.180000
+         SpawnDelay=0.900000
+         EffectClass=Class'LineageEffect.m_u809_ca_air'
+         SimpleEffectClass=Class'LineageEffect.m_u809_ca_air_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=1.000000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5808_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.140000
+         SpawnDelay=1.800000
+         EffectClass=Class'LineageEffect.m_u809_ca_air'
+         SimpleEffectClass=Class'LineageEffect.m_u809_ca_air_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=1.000000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5808_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bone01"
+         bAbsolute=True
+         offset=(Z=7.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.120000
+         EffectClass=Class'LineageEffect.el_flame_strike_pr'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_pr_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5808_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         offset=(X=10.100000,Z=120.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.el_flame_strike_fl'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5808_skill.L2EffectEmitter7'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bone01"
+         bAbsolute=True
+         RelativeRotation=(Yaw=16382)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.el_prominence_cs'
+         SimpleEffectClass=Class'LineageEffect.el_prominence_cs_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5808_skill.L2EffectEmitter8'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter9
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u524_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u524_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5808_skill.L2EffectEmitter9'
+     FlyingTime=0.400000
+}

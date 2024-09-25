@@ -1,0 +1,15 @@
+class l2_16339_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="보텍스 카오스"
+     SkillID=16339
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_blue2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue2_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16339_skill.L2EffectEmitter2'
+}

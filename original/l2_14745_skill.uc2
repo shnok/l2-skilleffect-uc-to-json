@@ -1,0 +1,24 @@
+class l2_14745_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="가디언스 하모니"
+     SkillID=11523
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_in_partyenforcer_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_partyenforcer_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14745_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_partyenforcer_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_partyenforcer_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14745_skill.L2EffectEmitter2'
+}

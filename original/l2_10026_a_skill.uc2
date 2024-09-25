@@ -1,0 +1,50 @@
+class l2_10026_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 부메랑"
+     SkillID=10026
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.700000,Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_kn_stemp_knight_hate_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_stemp_knight_hate_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10026_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_handeffect_indi'
+         SimpleEffectClass=Class'LineageEffect.d_handeffect_indi_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10026_a_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Shield_L_Bone"
+         bSpawnOnTarget=False
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect2.y_kn_stemp_knight_hate_trail'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_stemp_knight_hate_trail_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10026_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_disappear_ta'
+         SimpleEffectClass=Class'LineageEffect.d_disappear_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10026_a_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_AliasSpecified
+         AttachBoneName="e_bone"
+         bAbsolute=True
+         bOnMultiTarget=True
+         SpawnDelay=0.100000
+         EffectClass=Class'LineageEffect.ph_hate_ta'
+         SimpleEffectClass=Class'LineageEffect.ph_hate_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10026_a_skill.L2EffectEmitter4'
+}

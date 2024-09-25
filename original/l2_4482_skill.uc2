@@ -1,0 +1,14 @@
+class l2_4482_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Ice Fairy Silence"
+     SkillID=4482
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.ra_ice_fairy_ta'
+         SimpleEffectClass=Class'LineageEffect.ra_ice_fairy_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4482_skill.L2EffectEmitter0'
+}

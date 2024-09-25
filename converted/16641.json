@@ -1,0 +1,5 @@
+{
+"SkillId": 16641,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect2.y_raid_ramona_mega_ca","SimpleEffectClass": "ClassLineageEffect2.y_raid_ramona_mega_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(X=2.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.hyper_mega_plasma_shot_fl","SimpleEffectClass": "ClassLineageEffect2.hyper_mega_plasma_shot_fl_simple"}]
+}

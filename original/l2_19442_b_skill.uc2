@@ -1,0 +1,7 @@
+class l2_19442_b_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="듀얼 노트"
+     SkillID=19442
+}

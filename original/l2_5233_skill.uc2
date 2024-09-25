@@ -1,0 +1,21 @@
+class l2_5233_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="통통무게추 회전공격"
+     SkillID=5233
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u837_tong_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u837_tong_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5233_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u837_tong_ta_a'
+         SimpleEffectClass=Class'LineageEffect.e_u837_tong_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5233_skill.L2EffectEmitter1'
+}

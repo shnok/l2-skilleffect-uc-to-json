@@ -1,0 +1,7 @@
+class l2_19447_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="글레어링"
+     SkillID=19447
+}

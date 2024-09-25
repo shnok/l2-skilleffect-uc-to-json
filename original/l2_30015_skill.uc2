@@ -1,0 +1,23 @@
+class l2_30015_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매스 윈드 템프테이션"
+     SkillID=30015
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_windtemp_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_windtemp_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30015_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_windtemp_ra'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_windtemp_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30015_skill.L2EffectEmitter3'
+}

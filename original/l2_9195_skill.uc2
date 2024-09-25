@@ -1,0 +1,15 @@
+class l2_9195_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="축복받은 마정탄 R급"
+     SkillID=2154
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EtcEffect=EET_SpiritShot
+         EtcEffectInfo=EEP_GradeR
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9195_skill.L2EffectEmitter0'
+}

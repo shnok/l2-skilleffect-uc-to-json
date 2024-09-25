@@ -1,0 +1,15 @@
+class l2_15011_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="챈트 오브 라이프"
+     SkillID=1229
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-0.600000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_cartia_poison'
+         SimpleEffectClass=Class'LineageEffect.d_cartia_poison_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15011_skill.L2EffectEmitter0'
+}

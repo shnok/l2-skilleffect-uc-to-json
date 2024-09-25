@@ -1,0 +1,37 @@
+class l2_6761_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="드래곤 블로우 스트라이크"
+     SkillID=6339
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.ph_howl_ca'
+         SimpleEffectClass=Class'LineageEffect.ph_howl_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6761_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.ph_howl_ta'
+         SimpleEffectClass=Class'LineageEffect.ph_howl_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6761_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=-1.500000)
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.z_xel_hammer_ra'
+         SimpleEffectClass=Class'LineageEffect.z_xel_hammer_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6761_skill.L2EffectEmitter21'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.at_shock_blast_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6761_skill.L2EffectEmitter3'
+}

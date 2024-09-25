@@ -1,0 +1,23 @@
+class l2_6727_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="뱀피릭 레이지"
+     SkillID=1268
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u205_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u205_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6727_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u205_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u205_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6727_skill.L2EffectEmitter1'
+}

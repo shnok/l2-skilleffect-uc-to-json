@@ -1,0 +1,5 @@
+{
+"SkillId": 19555,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_kn_maelstrom_ca","SimpleEffectClass": "ClassLineageEffect2.y_kn_maelstrom_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","SpawnDelay": "1.200000","EffectClass": "ClassLineageEffect2.y_kn_maelstrom_cara","SimpleEffectClass": "ClassLineageEffect2.y_kn_maelstrom_cara_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_kn_maelstrom_ra","SimpleEffectClass": "ClassLineageEffect2.y_kn_maelstrom_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_kn_maelstrom_ta","SimpleEffectClass": "ClassLineageEffect2.y_kn_maelstrom_ta_simple"}]
+}

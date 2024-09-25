@@ -1,0 +1,41 @@
+class l2_14243_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_rotten_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_rotten_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14243_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter52
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_rotten_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_rotten_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14243_skill.L2EffectEmitter52'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter78
+         bRelativeToCylinder=False
+         ScaleSize=2.000000
+         SpawnDelay=1.400000
+         EffectClass=Class'LineageEffect.d_quake_8s'
+         SimpleEffectClass=Class'LineageEffect.d_quake_8s_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14243_skill.L2EffectEmitter78'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         AttachOn=AM_Trail
+         offset=(Z=7.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_istinaScret_tara'
+         SimpleEffectClass=Class'LineageEffect.d_istinaScret_tara_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14243_skill.L2EffectEmitter8'
+}

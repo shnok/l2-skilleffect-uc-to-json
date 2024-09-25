@@ -1,0 +1,13 @@
+class l2_10559_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스피릿 미라지"
+     SkillID=10559
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_ro_spmirage_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ro_spmirage_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10559_skill.L2EffectEmitter0'
+}

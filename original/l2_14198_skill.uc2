@@ -1,0 +1,25 @@
+class l2_14198_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="워터 젯"
+     SkillID=14179
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=200.000000
+         EffectClass=Class'LineageEffect.el_hydro_blast_ta'
+         SimpleEffectClass=Class'LineageEffect.el_hydro_blast_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14198_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=200.000000
+         EffectClass=Class'LineageEffect.d_mon_water_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_water_ra_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14198_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 16999,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.300000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_mon_wind10s_ra","SimpleEffectClass": "ClassLineageEffect.u_mon_wind10s_ra_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "0.400000","SpawnDelay": "0.600000","EffectClass": "ClassLineageEffect2.y_ramona_break_d","SimpleEffectClass": "ClassLineageEffect2.y_ramona_break_d_simple"}],
+"ShotActions": []
+}

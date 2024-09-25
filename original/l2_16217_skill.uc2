@@ -1,0 +1,33 @@
+class l2_16217_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="어스 버스터"
+     SkillID=16217
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_earth_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_earth_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16217_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_mon_ground_up'
+         SimpleEffectClass=Class'LineageEffect.u_mon_ground_up_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16217_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_mon_earth_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_earth_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16217_skill.L2EffectEmitter2'
+}

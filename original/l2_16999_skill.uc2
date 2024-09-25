@@ -1,0 +1,25 @@
+class l2_16999_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="사념의 기운"
+     SkillID=16999
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_mon_wind10s_ra'
+         SimpleEffectClass=Class'LineageEffect.u_mon_wind10s_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16999_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.400000
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect2.y_ramona_break_d'
+         SimpleEffectClass=Class'LineageEffect2.y_ramona_break_d_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16999_skill.L2EffectEmitter1'
+}

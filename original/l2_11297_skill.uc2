@@ -1,0 +1,24 @@
+class l2_11297_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블레싱 오브 자이언트"
+     SkillID=11297
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_su_forcingsum_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_forcingsum_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11297_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_su_spunex1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_spunex1_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11297_skill.L2EffectEmitter33'
+}

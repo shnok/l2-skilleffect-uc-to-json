@@ -1,0 +1,24 @@
+class l2_14910_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크리스탈 리제네레이션"
+     SkillID=11765
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_he_serenity_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_serenity_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14910_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_refhealhot1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_refhealhot1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14910_skill.L2EffectEmitter3'
+}

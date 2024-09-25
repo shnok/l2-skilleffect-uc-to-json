@@ -1,0 +1,5 @@
+{
+"SkillId": 15585,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect.el_twister_ca","SimpleEffectClass": "ClassLineageEffect.el_twister_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.el_twister_fl","SimpleEffectClass": "ClassLineageEffect.el_twister_fl_simple"}]
+}

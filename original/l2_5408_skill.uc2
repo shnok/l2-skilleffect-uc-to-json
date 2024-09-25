@@ -1,0 +1,25 @@
+class l2_5408_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발러연출_ 감옥안수정골렘죽음"
+     SkillID=5408
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.wh_sec_heal_ca'
+         SimpleEffectClass=Class'LineageEffect.wh_sec_heal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5408_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.wh_regeneration_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_regeneration_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5408_skill.L2EffectEmitter1'
+}

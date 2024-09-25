@@ -1,0 +1,33 @@
+class l2_10102_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="팬서 러시"
+     SkillID=10102
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kn_panrush_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kn_panrush_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10102_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kn_panrush_shot'
+         SimpleEffectClass=Class'LineageEffect.u_kn_panrush_shot_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10102_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.u_kn_panrush_ta'
+         SimpleEffectClass=Class'LineageEffect.u_kn_panrush_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10102_skill.L2EffectEmitter4'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

@@ -1,0 +1,42 @@
+class l2_19552_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="플레임 페더"
+     SkillID=19552
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_kn_flame_feather_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_flame_feather_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19552_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect2.y_kn_flame_feather_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_flame_feather_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19552_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_vala_tara'
+         SimpleEffectClass=Class'LineageEffect.u_vala_tara_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19552_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_AliasSpecified
+         AttachBoneName="e_bone"
+         bAbsolute=True
+         bOnMultiTarget=True
+         SpawnDelay=0.100000
+         EffectClass=Class'LineageEffect.ph_hate_ta'
+         SimpleEffectClass=Class'LineageEffect.ph_hate_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_19552_skill.L2EffectEmitter3'
+}

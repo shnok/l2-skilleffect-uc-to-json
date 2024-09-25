@@ -1,0 +1,15 @@
+class l2_6124_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온 큐트트릭_새롬"
+     SkillID=6124
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.200000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u204_aga_ca_a'
+         SimpleEffectClass=Class'LineageEffect.e_u204_aga_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6124_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,30 @@
+class l2_531_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크리티컬 운드"
+     SkillID=531
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_critical_wound_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_critical_wound_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_531_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         SpawnDelay=0.150000
+         EffectClass=Class'LineageEffect2.y_ro_critical_wound_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_critical_wound_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_531_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         EffectClass=Class'LineageEffect2.y_ro_critical_wound_head'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_critical_wound_head_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_531_skill.L2EffectEmitter2'
+}

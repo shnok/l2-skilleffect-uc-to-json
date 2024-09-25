@@ -1,0 +1,34 @@
+class l2_14655_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리플렉트 데미지"
+     SkillID=86
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.mo_reflect_damage_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_reflect_damage_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14655_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.mo_reflect_damage_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_reflect_damage_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14655_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         SpawnDelay=0.800000
+         EffectClass=Class'LineageEffect.mo_reflect_damage_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_reflect_damage_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14655_skill.L2EffectEmitter2'
+}

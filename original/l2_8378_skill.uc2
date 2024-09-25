@@ -1,0 +1,15 @@
+class l2_8378_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="맹수조련"
+     SkillID=8378
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_common_short2_ca'
+         SimpleEffectClass=Class'LineageEffect.z_common_short2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_8378_skill.L2EffectEmitter0'
+}

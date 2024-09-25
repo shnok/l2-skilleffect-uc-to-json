@@ -1,0 +1,34 @@
+class l2_16100_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="물"
+     SkillID=16100
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_wi_magicbolt2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_magicbolt2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16100_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=6.000000
+         EffectClass=Class'LineageEffect.z_shot_fl'
+         SimpleEffectClass=Class'LineageEffect.z_shot_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16100_skill.L2EffectEmitter1'
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16100_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="bip01 spine2"
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_wi_mbwater_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwater_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16100_skill.L2EffectEmitter3'
+     FlyingTime=0.200000
+}

@@ -1,0 +1,15 @@
+class l2_5876_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="원한의 출몰"
+     SkillID=5876
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=1.300000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.a_u022_wind'
+         SimpleEffectClass=Class'LineageEffect.a_u022_wind_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5876_skill.L2EffectEmitter0'
+}

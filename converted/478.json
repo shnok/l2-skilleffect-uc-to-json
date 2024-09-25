@@ -1,0 +1,5 @@
+{
+"SkillId": 478,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u023_lightening_ca","SimpleEffectClass": "ClassLineageEffect.s_u023_lightening_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","bRelativeToCylinder": "False","bRibbonSet": "True","EffectClass": "ClassLineageEffect.RibbonSet_rapier","SimpleEffectClass": "ClassLineageEffect.RibbonSet_rapier_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.s_u819_rapier_ta_a","SimpleEffectClass": "ClassLineageEffect.s_u819_rapier_ta_a_simple"}]
+}

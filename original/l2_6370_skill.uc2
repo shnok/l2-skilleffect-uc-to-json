@@ -1,0 +1,15 @@
+class l2_6370_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="뇌전1"
+     SkillID=6370
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.500000)
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.z_totem_green_ta'
+         SimpleEffectClass=Class'LineageEffect.z_totem_green_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6370_skill.L2EffectEmitter3'
+}

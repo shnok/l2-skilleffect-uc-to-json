@@ -1,0 +1,29 @@
+class l2_1471_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데스 빔"
+     SkillID=1471
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u809_spec_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u809_spec_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1471_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=3.000000,Z=0.200000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u825_death_beam_ta_short'
+         SimpleEffectClass=Class'LineageEffect.s_u825_death_beam_ta_short_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1471_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u804_a_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u804_a_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1471_skill.L2EffectEmitter2'
+}

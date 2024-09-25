@@ -1,0 +1,42 @@
+class l2_6602_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="원거리"
+     SkillID=6602
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_buff_c'
+         SimpleEffectClass=Class'LineageEffect.z_buff_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6602_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.e_u082_a'
+         SimpleEffectClass=Class'LineageEffect.e_u082_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6602_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter97
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_dummy_quake_1s'
+         SimpleEffectClass=Class'LineageEffect.z_dummy_quake_1s_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6602_skill.L2EffectEmitter97'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter99
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.z_dummy_quake_1s'
+         SimpleEffectClass=Class'LineageEffect.z_dummy_quake_1s_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6602_skill.L2EffectEmitter99'
+}

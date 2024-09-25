@@ -1,0 +1,30 @@
+class l2_16337_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매지컬 블러스트"
+     SkillID=16337
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_blue3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16337_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_mon_blue1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16337_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.000000)
+         ScaleSize=1.400000
+         EffectClass=Class'LineageEffect.d_mon_blue1_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue1_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16337_skill.L2EffectEmitter1'
+}

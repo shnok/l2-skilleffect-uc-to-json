@@ -1,0 +1,23 @@
+class l2_11375_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="코만도 점프 어택"
+     SkillID=11375
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.s_u807_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u807_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11375_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_kn_judgec_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgec_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11375_skill.L2EffectEmitter2'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

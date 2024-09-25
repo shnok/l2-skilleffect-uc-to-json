@@ -1,0 +1,16 @@
+class l2_19560_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="라이징 타이드 써클"
+     SkillID=19560
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_kn_evastem_rising_tide_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_evastem_rising_tide_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19560_skill.L2EffectEmitter0'
+}

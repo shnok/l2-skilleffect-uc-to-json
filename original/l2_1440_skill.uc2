@@ -1,0 +1,29 @@
+class l2_1440_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스틸 디비니티"
+     SkillID=1440
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u837_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u837_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1440_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.s_u837_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u837_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1440_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         EffectClass=Class'LineageEffect.s_u837_ta_head'
+         SimpleEffectClass=Class'LineageEffect.s_u837_ta_head_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1440_skill.L2EffectEmitter2'
+}

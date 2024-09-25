@@ -1,0 +1,30 @@
+class l2_16193_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데스 피어"
+     SkillID=16193
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.bl_berserker_spirit_ca'
+         SimpleEffectClass=Class'LineageEffect.bl_berserker_spirit_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16193_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_fear_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_fear_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16193_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_elec_red_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec_red_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16193_skill.L2EffectEmitter3'
+}

@@ -1,0 +1,32 @@
+class l2_16404_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디멘션 와이드 저지먼트"
+     SkillID=16404
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_unholy5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy5_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16404_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_attack_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_attack_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16404_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.s_u822_enuma_cs'
+         SimpleEffectClass=Class'LineageEffect.s_u822_enuma_cs_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16404_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,28 @@
+class l2_1155_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="콥스 버스트"
+     SkillID=1155
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u003_a'
+         SimpleEffectClass=Class'LineageEffect.m_u003_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1155_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u006_e'
+         SimpleEffectClass=Class'LineageEffect.m_u006_e_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1155_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.m_u006_d'
+         SimpleEffectClass=Class'LineageEffect.m_u006_d_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1155_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,33 @@
+class l2_10797_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="호크 페더 블래스트"
+     SkillID=10797
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_ar_raina_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ar_raina_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10797_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter52
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01 HeadNub"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ar_tan6_fl'
+         SimpleEffectClass=Class'LineageEffect.d_ar_tan6_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10797_skill.L2EffectEmitter52'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ar_stunshot_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ar_stunshot_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10797_skill.L2EffectEmitter2'
+}

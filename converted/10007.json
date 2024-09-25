@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.d_kn_shieldshock_handca","SimpleEffectClass": "ClassLineageEffect.d_kn_shieldshock_handca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_kn_shieldshock_ca","SimpleEffectClass": "ClassLineageEffect.d_kn_shieldshock_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.d_kn_shieldshock_ta","SimpleEffectClass": "ClassLineageEffect.d_kn_shieldshock_ta_simple"}]
+}

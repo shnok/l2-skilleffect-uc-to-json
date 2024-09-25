@@ -1,0 +1,5 @@
+{
+"SkillId": 6339,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.ph_howl_ca","SimpleEffectClass": "ClassLineageEffect.ph_howl_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","EffectClass": "ClassLineageEffect.ph_howl_ta","SimpleEffectClass": "ClassLineageEffect.ph_howl_ta_simple"},{"Name": "L2EffectEmitter21", "AttachOn": "AM_Trail","offset": "(Z=-1.500000)","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.z_xel_hammer_ra","SimpleEffectClass": "ClassLineageEffect.z_xel_hammer_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.at_shock_blast_ta","SimpleEffectClass": "ClassLineageEffect.at_shock_blast_ta_simple"}]
+}

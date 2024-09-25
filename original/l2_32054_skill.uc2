@@ -1,0 +1,35 @@
+class l2_32054_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헤비 슬래쉬"
+     SkillID=32054
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_raid_mc_hind_kick_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_hind_kick_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32054_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect2.y_raid_zaken_crescent_sword'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_zaken_crescent_sword_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32054_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.100000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.s_u820_range_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u820_range_ta_a_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32054_skill.L2EffectEmitter2'
+}

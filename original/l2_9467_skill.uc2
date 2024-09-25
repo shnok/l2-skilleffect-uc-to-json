@@ -1,0 +1,15 @@
+class l2_9467_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리모트 컨트롤"
+     SkillID=10788
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.650000
+         EffectClass=Class'LineageEffect.d_ar_attractcubic_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ar_attractcubic_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9467_skill.L2EffectEmitter0'
+}

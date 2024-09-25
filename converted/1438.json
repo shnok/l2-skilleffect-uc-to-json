@@ -1,0 +1,5 @@
+{
+"SkillId": 1438,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u820_magic_ca","SimpleEffectClass": "ClassLineageEffect.s_u820_magic_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=13.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.s_u820_magic_cs","SimpleEffectClass": "ClassLineageEffect.s_u820_magic_cs_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.s_u820_range_ta_b","SimpleEffectClass": "ClassLineageEffect.s_u820_range_ta_b_simple"}]
+}

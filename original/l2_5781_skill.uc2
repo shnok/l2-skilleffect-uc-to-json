@@ -1,0 +1,77 @@
+class l2_5781_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="풍룡님이 오신다"
+     SkillID=5781
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Stand_mast"
+         bAbsolute=True
+         RelativeRotation=(Yaw=20000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u625_lindvior_trail'
+         SimpleEffectClass=Class'LineageEffect.e_u625_lindvior_trail_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5781_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bSpawnOnTarget=False
+         SpawnDelay=4.000000
+         EffectClass=Class'LineageEffect.e_u624_wind_middle'
+         SimpleEffectClass=Class'LineageEffect.e_u624_wind_middle_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5781_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bSpawnOnTarget=False
+         SpawnDelay=7.000000
+         EffectClass=Class'LineageEffect.e_u624_wind_middle'
+         SimpleEffectClass=Class'LineageEffect.e_u624_wind_middle_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5781_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bSpawnOnTarget=False
+         SpawnDelay=9.000000
+         EffectClass=Class'LineageEffect.e_u624_wind_short'
+         SimpleEffectClass=Class'LineageEffect.e_u624_wind_short_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5781_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-300.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=11.500000
+         EffectClass=Class'LineageEffect.e_u622_lindvior_dust'
+         SimpleEffectClass=Class'LineageEffect.e_u622_lindvior_dust_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_5781_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(Z=-300.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=14.000000
+         EffectClass=Class'LineageEffect.e_u622_lindvior_dust'
+         SimpleEffectClass=Class'LineageEffect.e_u622_lindvior_dust_simple'
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_5781_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(Z=-300.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=16.500000
+         EffectClass=Class'LineageEffect.e_u622_lindvior_dust'
+         SimpleEffectClass=Class'LineageEffect.e_u622_lindvior_dust_simple'
+     End Object
+     CastingAction(6)=L2EffectEmitter'LineageSkillEffect.l2_5781_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         offset=(Z=-300.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=9.000000
+         EffectClass=Class'LineageEffect.e_u622_lindvior_dust'
+         SimpleEffectClass=Class'LineageEffect.e_u622_lindvior_dust_simple'
+     End Object
+     CastingAction(7)=L2EffectEmitter'LineageSkillEffect.l2_5781_skill.L2EffectEmitter7'
+}

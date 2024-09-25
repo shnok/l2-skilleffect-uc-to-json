@@ -1,0 +1,5 @@
+{
+"SkillId": 23684,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_kelbim_fear_ca","SimpleEffectClass": "ClassLineageEffect.u_kelbim_fear_ca_simple"},{"Name": "L2EffectEmitter60", "AttachOn": "AM_LH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_kelbim_fear_handca","SimpleEffectClass": "ClassLineageEffect.u_kelbim_fear_handca_simple"},{"Name": "L2EffectEmitter62", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_kelbim_fear_handca","SimpleEffectClass": "ClassLineageEffect.u_kelbim_fear_handca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_kelbim_fear_ra","SimpleEffectClass": "ClassLineageEffect.u_kelbim_fear_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_kelbim_fear_ta","SimpleEffectClass": "ClassLineageEffect.u_kelbim_fear_ta_simple"}]
+}

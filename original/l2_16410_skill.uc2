@@ -1,0 +1,15 @@
+class l2_16410_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="트랩 공중속박"
+     SkillID=16410
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_redelec_ta'
+         SimpleEffectClass=Class'LineageEffect.d_redelec_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16410_skill.L2EffectEmitter22'
+}

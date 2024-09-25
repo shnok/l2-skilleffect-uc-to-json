@@ -1,0 +1,5 @@
+{
+"SkillId": 10656,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_ro_ghost_ca","SimpleEffectClass": "ClassLineageEffect.u_ro_ghost_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_ro_ghost_ta","SimpleEffectClass": "ClassLineageEffect.u_ro_ghost_ta_simple"}]
+}

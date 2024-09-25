@@ -1,0 +1,5 @@
+{
+"SkillId": 6300,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.080000","EffectClass": "ClassLineageEffect.d_earthworm2_circle","SimpleEffectClass": "ClassLineageEffect.d_earthworm2_circle_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_ro_darkp2_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_darkp2_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.040000","EffectClass": "ClassLineageEffect.d_ewbottom_ta","SimpleEffectClass": "ClassLineageEffect.d_ewbottom_ta_simple"},{"Name": "L2EffectEmitter97", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_quake_2s","SimpleEffectClass": "ClassLineageEffect.d_quake_2s_simple"}]
+}

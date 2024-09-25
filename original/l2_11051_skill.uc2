@@ -1,0 +1,74 @@
+class l2_11051_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헬바인딩"
+     SkillID=11051
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_kn_judgep_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgep_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11051_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_wi_channeling2_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_channeling2_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11051_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_wi_channeling2_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_channeling2_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11051_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_DependOnMagicInfoInClient
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.d_u806_channeling2b_beam'
+         SimpleEffectClass=Class'LineageEffect.d_u806_channeling2b_beam_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11051_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_DependOnMagicInfoInClient
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.d_u806_channeling1b_beam'
+         SimpleEffectClass=Class'LineageEffect.d_u806_channeling1b_beam_simple'
+     End Object
+     ChannelingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11051_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_DependOnMagicInfoInClient
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         bChanneling=True
+         EffectClass=Class'LineageEffect.d_channeling2b_beam'
+         SimpleEffectClass=Class'LineageEffect.d_channeling2b_beam_simple'
+     End Object
+     ChannelingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11051_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_DependOnMagicInfoInClient
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         bChanneling=True
+         EffectClass=Class'LineageEffect.d_channeling1b_beam'
+         SimpleEffectClass=Class'LineageEffect.d_channeling1b_beam_simple'
+     End Object
+     ChannelingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_11051_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_redelec_ta'
+         SimpleEffectClass=Class'LineageEffect.d_redelec_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11051_skill.L2EffectEmitter7'
+}

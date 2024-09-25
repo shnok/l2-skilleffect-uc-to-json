@@ -1,0 +1,5 @@
+{
+"SkillId": 6293,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.z_ice_hknight_ca","SimpleEffectClass": "ClassLineageEffect.z_ice_hknight_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_ice_heavyknight_ta","SimpleEffectClass": "ClassLineageEffect.z_ice_heavyknight_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Y=3.000000)","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.z_kegor_Fsmash_a_ca","SimpleEffectClass": "ClassLineageEffect.z_kegor_Fsmash_a_ca_simple"},{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","offset": "(X=3.000000,Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.z_ice_knight_a_ra","SimpleEffectClass": "ClassLineageEffect.z_ice_knight_a_ra_simple"}]
+}

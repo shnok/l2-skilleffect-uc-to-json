@@ -1,0 +1,16 @@
+class l2_5407_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발러연출 엔딩 수정골렘스폰"
+     SkillID=5407
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.s_u823_spec_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u823_spec_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5407_skill.L2EffectEmitter0'
+}

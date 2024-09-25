@@ -1,0 +1,33 @@
+class l2_4230_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="와일드 캐논"
+     SkillID=4230
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="GUN_BONE4"
+         bAbsolute=True
+         RelativeRotation=(Pitch=24576,Yaw=16384)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u073_a'
+         SimpleEffectClass=Class'LineageEffect.e_u073_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4230_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachBoneName="GUN_BONE4"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u073_b'
+         SimpleEffectClass=Class'LineageEffect.e_u073_b_simple'
+         bHermiteInterpolation=True
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4230_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         EffectClass=Class'LineageEffect.e_u073_ground'
+         SimpleEffectClass=Class'LineageEffect.e_u073_ground_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4230_skill.L2EffectEmitter2'
+     FlyingTime=1.000000
+}

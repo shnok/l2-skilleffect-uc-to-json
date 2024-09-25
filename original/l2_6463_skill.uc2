@@ -1,0 +1,15 @@
+class l2_6463_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="전직이펙트_신규"
+     SkillID=6463
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_change_job_event_b'
+         SimpleEffectClass=Class'LineageEffect.z_change_job_event_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6463_skill.L2EffectEmitter0'
+}

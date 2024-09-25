@@ -1,0 +1,39 @@
+class l2_15430_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르 제자리 점프"
+     SkillID=15430
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.u_lind_jump_ca'
+         SimpleEffectClass=Class'LineageEffect.u_lind_jump_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15430_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.u_lind_landing'
+         SimpleEffectClass=Class'LineageEffect.u_lind_landing_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15430_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.u_lind_smoke_circle'
+         SimpleEffectClass=Class'LineageEffect.u_lind_smoke_circle_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15430_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.u_lind_common_ta'
+         SimpleEffectClass=Class'LineageEffect.u_lind_common_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_15430_skill.L2EffectEmitter3'
+}

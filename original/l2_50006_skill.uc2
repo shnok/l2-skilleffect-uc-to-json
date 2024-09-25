@@ -1,0 +1,61 @@
+class l2_50006_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블러드 투 플레쉬"
+     SkillID=50006
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.y_raid_zaken_blood_slash_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_zaken_blood_slash_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_50006_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bone09"
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect2.y_raid_zaken_blood_slahs_body_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_zaken_blood_slahs_body_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_50006_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=6.500000
+         EffectClass=Class'LineageEffect2.y_raid_zaken_blood_slash_bottom_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_zaken_blood_slash_bottom_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_50006_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_raid_zaken_blood_slash_1ra'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_zaken_blood_slash_1ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_50006_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=0.400000
+         EffectClass=Class'LineageEffect2.y_raid_zaken_blood_slash_2ra'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_zaken_blood_slash_2ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_50006_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.050000
+         EffectClass=Class'LineageEffect.u_wi_darkdi_ta'
+         SimpleEffectClass=Class'LineageEffect.u_wi_darkdi_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_50006_skill.L2EffectEmitter5'
+}

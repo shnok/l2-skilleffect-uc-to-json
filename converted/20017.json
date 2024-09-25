@@ -1,0 +1,5 @@
+{
+"SkillId": 20017,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.it_zariche_levelup","SimpleEffectClass": "ClassLineageEffect.it_zariche_levelup_simple"}],
+"ShotActions": []
+}

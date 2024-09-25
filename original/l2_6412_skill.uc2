@@ -1,0 +1,31 @@
+class l2_6412_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크리티컬블로"
+     SkillID=6412
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.z_common_buff_e'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_e_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6412_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.z_seed_reptiles_c_fl'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_c_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6412_skill.L2EffectEmitter22'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_seed_reptiles_c_ta'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_c_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6412_skill.L2EffectEmitter2'
+}

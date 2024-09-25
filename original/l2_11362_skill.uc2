@@ -1,0 +1,22 @@
+class l2_11362_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 인스턴트 무빙 포털"
+     SkillID=11362
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_su_mark2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_mark2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11362_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_mrwind_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwind_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11362_skill.L2EffectEmitter4'
+}

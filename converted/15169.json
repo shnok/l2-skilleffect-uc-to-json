@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter10", "offset": "(X=-0.400000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.750000","EffectClass": "ClassLineageEffect.d_mon_tauti_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_tauti_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bOnMultiTarget": "True","ScaleSize": "-1.000000","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.d_mon_tauti_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_tauti_ta_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter89", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.d_mon_fire_ra","SimpleEffectClass": "ClassLineageEffect.d_mon_fire_ra_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bOnMultiTarget": "True","ScaleSize": "-1.000000","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.d_mon_tauti_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_tauti_ta_simple"}]
+}

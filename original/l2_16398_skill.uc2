@@ -1,0 +1,14 @@
+class l2_16398_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아스탄틴의 기운"
+     SkillID=16398
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_mms_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mms_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16398_skill.L2EffectEmitter0'
+}

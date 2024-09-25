@@ -1,0 +1,15 @@
+class l2_11605_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="송 오브 실드"
+     SkillID=11605
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_in_songshield'
+         SimpleEffectClass=Class'LineageEffect.u_in_songshield_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11605_skill.L2EffectEmitter0'
+}

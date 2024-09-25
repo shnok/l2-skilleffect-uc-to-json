@@ -1,0 +1,15 @@
+class l2_17302_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="탱글탱글 바운스"
+     SkillID=17302
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_event_complete_a'
+         SimpleEffectClass=Class'LineageEffect.z_event_complete_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17302_skill.L2EffectEmitter0'
+}

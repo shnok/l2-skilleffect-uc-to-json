@@ -1,0 +1,44 @@
+class l2_23681_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="페이탈 스트라이크"
+     SkillID=23681
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kelbim_infinity_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_infinity_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23681_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter60
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kelbim_infinity_handca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_infinity_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_23681_skill.L2EffectEmitter60'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter61
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kelbim_infinity_handca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_infinity_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_23681_skill.L2EffectEmitter61'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kelbim_infinity_shot'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_infinity_shot_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23681_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.u_er_wa_head_ta_b'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_head_ta_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_23681_skill.L2EffectEmitter3'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 1045,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.mo_dash_ca","SimpleEffectClass": "ClassLineageEffect.mo_dash_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.wh_bless_the_body_ta","SimpleEffectClass": "ClassLineageEffect.wh_bless_the_body_ta_simple"}],
+"ShotActions": []
+}

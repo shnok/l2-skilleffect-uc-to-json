@@ -1,0 +1,34 @@
+class l2_5861_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발라카스의 권능"
+     SkillID=5861
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.e_u809_debuff'
+         SimpleEffectClass=Class'LineageEffect.e_u809_debuff_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5861_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.e_u311_area_blue'
+         SimpleEffectClass=Class'LineageEffect.e_u311_area_blue_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5861_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bOnMultiTarget=True
+         SpawnDelay=5.000000
+         EffectClass=Class'LineageEffect.e_u311_area_blue'
+         SimpleEffectClass=Class'LineageEffect.e_u311_area_blue_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5861_skill.L2EffectEmitter3'
+}

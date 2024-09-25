@@ -1,0 +1,23 @@
+class l2_1013_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리차지"
+     SkillID=1013
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u052_recharge_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u052_recharge_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1013_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.m_u052_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.m_u052_recharge_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1013_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,42 @@
+class l2_6136_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온 큐트트릭_츄츄"
+     SkillID=6136
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u300_aga_love_a'
+         SimpleEffectClass=Class'LineageEffect.e_u300_aga_love_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6136_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.200000)
+         bSpawnOnTarget=False
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.e_u300_aga_love_a'
+         SimpleEffectClass=Class'LineageEffect.e_u300_aga_love_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6136_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 R Hand"
+         bSpawnOnTarget=False
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.e_u306_sstar'
+         SimpleEffectClass=Class'LineageEffect.e_u306_sstar_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6136_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 R Hand"
+         bSpawnOnTarget=False
+         SpawnDelay=0.800000
+         EffectClass=Class'LineageEffect.e_u306_sstar'
+         SimpleEffectClass=Class'LineageEffect.e_u306_sstar_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_6136_skill.L2EffectEmitter3'
+}

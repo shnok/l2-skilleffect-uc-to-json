@@ -1,0 +1,15 @@
+class l2_2033_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소환수 정령탄"
+     SkillID=2033
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_AliasSpecified
+         AttachBoneName="soulshot1"
+         bAbsolute=True
+         bRelativeToCylinder=False
+         EtcEffect=EET_SoulShot
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2033_skill.L2EffectEmitter0'
+}

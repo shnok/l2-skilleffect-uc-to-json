@@ -1,0 +1,15 @@
+class l2_4515_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레이드 저주"
+     SkillID=4515
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4515_skill.L2EffectEmitter0'
+}

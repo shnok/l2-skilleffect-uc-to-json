@@ -1,0 +1,5 @@
+{
+"SkillId": 11365,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_su_sumcross_ca","SimpleEffectClass": "ClassLineageEffect.u_su_sumcross_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter4", "offset": "(Z=-0.980000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_su_sumcross_enter","SimpleEffectClass": "ClassLineageEffect.u_su_sumcross_enter_simple"},{"Name": "L2EffectEmitter1", "offset": "(Z=-0.980000)","ScaleSize": "-1.000000","SpawnDelay": "0.300000","EffectClass": "ClassLineageEffect.u_su_sumcross","SimpleEffectClass": "ClassLineageEffect.u_su_sumcross_simple"}]
+}

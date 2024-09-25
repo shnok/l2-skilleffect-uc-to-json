@@ -1,0 +1,23 @@
+class l2_5951_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가씨온의 선물"
+     SkillID=5951
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u300_heart_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5951_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.wh_bless_the_soul_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_bless_the_soul_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5951_skill.L2EffectEmitter1'
+}

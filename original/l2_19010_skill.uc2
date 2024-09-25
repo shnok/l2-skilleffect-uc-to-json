@@ -1,0 +1,16 @@
+class l2_19010_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디코이"
+     SkillID=525
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u810_aga_ta_c'
+         SimpleEffectClass=Class'LineageEffect.m_u810_aga_ta_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19010_skill.L2EffectEmitter0'
+}

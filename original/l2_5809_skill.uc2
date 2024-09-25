@@ -1,0 +1,45 @@
+class l2_5809_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="공중전_다크블러드"
+     SkillID=5809
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.e_u327_ca_blood'
+         SimpleEffectClass=Class'LineageEffect.e_u327_ca_blood_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5809_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bAbsolute=True
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.s_u820_summon_drake'
+         SimpleEffectClass=Class'LineageEffect.s_u820_summon_drake_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5809_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=1.700000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.e_u327_fl_blood'
+         SimpleEffectClass=Class'LineageEffect.e_u327_fl_blood_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5809_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u327_ta_blood'
+         SimpleEffectClass=Class'LineageEffect.e_u327_ta_blood_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5809_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

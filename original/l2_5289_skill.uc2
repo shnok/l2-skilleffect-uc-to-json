@@ -1,0 +1,22 @@
+class l2_5289_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="물리 단일 근거리 공격  땅e"
+     SkillID=5289
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u835_sand_twist_b'
+         SimpleEffectClass=Class'LineageEffect.e_u835_sand_twist_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5289_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.p_u005_a'
+         SimpleEffectClass=Class'LineageEffect.p_u005_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5289_skill.L2EffectEmitter1'
+}

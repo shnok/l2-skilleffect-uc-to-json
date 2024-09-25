@@ -1,0 +1,39 @@
+class l2_1177_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="윈드 스트라이크"
+     SkillID=1177
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_wind_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1177_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=5.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.el_wind_strike_pr'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1177_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.el_wind_strike_fl'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1177_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.el_wind_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1177_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

@@ -1,0 +1,24 @@
+class l2_11558_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파이널 서스펜션"
+     SkillID=11558
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_wi_weak_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_weak_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11558_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_damageref2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_damageref2_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11558_skill.L2EffectEmitter6'
+}

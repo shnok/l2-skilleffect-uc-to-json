@@ -1,0 +1,27 @@
+class l2_16021_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="어스웜 출몰"
+     SkillID=16021
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=3.600000
+         EffectClass=Class'LineageEffect.e_u611_tiat_lose_A'
+         SimpleEffectClass=Class'LineageEffect.e_u611_tiat_lose_A_simple'
+         BR_ForceLifeTime=35.000000
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16021_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=2500.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.e_u611_tiat_lose_B'
+         SimpleEffectClass=Class'LineageEffect.e_u611_tiat_lose_B_simple'
+         BR_ForceLifeTime=35.000000
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16021_skill.L2EffectEmitter3'
+}

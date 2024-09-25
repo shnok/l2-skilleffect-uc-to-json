@@ -1,0 +1,5 @@
+{
+"SkillId": ,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.700000","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.z_seed_mammalia_ent","SimpleEffectClass": "ClassLineageEffect.z_seed_mammalia_ent_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter22", "offset": "(X=2.000000,Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.e_u327_fl_blood","SimpleEffectClass": "ClassLineageEffect.e_u327_fl_blood_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_seed_reptiles_c_ta","SimpleEffectClass": "ClassLineageEffect.z_seed_reptiles_c_ta_simple"}]
+}

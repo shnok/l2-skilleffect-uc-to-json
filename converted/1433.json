@@ -1,0 +1,5 @@
+{
+"SkillId": 1433,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u018_darkball_ca","SimpleEffectClass": "ClassLineageEffect.s_u018_darkball_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u058_darkball_hand","SimpleEffectClass": "ClassLineageEffect.e_u058_darkball_hand_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "offset": "(Z=1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u058_darkball_fl","SimpleEffectClass": "ClassLineageEffect.e_u058_darkball_fl_simple"}]
+}

@@ -1,0 +1,25 @@
+class l2_19029_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="라이트 오브 힐"
+     SkillID=11755
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.700000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_he_rblightlong_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_rblightlong_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19029_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_heal7_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_heal7_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19029_skill.L2EffectEmitter3'
+}

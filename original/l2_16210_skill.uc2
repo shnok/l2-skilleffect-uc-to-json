@@ -1,0 +1,31 @@
+class l2_16210_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="윈드 스파이크"
+     SkillID=16210
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.el_twister_ca'
+         SimpleEffectClass=Class'LineageEffect.el_twister_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16210_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.d_mon_wind_fl'
+         SimpleEffectClass=Class'LineageEffect.d_mon_wind_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16210_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.el_twister_ta'
+         SimpleEffectClass=Class'LineageEffect.el_twister_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16210_skill.L2EffectEmitter3'
+}

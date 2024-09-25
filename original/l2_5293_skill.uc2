@@ -1,0 +1,23 @@
+class l2_5293_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="물리 단일 근거리 공격  신성"
+     SkillID=5293
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_majesty_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_majesty_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5293_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.at_sonic_blast_ta'
+         SimpleEffectClass=Class'LineageEffect.at_sonic_blast_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5293_skill.L2EffectEmitter1'
+}

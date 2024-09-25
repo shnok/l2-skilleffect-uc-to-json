@@ -1,0 +1,24 @@
+class l2_6566_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="물 원거리공격"
+     SkillID=6566
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6566_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.100000
+         EffectClass=Class'LineageEffect.rm_self_blaster_ra'
+         SimpleEffectClass=Class'LineageEffect.rm_self_blaster_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6566_skill.L2EffectEmitter21'
+}

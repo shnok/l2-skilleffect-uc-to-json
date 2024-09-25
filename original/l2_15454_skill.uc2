@@ -1,0 +1,14 @@
+class l2_15454_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="체력 회복제"
+     SkillID=2031
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.it_healing_potion_ta'
+         SimpleEffectClass=Class'LineageEffect.it_healing_potion_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15454_skill.L2EffectEmitter0'
+}

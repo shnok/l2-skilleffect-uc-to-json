@@ -1,0 +1,7 @@
+class l2_15279_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="퇴장스킬"
+     SkillID=15279
+}

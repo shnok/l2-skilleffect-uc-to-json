@@ -1,0 +1,5 @@
+{
+"SkillId": 16122,
+"CastingActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=0.400000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_mon_fire_breath","SimpleEffectClass": "ClassLineageEffect.u_mon_fire_breath_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter33", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_mon_fire5s_ta","SimpleEffectClass": "ClassLineageEffect.u_mon_fire5s_ta_simple"}]
+}

@@ -1,0 +1,26 @@
+class l2_17089_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="배기성 모션3"
+     SkillID=17089
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.e_u300_heart_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17089_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.900000
+         SpawnDelay=4.000000
+         EffectClass=Class'LineageEffect.e_u300_heart_cs_a'
+         SimpleEffectClass=Class'LineageEffect.e_u300_heart_cs_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17089_skill.L2EffectEmitter4'
+}

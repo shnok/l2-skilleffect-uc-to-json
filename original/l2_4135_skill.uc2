@@ -1,0 +1,26 @@
+class l2_4135_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바이움힐"
+     SkillID=4135
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u001_a'
+         SimpleEffectClass=Class'LineageEffect.m_u001_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4135_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect.m_u001_b'
+         SimpleEffectClass=Class'LineageEffect.m_u001_b_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4135_skill.L2EffectEmitter1'
+}

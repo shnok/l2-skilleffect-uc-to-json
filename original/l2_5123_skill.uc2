@@ -1,0 +1,14 @@
+class l2_5123_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="방어 극대화"
+     SkillID=5123
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_concentration_ta'
+         SimpleEffectClass=Class'LineageEffect.su_concentration_ta_simple'
+     End Object
+     UnionTargetAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5123_skill.L2EffectEmitter0'
+}

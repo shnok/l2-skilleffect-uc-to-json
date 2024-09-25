@@ -1,0 +1,25 @@
+class l2_16996_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="물벼락"
+     SkillID=16996
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.450000
+         EffectClass=Class'LineageEffect.u_water_enter_deco'
+         SimpleEffectClass=Class'LineageEffect.u_water_enter_deco_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16996_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.450000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_wi_strongwater_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_strongwater_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16996_skill.L2EffectEmitter1'
+}

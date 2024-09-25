@@ -1,0 +1,40 @@
+class l2_6305_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="신성한계시"
+     SkillID=6305
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.sp_agility_ca'
+         SimpleEffectClass=Class'LineageEffect.sp_agility_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6305_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=2.200000
+         EffectClass=Class'LineageEffect.sp_agility_ca'
+         SimpleEffectClass=Class'LineageEffect.sp_agility_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6305_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.p_u004_a'
+         SimpleEffectClass=Class'LineageEffect.p_u004_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6305_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=-1.500000)
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.mo_vengence_ra'
+         SimpleEffectClass=Class'LineageEffect.mo_vengence_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6305_skill.L2EffectEmitter21'
+}

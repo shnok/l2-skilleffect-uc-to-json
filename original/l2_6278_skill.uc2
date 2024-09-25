@@ -1,0 +1,40 @@
+class l2_6278_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프레야_얼음구체"
+     SkillID=6278
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter89
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.z_ice_storm_ca'
+         SimpleEffectClass=Class'LineageEffect.z_ice_storm_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6278_skill.L2EffectEmitter89'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(X=1.300000,Y=-25.000000,Z=0.100000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.z_freya_a_fl'
+         SimpleEffectClass=Class'LineageEffect.z_freya_a_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6278_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(X=1.300000,Y=25.000000,Z=0.100000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.z_freya_a_fl'
+         SimpleEffectClass=Class'LineageEffect.z_freya_a_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6278_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         ScaleSize=0.250000
+         EffectClass=Class'LineageEffect.z_freya_iceball_ra'
+         SimpleEffectClass=Class'LineageEffect.z_freya_iceball_ra_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6278_skill.L2EffectEmitter4'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 17090,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.e_u300_aga_heart_b","SimpleEffectClass": "ClassLineageEffect.e_u300_aga_heart_b_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","SpawnDelay": "2.000000","EffectClass": "ClassLineageEffect.e_u300_aga_heart","SimpleEffectClass": "ClassLineageEffect.e_u300_aga_heart_simple"}],
+"ShotActions": []
+}

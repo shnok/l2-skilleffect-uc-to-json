@@ -1,0 +1,5 @@
+{
+"SkillId": 11517,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_event_dance_ra","SimpleEffectClass": "ClassLineageEffect.u_event_dance_ra_simple"}]
+}

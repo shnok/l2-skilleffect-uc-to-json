@@ -1,0 +1,21 @@
+class l2_5852_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블럭뒤집기"
+     SkillID=5852
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u600_aga_joy'
+         SimpleEffectClass=Class'LineageEffect.e_u600_aga_joy_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5852_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         EffectClass=Class'LineageEffect.e_u309_ta_block'
+         SimpleEffectClass=Class'LineageEffect.e_u309_ta_block_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5852_skill.L2EffectEmitter1'
+}

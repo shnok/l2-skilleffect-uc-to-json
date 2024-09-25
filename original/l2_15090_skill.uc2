@@ -1,0 +1,16 @@
+class l2_15090_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="수하 호출"
+     SkillID=15089
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_debuff_r'
+         SimpleEffectClass=Class'LineageEffect.d_debuff_r_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15090_skill.L2EffectEmitter0'
+}

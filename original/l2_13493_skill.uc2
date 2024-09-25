@@ -1,0 +1,24 @@
+class l2_13493_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="9주년 모자 이펙트"
+     SkillID=13493
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=0.500000,Z=0.900000)
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.w_9th_stara'
+         SimpleEffectClass=Class'LineageEffect.w_9th_stara_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_13493_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=5.000000,Z=2.200000)
+         ScaleSize=0.900000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.w_9th_fireplay'
+         SimpleEffectClass=Class'LineageEffect.w_9th_fireplay_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_13493_skill.L2EffectEmitter1'
+}

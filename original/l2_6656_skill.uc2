@@ -1,0 +1,41 @@
+class l2_6656_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="퍼스트본"
+     SkillID=6656
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter12
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_casting_fire_ca'
+         SimpleEffectClass=Class'LineageEffect.z_casting_fire_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6656_skill.L2EffectEmitter12'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter13
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.z_casting_fire_ca'
+         SimpleEffectClass=Class'LineageEffect.z_casting_fire_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6656_skill.L2EffectEmitter13'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=2.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u105_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u105_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6656_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=2.200000
+         EffectClass=Class'LineageEffect.s_u524_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u524_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6656_skill.L2EffectEmitter2'
+}

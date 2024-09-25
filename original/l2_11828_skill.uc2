@@ -1,0 +1,73 @@
+class l2_11828_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="힐"
+     SkillID=1011
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.wh_sec_heal_ca'
+         SimpleEffectClass=Class'LineageEffect.wh_sec_heal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11828_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter13
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_s_u812_ybeam_ta'
+         SimpleEffectClass=Class'LineageEffect.d_s_u812_ybeam_ta_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11828_skill.L2EffectEmitter13'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.d_s_u812_ybeam_a'
+         SimpleEffectClass=Class'LineageEffect.d_s_u812_ybeam_a_simple'
+     End Object
+     ChannelingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11828_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.d_chainhealafter_ta'
+         SimpleEffectClass=Class'LineageEffect.d_chainhealafter_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11828_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         bChaining=True
+         bChanneling=True
+         EffectClass=Class'LineageEffect.d_s_u812_ybeam_b'
+         SimpleEffectClass=Class'LineageEffect.d_s_u812_ybeam_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11828_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_s_u812_ybeam_ta'
+         SimpleEffectClass=Class'LineageEffect.d_s_u812_ybeam_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11828_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_chainheal_ta'
+         SimpleEffectClass=Class'LineageEffect.d_chainheal_ta_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_11828_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.su_focus_ta'
+         SimpleEffectClass=Class'LineageEffect.su_focus_ta_simple'
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_11828_skill.L2EffectEmitter5'
+}

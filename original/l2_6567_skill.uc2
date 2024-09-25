@@ -1,0 +1,22 @@
+class l2_6567_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="워터 매직"
+     SkillID=6567
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_mon_water1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_water1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6567_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_mon_water_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_water_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6567_skill.L2EffectEmitter1'
+}

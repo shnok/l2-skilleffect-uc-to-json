@@ -1,0 +1,42 @@
+class l2_16777_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리프리브_마샬"
+     SkillID=16777
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=3.000000,Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_su_fear_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_fear_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16777_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.d_mon_purple6_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple6_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16777_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16777_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         ScaleSize=0.700000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.u_kn_pledge_skull'
+         SimpleEffectClass=Class'LineageEffect.u_kn_pledge_skull_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16777_skill.L2EffectEmitter3'
+}

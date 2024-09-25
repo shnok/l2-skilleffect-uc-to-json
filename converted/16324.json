@@ -1,0 +1,5 @@
+{
+"SkillId": 16324,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.950000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_event_typhoon_ra","SimpleEffectClass": "ClassLineageEffect.u_event_typhoon_ra_simple"}]
+}

@@ -1,0 +1,22 @@
+class l2_15283_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포스 스톰"
+     SkillID=2869
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u213_summon_cow'
+         SimpleEffectClass=Class'LineageEffect.s_u213_summon_cow_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15283_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u312_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u312_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15283_skill.L2EffectEmitter1'
+}

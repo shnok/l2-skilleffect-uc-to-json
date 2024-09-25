@@ -1,0 +1,17 @@
+class l2_9500_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="Item - Carol Sound Crystal"
+     SkillID=2140
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=17.000000,Z=12.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.d_fanfic_sound_a'
+         SimpleEffectClass=Class'LineageEffect.d_fanfic_sound_a_simple'
+         EtcEffect=EET_SoundCrystal
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9500_skill.L2EffectEmitter0'
+}

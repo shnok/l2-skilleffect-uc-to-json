@@ -1,0 +1,37 @@
+class l2_5841_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="티아트_멀티디펜스"
+     SkillID=5841
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.350000
+         EffectClass=Class'LineageEffect.e_u312_lighting_red'
+         SimpleEffectClass=Class'LineageEffect.e_u312_lighting_red_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=160.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5841_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.250000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.e_u607_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u607_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5841_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.200000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u607_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u607_ta_simple'
+         bPawnLight=True
+         PawnLightParam=(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=160.000000,LightCoordSystem=PTCS_RelativeRotation)
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5841_skill.L2EffectEmitter2'
+}

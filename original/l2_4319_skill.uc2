@@ -1,0 +1,13 @@
+class l2_4319_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마비"
+     SkillID=4319
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.pm_lightening_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.pm_lightening_strike_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4319_skill.L2EffectEmitter0'
+}

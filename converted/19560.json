@@ -1,0 +1,5 @@
+{
+"SkillId": 19560,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_kn_evastem_rising_tide_ra","SimpleEffectClass": "ClassLineageEffect2.y_kn_evastem_rising_tide_ra_simple"}],
+"ShotActions": []
+}

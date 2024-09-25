@@ -1,0 +1,15 @@
+class l2_16453_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="노블 퀘스트2 완료-아너스 연출"
+     SkillID=16453
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_noblequest2_complete'
+         SimpleEffectClass=Class'LineageEffect.u_noblequest2_complete_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16453_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,22 @@
+class l2_16892_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에티나의 저주"
+     SkillID=16892
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u203_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u203_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16892_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect2.y_npc_bless_of_ethina_debuff'
+         SimpleEffectClass=Class'LineageEffect2.y_npc_bless_of_ethina_debuff_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16892_skill.L2EffectEmitter1'
+}

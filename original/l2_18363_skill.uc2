@@ -1,0 +1,16 @@
+class l2_18363_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="별점-1개"
+     SkillID=18363
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.010000
+         EffectClass=Class'LineageEffect.u_preventiondeath_ta'
+         SimpleEffectClass=Class'LineageEffect.u_preventiondeath_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18363_skill.L2EffectEmitter0'
+}

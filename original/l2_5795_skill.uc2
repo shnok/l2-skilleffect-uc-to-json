@@ -1,0 +1,32 @@
+class l2_5795_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="록_위액"
+     SkillID=5795
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=1.200000,Z=-12.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.e_u602_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u602_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5795_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=1.000000,Z=-15.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u602_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u602_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5795_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.e_u602_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u602_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5795_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

@@ -1,0 +1,32 @@
+class l2_5709_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="월 풀"
+     SkillID=5709
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.el_aqua_swirl_ca'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5709_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=4.000000,Y=-5.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.el_aqua_swirl_fl'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5709_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_aqua_swirl_ta'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5709_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

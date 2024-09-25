@@ -1,0 +1,5 @@
+{
+"SkillId": 1442,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.m_u807_tolerant_ca","SimpleEffectClass": "ClassLineageEffect.m_u807_tolerant_ca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.s_u202_charge","SimpleEffectClass": "ClassLineageEffect.s_u202_charge_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","bRibbonSet": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.RibbonSet_sword","SimpleEffectClass": "ClassLineageEffect.RibbonSet_sword_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.mo_dash_ta","SimpleEffectClass": "ClassLineageEffect.mo_dash_ta_simple"}]
+}

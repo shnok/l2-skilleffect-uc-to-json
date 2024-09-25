@@ -1,0 +1,24 @@
+class l2_11391_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="콜 오브 스펙트럴"
+     SkillID=11391
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.100000
+         EffectClass=Class'LineageEffect.at_sting_cs'
+         SimpleEffectClass=Class'LineageEffect.at_sting_cs_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11391_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         ScaleSize=0.100000
+         EffectClass=Class'LineageEffect.at_sting_cs'
+         SimpleEffectClass=Class'LineageEffect.at_sting_cs_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11391_skill.L2EffectEmitter1'
+}

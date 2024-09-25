@@ -1,0 +1,16 @@
+class l2_15362_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="변종드레이크_브레스"
+     SkillID=5802
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.d_mon_elec_red_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec_red_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15362_skill.L2EffectEmitter0'
+}

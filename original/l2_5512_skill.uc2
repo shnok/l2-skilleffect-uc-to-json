@@ -1,0 +1,31 @@
+class l2_5512_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="가드나이아_어스 프로스퍼"
+     SkillID=5512
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u852_naia_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u852_naia_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5512_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u852_naia_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u852_naia_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5512_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.sp_decay_ta'
+         SimpleEffectClass=Class'LineageEffect.sp_decay_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5512_skill.L2EffectEmitter2'
+}

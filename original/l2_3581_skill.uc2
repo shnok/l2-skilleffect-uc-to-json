@@ -1,0 +1,22 @@
+class l2_3581_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인피니티 파워 - 바이어빌리티"
+     SkillID=3581
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_infinity_power_viability_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_infinity_power_viability_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3581_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_ar_finalae2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ar_finalae2_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3581_skill.L2EffectEmitter1'
+}

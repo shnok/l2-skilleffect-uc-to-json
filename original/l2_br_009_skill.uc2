@@ -1,0 +1,15 @@
+class l2_br_009_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="가위바위보 시작"
+     SkillID=23022
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.br_s_u005_ca'
+         SimpleEffectClass=Class'LineageEffect.br_s_u005_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_009_skill.L2EffectEmitter0'
+}

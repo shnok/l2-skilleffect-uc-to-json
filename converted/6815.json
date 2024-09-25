@@ -1,0 +1,5 @@
+{
+"SkillId": 1168,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.bl_curse_poison_ta","SimpleEffectClass": "ClassLineageEffect.bl_curse_poison_ta_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.bl_curse_poison_ta","SimpleEffectClass": "ClassLineageEffect.bl_curse_poison_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","SpawnDelay": "0.400000","EffectClass": "ClassLineageEffect.bl_curse_poison_ta","SimpleEffectClass": "ClassLineageEffect.bl_curse_poison_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","SpawnDelay": "0.600000","EffectClass": "ClassLineageEffect.bl_curse_poison_ta","SimpleEffectClass": "ClassLineageEffect.bl_curse_poison_ta_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,33 @@
+class l2_966_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하프 연주"
+     SkillID=966
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 L Hand"
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u306_sstar'
+         SimpleEffectClass=Class'LineageEffect.e_u306_sstar_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_966_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 L Hand"
+         bSpawnOnTarget=False
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.e_u306_sstar'
+         SimpleEffectClass=Class'LineageEffect.e_u306_sstar_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_966_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 L Hand"
+         bSpawnOnTarget=False
+         SpawnDelay=1.800000
+         EffectClass=Class'LineageEffect.e_u306_sstar'
+         SimpleEffectClass=Class'LineageEffect.e_u306_sstar_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_966_skill.L2EffectEmitter2'
+}

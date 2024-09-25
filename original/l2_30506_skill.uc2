@@ -1,0 +1,31 @@
+class l2_30506_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스핀 하이킥"
+     SkillID=30506
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_spinhigh_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_spinhigh_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30506_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_spinhigh_fan'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_spinhigh_fan_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30506_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_spinhigh_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_spinhigh_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30506_skill.L2EffectEmitter1'
+}

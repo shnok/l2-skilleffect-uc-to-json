@@ -1,0 +1,24 @@
+class l2_6303_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="침묵의수도원_시련의일격"
+     SkillID=6303
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-2.300000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.z_common_buff_e'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_e_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6303_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.s_u015_b'
+         SimpleEffectClass=Class'LineageEffect.s_u015_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6303_skill.L2EffectEmitter1'
+}

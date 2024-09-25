@@ -1,0 +1,14 @@
+class l2_18716_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="야수정령탄 고급"
+     SkillID=18716
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_AliasSpecified
+         AttachBoneName="soulshot1"
+         bRelativeToCylinder=False
+         EtcEffect=EET_PetJewelShot
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18716_skill.L2EffectEmitter0'
+}

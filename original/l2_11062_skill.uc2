@@ -1,0 +1,22 @@
+class l2_11062_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에어라이더"
+     SkillID=11062
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.m_u010_c'
+         SimpleEffectClass=Class'LineageEffect.m_u010_c_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11062_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wi_magicforce3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_magicforce3_ca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11062_skill.L2EffectEmitter0'
+}

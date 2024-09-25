@@ -1,0 +1,32 @@
+class l2_32045_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블러딩 슬래쉬"
+     SkillID=32045
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_tauti2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_tauti2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32045_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_scene_kain_sword'
+         SimpleEffectClass=Class'LineageEffect2.y_scene_kain_sword_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32045_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.100000
+         EffectClass=Class'LineageEffect.s_u820_range_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u820_range_ta_a_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32045_skill.L2EffectEmitter2'
+}

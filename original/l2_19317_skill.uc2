@@ -1,0 +1,93 @@
+class l2_19317_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엘레멘탈 파이널 스톰(신성)"
+     SkillID=19317
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_wi_ligth_5s_handca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_ligth_5s_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_wi_ligth_5s_handca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_ligth_5s_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         SpawnDelay=0.070000
+         EffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         offset=(X=4.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter12
+         offset=(X=-4.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.140000
+         EffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter12'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter13
+         offset=(Y=120.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.210000
+         EffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter13'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter14
+         offset=(Y=-120.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.280000
+         EffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara_simple'
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter14'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter15
+         offset=(X=4.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.350000
+         EffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara_simple'
+     End Object
+     ShotAction(5)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter15'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter16
+         offset=(X=-4.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.420000
+         EffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara_simple'
+     End Object
+     ShotAction(6)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter16'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter17
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.490000
+         EffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementaldestroy_2tara_simple'
+     End Object
+     ShotAction(7)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter17'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter91
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect2.y_wi_elementaldestroy_1tara'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementaldestroy_1tara_simple'
+     End Object
+     ShotAction(8)=L2EffectEmitter'LineageSkillEffect.l2_19317_skill.L2EffectEmitter91'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s_delay'
+}

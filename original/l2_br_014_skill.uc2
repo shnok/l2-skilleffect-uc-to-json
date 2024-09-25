@@ -1,0 +1,28 @@
+class l2_br_014_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="패배"
+     SkillID=23021
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=40.000000)
+         bRelativeToCylinder=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.br_s_u006_lose'
+         SimpleEffectClass=Class'LineageEffect.br_s_u006_lose_simple'
+         BR_ForceLifeTime=3.500000
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_014_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.br_s_u002_ca'
+         SimpleEffectClass=Class'LineageEffect.br_s_u002_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_br_014_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_br_014_skill.L2EffectEmitter2'
+}

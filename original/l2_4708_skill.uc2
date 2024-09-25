@@ -1,0 +1,23 @@
+class l2_4708_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="커스트 스트라이크"
+     SkillID=4708
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.at_shock_blast_ca'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4708_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.at_stun_attack_ta'
+         SimpleEffectClass=Class'LineageEffect.at_stun_attack_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4708_skill.L2EffectEmitter1'
+}

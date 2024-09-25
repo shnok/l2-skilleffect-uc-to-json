@@ -1,0 +1,16 @@
+class l2_19210_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 트리 오브 세피로스"
+     SkillID=19210
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_he_sumtree_ca'
+         SimpleEffectClass=Class'LineageEffect.u_he_sumtree_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19210_skill.L2EffectEmitter0'
+}

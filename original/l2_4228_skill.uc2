@@ -1,0 +1,35 @@
+class l2_4228_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="더블 대거 어택"
+     SkillID=4228
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u010_a'
+         SimpleEffectClass=Class'LineageEffect.s_u010_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4228_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         bChangeHand=True
+         EffectClass=Class'LineageEffect.NSpear_sp'
+         SimpleEffectClass=Class'LineageEffect.NSpear_sp_simple'
+     End Object
+     PreshotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4228_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         bChangeHand=True
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4228_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.p_u004_a'
+         SimpleEffectClass=Class'LineageEffect.p_u004_a_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4228_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+}

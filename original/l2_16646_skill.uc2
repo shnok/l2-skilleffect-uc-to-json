@@ -1,0 +1,41 @@
+class l2_16646_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하이퍼 메가 텔레키네시스"
+     SkillID=16646
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_raid_ramona_a_telekinesis_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_ramona_a_telekinesis_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16646_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.270000
+         EffectClass=Class'LineageEffect2.y_raid_ramona_a_telekinesis_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_ramona_a_telekinesis_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16646_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_lastattack_ta_b'
+         SimpleEffectClass=Class'LineageEffect.d_wa_lastattack_ta_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16646_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_mon_spa2_tara'
+         SimpleEffectClass=Class'LineageEffect.d_mon_spa2_tara_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16646_skill.L2EffectEmitter3'
+}

@@ -1,0 +1,16 @@
+class l2_19557_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인헤일 소울"
+     SkillID=19557
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=8500.000000
+         EffectClass=Class'LineageEffect2.y_kn_inhale_soul_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_inhale_soul_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19557_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,15 @@
+class l2_16327_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마수의 조각 힘"
+     SkillID=16327
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.e_u706_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u706_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16327_skill.L2EffectEmitter0'
+}

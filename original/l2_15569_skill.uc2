@@ -1,0 +1,23 @@
+class l2_15569_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="카오스 섀도우 헬"
+     SkillID=15569
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_kn_judgep_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgep_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15569_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.z_gs_chain_ta_d'
+         SimpleEffectClass=Class'LineageEffect.z_gs_chain_ta_d_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15569_skill.L2EffectEmitter1'
+}

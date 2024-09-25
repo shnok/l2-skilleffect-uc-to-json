@@ -1,0 +1,38 @@
+class l2_15072_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_mon_unholy5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy5_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15072_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_mon_red1_fl'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red1_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15072_skill.L2EffectEmitter33'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter34
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_mon_red3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red3_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15072_skill.L2EffectEmitter34'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter35
+         AttachOn=AM_Trail
+         offset=(Z=-0.600000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_red1_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red1_ra_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15072_skill.L2EffectEmitter35'
+}

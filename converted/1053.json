@@ -1,0 +1,5 @@
+{
+"SkillId": 10531,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.100000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_ro_showtime_ca","SimpleEffectClass": "ClassLineageEffect2.y_ro_showtime_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-2.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","SpawnDelay": "0.100000","EffectClass": "ClassLineageEffect2.y_ro_showtime_ra","SimpleEffectClass": "ClassLineageEffect2.y_ro_showtime_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(X=-5.000000,Z=35.000000)","bSpawnOnTarget": "False","ScaleSize": "1.200000","EffectPawnClassID": "13550","SequenceName": "spatk05","AnimStartFrame": "0.200000","AnimEndFrame": "0.600000"}]
+}

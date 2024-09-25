@@ -1,0 +1,5 @@
+{
+"SkillId": 6391,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.150000","EffectClass": "ClassLineageEffect.z_seed_dopagen_b_ca","SimpleEffectClass": "ClassLineageEffect.z_seed_dopagen_b_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.150000","EffectClass": "ClassLineageEffect.z_seed_dopagen_b_ca","SimpleEffectClass": "ClassLineageEffect.z_seed_dopagen_b_ca_simple"},{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_unholy_hp_down","SimpleEffectClass": "ClassLineageEffect.z_unholy_hp_down_simple"}]
+}

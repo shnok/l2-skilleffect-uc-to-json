@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.750000","EffectClass": "ClassLineageEffect.d_mon_unholy5_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_unholy5_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter33", "bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.d_mon_red1_fl","SimpleEffectClass": "ClassLineageEffect.d_mon_red1_fl_simple"}]
+}

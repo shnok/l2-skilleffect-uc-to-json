@@ -1,0 +1,5 @@
+{
+"SkillId": 11360,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.u_su_sumstone_ta","SimpleEffectClass": "ClassLineageEffect.u_su_sumstone_ta_simple"}],
+"ShotActions": []
+}

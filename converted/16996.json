@@ -1,0 +1,5 @@
+{
+"SkillId": 16996,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.450000","EffectClass": "ClassLineageEffect.u_water_enter_deco","SimpleEffectClass": "ClassLineageEffect.u_water_enter_deco_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.450000)","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.d_wi_strongwater_ta","SimpleEffectClass": "ClassLineageEffect.d_wi_strongwater_ta_simple"}],
+"ShotActions": []
+}

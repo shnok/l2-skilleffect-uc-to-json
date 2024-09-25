@@ -1,0 +1,5 @@
+{
+"SkillId": 17622,
+"CastingActions": [{"Name": "L2EffectEmitter0", "bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_twinkleage_star","SimpleEffectClass": "ClassLineageEffect.d_twinkleage_star_simple"},{"Name": "L2EffectEmitter1", "bSpawnOnTarget": "False","ScaleSize": "-1.000000","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.d_twinkleage_star","SimpleEffectClass": "ClassLineageEffect.d_twinkleage_star_simple"}],
+"ShotActions": []
+}

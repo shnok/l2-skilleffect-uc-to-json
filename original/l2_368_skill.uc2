@@ -1,0 +1,32 @@
+class l2_368_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="벤젼스"
+     SkillID=368
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_vengence_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_vengence_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_368_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_vengence_ra'
+         SimpleEffectClass=Class'LineageEffect.mo_vengence_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_368_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="e_bone"
+         bRelativeToCylinder=False
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.ph_hate_ta'
+         SimpleEffectClass=Class'LineageEffect.ph_hate_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_368_skill.L2EffectEmitter2'
+}

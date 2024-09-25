@@ -1,0 +1,22 @@
+class l2_1286_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="시드 오브 워터"
+     SkillID=1286
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.el_aqua_swirl_ca'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1286_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.wh_recharge_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_recharge_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1286_skill.L2EffectEmitter1'
+}

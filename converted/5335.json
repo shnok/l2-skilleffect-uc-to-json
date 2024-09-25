@@ -1,0 +1,5 @@
+{
+"SkillId": 5335,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect.s_u010_a","SimpleEffectClass": "ClassLineageEffect.s_u010_a_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.s_u002_a","SimpleEffectClass": "ClassLineageEffect.s_u002_a_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.s_u831_electric","SimpleEffectClass": "ClassLineageEffect.s_u831_electric_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.s_u003_d","SimpleEffectClass": "ClassLineageEffect.s_u003_d_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.s_u003_b","SimpleEffectClass": "ClassLineageEffect.s_u003_b_simple"}]
+}

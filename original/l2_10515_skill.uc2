@@ -1,0 +1,14 @@
+class l2_10515_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마비 상태"
+     SkillID=10515
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_criticalwound_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_criticalwound_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10515_skill.L2EffectEmitter1'
+}

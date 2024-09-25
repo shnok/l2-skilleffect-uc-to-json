@@ -1,0 +1,16 @@
+class l2_5793_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="붐아이_소환"
+     SkillID=5793
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-15.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.e_u102_airspawn'
+         SimpleEffectClass=Class'LineageEffect.e_u102_airspawn_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5793_skill.L2EffectEmitter0'
+}

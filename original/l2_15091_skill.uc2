@@ -1,0 +1,15 @@
+class l2_15091_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="물리 실드 파괴"
+     SkillID=15091
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.at_shield_stun_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15091_skill.L2EffectEmitter3'
+}

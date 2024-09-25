@@ -1,0 +1,32 @@
+class l2_11824_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="드라이어드 루트"
+     SkillID=1201
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u600_ca_a'
+         SimpleEffectClass=Class'LineageEffect.s_u600_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11824_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u602_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u602_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11824_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.300000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.a_u022_holy'
+         SimpleEffectClass=Class'LineageEffect.a_u022_holy_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11824_skill.L2EffectEmitter2'
+}

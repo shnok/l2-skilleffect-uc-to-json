@@ -1,0 +1,5 @@
+{
+"SkillId": 30004,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_er_wi_hystrike_ca","SimpleEffectClass": "ClassLineageEffect.u_er_wi_hystrike_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.u_er_wi_hystrike_hand","SimpleEffectClass": "ClassLineageEffect.u_er_wi_hystrike_hand_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_er_wi_hystrike_ta","SimpleEffectClass": "ClassLineageEffect.u_er_wi_hystrike_ta_simple"}]
+}

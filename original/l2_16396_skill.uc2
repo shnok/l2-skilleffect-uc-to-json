@@ -1,0 +1,14 @@
+class l2_16396_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="시겔 나이트의 힘"
+     SkillID=16396
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_kn_power_ta'
+         SimpleEffectClass=Class'LineageEffect.u_kn_power_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16396_skill.L2EffectEmitter4'
+}

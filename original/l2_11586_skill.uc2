@@ -1,0 +1,39 @@
+class l2_11586_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="브레이브 오브 파아그리오"
+     SkillID=11586
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=13.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.u_in_freefire_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_freefire_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11586_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.sa_mass_frenzy_cs'
+         SimpleEffectClass=Class'LineageEffect.sa_mass_frenzy_cs_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11586_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.u_in_pa_ta'
+         SimpleEffectClass=Class'LineageEffect.u_in_pa_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11586_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=0.900000)
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.u_in_bloodmark_light'
+         SimpleEffectClass=Class'LineageEffect.u_in_bloodmark_light_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11586_skill.L2EffectEmitter3'
+}

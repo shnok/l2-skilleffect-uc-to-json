@@ -1,0 +1,5 @@
+{
+"SkillId": 427,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_kn_judgep_ca","SimpleEffectClass": "ClassLineageEffect.d_kn_judgep_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter5", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bChanneling": "True","EffectClass": "ClassLineageEffect.s_u806_channeling_beam","SimpleEffectClass": "ClassLineageEffect.s_u806_channeling_beam_simple"},{"Name": "L2EffectEmitter6", "AttachOn": "AM_LH","bSpawnOnTarget": "False","bChanneling": "True","EffectClass": "ClassLineageEffect.s_u812_beam_test_b","SimpleEffectClass": "ClassLineageEffect.s_u812_beam_test_b_simple"}]
+}

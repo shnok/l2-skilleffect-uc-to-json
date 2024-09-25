@@ -1,0 +1,49 @@
+class l2_1175_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="¾ÆÄí¾Æ ½º¿ù"
+     SkillID=1175
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_aqua_swirl_ca'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1175_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=5.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_aqua_swirl_pr'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1175_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.el_aqua_swirl_fl'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1175_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_aqua_swirl_pt'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_pt_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1175_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_aqua_swirl_ta'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1175_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+}

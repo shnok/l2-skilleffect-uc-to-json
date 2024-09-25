@@ -1,0 +1,31 @@
+class l2_14676_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아머 디스트럭션"
+     SkillID=10258
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_wa_vt1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_vt1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14676_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=1.400000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_vt_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_vt_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14676_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_enerblast_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_enerblast_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14676_skill.L2EffectEmitter5'
+}

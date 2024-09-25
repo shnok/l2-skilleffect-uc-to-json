@@ -1,0 +1,5 @@
+{
+"SkillId": ,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","SpawnDelay": "0.300000","EffectClass": "ClassLineageEffect2.y_kn_death_scythe_chain","SimpleEffectClass": "ClassLineageEffect2.y_kn_death_scythe_chain_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=-0.700000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.900000","EffectClass": "ClassLineageEffect2.y_kn_death_scythe_ca","SimpleEffectClass": "ClassLineageEffect2.y_kn_death_scythe_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect2.y_kn_death_scythe_chain","SimpleEffectClass": "ClassLineageEffect2.y_kn_death_scythe_chain_simple"},{"Name": "L2EffectEmitter3", "offset": "(Z=-0.500000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_kn_death_scythe_ta","SimpleEffectClass": "ClassLineageEffect2.y_kn_death_scythe_ta_simple"}]
+}

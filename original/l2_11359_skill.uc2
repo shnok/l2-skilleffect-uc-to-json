@@ -1,0 +1,16 @@
+class l2_11359_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 프로텍트 스톤"
+     SkillID=11359
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_su_sumstone_ca'
+         SimpleEffectClass=Class'LineageEffect.u_su_sumstone_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11359_skill.L2EffectEmitter0'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

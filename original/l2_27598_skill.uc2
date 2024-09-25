@@ -1,0 +1,18 @@
+class l2_27598_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="베이스볼 애니메이션"
+     SkillID=27599
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.010000
+         EffectClass=Class'LineageEffect.at_sting_cs'
+         SimpleEffectClass=Class'LineageEffect.at_sting_cs_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_27598_skill.L2EffectEmitter0'
+     bHideRightHandMesh=True
+     bHideLeftHandMesh=True
+}

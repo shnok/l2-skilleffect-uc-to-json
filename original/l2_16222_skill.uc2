@@ -1,0 +1,30 @@
+class l2_16222_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="윈드 버스터"
+     SkillID=16222
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_mon_wind2_ca'
+         SimpleEffectClass=Class'LineageEffect.u_mon_wind2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16222_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_wind_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16222_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_wind_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_wind_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16222_skill.L2EffectEmitter2'
+}

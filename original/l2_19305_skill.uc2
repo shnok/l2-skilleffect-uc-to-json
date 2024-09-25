@@ -1,0 +1,38 @@
+class l2_19305_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="섀도우 리버스"
+     SkillID=19305
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_ro_shadow_revers_handca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_shadow_revers_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19305_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_ro_shadow_revers_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_shadow_revers_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19305_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.at_mortal_blow_cs'
+         SimpleEffectClass=Class'LineageEffect.at_mortal_blow_cs_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19305_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_shadow_revers_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_shadow_revers_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19305_skill.L2EffectEmitter3'
+}

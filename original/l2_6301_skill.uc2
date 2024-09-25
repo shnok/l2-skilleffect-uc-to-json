@@ -1,0 +1,16 @@
+class l2_6301_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="결빙석"
+     SkillID=6301
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.z_buff_a'
+         SimpleEffectClass=Class'LineageEffect.z_buff_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6301_skill.L2EffectEmitter11'
+}

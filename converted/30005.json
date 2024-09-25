@@ -1,0 +1,5 @@
+{
+"SkillId": 30005,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_LH","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_er_wi_hystrike_hand","SimpleEffectClass": "ClassLineageEffect.u_er_wi_hystrike_hand_simple"},{"Name": "L2EffectEmitter1", "bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_er_wi_hurricane_ta","SimpleEffectClass": "ClassLineageEffect.u_er_wi_hurricane_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_BoneSpecified","AttachBoneName": "bip01","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_er_wi_hurricane_body","SimpleEffectClass": "ClassLineageEffect.u_er_wi_hurricane_body_simple"}],
+"ShotActions": []
+}

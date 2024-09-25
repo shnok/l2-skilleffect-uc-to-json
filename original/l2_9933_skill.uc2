@@ -1,0 +1,15 @@
+class l2_9933_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="자이언트 언다잉 윌"
+     SkillID=9933
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u220_barrier'
+         SimpleEffectClass=Class'LineageEffect.s_u220_barrier_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9933_skill.L2EffectEmitter0'
+}

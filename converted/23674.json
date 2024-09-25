@@ -1,0 +1,5 @@
+{
+"SkillId": 23674,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_debuff_r","SimpleEffectClass": "ClassLineageEffect.d_debuff_r_simple"}],
+"ShotActions": []
+}

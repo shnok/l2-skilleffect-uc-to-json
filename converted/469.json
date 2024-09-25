@@ -1,0 +1,5 @@
+{
+"SkillId": 469,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.m_u811_short_speed","SimpleEffectClass": "ClassLineageEffect.m_u811_short_speed_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.m_u807_speed_ta_b","SimpleEffectClass": "ClassLineageEffect.m_u807_speed_ta_b_simple"}]
+}

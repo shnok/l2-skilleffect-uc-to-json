@@ -1,0 +1,5 @@
+{
+"SkillId": 1437,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u820_soul_hand","SimpleEffectClass": "ClassLineageEffect.s_u820_soul_hand_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.m_u811_short_debuff","SimpleEffectClass": "ClassLineageEffect.m_u811_short_debuff_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.s_u820_magic_ta","SimpleEffectClass": "ClassLineageEffect.s_u820_magic_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","RelativeRotation": "(Yaw=32768)","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u828_soul_fan_a","SimpleEffectClass": "ClassLineageEffect.s_u828_soul_fan_a_simple"}]
+}

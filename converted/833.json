@@ -1,0 +1,5 @@
+{
+"SkillId": 833,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u606_ca_a","SimpleEffectClass": "ClassLineageEffect.s_u606_ca_a_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.wh_greater_heal_ta","SimpleEffectClass": "ClassLineageEffect.wh_greater_heal_ta_simple"}]
+}

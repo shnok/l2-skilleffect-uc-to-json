@@ -1,0 +1,13 @@
+class l2_10086_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="큐빅 헥스"
+     SkillID=10086
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.m_u018_b'
+         SimpleEffectClass=Class'LineageEffect.m_u018_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10086_skill.L2EffectEmitter0'
+}

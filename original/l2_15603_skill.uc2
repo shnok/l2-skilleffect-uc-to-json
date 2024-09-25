@@ -1,0 +1,24 @@
+class l2_15603_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="부하채널링"
+     SkillID=15603
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_blue4_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_blue4_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15603_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.u_lind_monchanel'
+         SimpleEffectClass=Class'LineageEffect.u_lind_monchanel_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15603_skill.L2EffectEmitter1'
+}

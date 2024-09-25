@@ -1,0 +1,48 @@
+class l2_10527_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매스 트릭"
+     SkillID=10527
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_ro_windbluf_handca'
+         SimpleEffectClass=Class'LineageEffect.u_ro_windbluf_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10527_a_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_ro_windbluf_handca'
+         SimpleEffectClass=Class'LineageEffect.u_ro_windbluf_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10527_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_fortune_plunder_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_fortune_plunder_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10527_a_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.d_ro_mis_ta_purple'
+         SimpleEffectClass=Class'LineageEffect2.d_ro_mis_ta_purple_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10527_a_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect2.y_ro_mass_trick_debuff_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_mass_trick_debuff_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10527_a_skill.L2EffectEmitter5'
+}

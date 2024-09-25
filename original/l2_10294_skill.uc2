@@ -1,0 +1,25 @@
+class l2_10294_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="래빗 크라이"
+     SkillID=10294
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u527_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u527_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10294_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.u_wa_cry_rabbit'
+         SimpleEffectClass=Class'LineageEffect.u_wa_cry_rabbit_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10294_skill.L2EffectEmitter1'
+}

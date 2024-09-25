@@ -1,0 +1,23 @@
+class l2_19313_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="오리진 다크"
+     SkillID=19313
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect2.y_wi_dark_5s_1handca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_dark_5s_1handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19313_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect2.y_wi_dark_5s_1handca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_dark_5s_1handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19313_skill.L2EffectEmitter1'
+}

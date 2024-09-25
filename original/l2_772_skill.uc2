@@ -1,0 +1,24 @@
+class l2_772_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레인 오브 애로우스_파이어"
+     SkillID=772
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_LH
+         RelativeRotation=(Yaw=16384)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.s_u523_arrow_red_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u523_arrow_red_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_772_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.s_u523_arrow_red_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u523_arrow_red_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_772_skill.L2EffectEmitter1'
+     FlyingTime=0.400000
+}

@@ -1,0 +1,31 @@
+class l2_16615_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헬리오스 플라즈마 월"
+     SkillID=16615
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.d_ro_vail_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_vail_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16615_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_plasma_wall_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_plasma_wall_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16615_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.el_aura_flare_ta'
+         SimpleEffectClass=Class'LineageEffect.el_aura_flare_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16615_skill.L2EffectEmitter2'
+}

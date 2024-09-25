@@ -1,0 +1,47 @@
+class l2_11150_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엘레멘탈 크래시(암흑)"
+     SkillID=11150
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.700000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect2.y_wi_elementalbolt_dark_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementalbolt_dark_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11150_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_wi_elementalbolt_dark_handca_2s'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementalbolt_dark_handca_2s_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11150_a_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_wi_elementalbolt_dark_handca_2s'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementalbolt_dark_handca_2s_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11150_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=7.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect2.y_wi_elementalbolt_dark_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elementalbolt_dark_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11150_a_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_he_spanakim1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_spanakim1_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11150_a_skill.L2EffectEmitter4'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s_delay'
+}

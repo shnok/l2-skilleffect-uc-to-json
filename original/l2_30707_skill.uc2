@@ -1,0 +1,36 @@
+class l2_30707_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아레나 버닝 캐논볼"
+     SkillID=30707
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Dummy_Effect"
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_ro_flash_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_flash_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30707_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachBoneName="Dummy_Effect"
+         RelativeRotation=(Pitch=24576,Yaw=16384)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_energy_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_energy_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Z=3.000000)
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30707_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_elec1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec1_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30707_skill.L2EffectEmitter2'
+     FlyingTime=1.000000
+}

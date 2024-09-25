@@ -1,0 +1,29 @@
+class l2_11382_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc=" 멀티플 아이시클"
+     SkillID=11382
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.u_su_touch_b_ca'
+         SimpleEffectClass=Class'LineageEffect.u_su_touch_b_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11382_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_ice_bolt_ta'
+         SimpleEffectClass=Class'LineageEffect.el_ice_bolt_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11382_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.900000)
+         EffectClass=Class'LineageEffect.z_ice_knight_a_ra'
+         SimpleEffectClass=Class'LineageEffect.z_ice_knight_a_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11382_skill.L2EffectEmitter2'
+}

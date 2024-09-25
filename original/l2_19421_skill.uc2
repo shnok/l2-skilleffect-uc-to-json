@@ -1,0 +1,164 @@
+class l2_19421_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포엠 오브 앙상블"
+     SkillID=19421
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_music5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_music5_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_music3_ra'
+         SimpleEffectClass=Class'LineageEffect.d_in_music3_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_music5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_music5_ca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectPawnClassID=13336
+         SequenceName="social01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.990000
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.d_in_music1_ra'
+         SimpleEffectClass=Class'LineageEffect.d_in_music1_ra_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.d_in_music1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_music1_ca_simple'
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectPawnClassID=13334
+         SequenceName="social01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.990000
+     End Object
+     ShotAction(5)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect.d_in_music3_ra'
+         SimpleEffectClass=Class'LineageEffect.d_in_music3_ra_simple'
+     End Object
+     ShotAction(6)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter7'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect.d_in_music3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_music3_ca_simple'
+     End Object
+     ShotAction(7)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter8'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter9
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectPawnClassID=13335
+         SequenceName="social01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.990000
+     End Object
+     ShotAction(8)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter9'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=3.000000
+         EffectClass=Class'LineageEffect.d_in_musicde3_ra'
+         SimpleEffectClass=Class'LineageEffect.d_in_musicde3_ra_simple'
+     End Object
+     ShotAction(9)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=3.000000
+         EffectClass=Class'LineageEffect.d_in_music4_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_music4_ca_simple'
+     End Object
+     ShotAction(10)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter12
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectPawnClassID=13331
+         SequenceName="social01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.990000
+     End Object
+     ShotAction(11)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter12'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter13
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectPawnClassID=13337
+         SequenceName="social01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.990000
+     End Object
+     ShotAction(12)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter13'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter14
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=4.000000
+         EffectClass=Class'LineageEffect.d_in_musicde2_ra'
+         SimpleEffectClass=Class'LineageEffect.d_in_musicde2_ra_simple'
+     End Object
+     ShotAction(13)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter14'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter15
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         SpawnDelay=4.000000
+         EffectClass=Class'LineageEffect.d_in_musicde2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_musicde2_ca_simple'
+     End Object
+     ShotAction(14)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter15'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter16
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectPawnClassID=13332
+         SequenceName="social01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.990000
+     End Object
+     ShotAction(15)=L2EffectEmitter'LineageSkillEffect.l2_19421_skill.L2EffectEmitter16'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 1624,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.at_fatal_strike_ca","SimpleEffectClass": "ClassLineageEffect.at_fatal_strike_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.at_sonic_blast_fl","SimpleEffectClass": "ClassLineageEffect.at_sonic_blast_fl_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","RelativeRotation": "(Yaw=16384,Roll=16384)","offset": "(X=3.500000,Y=1.000000,Z=-0.300000)","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect.g_wa_attack_ta","SimpleEffectClass": "ClassLineageEffect.g_wa_attack_ta_simple"}]
+}

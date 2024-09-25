@@ -1,0 +1,53 @@
+class l2_32019_e_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="낙인 폭발 - 5단계"
+     SkillID=32019
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.270000
+         EffectClass=Class'LineageEffect2.y_raid_destruction_c_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_destruction_c_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32019_e_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.170000
+         EffectClass=Class'LineageEffect2.y_mon_seal_purple_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_purple_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32019_e_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         SpawnDelay=0.050000
+         EffectClass=Class'LineageEffect.d_wa_doomattack3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_doomattack3_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32019_e_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_raid_destruction_e'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_destruction_e_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32019_e_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-0.100000)
+         ScaleSize=5.000000
+         EffectClass=Class'LineageEffect.rm_self_blaster_ra'
+         SimpleEffectClass=Class'LineageEffect.rm_self_blaster_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_32019_e_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(Z=-1.000000)
+         ScaleSize=10.000000
+         EffectClass=Class'LineageEffect.d_wi_weak_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_weak_tara_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_32019_e_skill.L2EffectEmitter5'
+}

@@ -1,0 +1,23 @@
+class l2_6452_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프레야아~~~~"
+     SkillID=6452
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=5.000000
+         EffectClass=Class'LineageEffect.z_ice_chainge_wolrd_scene'
+         SimpleEffectClass=Class'LineageEffect.z_ice_chainge_wolrd_scene_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6452_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=7.000000
+         EffectClass=Class'LineageEffect.z_ice_chainge_wolrd_scene'
+         SimpleEffectClass=Class'LineageEffect.z_ice_chainge_wolrd_scene_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6452_skill.L2EffectEmitter1'
+}

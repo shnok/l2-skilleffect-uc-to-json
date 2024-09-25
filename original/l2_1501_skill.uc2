@@ -1,0 +1,24 @@
+class l2_1501_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="임프로브 컨디션"
+     SkillID=1501
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u200_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u200_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1501_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u200_ta_condition'
+         SimpleEffectClass=Class'LineageEffect.m_u200_ta_condition_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1501_skill.L2EffectEmitter1'
+}

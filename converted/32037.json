@@ -1,0 +1,5 @@
+{
+"SkillId": 32037,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect2.u_er_wi_flare_ca_a_3s","SimpleEffectClass": "ClassLineageEffect2.u_er_wi_flare_ca_a_3s_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.900000","EffectClass": "ClassLineageEffect2.y_npc_bless_of_ethina_buff_a","SimpleEffectClass": "ClassLineageEffect2.y_npc_bless_of_ethina_buff_a_simple"}]
+}

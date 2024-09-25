@@ -1,0 +1,40 @@
+class l2_10240_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하트 샷"
+     SkillID=9154
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_wi_sp4hell2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_sp4hell2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10240_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.700000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_sp4hell_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_sp4hell_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10240_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.700000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.150000
+         EffectClass=Class'LineageEffect.d_wi_sp4hell_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_sp4hell_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10240_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.500000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.d_wi_sp4hell_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_sp4hell_tara_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10240_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

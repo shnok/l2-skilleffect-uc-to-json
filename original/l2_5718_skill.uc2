@@ -1,0 +1,16 @@
+class l2_5718_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="앵거"
+     SkillID=5718
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.mo_war_cry_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_war_cry_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5718_skill.L2EffectEmitter0'
+}

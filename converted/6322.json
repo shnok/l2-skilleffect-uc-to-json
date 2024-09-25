@@ -1,0 +1,5 @@
+{
+"SkillId": 6322,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_cast_red_ca","SimpleEffectClass": "ClassLineageEffect.z_cast_red_ca_simple"},{"Name": "L2EffectEmitter21", "offset": "(Z=-0.700000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","SpawnDelay": "1.000000","EffectClass": "ClassLineageEffect.z_monastery_blue_zone_a_area","SimpleEffectClass": "ClassLineageEffect.z_monastery_blue_zone_a_area_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "offset": "(X=1.000000,Z=2.000000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.e_u329_fl_A","SimpleEffectClass": "ClassLineageEffect.e_u329_fl_A_simple"}]
+}

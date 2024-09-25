@@ -1,0 +1,24 @@
+class l2_18810_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마법의 불꽃"
+     SkillID=18810
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_event_magicfire_bot'
+         SimpleEffectClass=Class'LineageEffect2.y_event_magicfire_bot_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18810_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=1.600000
+         EffectClass=Class'LineageEffect2.y_event_magicfire_10s'
+         SimpleEffectClass=Class'LineageEffect2.y_event_magicfire_10s_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_18810_skill.L2EffectEmitter2'
+}

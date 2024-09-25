@@ -1,0 +1,42 @@
+class l2_810_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="뱅가드"
+     SkillID=810
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.100000
+         EffectClass=Class'LineageEffect.s_u604_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u604_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_810_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         SpawnDelay=1.250000
+         EffectClass=Class'LineageEffect.s_u604_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u604_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_810_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         SpawnDelay=2.500000
+         EffectClass=Class'LineageEffect.s_u604_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u604_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_810_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u604_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u604_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_810_skill.L2EffectEmitter3'
+}

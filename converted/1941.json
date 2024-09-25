@@ -1,0 +1,5 @@
+{
+"SkillId": 539,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u804_hand_a","SimpleEffectClass": "ClassLineageEffect.s_u804_hand_a_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_LH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u804_hand_a","SimpleEffectClass": "ClassLineageEffect.s_u804_hand_a_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wa_furyst_ca","SimpleEffectClass": "ClassLineageEffect.d_wa_furyst_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_ro_red_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_red_ta_simple"}]
+}

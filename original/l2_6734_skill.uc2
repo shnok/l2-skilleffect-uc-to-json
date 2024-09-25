@@ -1,0 +1,24 @@
+class l2_6734_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙궁의숨결_자폭"
+     SkillID=6300
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.s_u813_trap_ta_test'
+         SimpleEffectClass=Class'LineageEffect.s_u813_trap_ta_test_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6734_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.100000
+         EffectClass=Class'LineageEffect.at_sting_ta'
+         SimpleEffectClass=Class'LineageEffect.at_sting_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6734_skill.L2EffectEmitter2'
+}

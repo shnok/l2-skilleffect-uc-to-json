@@ -1,0 +1,15 @@
+class l2_4346_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아지트 맨탈 실드"
+     SkillID=4346
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.wh_mental_shield_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_mental_shield_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4346_skill.L2EffectEmitter0'
+}

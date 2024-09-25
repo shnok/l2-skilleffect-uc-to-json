@@ -1,0 +1,5 @@
+{
+"SkillId": 10015,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_kn_judgep_ca","SimpleEffectClass": "ClassLineageEffect.d_kn_judgep_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","SpawnDelay": "0.600000","EffectClass": "ClassLineageEffect.z_gs_chain_ta_c","SimpleEffectClass": "ClassLineageEffect.z_gs_chain_ta_c_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","SpawnDelay": "0.600000","EffectClass": "ClassLineageEffect.z_gs_chain_ta_d","SimpleEffectClass": "ClassLineageEffect.z_gs_chain_ta_d_simple"}],
+"ShotActions": []
+}

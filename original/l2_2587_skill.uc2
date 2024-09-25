@@ -1,0 +1,16 @@
+class l2_2587_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프리미엄_북마크 등록"
+     SkillID=2587
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u527_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u527_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2587_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,54 @@
+class l2_1558_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙궁의숨결_자폭"
+     SkillID=6300
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.s_u530_focus_force_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u530_focus_force_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1558_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_handeffect_indi'
+         SimpleEffectClass=Class'LineageEffect.d_handeffect_indi_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1558_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.d_pierceblue_fl'
+         SimpleEffectClass=Class'LineageEffect.d_pierceblue_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1558_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.m_u009_c'
+         SimpleEffectClass=Class'LineageEffect.m_u009_c_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1558_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u230_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u230_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1558_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.el_aura_burn_ta'
+         SimpleEffectClass=Class'LineageEffect.el_aura_burn_ta_simple'
+     End Object
+     ExplosionAction(2)=L2EffectEmitter'LineageSkillEffect.l2_1558_skill.L2EffectEmitter5'
+     FlyingTime=0.400000
+}

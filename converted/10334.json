@@ -1,0 +1,5 @@
+{
+"SkillId": 10334,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-2.000000)","bSpawnOnTarget": "False","ScaleSize": "0.100000","EffectClass": "ClassLineageEffect.ab_bleeding","SimpleEffectClass": "ClassLineageEffect.ab_bleeding_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-2.000000)","ScaleSize": "0.100000","EffectClass": "ClassLineageEffect.ab_bleeding","SimpleEffectClass": "ClassLineageEffect.ab_bleeding_simple"}]
+}

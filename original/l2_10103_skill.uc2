@@ -1,0 +1,28 @@
+class l2_10103_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc=" 매스 프리징 스트라이크"
+     SkillID=10103
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10103_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_ice_bolt_ta'
+         SimpleEffectClass=Class'LineageEffect.el_ice_bolt_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10103_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.900000)
+         EffectClass=Class'LineageEffect.z_ice_knight_a_ra'
+         SimpleEffectClass=Class'LineageEffect.z_ice_knight_a_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10103_skill.L2EffectEmitter2'
+}

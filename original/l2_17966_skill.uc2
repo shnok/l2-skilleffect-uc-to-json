@@ -1,0 +1,15 @@
+class l2_17966_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="롤리 큐브 랜덤 성공"
+     SkillID=17966
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_alchemy_rolly'
+         SimpleEffectClass=Class'LineageEffect.u_alchemy_rolly_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17966_skill.L2EffectEmitter1'
+}

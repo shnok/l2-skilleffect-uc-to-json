@@ -1,0 +1,14 @@
+class l2_5683_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="pvp_이그노어실드디펜스"
+     SkillID=5683
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u018_b'
+         SimpleEffectClass=Class'LineageEffect.m_u018_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5683_skill.L2EffectEmitter0'
+}

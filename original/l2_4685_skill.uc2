@@ -1,0 +1,15 @@
+class l2_4685_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발라카스 꼬리치기"
+     SkillID=4685
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(X=-4.500000,Z=-0.950000)
+         bSpawnOnTarget=False
+         SpawnDelay=2.700000
+         EffectClass=Class'LineageEffect.mb_valakas_tail_ca'
+         SimpleEffectClass=Class'LineageEffect.mb_valakas_tail_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4685_skill.L2EffectEmitter0'
+}

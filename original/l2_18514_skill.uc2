@@ -1,0 +1,24 @@
+class l2_18514_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="대지의 각인"
+     SkillID=18514
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.d_castle_ca_c'
+         SimpleEffectClass=Class'LineageEffect2.d_castle_ca_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18514_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.d_castle_ta_c'
+         SimpleEffectClass=Class'LineageEffect2.d_castle_ta_c_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18514_skill.L2EffectEmitter1'
+}

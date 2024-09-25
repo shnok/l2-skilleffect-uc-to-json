@@ -1,0 +1,31 @@
+class l2_15598_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드 미사일"
+     SkillID=15274
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01 Ponytail2Nub"
+         bSpawnOnTarget=False
+         ScaleSize=0.050000
+         EffectClass=Class'LineageEffect.u_lind_missile'
+         SimpleEffectClass=Class'LineageEffect.u_lind_missile_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15598_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.700000)
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.w_lind_fire_ca'
+         SimpleEffectClass=Class'LineageEffect.w_lind_fire_ca_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15598_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u603_ta_b'
+         SimpleEffectClass=Class'LineageEffect.e_u603_ta_b_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15598_skill.L2EffectEmitter0'
+     FlyingTime=0.400000
+}

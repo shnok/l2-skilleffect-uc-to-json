@@ -1,0 +1,33 @@
+class l2_11266_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 데스 게이트"
+     SkillID=11266
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_su_spdoor_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_spdoor_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11266_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_wa_samsh2_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_samsh2_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11266_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.wh_regeneration_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_regeneration_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11266_skill.L2EffectEmitter2'
+}

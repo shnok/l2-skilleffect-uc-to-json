@@ -1,0 +1,37 @@
+class l2_5658_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="게이트키퍼_플레임스트라이크"
+     SkillID=5658
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u309_ca_b'
+         SimpleEffectClass=Class'LineageEffect.e_u309_ca_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5658_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u309_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u309_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5658_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u309_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u309_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5658_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u309_ra'
+         SimpleEffectClass=Class'LineageEffect.e_u309_ra_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5658_skill.L2EffectEmitter4'
+     FlyingTime=0.400000
+}

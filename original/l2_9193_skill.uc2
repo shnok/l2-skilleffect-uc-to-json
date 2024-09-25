@@ -1,0 +1,15 @@
+class l2_9193_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="¡§∑…≈∫ R±ﬁ"
+     SkillID=2154
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EtcEffect=EET_SoulShot
+         EtcEffectInfo=EEP_GradeR
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9193_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 9154,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_wi_sp4hell2_ca","SimpleEffectClass": "ClassLineageEffect.d_wi_sp4hell2_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-0.700000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_wi_sp4hell_ta","SimpleEffectClass": "ClassLineageEffect.d_wi_sp4hell_ta_simple"},{"Name": "L2EffectEmitter2", "offset": "(Z=-0.700000)","ScaleSize": "-1.000000","SpawnDelay": "0.150000","EffectClass": "ClassLineageEffect.d_wi_sp4hell_ta","SimpleEffectClass": "ClassLineageEffect.d_wi_sp4hell_ta_simple"},{"Name": "L2EffectEmitter3", "offset": "(Z=-0.500000)","ScaleSize": "-1.000000","SpawnDelay": "0.300000","EffectClass": "ClassLineageEffect.d_wi_sp4hell_tara","SimpleEffectClass": "ClassLineageEffect.d_wi_sp4hell_tara_simple"}]
+}

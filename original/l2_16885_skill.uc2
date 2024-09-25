@@ -1,0 +1,33 @@
+class l2_16885_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="더블 매직 샷"
+     SkillID=16885
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.250000
+         EffectClass=Class'LineageEffect2.y_boss_helios_power_of_kaiser_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_power_of_kaiser_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16885_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect2.y_boss_helios_holy_spike1_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_holy_spike1_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16885_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_holy3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy3_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16885_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

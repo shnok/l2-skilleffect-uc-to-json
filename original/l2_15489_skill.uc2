@@ -1,0 +1,15 @@
+class l2_15489_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="쾌활"
+     SkillID=15489
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.700000
+         EffectClass=Class'LineageEffect.wh_shield_to'
+         SimpleEffectClass=Class'LineageEffect.wh_shield_to_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15489_skill.L2EffectEmitter0'
+}

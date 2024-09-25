@@ -1,0 +1,22 @@
+class l2_1523_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디바인 퍼니쉬먼트"
+     SkillID=1523
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u600_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u600_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1523_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u600_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u600_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1523_skill.L2EffectEmitter1'
+}

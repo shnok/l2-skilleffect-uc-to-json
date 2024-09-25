@@ -1,0 +1,32 @@
+class l2_1244_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프리징 플레임"
+     SkillID=1244
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=15.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.m_u028_a'
+         SimpleEffectClass=Class'LineageEffect.m_u028_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1244_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=15.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.m_u028_b'
+         SimpleEffectClass=Class'LineageEffect.m_u028_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1244_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=1.000000,Z=-1.000000)
+         EffectClass=Class'LineageEffect.m_u028_c'
+         SimpleEffectClass=Class'LineageEffect.m_u028_c_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1244_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

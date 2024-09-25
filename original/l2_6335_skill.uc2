@@ -1,0 +1,41 @@
+class l2_6335_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="일렉트릭레인"
+     SkillID=6335
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_electlic_rain_a_ca'
+         SimpleEffectClass=Class'LineageEffect.z_electlic_rain_a_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6335_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=2.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         SpawnDelay=1.900000
+         EffectClass=Class'LineageEffect.z_electlic_rain_a_sub_ca'
+         SimpleEffectClass=Class'LineageEffect.z_electlic_rain_a_sub_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6335_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.s_u523_arrow_red_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u523_arrow_red_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6335_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.z_electlic_rain_a_ra'
+         SimpleEffectClass=Class'LineageEffect.z_electlic_rain_a_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6335_skill.L2EffectEmitter22'
+}

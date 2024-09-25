@@ -1,0 +1,29 @@
+class l2_30005_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="허리케인 블래스트"
+     SkillID=30005
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_hystrike_hand'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_hystrike_hand_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30005_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_er_wi_hurricane_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_hurricane_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30005_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="bip01"
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_er_wi_hurricane_body'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_hurricane_body_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_30005_skill.L2EffectEmitter2'
+}

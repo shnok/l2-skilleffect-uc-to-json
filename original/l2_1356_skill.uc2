@@ -1,0 +1,24 @@
+class l2_1356_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프로피시 오브 파이어"
+     SkillID=1356
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.sp_prophecy_of_fire_ca'
+         SimpleEffectClass=Class'LineageEffect.sp_prophecy_of_fire_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1356_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.sp_prophecy_of_fire_ta'
+         SimpleEffectClass=Class'LineageEffect.sp_prophecy_of_fire_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1356_skill.L2EffectEmitter1'
+}

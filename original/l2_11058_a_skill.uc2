@@ -1,0 +1,40 @@
+class l2_11058_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="섀도우 헬"
+     SkillID=11058
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wi_magicrain_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_magicrain_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11058_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect2.y_wi_trigger_shadow_hell_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_trigger_shadow_hell_fl_simple'
+         bHermiteInterpolation=True
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11058_a_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=1.000000)
+         ScaleSize=3.000000
+         EffectClass=Class'LineageEffect.d_wi_fear_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_fear_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11058_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=1.000000)
+         ScaleSize=3.000000
+         EffectClass=Class'LineageEffect.d_wizaant_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wizaant_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11058_a_skill.L2EffectEmitter3'
+     FlyingTime=0.800000
+}

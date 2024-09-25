@@ -1,0 +1,109 @@
+class l2_16838_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엘레멘탈 파이널 스톰"
+     SkillID=16838
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrwater5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater5s_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrwater5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater5s_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_raid_ramona_a_telekinesis_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_ramona_a_telekinesis_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wi_mrwater_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.d_wi_mrwater_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(X=4.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_mrwater_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater_tara_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(X=-4.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_wi_mrwater_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater_tara_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         offset=(Y=120.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.400000
+         EffectClass=Class'LineageEffect.d_wi_mrwater_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater_tara_simple'
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter7'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         offset=(Y=-120.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.d_wi_mrwater_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater_tara_simple'
+     End Object
+     ShotAction(5)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter8'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter9
+         offset=(X=4.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.800000
+         EffectClass=Class'LineageEffect.d_wi_mrwater_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater_tara_simple'
+     End Object
+     ShotAction(6)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter9'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         offset=(X=-4.000000,Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.d_wi_mrwater_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater_tara_simple'
+     End Object
+     ShotAction(7)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=1.200000
+         EffectClass=Class'LineageEffect.d_wi_mrwater_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwater_tara_simple'
+     End Object
+     ShotAction(8)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter12
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.d_wi_stormwater_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wi_stormwater_tara_simple'
+     End Object
+     ShotAction(9)=L2EffectEmitter'LineageSkillEffect.l2_16838_skill.L2EffectEmitter12'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s_delay'
+}

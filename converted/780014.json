@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_ar_nucks_ca","SimpleEffectClass": "ClassLineageEffect.d_ar_nucks_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","SpawnDelay": "0.300000","EffectClass": "ClassLineageEffect.d_G_air2_jump","SimpleEffectClass": "ClassLineageEffect.d_G_air2_jump_simple"}],
+"ShotActions": []
+}

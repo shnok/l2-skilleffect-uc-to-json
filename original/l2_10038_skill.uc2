@@ -1,0 +1,15 @@
+class l2_10038_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스피릿 오라"
+     SkillID=10038
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_aurar_ca'
+         SimpleEffectClass=Class'LineageEffect.d_aurar_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10038_skill.L2EffectEmitter0'
+}

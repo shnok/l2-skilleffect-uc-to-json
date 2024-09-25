@@ -1,0 +1,5 @@
+{
+"SkillId": 15148,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.z_ice_death_clack_ca","SimpleEffectClass": "ClassLineageEffect.z_ice_death_clack_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.z_ice_c_ta","SimpleEffectClass": "ClassLineageEffect.z_ice_c_ta_simple"}]
+}

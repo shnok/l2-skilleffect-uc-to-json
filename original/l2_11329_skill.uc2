@@ -1,0 +1,53 @@
+class l2_11329_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="서먼 상급 매로우"
+     SkillID=11329
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter60
+         AttachOn=AM_LH
+         offset=(X=-0.400000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_su_2_handca'
+         SimpleEffectClass=Class'LineageEffect.d_su_2_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11329_skill.L2EffectEmitter60'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-0.400000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.d_su_spunex1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_spunex1_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11329_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=-0.400000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect.d_su_spunex2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_spunex2_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11329_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-0.400000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_su_summon2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_summon2_ca_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_11329_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(X=-0.400000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_su_trade_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_trade_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11329_skill.L2EffectEmitter4'
+}

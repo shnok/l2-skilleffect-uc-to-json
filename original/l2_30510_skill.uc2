@@ -1,0 +1,14 @@
+class l2_30510_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="플라잉 니킥"
+     SkillID=30510
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_kneekick_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_kneekick_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30510_skill.L2EffectEmitter2'
+}

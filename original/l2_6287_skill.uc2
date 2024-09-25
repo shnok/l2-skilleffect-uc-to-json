@@ -1,0 +1,24 @@
+class l2_6287_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="신검의기호_연합"
+     SkillID=6287
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_buff_c'
+         SimpleEffectClass=Class'LineageEffect.z_buff_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6287_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_buff_a'
+         SimpleEffectClass=Class'LineageEffect.z_buff_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6287_skill.L2EffectEmitter1'
+}

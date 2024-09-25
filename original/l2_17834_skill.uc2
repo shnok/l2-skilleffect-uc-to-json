@@ -1,0 +1,51 @@
+class l2_17834_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="윈드 스트라이크"
+     SkillID=1177
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_wind_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17834_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=5.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.el_wind_strike_pr'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17834_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bChanneling=True
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.s_u806_channeling_beam'
+         SimpleEffectClass=Class'LineageEffect.s_u806_channeling_beam_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17834_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_lionlightshot_fl'
+         SimpleEffectClass=Class'LineageEffect.d_lionlightshot_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Y=-1.000000)
+         ControlPointOffset(1)=(X=1.000000,Y=-1.000000,Z=2.000000)
+         ControlPointOffset(2)=(X=2.000000,Y=-2.000000)
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17834_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_kn_chain_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_chain_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17834_skill.L2EffectEmitter3'
+     FlyingTime=0.900000
+}

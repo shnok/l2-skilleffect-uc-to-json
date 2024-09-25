@@ -1,0 +1,14 @@
+class l2_39241_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="야수마정탄 4레벨"
+     SkillID=39241
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_AliasSpecified
+         AttachBoneName="soulshot1"
+         bRelativeToCylinder=False
+         EtcEffect=EET_PetJewelShot
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_39241_skill.L2EffectEmitter0'
+}

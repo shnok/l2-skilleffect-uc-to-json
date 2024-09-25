@@ -1,0 +1,49 @@
+class l2_16874_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에티나의 종말"
+     SkillID=16874
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.200000,Z=-1.050000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect2.y_raid_mc_etis_apocalypse_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_etis_apocalypse_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16874_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="ca_Dummy01"
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_raid_mc_etis_apocalypse_body_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_mc_etis_apocalypse_body_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16874_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.u_vala_ra'
+         SimpleEffectClass=Class'LineageEffect.u_vala_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16874_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.380000
+         EffectClass=Class'LineageEffect.u_kelbim_fear_ra'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_fear_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16874_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         SpawnDelay=0.050000
+         EffectClass=Class'LineageEffect.u_mon_fire5s_ta'
+         SimpleEffectClass=Class'LineageEffect.u_mon_fire5s_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16874_skill.L2EffectEmitter4'
+}

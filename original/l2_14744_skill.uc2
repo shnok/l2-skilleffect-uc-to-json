@@ -1,0 +1,23 @@
+class l2_14744_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포엠 오브 트럼펫"
+     SkillID=11522
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_in_damageref1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_damageref1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14744_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_damageref2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_damageref2_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14744_skill.L2EffectEmitter2'
+}

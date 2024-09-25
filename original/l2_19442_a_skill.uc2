@@ -1,0 +1,7 @@
+class l2_19442_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="싱글 노트"
+     SkillID=19442
+}

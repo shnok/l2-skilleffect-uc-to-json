@@ -1,0 +1,16 @@
+class l2_39165_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="트랜스폼 프로핏"
+     SkillID=39165
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.010000
+         EffectClass=Class'LineageEffect.at_sting_cs'
+         SimpleEffectClass=Class'LineageEffect.at_sting_cs_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_39165_skill.L2EffectEmitter0'
+}

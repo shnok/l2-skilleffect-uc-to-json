@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=0.400000,Z=-0.300000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.d_istinaContempt_ca","SimpleEffectClass": "ClassLineageEffect.d_istinaContempt_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.d_istinaContempt_rata","SimpleEffectClass": "ClassLineageEffect.d_istinaContempt_rata_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.180000","EffectClass": "ClassLineageEffect.d_he_hemi_ca","SimpleEffectClass": "ClassLineageEffect.d_he_hemi_ca_simple"},{"Name": "L2EffectEmitter5", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_istinaDamage_ta","SimpleEffectClass": "ClassLineageEffect.d_istinaDamage_ta_simple"}]
+}

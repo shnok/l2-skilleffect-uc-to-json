@@ -1,0 +1,46 @@
+class l2_5744_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크라테큐브_무적"
+     SkillID=5744
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.wh_holy_weapon_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_holy_weapon_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5744_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         SpawnDelay=1.200000
+         EffectClass=Class'LineageEffect.wh_holy_weapon_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_holy_weapon_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5744_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         SpawnDelay=2.400000
+         EffectClass=Class'LineageEffect.wh_holy_weapon_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_holy_weapon_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5744_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         SpawnDelay=3.600000
+         EffectClass=Class'LineageEffect.wh_holy_weapon_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_holy_weapon_ta_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5744_skill.L2EffectEmitter3'
+}

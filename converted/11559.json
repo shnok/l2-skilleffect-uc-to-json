@@ -1,0 +1,5 @@
+{
+"SkillId": 11559,
+"CastingActions": [{"Name": "L2EffectEmitter5", "AttachOn": "AM_Trail","offset": "(X=-0.500000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.d_he_darkeating_ca","SimpleEffectClass": "ClassLineageEffect.d_he_darkeating_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter6", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_in_attackmr2_ca","SimpleEffectClass": "ClassLineageEffect.d_in_attackmr2_ca_simple"}]
+}

@@ -1,0 +1,15 @@
+class l2_6624_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="셀프스턴"
+     SkillID=6624
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.z_debuff_b'
+         SimpleEffectClass=Class'LineageEffect.z_debuff_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6624_skill.L2EffectEmitter11'
+}

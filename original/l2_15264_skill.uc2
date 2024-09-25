@@ -1,0 +1,17 @@
+class l2_15264_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르바람분사_캐스팅"
+     SkillID=15264
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 head"
+         offset=(X=-0.500000,Y=0.100000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_lind_wind_ca_a'
+         SimpleEffectClass=Class'LineageEffect.u_lind_wind_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15264_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 16687,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=-0.750000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_boss_helios_audience_area","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_audience_area_simple"}],
+"ShotActions": []
+}

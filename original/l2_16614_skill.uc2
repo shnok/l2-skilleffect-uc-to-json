@@ -1,0 +1,48 @@
+class l2_16614_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헬리오스 플라즈마 플레셔"
+     SkillID=16614
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.050000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.s_u202_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u202_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16614_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=3.700000,Y=180.000000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=1.100000
+         EffectClass=Class'LineageEffect.e_u841_ta_sand'
+         SimpleEffectClass=Class'LineageEffect.e_u841_ta_sand_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16614_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=4.000000,Y=-160.000000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=1.400000
+         EffectClass=Class'LineageEffect.e_u841_ta_sand'
+         SimpleEffectClass=Class'LineageEffect.e_u841_ta_sand_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16614_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_plasma_pressure_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_plasma_pressure_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16614_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.z_seed_groykhan_ta'
+         SimpleEffectClass=Class'LineageEffect.z_seed_groykhan_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16614_skill.L2EffectEmitter4'
+}

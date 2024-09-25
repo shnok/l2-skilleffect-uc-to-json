@@ -1,0 +1,5 @@
+{
+"SkillId": 19434,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "bip01","offset": "(X=-1.000000,Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_repeat_summersault_trail","SimpleEffectClass": "ClassLineageEffect2.y_in_repeat_summersault_trail_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_su_touch_b_ta","SimpleEffectClass": "ClassLineageEffect.u_su_touch_b_ta_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=1.800000)","bSpawnOnTarget": "False","ScaleSize": "2.000000","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect2.y_in_reapat_summersault_head","SimpleEffectClass": "ClassLineageEffect2.y_in_reapat_summersault_head_simple"}]
+}

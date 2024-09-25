@@ -1,0 +1,80 @@
+class l2_15526_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="카라마르 브레이커"
+     SkillID=15526
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_magical_ca'
+         SimpleEffectClass=Class'LineageEffect.d_magical_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15526_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.300000)
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.u_mon_ground_up'
+         SimpleEffectClass=Class'LineageEffect.u_mon_ground_up_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15526_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_magical_ta'
+         SimpleEffectClass=Class'LineageEffect.d_magical_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15526_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=80.000000,Z=-1.000000)
+         ScaleSize=1.000000
+         EffectPawnClassID=19430
+         SequenceName="spatk01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.750000
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_15526_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(X=-70.000000,Y=80.000000,Z=-1.000000)
+         ScaleSize=0.800000
+         SpawnDelay=0.200000
+         EffectPawnClassID=19430
+         SequenceName="spatk01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.750000
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_15526_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(Y=-70.000000,Z=-1.000000)
+         ScaleSize=1.200000
+         SpawnDelay=0.500000
+         EffectPawnClassID=19430
+         SequenceName="spatk01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.750000
+     End Object
+     ShotAction(4)=L2EffectEmitter'LineageSkillEffect.l2_15526_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(X=80.000000,Y=70.000000,Z=-1.000000)
+         ScaleSize=1.000000
+         SpawnDelay=0.600000
+         EffectPawnClassID=19430
+         SequenceName="spatk01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.750000
+     End Object
+     ShotAction(5)=L2EffectEmitter'LineageSkillEffect.l2_15526_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         offset=(X=-100.000000,Z=-1.000000)
+         ScaleSize=1.000000
+         SpawnDelay=0.400000
+         EffectPawnClassID=19430
+         SequenceName="spatk01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.750000
+     End Object
+     ShotAction(6)=L2EffectEmitter'LineageSkillEffect.l2_15526_skill.L2EffectEmitter7'
+}

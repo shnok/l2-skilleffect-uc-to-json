@@ -1,0 +1,25 @@
+class l2_10786_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="타임 봄"
+     SkillID=10786
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_ar_bomb_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ar_bomb_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10786_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=2.000000)
+         bOnMultiTarget=True
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_ar_bomb_icon'
+         SimpleEffectClass=Class'LineageEffect.d_ar_bomb_icon_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10786_skill.L2EffectEmitter1'
+}

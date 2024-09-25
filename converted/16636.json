@@ -1,0 +1,5 @@
+{
+"SkillId": 16636,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.s_u202_ca","SimpleEffectClass": "ClassLineageEffect.s_u202_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-0.800000)","ScaleSize": "3.000000","EffectClass": "ClassLineageEffect.d_mon_spa2_tara","SimpleEffectClass": "ClassLineageEffect.d_mon_spa2_tara_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_anta_ta","SimpleEffectClass": "ClassLineageEffect.u_anta_ta_simple"},{"Name": "L2EffectEmitter3", "offset": "(Z=0.200000)","ScaleSize": "2.300000","EffectClass": "ClassLineageEffect.d_kn_hurri_tara","SimpleEffectClass": "ClassLineageEffect.d_kn_hurri_tara_simple"}]
+}

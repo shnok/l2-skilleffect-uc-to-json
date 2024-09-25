@@ -1,0 +1,24 @@
+class l2_14399_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엘카 메테오"
+     SkillID=6300
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_elca_meteo'
+         SimpleEffectClass=Class'LineageEffect.d_elca_meteo_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14399_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter23
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect.d_elcameteo_ta'
+         SimpleEffectClass=Class'LineageEffect.d_elcameteo_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14399_skill.L2EffectEmitter23'
+}

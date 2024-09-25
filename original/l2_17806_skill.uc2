@@ -1,0 +1,61 @@
+class l2_17806_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="참겨억"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.d_wa_gpunch_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_gpunch_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17806_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_doomattack_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_doomattack_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17806_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=1.000000,Z=-0.200000)
+         bSpawnOnTarget=False
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.d_kn_strike1_shot'
+         SimpleEffectClass=Class'LineageEffect.d_kn_strike1_shot_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_17806_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(X=-15.000000,Y=15.000000)
+         bSpawnOnTarget=False
+         EffectPawnClassID=0
+         bEffectPawnIsNpc=False
+         SequenceName="gsspatk013_1hs"
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_17806_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(X=-15.000000,Y=-15.000000)
+         bSpawnOnTarget=False
+         EffectPawnClassID=0
+         bEffectPawnIsNpc=False
+         SequenceName="gsspatk002_dual"
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_17806_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         bSpawnOnTarget=False
+         EffectPawnClassID=0
+         bEffectPawnIsNpc=False
+         SequenceName="gsspatk015_dual_dagger"
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_17806_skill.L2EffectEmitter7'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_wa_doomattack_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_doomattack_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17806_skill.L2EffectEmitter4'
+}

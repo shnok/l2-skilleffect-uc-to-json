@@ -1,0 +1,15 @@
+class l2_5826_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파멸_브레스"
+     SkillID=5826
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u524_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u524_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5826_skill.L2EffectEmitter0'
+}

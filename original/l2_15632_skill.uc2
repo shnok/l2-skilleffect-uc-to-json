@@ -1,0 +1,55 @@
+class l2_15632_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드nPC채널링스킬"
+     SkillID=15632
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_kn_judgep_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_judgep_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15632_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_wi_channeling1_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_channeling1_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15632_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.w_lindj_chc'
+         SimpleEffectClass=Class'LineageEffect.w_lindj_chc_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15632_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.w_lindj_chb'
+         SimpleEffectClass=Class'LineageEffect.w_lindj_chb_simple'
+     End Object
+     ChannelingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15632_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bChanneling=True
+         EffectClass=Class'LineageEffect.w_lindj_cha'
+         SimpleEffectClass=Class'LineageEffect.w_lindj_cha_simple'
+     End Object
+     ChannelingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_15632_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_redelec_ta'
+         SimpleEffectClass=Class'LineageEffect.d_redelec_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15632_skill.L2EffectEmitter2'
+}

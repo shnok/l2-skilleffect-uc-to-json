@@ -1,0 +1,15 @@
+class l2_4339_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="미미르의 물약"
+     SkillID=4339
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_resurrection_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_resurrection_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4339_skill.L2EffectEmitter0'
+}

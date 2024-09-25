@@ -1,0 +1,14 @@
+class l2_17695_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="¡ı∆¯¡§∑…≈∫ 1,2∑π∫ß"
+     SkillID=17695
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EtcEffect=EET_JewelShot
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17695_skill.L2EffectEmitter0'
+}

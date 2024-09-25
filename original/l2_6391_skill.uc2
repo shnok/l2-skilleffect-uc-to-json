@@ -1,0 +1,22 @@
+class l2_6391_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소닉슬래쉬"
+     SkillID=6391
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.z_seed_dopagen_b_ca'
+         SimpleEffectClass=Class'LineageEffect.z_seed_dopagen_b_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6391_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_unholy_hp_down'
+         SimpleEffectClass=Class'LineageEffect.z_unholy_hp_down_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6391_skill.L2EffectEmitter11'
+}

@@ -1,0 +1,48 @@
+class l2_19299_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리버스 마나"
+     SkillID=19299
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_ro_plender_handca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_plender_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19299_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_ro_reverse_mana_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_reverse_mana_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19299_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=3.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.at_mortal_blow_cs'
+         SimpleEffectClass=Class'LineageEffect.at_mortal_blow_cs_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19299_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_reverse_mana_tara'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_reverse_mana_tara_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19299_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_reverse_mana_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_reverse_mana_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_19299_skill.L2EffectEmitter4'
+}

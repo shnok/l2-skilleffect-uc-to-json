@@ -1,0 +1,5 @@
+{
+"SkillId": 15430,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.150000","EffectClass": "ClassLineageEffect.u_lind_jump_ca","SimpleEffectClass": "ClassLineageEffect.u_lind_jump_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.150000","EffectClass": "ClassLineageEffect.u_lind_landing","SimpleEffectClass": "ClassLineageEffect.u_lind_landing_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.u_lind_smoke_circle","SimpleEffectClass": "ClassLineageEffect.u_lind_smoke_circle_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.u_lind_common_ta","SimpleEffectClass": "ClassLineageEffect.u_lind_common_ta_simple"}]
+}

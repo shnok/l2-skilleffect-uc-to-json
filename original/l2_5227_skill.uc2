@@ -1,0 +1,30 @@
+class l2_5227_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발러 지면강타"
+     SkillID=5227
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         EffectClass=Class'LineageEffect.e_u099_jump_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u099_jump_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5227_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u099_hand_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u099_hand_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5227_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u015_barler_pc_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u015_barler_pc_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5227_skill.L2EffectEmitter2'
+}

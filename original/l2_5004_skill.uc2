@@ -1,0 +1,21 @@
+class l2_5004_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="악마등장"
+     SkillID=5004
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=20.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mb_frintessa_portal_a'
+         SimpleEffectClass=Class'LineageEffect.mb_frintessa_portal_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5004_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mb_frintessa_portal_b'
+         SimpleEffectClass=Class'LineageEffect.mb_frintessa_portal_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5004_skill.L2EffectEmitter1'
+}

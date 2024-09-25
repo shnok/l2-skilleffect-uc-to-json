@@ -1,0 +1,45 @@
+class l2_1869_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바람의 창"
+     SkillID=1869
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.950000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_er_wind_spear_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_er_wind_spear_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1869_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect2.y_er_wind_spear_hand_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_er_wind_spear_hand_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1869_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_er_wind_spear_hand_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_er_wind_spear_hand_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_1869_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=-2.000000,Z=-0.200000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_er_wind_spear_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_er_wind_spear_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1869_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect2.y_er_wind_spear_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_er_wind_spear_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1869_skill.L2EffectEmitter4'
+}

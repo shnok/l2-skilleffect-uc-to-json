@@ -1,0 +1,5 @@
+{
+"SkillId": 5895,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","SpawnDelay": "1.500000","EffectClass": "ClassLineageEffect.e_u308_mantra","SimpleEffectClass": "ClassLineageEffect.e_u308_mantra_simple","bPawnLight": "True","PawnLightParam": "(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=160.000000,LightCoordSystem=PTCS_RelativeRotation)"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.s_u502_ca","SimpleEffectClass": "ClassLineageEffect.s_u502_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","ScaleSize": "1.500000","EffectClass": "ClassLineageEffect.s_u604_smoke","SimpleEffectClass": "ClassLineageEffect.s_u604_smoke_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.at_bluff_ta","SimpleEffectClass": "ClassLineageEffect.at_bluff_ta_simple"}]
+}

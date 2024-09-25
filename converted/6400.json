@@ -1,0 +1,5 @@
+{
+"SkillId": 6400,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.z_seed_caiona_ca","SimpleEffectClass": "ClassLineageEffect.z_seed_caiona_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter22", "offset": "(X=25.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.z_seed_reptiles_c_fl","SimpleEffectClass": "ClassLineageEffect.z_seed_reptiles_c_fl_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_seed_reptiles_c_ta","SimpleEffectClass": "ClassLineageEffect.z_seed_reptiles_c_ta_simple"}]
+}

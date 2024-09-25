@@ -1,0 +1,62 @@
+class l2_11130_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소울 디스트럭션_땅"
+     SkillID=11130
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrground5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrground5s_handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11130_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrground5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrground5s_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11130_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=-0.400000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wi_strongearth_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_strongearth_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11130_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_wi_groundtrail2_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_groundtrail2_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(X=1.000000,Y=1.000000,Z=1.000000)
+         ControlPointOffset(1)=(X=2.000000,Y=2.000000,Z=1.500000)
+         ControlPointOffset(2)=(X=3.000000,Y=1.000000,Z=1.000000)
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11130_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_wi_groundtrail2_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_groundtrail2_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(X=1.000000,Y=1.000000,Z=1.000000)
+         ControlPointOffset(1)=(X=2.000000,Y=-2.000000,Z=1.500000)
+         ControlPointOffset(2)=(X=3.000000,Y=1.000000,Z=1.000000)
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11130_skill.L2EffectEmitter22'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_strongearth2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_strongearth2_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11130_skill.L2EffectEmitter4'
+     FlyingTime=0.700000
+}

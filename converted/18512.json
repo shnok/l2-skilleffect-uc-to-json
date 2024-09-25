@@ -1,0 +1,5 @@
+{
+"SkillId": 18512,
+"CastingActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_BoneSpecified","AttachBoneName": "bip01","EffectClass": "ClassLineageEffect.d_ar_attractcubic_ta","SimpleEffectClass": "ClassLineageEffect.d_ar_attractcubic_ta_simple"}],
+"ShotActions": []
+}

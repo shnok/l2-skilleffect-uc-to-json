@@ -1,0 +1,15 @@
+class l2_16692_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="방패 조각상의 가호"
+     SkillID=16692
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_new_hp_heal_blue'
+         SimpleEffectClass=Class'LineageEffect.z_new_hp_heal_blue_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16692_skill.L2EffectEmitter0'
+}

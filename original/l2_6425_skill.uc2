@@ -1,0 +1,16 @@
+class l2_6425_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="전투의욕저하"
+     SkillID=6425
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter12
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_lizard_hp_down'
+         SimpleEffectClass=Class'LineageEffect.z_lizard_hp_down_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6425_skill.L2EffectEmitter12'
+}

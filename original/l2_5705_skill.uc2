@@ -1,0 +1,32 @@
+class l2_5705_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파이어트랩"
+     SkillID=5705
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.e_u833_fire_trap'
+         SimpleEffectClass=Class'LineageEffect.e_u833_fire_trap_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5705_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.e_u833_fire_trap'
+         SimpleEffectClass=Class'LineageEffect.e_u833_fire_trap_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5705_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u524_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u524_ta_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5705_skill.L2EffectEmitter2'
+}

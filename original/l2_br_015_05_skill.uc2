@@ -1,0 +1,29 @@
+class l2_br_015_05_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="승리"
+     SkillID=23021
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.200000)
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect_Br.br_event_u006_win05_a'
+         SimpleEffectClass=Class'LineageEffect_Br.br_event_u006_win05_a_simple'
+         BR_ForceLifeTime=2.500000
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_015_05_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.mo_ultimate_defence_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_ultimate_defence_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_br_015_05_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect_Br.br_event_u006_win00_a'
+         SimpleEffectClass=Class'LineageEffect_Br.br_event_u006_win00_a_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_br_015_05_skill.L2EffectEmitter2'
+}

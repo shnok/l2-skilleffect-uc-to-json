@@ -1,0 +1,22 @@
+class l2_1441_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="어비스 파워"
+     SkillID=1441
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u806_third_elemental_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u806_third_elemental_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1441_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_detection_ta'
+         SimpleEffectClass=Class'LineageEffect.su_detection_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1441_skill.L2EffectEmitter1'
+}

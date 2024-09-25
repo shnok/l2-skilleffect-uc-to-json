@@ -1,0 +1,24 @@
+class l2_16389_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바람의 힘 흡수"
+     SkillID=16389
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_s_u344_ca'
+         SimpleEffectClass=Class'LineageEffect.u_s_u344_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16389_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_mms_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mms_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16389_skill.L2EffectEmitter2'
+}

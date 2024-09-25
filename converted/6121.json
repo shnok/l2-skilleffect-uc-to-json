@@ -1,0 +1,5 @@
+{
+"SkillId": 6121,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=0.300000)","bOnMultiTarget": "True","ScaleSize": "0.350000","SpawnDelay": "2.700000","EffectClass": "ClassLineageEffect.e_u519_aga_gift","SimpleEffectClass": "ClassLineageEffect.e_u519_aga_gift_simple"}],
+"ShotActions": []
+}

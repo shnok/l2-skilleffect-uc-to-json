@@ -1,0 +1,24 @@
+class l2_15276_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드쫄_출혈"
+     SkillID=15276
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.200000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_debuff_r'
+         SimpleEffectClass=Class'LineageEffect.d_debuff_r_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15276_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_red3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red3_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15276_skill.L2EffectEmitter2'
+}

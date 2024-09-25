@@ -1,0 +1,43 @@
+class l2_14524_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리플렉트 데미지"
+     SkillID=86
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_mon_purple3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14524_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         SpawnDelay=1.200000
+         EffectClass=Class'LineageEffect.d_mon_purple3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple3_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14524_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_spa_tara'
+         SimpleEffectClass=Class'LineageEffect.d_mon_spa_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14524_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_mon_purple2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple2_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14524_skill.L2EffectEmitter4'
+}

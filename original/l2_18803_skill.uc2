@@ -1,0 +1,22 @@
+class l2_18803_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="13주년 이벤트 버프"
+     SkillID=18803
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_yogi_event_buff'
+         SimpleEffectClass=Class'LineageEffect.u_yogi_event_buff_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18803_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect2.y_ro_coin_success_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_coin_success_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_18803_skill.L2EffectEmitter2'
+}

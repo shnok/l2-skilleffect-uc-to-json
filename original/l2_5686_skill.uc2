@@ -1,0 +1,14 @@
+class l2_5686_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="pvp무기_래피드 화이어"
+     SkillID=5686
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_rapid_shot_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_rapid_shot_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5686_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,34 @@
+class l2_32048_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파이어 앳 윌"
+     SkillID=32048
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_mon_fire2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32048_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_plasma_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_plasma_fl_simple'
+         bHermiteInterpolation=True
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32048_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_kn_spshieldw_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_spshieldw_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32048_skill.L2EffectEmitter2'
+     FlyingTime=0.800000
+}

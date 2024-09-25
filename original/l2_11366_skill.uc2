@@ -1,0 +1,14 @@
+class l2_11366_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="커스 오브 스펙트럴"
+     SkillID=11366
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_su_mark4_ta'
+         SimpleEffectClass=Class'LineageEffect.d_su_mark4_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11366_skill.L2EffectEmitter0'
+}

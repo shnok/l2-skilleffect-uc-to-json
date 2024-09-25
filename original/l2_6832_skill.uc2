@@ -1,0 +1,23 @@
+class l2_6832_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바이어런트 템퍼"
+     SkillID=501
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u815_bowgun_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u815_bowgun_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6832_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u205_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u205_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6832_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,23 @@
+class l2_23692_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="메테오 크래쉬"
+     SkillID=23692
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_astatine_meteor_ra'
+         SimpleEffectClass=Class'LineageEffect.u_astatine_meteor_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23692_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_astatine_meteor_ta'
+         SimpleEffectClass=Class'LineageEffect.u_astatine_meteor_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23692_skill.L2EffectEmitter3'
+}

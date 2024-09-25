@@ -1,0 +1,29 @@
+class l2_1435_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="다크 브랜드"
+     SkillID=1435
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u817_darkspoil_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u817_darkspoil_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1435_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.s_u817_darkspoil_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u817_darkspoil_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1435_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         EffectClass=Class'LineageEffect.s_u817_darkspoil_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u817_darkspoil_ta_a_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1435_skill.L2EffectEmitter2'
+}

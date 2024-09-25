@@ -1,0 +1,7 @@
+class l2_5957_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온_슬픔"
+     SkillID=5957
+}

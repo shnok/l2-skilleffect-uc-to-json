@@ -1,0 +1,15 @@
+class l2_50001_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="변신체 - 해적선원"
+     SkillID=50001
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.s_u833_transformbu'
+         SimpleEffectClass=Class'LineageEffect.s_u833_transformbu_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_50001_skill.L2EffectEmitter0'
+}

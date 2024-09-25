@@ -1,0 +1,41 @@
+class l2_6453_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.z_ice_death_effect_scene'
+         SimpleEffectClass=Class'LineageEffect.z_ice_death_effect_scene_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6453_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect.z_ice_aurora'
+         SimpleEffectClass=Class'LineageEffect.z_ice_aurora_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6453_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=4.500000
+         EffectClass=Class'LineageEffect.z_ice_aurora'
+         SimpleEffectClass=Class'LineageEffect.z_ice_aurora_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6453_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=7.000000
+         EffectClass=Class'LineageEffect.z_ice_aurora'
+         SimpleEffectClass=Class'LineageEffect.z_ice_aurora_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_6453_skill.L2EffectEmitter3'
+}

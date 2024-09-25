@@ -1,0 +1,16 @@
+class l2_6037_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소울 언리쉬"
+     SkillID=6037
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.100000
+         EffectClass=Class'LineageEffect.e_u618_echmus_ae'
+         SimpleEffectClass=Class'LineageEffect.e_u618_echmus_ae_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6037_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,23 @@
+class l2_916_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리플렉트 데미지"
+     SkillID=916
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_reflect_damage_1s_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_reflect_damage_1s_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_916_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.mo_reflect_damage_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_reflect_damage_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_916_skill.L2EffectEmitter1'
+}

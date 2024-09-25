@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter10", "bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.d_debuff_red_ta","SimpleEffectClass": "ClassLineageEffect.d_debuff_red_ta_simple"},{"Name": "L2EffectEmitter1", "offset": "(Z=0.500000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_he_shelterr_tara","SimpleEffectClass": "ClassLineageEffect.d_he_shelterr_tara_simple"}],
+"ShotActions": []
+}

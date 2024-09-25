@@ -1,0 +1,16 @@
+class l2_1473_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="체인지 웨폰"
+     SkillID=1473
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.s_u833_weapon_change'
+         SimpleEffectClass=Class'LineageEffect.s_u833_weapon_change_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1473_skill.L2EffectEmitter0'
+}

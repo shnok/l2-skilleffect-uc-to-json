@@ -1,0 +1,14 @@
+class l2_5204_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="초거대 돼지 합체"
+     SkillID=5204
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.ch_gourd_death_long'
+         SimpleEffectClass=Class'LineageEffect.ch_gourd_death_long_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5204_skill.L2EffectEmitter0'
+}

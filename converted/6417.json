@@ -1,0 +1,5 @@
+{
+"SkillId": 6417,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=1.000000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.z_cast_red_ca","SimpleEffectClass": "ClassLineageEffect.z_cast_red_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter22", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bone42","offset": "(X=1.000000,Z=10.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.z_seed_reptiles_c_fl","SimpleEffectClass": "ClassLineageEffect.z_seed_reptiles_c_fl_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_seed_reptiles_c_ta","SimpleEffectClass": "ClassLineageEffect.z_seed_reptiles_c_ta_simple"}]
+}

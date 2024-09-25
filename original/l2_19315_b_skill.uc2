@@ -1,0 +1,23 @@
+class l2_19315_b_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="버스트 캐스팅 - 2단계"
+     SkillID=19315
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect2.y_wi_burst_5s_2handca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_burst_5s_2handca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19315_b_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect2.y_wi_burst_5s_2handca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_burst_5s_2handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19315_b_skill.L2EffectEmitter1'
+}

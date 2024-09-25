@@ -1,0 +1,5 @@
+{
+"SkillId": 11521,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_in_musicde2_ca","SimpleEffectClass": "ClassLineageEffect.d_in_musicde2_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=10.000000)","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectPawnClassID": "13332","SequenceName": "social01","AnimStartFrame": "0.010000","AnimEndFrame": "0.990000"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_in_musicde2_ca","SimpleEffectClass": "ClassLineageEffect.d_in_musicde2_ca_simple"}],
+"ShotActions": []
+}

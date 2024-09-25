@@ -1,0 +1,16 @@
+class l2_14837_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.730000
+         EffectClass=Class'LineageEffect.d_mon_spa_tara'
+         SimpleEffectClass=Class'LineageEffect.d_mon_spa_tara_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14837_skill.L2EffectEmitter1'
+}

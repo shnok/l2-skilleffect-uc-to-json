@@ -1,0 +1,38 @@
+class l2_5822_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="드레이크 소환"
+     SkillID=5822
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.s_u820_summon_drake'
+         SimpleEffectClass=Class'LineageEffect.s_u820_summon_drake_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5822_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=0.300000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.s_u820_summon_drake'
+         SimpleEffectClass=Class'LineageEffect.s_u820_summon_drake_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5822_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=0.300000
+         SpawnDelay=3.000000
+         EffectClass=Class'LineageEffect.s_u820_summon_drake'
+         SimpleEffectClass=Class'LineageEffect.s_u820_summon_drake_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5822_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=0.300000
+         SpawnDelay=4.500000
+         EffectClass=Class'LineageEffect.s_u820_summon_drake'
+         SimpleEffectClass=Class'LineageEffect.s_u820_summon_drake_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5822_skill.L2EffectEmitter3'
+}

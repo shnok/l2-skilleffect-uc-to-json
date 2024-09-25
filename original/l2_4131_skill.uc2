@@ -1,0 +1,21 @@
+class l2_4131_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마비"
+     SkillID=4131
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u067_hand'
+         SimpleEffectClass=Class'LineageEffect.e_u067_hand_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4131_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.e_u067_a'
+         SimpleEffectClass=Class'LineageEffect.e_u067_a_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_4131_skill.L2EffectEmitter1'
+}

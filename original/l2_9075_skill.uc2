@@ -1,0 +1,15 @@
+class l2_9075_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="죽통"
+     SkillID=9075
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.z_common_short_ca'
+         SimpleEffectClass=Class'LineageEffect.z_common_short_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9075_skill.L2EffectEmitter0'
+}

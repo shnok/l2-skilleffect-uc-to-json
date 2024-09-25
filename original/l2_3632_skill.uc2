@@ -1,0 +1,15 @@
+class l2_3632_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="클랜 게이트"
+     SkillID=3632
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.su_summon_a_ca'
+         SimpleEffectClass=Class'LineageEffect.su_summon_a_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3632_skill.L2EffectEmitter0'
+}

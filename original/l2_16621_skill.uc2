@@ -1,0 +1,31 @@
+class l2_16621_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헬리오스 홀리 스파이크"
+     SkillID=16621
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_holy_spike1_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_holy_spike1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16621_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01 R Hand"
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_boss_helios_holy_spike1_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_holy_spike1_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16621_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_mon_holy3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy3_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16621_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

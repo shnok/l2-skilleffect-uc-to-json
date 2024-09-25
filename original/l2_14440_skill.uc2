@@ -1,0 +1,23 @@
+class l2_14440_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="전체 안전부활"
+     SkillID=1078
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.su_empower_ca'
+         SimpleEffectClass=Class'LineageEffect.su_empower_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14440_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_AliasSpecified
+         AttachBoneName="e_bone"
+         bAbsolute=True
+         EffectClass=Class'LineageEffect.su_concentration_ta'
+         SimpleEffectClass=Class'LineageEffect.su_concentration_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14440_skill.L2EffectEmitter1'
+}

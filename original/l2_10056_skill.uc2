@@ -1,0 +1,15 @@
+class l2_10056_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="큐빅 클랜스"
+     SkillID=10056
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_su_sharing1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_su_sharing1_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10056_skill.L2EffectEmitter0'
+}

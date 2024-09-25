@@ -1,0 +1,5 @@
+{
+"SkillId": 19307,
+"CastingActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=1.500000)","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_ro_coin_success_ca_head","SimpleEffectClass": "ClassLineageEffect2.y_ro_coin_success_ca_head_simple"}],
+"ShotActions": []
+}

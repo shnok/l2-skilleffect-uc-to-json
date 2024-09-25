@@ -1,0 +1,33 @@
+class l2_11353_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엘레멘탈 레이지"
+     SkillID=11353
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_su_ragew_ca'
+         SimpleEffectClass=Class'LineageEffect.u_su_ragew_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11353_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01_L_Hand"
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_su_ragew_fl'
+         SimpleEffectClass=Class'LineageEffect.u_su_ragew_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11353_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_su_ragew_ta'
+         SimpleEffectClass=Class'LineageEffect.u_su_ragew_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11353_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

@@ -1,0 +1,30 @@
+class l2_1414_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빅토리 오브 파아그리오"
+     SkillID=1414
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=13.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.sa_mass_frenzy_ca'
+         SimpleEffectClass=Class'LineageEffect.sa_mass_frenzy_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1414_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.sa_mass_frenzy_cs'
+         SimpleEffectClass=Class'LineageEffect.sa_mass_frenzy_cs_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1414_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.sa_mass_frenzy_ta'
+         SimpleEffectClass=Class'LineageEffect.sa_mass_frenzy_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1414_skill.L2EffectEmitter2'
+}

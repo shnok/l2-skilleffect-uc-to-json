@@ -1,0 +1,35 @@
+class l2_6174_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="유물의 향연"
+     SkillID=6174
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.800000
+         EffectClass=Class'LineageEffect.e_u404_ssq_dp'
+         SimpleEffectClass=Class'LineageEffect.e_u404_ssq_dp_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6174_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect.e_u611_dpa'
+         SimpleEffectClass=Class'LineageEffect.e_u611_dpa_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6174_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         SpawnDelay=4.000000
+         EffectClass=Class'LineageEffect.e_u611_dpb'
+         SimpleEffectClass=Class'LineageEffect.e_u611_dpb_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6174_skill.L2EffectEmitter2'
+}

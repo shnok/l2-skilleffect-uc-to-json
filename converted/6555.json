@@ -1,0 +1,5 @@
+{
+"SkillId": 6555,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.u_mon_water_ca","SimpleEffectClass": "ClassLineageEffect.u_mon_water_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.d_mon_water_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_water_ta_simple"}]
+}

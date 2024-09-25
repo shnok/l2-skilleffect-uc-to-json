@@ -1,0 +1,21 @@
+class l2_br_016_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="게이지"
+     SkillID=23021
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         bSpawnOnTarget=False
+         BR_ForceLifeTime=6.000000
+         BR_Tag="JackGameTimer"
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_016_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.s_u612_ca_a'
+         SimpleEffectClass=Class'LineageEffect.s_u612_ca_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_br_016_skill.L2EffectEmitter1'
+}

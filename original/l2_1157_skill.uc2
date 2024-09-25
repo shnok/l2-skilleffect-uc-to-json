@@ -1,0 +1,25 @@
+class l2_1157_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바디 투 마인드"
+     SkillID=1157
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.bl_body_to_mind_ca'
+         SimpleEffectClass=Class'LineageEffect.bl_body_to_mind_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1157_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.bl_body_to_mind_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_body_to_mind_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1157_skill.L2EffectEmitter1'
+}

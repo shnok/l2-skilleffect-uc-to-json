@@ -1,0 +1,5 @@
+{
+"SkillId": 11362,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_su_mark2_ca","SimpleEffectClass": "ClassLineageEffect.d_su_mark2_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","offset": "(Z=-0.800000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_wi_mrwind_tara","SimpleEffectClass": "ClassLineageEffect.d_wi_mrwind_tara_simple"}]
+}

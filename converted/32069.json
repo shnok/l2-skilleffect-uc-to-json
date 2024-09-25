@@ -1,0 +1,5 @@
+{
+"SkillId": 32069,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.d_tauti_green_ca_a","SimpleEffectClass": "ClassLineageEffect.d_tauti_green_ca_a_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.d_tauti_enter_b","SimpleEffectClass": "ClassLineageEffect.d_tauti_enter_b_simple"}]
+}

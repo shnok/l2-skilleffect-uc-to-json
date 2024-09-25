@@ -1,0 +1,24 @@
+class l2_19427_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="핸즈 오브 아인하사드"
+     SkillID=19427
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_in_ainhasard_hand_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_in_ainhasard_hand_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19427_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-0.400000,Z=0.250000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_in_ainhasard_hand_wing_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_in_ainhasard_hand_wing_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19427_skill.L2EffectEmitter1'
+}

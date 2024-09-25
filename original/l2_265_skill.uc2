@@ -1,0 +1,15 @@
+class l2_265_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="송 오브 라이프"
+     SkillID=265
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.ph_song_of_life_ta'
+         SimpleEffectClass=Class'LineageEffect.ph_song_of_life_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_265_skill.L2EffectEmitter0'
+}

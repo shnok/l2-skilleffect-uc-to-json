@@ -1,0 +1,31 @@
+class l2_6641_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="지니아구체발사"
+     SkillID=6641
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_jinia_ca'
+         SimpleEffectClass=Class'LineageEffect.z_jinia_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6641_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=1.500000,Z=0.450000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_jinia_sub_ca'
+         SimpleEffectClass=Class'LineageEffect.z_jinia_sub_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6641_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.z_jinia_heavy_ta'
+         SimpleEffectClass=Class'LineageEffect.z_jinia_heavy_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6641_skill.L2EffectEmitter4'
+}

@@ -1,0 +1,42 @@
+class l2_17811_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 스턴"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_spinfinite2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_spinfinite2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17811_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=3.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.d_wa_spinfinite3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_spinfinite3_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17811_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=1.900000
+         EffectClass=Class'LineageEffect.d_wa_spinfinite4_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_spinfinite4_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_17811_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_wa_spinfinite2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_spinfinite2_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17811_skill.L2EffectEmitter2'
+}

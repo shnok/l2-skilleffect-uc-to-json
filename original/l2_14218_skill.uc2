@@ -1,0 +1,30 @@
+class l2_14218_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이스티나의 징표"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=0.300000,Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.d_istinaScret_ca'
+         SimpleEffectClass=Class'LineageEffect.d_istinaScret_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14218_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=7.000000)
+         EffectClass=Class'LineageEffect.d_istinaScret_tara'
+         SimpleEffectClass=Class'LineageEffect.d_istinaScret_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14218_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.d_mon_red2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red2_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14218_skill.L2EffectEmitter2'
+}

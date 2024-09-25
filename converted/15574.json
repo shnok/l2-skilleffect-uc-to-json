@@ -1,0 +1,5 @@
+{
+"SkillId": 15574,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.d_Gnuck_ca","SimpleEffectClass": "ClassLineageEffect.d_Gnuck_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_golem_hamm_light","SimpleEffectClass": "ClassLineageEffect.u_golem_hamm_light_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_golem_hamm_smoke","SimpleEffectClass": "ClassLineageEffect.u_golem_hamm_smoke_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_golem_hamm_ta","SimpleEffectClass": "ClassLineageEffect.u_golem_hamm_ta_simple"}]
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 18190,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_potion_charisma","SimpleEffectClass": "ClassLineageEffect.u_potion_charisma_simple"}],
+"ShotActions": []
+}

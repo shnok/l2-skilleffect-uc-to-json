@@ -1,0 +1,31 @@
+class l2_16373_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디멘션 크래시"
+     SkillID=16373
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_mon_fire2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16373_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_red1_fl'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red1_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16373_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_mon_red3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red3_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16373_skill.L2EffectEmitter2'
+}

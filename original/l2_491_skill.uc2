@@ -1,0 +1,23 @@
+class l2_491_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="체인지 라이프 스톤"
+     SkillID=491
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u817_craft_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u817_craft_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_491_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.300000)
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.s_u817_craft_cs'
+         SimpleEffectClass=Class'LineageEffect.s_u817_craft_cs_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_491_skill.L2EffectEmitter1'
+}

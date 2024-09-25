@@ -1,0 +1,5 @@
+{
+"SkillId": 32025,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=0.300000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect2.y_mon_seal_purple2_ca","SimpleEffectClass": "ClassLineageEffect2.y_mon_seal_purple2_ca_simple"},{"Name": "L2EffectEmitter1", "bOnMultiTarget": "True","ScaleSize": "-1.000000","SpawnDelay": "0.100000","EffectClass": "ClassLineageEffect.u_he_darkforce_ta","SimpleEffectClass": "ClassLineageEffect.u_he_darkforce_ta_simple"}],
+"ShotActions": []
+}

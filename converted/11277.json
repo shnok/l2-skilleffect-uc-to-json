@@ -1,0 +1,5 @@
+{
+"SkillId": 11277,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_su_absorption_ta","SimpleEffectClass": "ClassLineageEffect.d_su_absorption_ta_simple"}],
+"ShotActions": []
+}

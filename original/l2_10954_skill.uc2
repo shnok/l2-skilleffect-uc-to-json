@@ -1,0 +1,23 @@
+class l2_10954_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="어설트 애로우"
+     SkillID=10954
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_ar_assaultarrow_ca'
+         SimpleEffectClass=Class'LineageEffect.u_ar_assaultarrow_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10954_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=2.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_ar_assaultarrow_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ar_assaultarrow_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10954_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,22 @@
+class l2_10606_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="섀도우 닷지 어택"
+     SkillID=10606
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_ro_shdodge_ca'
+         SimpleEffectClass=Class'LineageEffect.u_ro_shdodge_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10606_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_ro_shdodge_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ro_shdodge_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10606_skill.L2EffectEmitter1'
+}

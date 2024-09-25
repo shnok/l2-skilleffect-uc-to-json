@@ -1,0 +1,16 @@
+class l2_16011_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이스티나 연출, 성공엔딩, 보스 퇴장 소환진 "
+     SkillID=16011
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Y=0.300000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_istina_destroy'
+         SimpleEffectClass=Class'LineageEffect.d_istina_destroy_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16011_skill.L2EffectEmitter0'
+}

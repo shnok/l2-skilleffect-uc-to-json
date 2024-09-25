@@ -1,0 +1,5 @@
+{
+"SkillId": 19302,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_ro_acid_swamp_poison_ra","SimpleEffectClass": "ClassLineageEffect2.y_ro_acid_swamp_poison_ra_simple"}],
+"ShotActions": []
+}

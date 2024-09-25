@@ -1,0 +1,22 @@
+class l2_1444_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프라이드 오브 카마엘"
+     SkillID=1444
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ca_a'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1444_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ta_c'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ta_c_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1444_skill.L2EffectEmitter1'
+}

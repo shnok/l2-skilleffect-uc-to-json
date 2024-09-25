@@ -1,0 +1,5 @@
+{
+"SkillId": 5461,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "gun_fire","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.e_u033_a","SimpleEffectClass": "ClassLineageEffect.e_u033_a_simple"},{"Name": "L2EffectEmitter1", "offset": "(X=5.000000,Y=3.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u033_b","SimpleEffectClass": "ClassLineageEffect.e_u033_b_simple"}]
+}

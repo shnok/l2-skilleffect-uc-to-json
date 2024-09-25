@@ -1,0 +1,7 @@
+class l2_10796_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="호크 거스트"
+     SkillID=10796
+}

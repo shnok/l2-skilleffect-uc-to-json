@@ -1,0 +1,5 @@
+{
+"SkillId": 11267,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_su_spunex1_ca","SimpleEffectClass": "ClassLineageEffect.d_su_spunex1_ca_simple"},{"Name": "L2EffectEmitter10", "offset": "(X=-10.000000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_su_spunex1_ta","SimpleEffectClass": "ClassLineageEffect.d_su_spunex1_ta_simple"}],
+"ShotActions": []
+}

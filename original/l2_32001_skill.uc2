@@ -1,0 +1,56 @@
+class l2_32001_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아포칼립스 파이어"
+     SkillID=32001
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.150000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect2.y_raid_etina_fire_apocalypse_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_etina_fire_apocalypse_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32001_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip001 R Finger2"
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         EffectClass=Class'LineageEffect.u_kelbim_fear_handca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_fear_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32001_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_plasma_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_plasma_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32001_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.500000)
+         ScaleSize=3.000000
+         EffectClass=Class'LineageEffect.z_fire_explosion_area_b'
+         SimpleEffectClass=Class'LineageEffect.z_fire_explosion_area_b_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32001_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_fire_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32001_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(Z=-1.000000)
+         ScaleSize=3.800000
+         SpawnDelay=0.250000
+         EffectClass=Class'LineageEffect.e_u846_berethfire_range_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u846_berethfire_range_ta_simple'
+     End Object
+     ExplosionAction(2)=L2EffectEmitter'LineageSkillEffect.l2_32001_skill.L2EffectEmitter5'
+}

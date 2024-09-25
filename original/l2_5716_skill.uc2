@@ -1,0 +1,22 @@
+class l2_5716_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="일렉트릭플레임"
+     SkillID=5716
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.at_shield_stun_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5716_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.e_u827_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u827_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5716_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,14 @@
+class l2_18189_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="우주전투식량_럭키_luc"
+     SkillID=18189
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_potion_lucky'
+         SimpleEffectClass=Class'LineageEffect.u_potion_lucky_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18189_skill.L2EffectEmitter0'
+}

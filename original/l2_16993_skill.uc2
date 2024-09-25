@@ -1,0 +1,24 @@
+class l2_16993_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="오크의 꿈"
+     SkillID=16993
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.y_raid_zaken_typhoon_slash_body_c'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_zaken_typhoon_slash_body_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16993_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.u_su_power_v_ra'
+         SimpleEffectClass=Class'LineageEffect.u_su_power_v_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16993_skill.L2EffectEmitter2'
+}

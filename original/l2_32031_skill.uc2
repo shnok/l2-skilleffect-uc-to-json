@@ -1,0 +1,46 @@
+class l2_32031_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파멸의 교향곡"
+     SkillID=32031
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.100000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect2.y_mon_seal_blue_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_blue_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32031_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect2.y_mon_seal_purple1_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_purple1_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32031_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.d_ro_darkp3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_darkp3_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32031_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.900000)
+         ScaleSize=3.000000
+         EffectClass=Class'LineageEffect.d_in_sphyunsp_tara'
+         SimpleEffectClass=Class'LineageEffect.d_in_sphyunsp_tara_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32031_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-0.900000)
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect2.y_raid_zaken_rage_king_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_zaken_rage_king_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_32031_skill.L2EffectEmitter4'
+}

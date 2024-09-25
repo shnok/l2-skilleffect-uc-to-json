@@ -1,0 +1,24 @@
+class l2_16227_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="몬스터 그레이터 힐"
+     SkillID=16227
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_heal2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_heal2_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16227_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_heal1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_heal1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16227_skill.L2EffectEmitter33'
+}

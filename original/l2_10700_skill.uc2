@@ -1,0 +1,23 @@
+class l2_10700_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="플렌더 페스티벌"
+     SkillID=10700
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ro_steal_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_steal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10700_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_steal1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_steal1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10700_skill.L2EffectEmitter1'
+}

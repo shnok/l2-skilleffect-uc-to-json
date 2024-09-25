@@ -1,0 +1,14 @@
+class l2_19563_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 웨이브"
+     SkillID=19563
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect2.y_kn_shield_shock_wave_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_shield_shock_wave_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19563_skill.L2EffectEmitter0'
+}

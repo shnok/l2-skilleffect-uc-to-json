@@ -1,0 +1,23 @@
+class l2_1540_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="턴스톤"
+     SkillID=1540
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_iron_will_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_iron_will_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1540_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.s_u227_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u227_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1540_skill.L2EffectEmitter1'
+}

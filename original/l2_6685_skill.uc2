@@ -1,0 +1,21 @@
+class l2_6685_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="새해기운"
+     SkillID=6685
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u204_aga_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u204_aga_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6685_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         EffectClass=Class'LineageEffect.z_art_test'
+         SimpleEffectClass=Class'LineageEffect.z_art_test_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6685_skill.L2EffectEmitter11'
+}

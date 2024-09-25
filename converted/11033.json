@@ -1,0 +1,5 @@
+{
+"SkillId": 11033,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "1.300000","EffectClass": "ClassLineageEffect.d_wi_forceblink2_tara","SimpleEffectClass": "ClassLineageEffect.d_wi_forceblink2_tara_simple"}],
+"ShotActions": []
+}

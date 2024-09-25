@@ -1,0 +1,5 @@
+{
+"SkillId": ,
+"CastingActions": [{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.z_seed_caiona_ca","SimpleEffectClass": "ClassLineageEffect.z_seed_caiona_ca_simple"}],
+"ShotActions": []
+}

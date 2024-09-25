@@ -1,0 +1,14 @@
+class l2_1608_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="임모탈_클래식"
+     SkillID=1608
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_he_prevention_ta'
+         SimpleEffectClass=Class'LineageEffect.u_he_prevention_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1608_skill.L2EffectEmitter0'
+}

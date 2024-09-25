@@ -1,0 +1,16 @@
+class l2_15128_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="방어구 장착"
+     SkillID=15128
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_mon_tauti_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_tauti_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15128_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 4353,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_LH","RelativeRotation": "(Pitch=49152)","offset": "(Z=0.180000)","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.m_u044_b","SimpleEffectClass": "ClassLineageEffect.m_u044_b_simple"}],
+"ShotActions": []
+}

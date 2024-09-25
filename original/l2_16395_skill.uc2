@@ -1,0 +1,14 @@
+class l2_16395_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="율 아처의 힘"
+     SkillID=16395
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_ar_power_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ar_power_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16395_skill.L2EffectEmitter4'
+}

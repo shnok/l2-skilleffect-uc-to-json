@@ -1,0 +1,5 @@
+{
+"SkillId": 11379,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.d_wa_rushslash1_ru","SimpleEffectClass": "ClassLineageEffect.d_wa_rushslash1_ru_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter5", "EffectClass": "ClassLineageEffect.d_wa_rushslash_ta","SimpleEffectClass": "ClassLineageEffect.d_wa_rushslash_ta_simple"}]
+}

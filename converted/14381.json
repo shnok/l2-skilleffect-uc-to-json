@@ -1,0 +1,5 @@
+{
+"SkillId": 4109,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_mon_purple5_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_purple5_ca_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","SpawnDelay": "1.200000","EffectClass": "ClassLineageEffect.d_mon_purple5_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_purple5_ca_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","SpawnDelay": "2.400000","EffectClass": "ClassLineageEffect.d_mon_purple5_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_purple5_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.d_mon_unholy_ra","SimpleEffectClass": "ClassLineageEffect.d_mon_unholy_ra_simple"}]
+}

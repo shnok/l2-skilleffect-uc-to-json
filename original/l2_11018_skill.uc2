@@ -1,0 +1,44 @@
+class l2_11018_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="불"
+     SkillID=11018
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.400000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wi_strongfire_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_strongfire_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11018_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter60
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrfire5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrfire5s_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11018_skill.L2EffectEmitter60'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter61
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrfire5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrfire5s_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11018_skill.L2EffectEmitter61'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=7.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.u_wi_carshfire_fl'
+         SimpleEffectClass=Class'LineageEffect.u_wi_carshfire_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11018_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_wi_strongfire2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_strongfire2_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11018_skill.L2EffectEmitter4'
+}

@@ -1,0 +1,15 @@
+class l2_1929_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크러시 오브 페인"
+     SkillID=497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter91
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         EffectClass=Class'LineageEffect.z_buff_short_Y'
+         SimpleEffectClass=Class'LineageEffect.z_buff_short_Y_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1929_skill.L2EffectEmitter91'
+}

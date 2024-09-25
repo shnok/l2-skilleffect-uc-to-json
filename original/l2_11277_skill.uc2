@@ -1,0 +1,16 @@
+class l2_11277_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="센스 오브 로열티"
+     SkillID=11277
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_su_absorption_ta'
+         SimpleEffectClass=Class'LineageEffect.d_su_absorption_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11277_skill.L2EffectEmitter1'
+}

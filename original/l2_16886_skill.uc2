@@ -1,0 +1,40 @@
+class l2_16886_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="더블 블래스트"
+     SkillID=16886
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_su_ragew_ca'
+         SimpleEffectClass=Class'LineageEffect.u_su_ragew_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16886_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.y_boss_helios_plasma1_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_plasma1_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16886_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_mon_holy_ra'
+         SimpleEffectClass=Class'LineageEffect.u_mon_holy_ra_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16886_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_mbwater_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwater_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16886_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

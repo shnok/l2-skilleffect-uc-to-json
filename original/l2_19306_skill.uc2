@@ -1,0 +1,25 @@
+class l2_19306_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="코인 오브 마프르"
+     SkillID=19306
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_coin_of_maphr_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_coin_of_maphr_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19306_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_ro_coin_of_maphr_ca_head'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_coin_of_maphr_ca_head_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19306_skill.L2EffectEmitter1'
+}

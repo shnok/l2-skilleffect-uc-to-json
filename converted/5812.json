@@ -1,0 +1,5 @@
+{
+"SkillId": 5812,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=0.300000,Z=-3.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.s_u503_tiat_a","SimpleEffectClass": "ClassLineageEffect.s_u503_tiat_a_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","RelativeRotation": "(Yaw=40000)","offset": "(X=0.200000,Z=0.300000)","bSpawnOnTarget": "False","ScaleSize": "0.050000","EffectClass": "ClassLineageEffect.e_u623_air_breath","SimpleEffectClass": "ClassLineageEffect.e_u623_air_breath_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.e_u105_ta","SimpleEffectClass": "ClassLineageEffect.e_u105_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","RelativeRotation": "(Yaw=40000)","offset": "(X=0.200000,Z=0.300000)","bSpawnOnTarget": "False","ScaleSize": "0.040000","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.e_u623_air_breath","SimpleEffectClass": "ClassLineageEffect.e_u623_air_breath_simple"}]
+}

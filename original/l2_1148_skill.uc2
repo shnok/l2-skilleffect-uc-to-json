@@ -1,0 +1,39 @@
+class l2_1148_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데스 스파이크"
+     SkillID=1148
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u200_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u200_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1148_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u200_pr'
+         SimpleEffectClass=Class'LineageEffect.s_u200_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1148_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=2.000000
+         EffectClass=Class'LineageEffect.s_u200_fl'
+         SimpleEffectClass=Class'LineageEffect.s_u200_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1148_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u200_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u200_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1148_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

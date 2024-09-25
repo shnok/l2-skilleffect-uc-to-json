@@ -1,0 +1,14 @@
+class l2_2165_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에너지 스톤"
+     SkillID=2165
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.mo_focus_sonic_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_focus_sonic_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2165_skill.L2EffectEmitter0'
+}

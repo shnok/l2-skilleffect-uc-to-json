@@ -1,0 +1,5 @@
+{
+"SkillId": 5508,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.sp_decay_ta","SimpleEffectClass": "ClassLineageEffect.sp_decay_ta_simple"}]
+}

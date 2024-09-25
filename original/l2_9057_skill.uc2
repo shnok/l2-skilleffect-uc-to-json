@@ -1,0 +1,32 @@
+class l2_9057_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙결핵"
+     SkillID=9057
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_common_short_ca'
+         SimpleEffectClass=Class'LineageEffect.z_common_short_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9057_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_body_obit_10s'
+         SimpleEffectClass=Class'LineageEffect.z_body_obit_10s_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9057_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_freezing_buff'
+         SimpleEffectClass=Class'LineageEffect.z_freezing_buff_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_9057_skill.L2EffectEmitter11'
+}

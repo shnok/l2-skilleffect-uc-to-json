@@ -1,0 +1,22 @@
+class l2_5095_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="안타라스 부하 근접 공격"
+     SkillID=5095
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Ponytail2Nub"
+         RelativeRotation=(Yaw=49152)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u829_ca_a'
+         SimpleEffectClass=Class'LineageEffect.e_u829_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5095_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_ro_bleed_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_bleed_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5095_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,15 @@
+class l2_5517_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="가드나이아_나이아 너쳐"
+     SkillID=5517
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u853_naia_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u853_naia_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5517_skill.L2EffectEmitter0'
+}

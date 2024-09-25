@@ -1,0 +1,26 @@
+class l2_14838_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아이언 월"
+     SkillID=72
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.mo_iron_will_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_iron_will_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14838_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-3.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.mo_iron_will_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_iron_will_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14838_skill.L2EffectEmitter1'
+}

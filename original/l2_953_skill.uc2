@@ -1,0 +1,23 @@
+class l2_953_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="라이프 투 소울_공중"
+     SkillID=953
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bAdjustLifeTime=False
+         ScaleSize=2.500000
+         EffectClass=Class'LineageEffect.e_u403_ca_soul'
+         SimpleEffectClass=Class'LineageEffect.e_u403_ca_soul_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_953_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u809_absorb_soul_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u809_absorb_soul_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_953_skill.L2EffectEmitter1'
+}

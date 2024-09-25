@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_ar_stunshot1_ca","SimpleEffectClass": "ClassLineageEffect.d_ar_stunshot1_ca_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_ar_raina_ca","SimpleEffectClass": "ClassLineageEffect.d_ar_raina_ca_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_ar_raina2_ca","SimpleEffectClass": "ClassLineageEffect.d_ar_raina2_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_ar_raina_tara","SimpleEffectClass": "ClassLineageEffect.d_ar_raina_tara_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.d_ar_raina_ta","SimpleEffectClass": "ClassLineageEffect.d_ar_raina_ta_simple"}]
+}

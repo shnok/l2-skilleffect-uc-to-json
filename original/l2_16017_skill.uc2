@@ -1,0 +1,16 @@
+class l2_16017_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실렌 연출, 데코용 외곽선 부각 이펙트"
+     SkillID=16017
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.200000,Z=0.600000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.t_shilen_deco'
+         SimpleEffectClass=Class'LineageEffect.t_shilen_deco_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16017_skill.L2EffectEmitter0'
+}

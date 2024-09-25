@@ -1,0 +1,22 @@
+class l2_469_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="래피드 어택"
+     SkillID=469
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u811_short_speed'
+         SimpleEffectClass=Class'LineageEffect.m_u811_short_speed_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_469_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u807_speed_ta_b'
+         SimpleEffectClass=Class'LineageEffect.m_u807_speed_ta_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_469_skill.L2EffectEmitter1'
+}

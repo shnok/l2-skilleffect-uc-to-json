@@ -1,0 +1,5 @@
+{
+"SkillId": 11606,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_in_dancemight","SimpleEffectClass": "ClassLineageEffect.u_in_dancemight_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,23 @@
+class l2_30502_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="카운터 어택_a"
+     SkillID=30502
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_counter_ca_a'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_counter_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30502_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wa_counter_ta_a'
+         SimpleEffectClass=Class'LineageEffect.u_er_wa_counter_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30502_a_skill.L2EffectEmitter1'
+}

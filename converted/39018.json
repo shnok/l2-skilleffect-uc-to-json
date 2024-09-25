@@ -1,0 +1,5 @@
+{
+"SkillId": 39018,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_aga_song_wind_ta","SimpleEffectClass": "ClassLineageEffect.u_aga_song_wind_ta_simple"}],
+"ShotActions": []
+}

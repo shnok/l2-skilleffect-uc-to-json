@@ -1,0 +1,35 @@
+class l2_5532_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="베레스 분신 소환스킬"
+     SkillID=5532
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.600000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.e_u535_bereth_summon_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u535_bereth_summon_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5532_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.e_u535_bereth_summon_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u535_bereth_summon_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5532_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.600000)
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.e_u535_bereth_summon_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u535_bereth_summon_ca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5532_skill.L2EffectEmitter2'
+}

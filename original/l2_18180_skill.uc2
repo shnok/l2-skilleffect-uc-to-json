@@ -1,0 +1,32 @@
+class l2_18180_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="찌융찌융"
+     SkillID=18180
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_alien_weapon_ca'
+         SimpleEffectClass=Class'LineageEffect.u_alien_weapon_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18180_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter33
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.u_alien_weapon_fl'
+         SimpleEffectClass=Class'LineageEffect.u_alien_weapon_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_18180_skill.L2EffectEmitter33'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_alien_weapon_ta'
+         SimpleEffectClass=Class'LineageEffect.u_alien_weapon_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18180_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

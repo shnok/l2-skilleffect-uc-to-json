@@ -1,0 +1,14 @@
+class l2_4129_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="지진"
+     SkillID=4129
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.e_u066_a'
+         SimpleEffectClass=Class'LineageEffect.e_u066_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4129_skill.L2EffectEmitter0'
+}

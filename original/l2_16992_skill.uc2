@@ -1,0 +1,34 @@
+class l2_16992_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="오버차지 캐논"
+     SkillID=16992
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Dummy04"
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_loepold_plasma_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_plasma_fl_simple'
+         bHermiteInterpolation=True
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16992_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.400000)
+         EffectClass=Class'LineageEffect2.y_boss_loepold_plasma_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_plasma_ra_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16992_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_he_spanakim1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_spanakim1_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16992_skill.L2EffectEmitter3'
+     FlyingTime=0.800000
+}

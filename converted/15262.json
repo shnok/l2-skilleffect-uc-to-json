@@ -1,0 +1,5 @@
+{
+"SkillId": 15262,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_lind_napalm_explo","SimpleEffectClass": "ClassLineageEffect.u_lind_napalm_explo_simple"}],
+"ShotActions": []
+}

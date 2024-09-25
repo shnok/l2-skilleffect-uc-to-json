@@ -1,0 +1,30 @@
+class l2_16634_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레오폴트 하푼"
+     SkillID=16634
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_ro_bloodstep_ca'
+         SimpleEffectClass=Class'LineageEffect.u_ro_bloodstep_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16634_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=2.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_boss_loepold_harpoon_fl'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_loepold_harpoon_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16634_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_storm_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_storm_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16634_skill.L2EffectEmitter2'
+}

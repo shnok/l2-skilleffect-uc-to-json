@@ -1,0 +1,44 @@
+class l2_14381_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="안타라스의 저주"
+     SkillID=4109
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14381_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         SpawnDelay=1.200000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14381_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         SpawnDelay=2.400000
+         EffectClass=Class'LineageEffect.d_mon_purple5_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple5_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14381_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.d_mon_unholy_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14381_skill.L2EffectEmitter1'
+}

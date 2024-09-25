@@ -1,0 +1,5 @@
+{
+"SkillId": 6277,
+"CastingActions": [{"Name": "L2EffectEmitter89", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.z_freya_self_b_ca","SimpleEffectClass": "ClassLineageEffect.z_freya_self_b_ca_simple"},{"Name": "L2EffectEmitter90", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","ScaleSize": "1.000000","SpawnDelay": "1.500000","EffectClass": "ClassLineageEffect.z_ice_knight2_ca","SimpleEffectClass": "ClassLineageEffect.z_ice_knight2_ca_simple"}],
+"ShotActions": []
+}

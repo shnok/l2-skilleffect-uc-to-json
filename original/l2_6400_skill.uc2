@@ -1,0 +1,31 @@
+class l2_6400_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="샘플"
+     SkillID=6400
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.z_seed_caiona_ca'
+         SimpleEffectClass=Class'LineageEffect.z_seed_caiona_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6400_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         offset=(X=25.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect.z_seed_reptiles_c_fl'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_c_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6400_skill.L2EffectEmitter22'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_seed_reptiles_c_ta'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_c_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6400_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,16 @@
+class l2_23679_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하르페 스톤 캔슬"
+     SkillID=23679
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_makestone_ta'
+         SimpleEffectClass=Class'LineageEffect.d_in_makestone_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23679_skill.L2EffectEmitter2'
+}

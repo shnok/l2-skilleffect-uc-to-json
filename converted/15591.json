@@ -1,0 +1,5 @@
+{
+"SkillId": 15591,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "","": "","": "","": "","": "ClassLineageEffect.u_lind_hole_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.050000","EffectClass": "ClassLineageEffect.u_lind_hole_ra","": ""},{"Name": "L2EffectEmitter2", "": "","": "","": "","": ""}]
+}

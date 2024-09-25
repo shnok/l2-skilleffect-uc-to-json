@@ -1,0 +1,5 @@
+{
+"SkillId": 19221,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","EffectClass": "ClassLineageEffect.u_preventiondeath_ta","SimpleEffectClass": "ClassLineageEffect.u_preventiondeath_ta_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.u_preventiondeath_screen","SimpleEffectClass": "ClassLineageEffect.u_preventiondeath_screen_simple"}],
+"ShotActions": []
+}

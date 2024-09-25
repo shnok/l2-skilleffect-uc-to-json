@@ -1,0 +1,62 @@
+class l2_10198_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실드 스턴"
+     SkillID=92
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_wi_magicbolt_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_magicbolt_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10198_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrfire5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrfire5s_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10198_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wi_mrwind5s_handca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrwind5s_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10198_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01_L_Hand"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_wi_mbfire_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbfire_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10198_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_BoneLocation
+         AttachBoneName="Bip01_R_Hand"
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.d_wi_mbwater_fl'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwater_fl_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10198_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_wi_mbfire_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbfire_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10198_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.d_wi_mbwater_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mbwater_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10198_skill.L2EffectEmitter6'
+}

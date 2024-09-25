@@ -1,0 +1,14 @@
+class l2_4380_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="결투장 CP 회복"
+     SkillID=4380
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.sa_mass_frenzy_ta'
+         SimpleEffectClass=Class'LineageEffect.sa_mass_frenzy_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4380_skill.L2EffectEmitter0'
+}

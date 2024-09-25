@@ -1,0 +1,43 @@
+class l2_50005_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헌드레드 슬래쉬"
+     SkillID=50005
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.600000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_tauti2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_tauti2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_50005_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect2.y_raid_zaken_hundred_slash_sword'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_zaken_hundred_slash_sword_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_50005_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=1.000000,Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect2.y_raid_zaken_hundred_slash_sword_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_zaken_hundred_slash_sword_ra_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_50005_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_crossc_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_crossc_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_50005_skill.L2EffectEmitter3'
+}

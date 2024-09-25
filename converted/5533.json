@@ -1,0 +1,5 @@
+{
+"SkillId": 5533,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.e_u818_bereth_selfbomb","SimpleEffectClass": "ClassLineageEffect.e_u818_bereth_selfbomb_simple"}],
+"ShotActions": []
+}

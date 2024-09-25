@@ -1,0 +1,25 @@
+class l2_11259_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마크 오브 위크니스"
+     SkillID=11259
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_su_mark4_ca'
+         SimpleEffectClass=Class'LineageEffect.d_su_mark4_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11259_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter59
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_su_mark4_ta'
+         SimpleEffectClass=Class'LineageEffect.d_su_mark4_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11259_skill.L2EffectEmitter59'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

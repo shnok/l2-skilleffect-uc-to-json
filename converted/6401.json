@@ -1,0 +1,5 @@
+{
+"SkillId": 6401,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.z_seed_caiona_ca","SimpleEffectClass": "ClassLineageEffect.z_seed_caiona_ca_simple"},{"Name": "L2EffectEmitter11", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 head","RelativeRotation": "(Yaw=-16384)","bSpawnOnTarget": "False","ScaleSize": "0.100000","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.breath_short","SimpleEffectClass": "ClassLineageEffect.breath_short_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter44", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "2.200000","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.s_u524_ta","SimpleEffectClass": "ClassLineageEffect.s_u524_ta_simple"}]
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 947,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u224_ca","SimpleEffectClass": "ClassLineageEffect.s_u224_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.at_fatal_strike_cs","SimpleEffectClass": "ClassLineageEffect.at_fatal_strike_cs_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.d_ro_bleed_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_bleed_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.s_u224_ta","SimpleEffectClass": "ClassLineageEffect.s_u224_ta_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.el_flame_strike_ra","SimpleEffectClass": "ClassLineageEffect.el_flame_strike_ra_simple"}]
+}

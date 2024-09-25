@@ -1,0 +1,5 @@
+{
+"SkillId": 32005,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect2.y_raid_mc_hind_kick_ca","SimpleEffectClass": "ClassLineageEffect2.y_raid_mc_hind_kick_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_LH","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect2.y_raid_kain_spining_sword_hand_red_ca","SimpleEffectClass": "ClassLineageEffect2.y_raid_kain_spining_sword_hand_red_ca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_RH","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect2.y_raid_kain_spining_sword_hand_red_ca","SimpleEffectClass": "ClassLineageEffect2.y_raid_kain_spining_sword_hand_red_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "offset": "(X=-1.000000,Z=-0.400000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect2.y_raid_cyclone_blade_fl","SimpleEffectClass": "ClassLineageEffect2.y_raid_cyclone_blade_fl_simple"}]
+}

@@ -1,0 +1,16 @@
+class l2_11058_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="섀도우 헬"
+     SkillID=11058
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wi_magicrain_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_magicrain_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11058_skill.L2EffectEmitter0'
+}

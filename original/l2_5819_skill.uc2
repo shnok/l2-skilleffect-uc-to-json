@@ -1,0 +1,7 @@
+class l2_5819_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="티아트_여신관 퇴장"
+     SkillID=5819
+}

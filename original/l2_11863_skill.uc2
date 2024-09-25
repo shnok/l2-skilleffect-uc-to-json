@@ -1,0 +1,22 @@
+class l2_11863_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="레지스트 디스턴트 웨폰"
+     SkillID=11863
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_he_recover_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_recover_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11863_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.u_he_resifar_ta'
+         SimpleEffectClass=Class'LineageEffect.u_he_resifar_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11863_skill.L2EffectEmitter1'
+}

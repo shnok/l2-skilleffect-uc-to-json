@@ -1,0 +1,16 @@
+class l2_6371_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="타크리칸_무적"
+     SkillID=6371
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.400000
+         EffectClass=Class'LineageEffect.z_common_buff_e'
+         SimpleEffectClass=Class'LineageEffect.z_common_buff_e_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6371_skill.L2EffectEmitter0'
+}

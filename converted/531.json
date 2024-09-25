@@ -1,0 +1,5 @@
+{
+"SkillId": 531,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_ro_critical_wound_ca","SimpleEffectClass": "ClassLineageEffect2.y_ro_critical_wound_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","SpawnDelay": "0.150000","EffectClass": "ClassLineageEffect2.y_ro_critical_wound_ta","SimpleEffectClass": "ClassLineageEffect2.y_ro_critical_wound_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=1.000000)","EffectClass": "ClassLineageEffect2.y_ro_critical_wound_head","SimpleEffectClass": "ClassLineageEffect2.y_ro_critical_wound_head_simple"}]
+}

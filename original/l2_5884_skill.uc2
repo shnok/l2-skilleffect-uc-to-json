@@ -1,0 +1,42 @@
+class l2_5884_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="위키드 스위쁘"
+     SkillID=5884
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 R Hand"
+         bSpawnOnTarget=False
+         ScaleSize=0.450000
+         SpawnDelay=0.350000
+         EffectClass=Class'LineageEffect.s_u831_electric'
+         SimpleEffectClass=Class'LineageEffect.s_u831_electric_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5884_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5884_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 L Hand"
+         bSpawnOnTarget=False
+         ScaleSize=0.550000
+         SpawnDelay=0.350000
+         EffectClass=Class'LineageEffect.s_u831_electric'
+         SimpleEffectClass=Class'LineageEffect.s_u831_electric_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5884_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.at_shield_stun_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shield_stun_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5884_skill.L2EffectEmitter3'
+}

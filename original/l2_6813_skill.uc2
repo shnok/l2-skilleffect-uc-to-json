@@ -1,0 +1,23 @@
+class l2_6813_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포커스 소닉"
+     SkillID=8
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.200000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.mo_focus_sonic_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_focus_sonic_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6813_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.200000)
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.mo_focus_sonic_ta'
+         SimpleEffectClass=Class'LineageEffect.mo_focus_sonic_ta_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6813_skill.L2EffectEmitter1'
+}

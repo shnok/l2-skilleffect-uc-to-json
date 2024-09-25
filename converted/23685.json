@@ -1,0 +1,5 @@
+{
+"SkillId": 23685,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_kelbim_earthquak_ca","SimpleEffectClass": "ClassLineageEffect.u_kelbim_earthquak_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_kelbim_earthquak_fan","SimpleEffectClass": "ClassLineageEffect.u_kelbim_earthquak_fan_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_kelbim_earthquak_ta","SimpleEffectClass": "ClassLineageEffect.u_kelbim_earthquak_ta_simple"}]
+}

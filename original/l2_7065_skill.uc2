@@ -1,0 +1,54 @@
+class l2_7065_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="돌격"
+     SkillID=7065
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-20.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u810_charge_test_d'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_d_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_7065_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=8.000000,Z=-20.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.150000
+         EffectClass=Class'LineageEffect.s_u810_charge_test_d'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_d_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_7065_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=16.000000,Z=-20.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.s_u810_charge_test_d'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_d_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_7065_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=24.000000,Z=-20.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.450000
+         EffectClass=Class'LineageEffect.s_u810_charge_test_d'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_d_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_7065_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(X=32.000000,Z=-20.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.550000
+         EffectClass=Class'LineageEffect.s_u810_charge_test_d'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_d_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_7065_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(X=40.000000,Z=-20.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.650000
+         EffectClass=Class'LineageEffect.s_u810_charge_test_d'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_d_simple'
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_7065_skill.L2EffectEmitter5'
+}

@@ -1,0 +1,58 @@
+class l2_15168_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="10016"
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.z_gs_chain_ta_c'
+         SimpleEffectClass=Class'LineageEffect.z_gs_chain_ta_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15168_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter55
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.z_gs_chain_ta_d'
+         SimpleEffectClass=Class'LineageEffect.z_gs_chain_ta_d_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15168_skill.L2EffectEmitter55'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.d_tauti_green_ca'
+         SimpleEffectClass=Class'LineageEffect.d_tauti_green_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_15168_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter51
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         bChanneling=True
+         EffectClass=Class'LineageEffect.z_gstar_channeling_beam'
+         SimpleEffectClass=Class'LineageEffect.z_gstar_channeling_beam_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15168_skill.L2EffectEmitter51'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         bChanneling=True
+         EffectClass=Class'LineageEffect.z_gstar_channeling_beam_glow'
+         SimpleEffectClass=Class'LineageEffect.z_gstar_channeling_beam_glow_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15168_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter52
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         bChanneling=True
+         EffectClass=Class'LineageEffect.s_u806_channeling_beam'
+         SimpleEffectClass=Class'LineageEffect.s_u806_channeling_beam_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_15168_skill.L2EffectEmitter52'
+}

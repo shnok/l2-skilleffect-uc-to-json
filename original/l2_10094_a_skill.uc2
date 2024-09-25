@@ -1,0 +1,41 @@
+class l2_10094_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매스 라이트닝 스트라이크"
+     SkillID=10094
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_kn_mass_lightening_strike_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_mass_lightening_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10094_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.z_lightning_ta'
+         SimpleEffectClass=Class'LineageEffect.z_lightning_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10094_a_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.500000)
+         EffectClass=Class'LineageEffect2.y_kn_mass_lightening_strike_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_mass_lightening_strike_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10094_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.400000)
+         EffectClass=Class'LineageEffect.d_mon_elec_red_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec_red_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10094_a_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u831_bloodsuck_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u831_bloodsuck_ta_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_10094_a_skill.L2EffectEmitter4'
+}

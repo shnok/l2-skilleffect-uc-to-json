@@ -1,0 +1,5 @@
+{
+"SkillId": 30223,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=0.300000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_wall_of_void_shield_ca","SimpleEffectClass": "ClassLineageEffect2.y_wall_of_void_shield_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=0.300000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_wall_of_void_shield_tara","SimpleEffectClass": "ClassLineageEffect2.y_wall_of_void_shield_tara_simple"}]
+}

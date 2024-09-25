@@ -1,0 +1,20 @@
+class l2_19203_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파이널 리얼타겟"
+     SkillID=19203
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_ar_realtar_ca'
+         SimpleEffectClass=Class'LineageEffect.u_ar_realtar_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19203_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_ar_realtar_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ar_realtar_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19203_skill.L2EffectEmitter1'
+}

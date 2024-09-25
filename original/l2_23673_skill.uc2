@@ -1,0 +1,16 @@
+class l2_23673_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="이자벨라 매스 피어"
+     SkillID=23673
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.bl_berserker_spirit_ca'
+         SimpleEffectClass=Class'LineageEffect.bl_berserker_spirit_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23673_skill.L2EffectEmitter0'
+}

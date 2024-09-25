@@ -1,0 +1,5 @@
+{
+"SkillId": 50001,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.s_u833_transformbu","SimpleEffectClass": "ClassLineageEffect.s_u833_transformbu_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,15 @@
+class l2_10499_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="워리어-속박"
+     SkillID=10499
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_enerblast_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_enerblast_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10499_skill.L2EffectEmitter2'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

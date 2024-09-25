@@ -1,0 +1,31 @@
+class l2_32081_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="홀드 스트라이크"
+     SkillID=32081
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.950000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect2.y_mon_red_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_red_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32081_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.d_rednet_ta'
+         SimpleEffectClass=Class'LineageEffect.d_rednet_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32081_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect2.y_mon_red_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_red_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32081_skill.L2EffectEmitter2'
+}

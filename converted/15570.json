@@ -1,0 +1,5 @@
+{
+"SkillId": 15570,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.u_golem_shield_ca","SimpleEffectClass": "ClassLineageEffect.u_golem_shield_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_golem_shield_ta","SimpleEffectClass": "ClassLineageEffect.u_golem_shield_ta_simple"}]
+}

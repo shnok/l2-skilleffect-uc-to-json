@@ -1,0 +1,22 @@
+class l2_5877_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="챈트 오브 웜웨이킹"
+     SkillID=5877
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u836_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u836_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5877_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u836_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u836_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5877_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,31 @@
+class l2_16755_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에누마 에리슈 - 붉은 번개의 창"
+     SkillID=16755
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         SpawnDelay=0.210000
+         EffectClass=Class'LineageEffect.d_mon_fire_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_fire_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16755_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.u_lightning_spear_r'
+         SimpleEffectClass=Class'LineageEffect2.u_lightning_spear_r_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16755_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-0.900000)
+         ScaleSize=-1.000000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_mon_elec_red_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec_red_ra_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16755_skill.L2EffectEmitter2'
+}

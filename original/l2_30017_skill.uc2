@@ -1,0 +1,16 @@
+class l2_30017_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="얼티메이트스콜"
+     SkillID=30017
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_squall_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_squall_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30017_skill.L2EffectEmitter0'
+}

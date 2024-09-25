@@ -1,0 +1,5 @@
+{
+"SkillId": 16221,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_mon_water_ca","SimpleEffectClass": "ClassLineageEffect.u_mon_water_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "offset": "(Z=-0.900000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_mon_water_ra","SimpleEffectClass": "ClassLineageEffect.u_mon_water_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.e_u314_uniconian","SimpleEffectClass": "ClassLineageEffect.e_u314_uniconian_simple"}]
+}

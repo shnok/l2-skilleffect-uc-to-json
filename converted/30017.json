@@ -1,0 +1,5 @@
+{
+"SkillId": 30017,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_er_wi_squall_ca","SimpleEffectClass": "ClassLineageEffect.u_er_wi_squall_ca_simple"}],
+"ShotActions": []
+}

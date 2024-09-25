@@ -1,0 +1,5 @@
+{
+"SkillId": 6397,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.z_seed_reptiles_c_ca","SimpleEffectClass": "ClassLineageEffect.z_seed_reptiles_c_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter22", "offset": "(X=1.000000,Z=40.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.e_u309_fl","SimpleEffectClass": "ClassLineageEffect.e_u309_fl_simple"},{"Name": "L2EffectEmitter30", "AttachOn": "AM_Trail","offset": "(X=0.500000,Z=0.700000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.mo_focus_sonic_ta","SimpleEffectClass": "ClassLineageEffect.mo_focus_sonic_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.z_seed_reptiles_c_ta","SimpleEffectClass": "ClassLineageEffect.z_seed_reptiles_c_ta_simple"}]
+}

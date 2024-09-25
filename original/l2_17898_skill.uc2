@@ -1,0 +1,23 @@
+class l2_17898_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아르테이아의 신비한 바람 주문서"
+     SkillID=17898
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Y=30.000000,Z=-0.900000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_er_npc_deco'
+         SimpleEffectClass=Class'LineageEffect.u_er_npc_deco_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17898_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Y=30.000000)
+         bSpawnOnTarget=False
+         EffectPawnClassID=19575
+         SequenceName="spwait02"
+         AnimStartFrame=0.330000
+         AnimEndFrame=0.950000
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17898_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 19207,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_in_chantbison_ca","SimpleEffectClass": "ClassLineageEffect.u_in_chantbison_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.u_in_chantbison_ta","SimpleEffectClass": "ClassLineageEffect.u_in_chantbison_ta_simple"}]
+}

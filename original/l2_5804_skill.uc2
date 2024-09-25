@@ -1,0 +1,31 @@
+class l2_5804_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="공중전 공용_파이어볼"
+     SkillID=5804
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.250000
+         EffectClass=Class'LineageEffect.at_fatal_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.at_fatal_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5804_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.255000
+         EffectClass=Class'LineageEffect.e_u105_fl'
+         SimpleEffectClass=Class'LineageEffect.e_u105_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5804_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.e_u105_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u105_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5804_skill.L2EffectEmitter2'
+     FlyingTime=0.400000
+}

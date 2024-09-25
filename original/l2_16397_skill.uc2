@@ -1,0 +1,14 @@
+class l2_16397_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에오로 힐러의 힘"
+     SkillID=16397
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_he_power_ta'
+         SimpleEffectClass=Class'LineageEffect.u_he_power_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16397_skill.L2EffectEmitter4'
+}

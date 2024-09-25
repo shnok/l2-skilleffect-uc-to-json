@@ -1,0 +1,16 @@
+class l2_15149_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="치유의 빛"
+     SkillID=14736
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.250000
+         EffectClass=Class'LineageEffect.d_he_heal7_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_heal7_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15149_skill.L2EffectEmitter0'
+}

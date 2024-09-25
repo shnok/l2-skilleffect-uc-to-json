@@ -1,0 +1,15 @@
+class l2_30026_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="얼티메이트스콜_번개"
+     SkillID=30026
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_squall_lightning'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_squall_lightning_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30026_skill.L2EffectEmitter0'
+}

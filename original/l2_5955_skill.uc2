@@ -1,0 +1,16 @@
+class l2_5955_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온 재롱_기쁨"
+     SkillID=5955
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.e_u600_aga_joy'
+         SimpleEffectClass=Class'LineageEffect.e_u600_aga_joy_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5955_skill.L2EffectEmitter0'
+}

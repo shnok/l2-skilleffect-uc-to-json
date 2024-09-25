@@ -1,0 +1,5 @@
+{
+"SkillId": 427,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect.d_kn_judgec_ca","SimpleEffectClass": "ClassLineageEffect.d_kn_judgec_ca_simple"}],
+"ShotActions": []
+}

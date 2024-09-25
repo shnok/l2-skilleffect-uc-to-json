@@ -1,0 +1,24 @@
+class l2_br_010_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="영혼의 은지"
+     SkillID=22099
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.wh_heal_ca'
+         SimpleEffectClass=Class'LineageEffect.wh_heal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_010_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.br_e_u037_silverpaper'
+         SimpleEffectClass=Class'LineageEffect.br_e_u037_silverpaper_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_010_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,17 @@
+class l2_br_017_pink_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="분홍 폭죽"
+     SkillID=22131
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=70.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.br_e_u077_fire_pink'
+         SimpleEffectClass=Class'LineageEffect.br_e_u077_fire_pink_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_017_pink_skill.L2EffectEmitter0'
+}

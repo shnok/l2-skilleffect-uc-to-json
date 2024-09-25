@@ -1,0 +1,14 @@
+class l2_17215_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="요기 버프무료"
+     SkillID=17215
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.u_yogi_event_buff'
+         SimpleEffectClass=Class'LineageEffect.u_yogi_event_buff_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17215_skill.L2EffectEmitter0'
+}

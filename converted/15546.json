@@ -1,0 +1,5 @@
+{
+"SkillId": 15546,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.800000)","bSpawnOnTarget": "False","ScaleSize": "1.200000","EffectClass": "ClassLineageEffect.mo_iron_will_ca","SimpleEffectClass": "ClassLineageEffect.mo_iron_will_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-2.000000)","bSpawnOnTarget": "False","ScaleSize": "1.200000","SpawnDelay": "1.000000","EffectClass": "ClassLineageEffect.mo_iron_will_ta","SimpleEffectClass": "ClassLineageEffect.mo_iron_will_ta_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.200000","EffectClass": "ClassLineageEffect.w_mon_hide","SimpleEffectClass": "ClassLineageEffect.w_mon_hide_simple"}]
+}

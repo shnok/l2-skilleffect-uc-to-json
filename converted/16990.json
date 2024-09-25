@@ -1,0 +1,5 @@
+{
+"SkillId": 16990,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_scene_power_trnas_tara_dark","SimpleEffectClass": "ClassLineageEffect2.y_scene_power_trnas_tara_dark_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,30 @@
+class l2_35002_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="지룡의 숨결"
+     SkillID=35002
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_edragon_debuff_ca'
+         SimpleEffectClass=Class'LineageEffect.u_edragon_debuff_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_35002_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         SpawnDelay=1.000000
+         EffectClass=Class'LineageEffect.u_edragon_debuff_ta'
+         SimpleEffectClass=Class'LineageEffect.u_edragon_debuff_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_35002_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.500000)
+         EffectClass=Class'LineageEffect.u_edragon_debuff_head'
+         SimpleEffectClass=Class'LineageEffect.u_edragon_debuff_head_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_35002_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 5752,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u023_lightening_ca","SimpleEffectClass": "ClassLineageEffect.s_u023_lightening_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(X=1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.el_aqua_swirl_fl","SimpleEffectClass": "ClassLineageEffect.el_aqua_swirl_fl_simple"}]
+}

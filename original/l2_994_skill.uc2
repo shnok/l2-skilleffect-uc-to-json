@@ -1,0 +1,52 @@
+class l2_994_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="차지"
+     SkillID=484
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u810_charge_test_a'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_994_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=8.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.s_u810_charge_test_a'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_a_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_994_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=16.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.s_u810_charge_test_a'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_a_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_994_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=24.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.900000
+         EffectClass=Class'LineageEffect.s_u810_charge_test_a'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_a_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_994_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(X=32.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=1.050000
+         EffectClass=Class'LineageEffect.s_u810_charge_test_a'
+         SimpleEffectClass=Class'LineageEffect.s_u810_charge_test_a_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_994_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.at_sonic_rage_ta'
+         SimpleEffectClass=Class'LineageEffect.at_sonic_rage_ta_simple'
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_994_skill.L2EffectEmitter5'
+}

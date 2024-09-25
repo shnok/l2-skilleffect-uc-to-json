@@ -1,0 +1,23 @@
+class l2_18805_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="돌풍"
+     SkillID=18805
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.450000
+         EffectClass=Class'LineageEffect2.y_13th_event_fan_b'
+         SimpleEffectClass=Class'LineageEffect2.y_13th_event_fan_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18805_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.d_wa_lastattack_ta_b'
+         SimpleEffectClass=Class'LineageEffect.d_wa_lastattack_ta_b_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_18805_skill.L2EffectEmitter1'
+}

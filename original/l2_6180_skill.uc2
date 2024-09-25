@@ -1,0 +1,67 @@
+class l2_6180_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실렌의 대장_사망"
+     SkillID=6180
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="bip01"
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.e_u312_lighting_red'
+         SimpleEffectClass=Class'LineageEffect.e_u312_lighting_red_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6180_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01_L_Hand"
+         offset=(Z=-0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         SpawnDelay=4.200000
+         EffectClass=Class'LineageEffect.e_u312_lighting_red'
+         SimpleEffectClass=Class'LineageEffect.e_u312_lighting_red_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6180_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         SpawnDelay=5.800000
+         EffectClass=Class'LineageEffect.e_u048_a'
+         SimpleEffectClass=Class'LineageEffect.e_u048_a_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6180_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.150000
+         SpawnDelay=6.000000
+         EffectClass=Class'LineageEffect.e_u048_a'
+         SimpleEffectClass=Class'LineageEffect.e_u048_a_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_6180_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(Z=-1.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.025000
+         SpawnDelay=5.800000
+         EffectClass=Class'LineageEffect.e_u622_spread'
+         SimpleEffectClass=Class'LineageEffect.e_u622_spread_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_6180_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-2.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.250000
+         SpawnDelay=6.100000
+         EffectClass=Class'LineageEffect.e_u048_a'
+         SimpleEffectClass=Class'LineageEffect.e_u048_a_simple'
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_6180_skill.L2EffectEmitter0'
+}

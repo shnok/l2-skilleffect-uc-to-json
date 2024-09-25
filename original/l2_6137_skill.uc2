@@ -1,0 +1,15 @@
+class l2_6137_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온_츄츄 의문의 효과"
+     SkillID=6137
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 R Hand"
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u306_sstar'
+         SimpleEffectClass=Class'LineageEffect.e_u306_sstar_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6137_skill.L2EffectEmitter0'
+}

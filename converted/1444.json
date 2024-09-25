@@ -1,0 +1,5 @@
+{
+"SkillId": 1444,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.m_u807_tolerant_ca_a","SimpleEffectClass": "ClassLineageEffect.m_u807_tolerant_ca_a_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.m_u807_tolerant_ta_c","SimpleEffectClass": "ClassLineageEffect.m_u807_tolerant_ta_c_simple"}]
+}

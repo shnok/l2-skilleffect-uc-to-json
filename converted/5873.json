@@ -1,0 +1,5 @@
+{
+"SkillId": 5873,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u520_ca_undying","SimpleEffectClass": "ClassLineageEffect.s_u520_ca_undying_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "0.200000","EffectClass": "ClassLineageEffect.e_u606_currupt","SimpleEffectClass": "ClassLineageEffect.e_u606_currupt_simple"}],
+"ShotActions": []
+}

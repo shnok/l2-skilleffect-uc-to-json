@@ -1,0 +1,5 @@
+{
+"SkillId": 16633,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_mon_blue2_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_blue2_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-0.500000)","ScaleSize": "2.000000","EffectClass": "ClassLineageEffect.z_lightning_ra","SimpleEffectClass": "ClassLineageEffect.z_lightning_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_mon_unholy1_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_unholy1_ta_simple"},{"Name": "L2EffectEmitter3", "offset": "(Z=-1.000000)","ScaleSize": "3.500000","EffectClass": "ClassLineageEffect.u_lind_ground_tara","SimpleEffectClass": "ClassLineageEffect.u_lind_ground_tara_simple"}]
+}

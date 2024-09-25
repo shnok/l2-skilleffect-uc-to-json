@@ -1,0 +1,51 @@
+class l2_32002_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데몰리쉬 그라운드"
+     SkillID=32002
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.100000)
+         bSpawnOnTarget=False
+         ScaleSize=0.200000
+         EffectClass=Class'LineageEffect2.y_raid_etina_ground_dark_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_etina_ground_dark_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32002_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip001 R Finger2"
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect2.y_raid_etina_ground_dark_handca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_etina_ground_dark_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32002_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip001 L Finger2"
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect2.y_raid_etina_ground_dark_handca'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_etina_ground_dark_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_32002_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(Z=-0.950000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_raid_etina_ground_dark_tara'
+         SimpleEffectClass=Class'LineageEffect2.y_raid_etina_ground_dark_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32002_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.150000
+         EffectClass=Class'LineageEffect.d_wi_mrground_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_mrground_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_32002_skill.L2EffectEmitter4'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s_delay'
+}

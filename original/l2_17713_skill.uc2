@@ -1,0 +1,21 @@
+class l2_17713_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="10주년 이벤트 버프02"
+     SkillID=17713
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=4.000000
+         EffectClass=Class'LineageEffect.e_u306_sstar'
+         SimpleEffectClass=Class'LineageEffect.e_u306_sstar_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17713_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.z_event_star'
+         SimpleEffectClass=Class'LineageEffect.z_event_star_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17713_skill.L2EffectEmitter2'
+}

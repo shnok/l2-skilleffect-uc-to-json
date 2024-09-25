@@ -1,0 +1,15 @@
+class l2_19197_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디바인 블레싱"
+     SkillID=19197
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_he_devinebless_ta'
+         SimpleEffectClass=Class'LineageEffect.u_he_devinebless_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19197_skill.L2EffectEmitter2'
+}

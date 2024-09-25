@@ -1,0 +1,15 @@
+class l2_10105_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리벤지오라"
+     SkillID=10105
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kn_revenge_aura'
+         SimpleEffectClass=Class'LineageEffect.u_kn_revenge_aura_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10105_skill.L2EffectEmitter0'
+}

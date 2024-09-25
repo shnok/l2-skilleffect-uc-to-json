@@ -1,0 +1,14 @@
+class l2_17816_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="증폭정령탄 3,4레벨"
+     SkillID=17816
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EtcEffect=EET_JewelShot
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17816_skill.L2EffectEmitter0'
+}

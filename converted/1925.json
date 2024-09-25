@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u208_ta_huricane","SimpleEffectClass": "ClassLineageEffect.s_u208_ta_huricane_simple"}],
+"ShotActions": []
+}

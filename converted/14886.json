@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.d_magical_ca","SimpleEffectClass": "ClassLineageEffect.d_magical_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","SpawnDelay": "1.500000","EffectClass": "ClassLineageEffect.d_magical_ca","SimpleEffectClass": "ClassLineageEffect.d_magical_ca_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","SpawnDelay": "3.000000","EffectClass": "ClassLineageEffect.d_magical_ca","SimpleEffectClass": "ClassLineageEffect.d_magical_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.wh_regeneration_ta","SimpleEffectClass": "ClassLineageEffect.wh_regeneration_ta_simple"}]
+}

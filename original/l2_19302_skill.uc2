@@ -1,0 +1,15 @@
+class l2_19302_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="드로운 애시드 스웜"
+     SkillID=19302
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_ro_acid_swamp_poison_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_ro_acid_swamp_poison_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19302_skill.L2EffectEmitter1'
+}

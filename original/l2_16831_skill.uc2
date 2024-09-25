@@ -1,0 +1,24 @@
+class l2_16831_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="전장의 함성"
+     SkillID=16831
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_smash2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_smash2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16831_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_finalforce2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_finalforce2_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16831_skill.L2EffectEmitter4'
+}

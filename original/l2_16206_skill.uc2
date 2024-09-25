@@ -1,0 +1,31 @@
+class l2_16206_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="홀리 스파이크"
+     SkillID=16206
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_holy1_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy1_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16206_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.d_mon_holy2_fl'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy2_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16206_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_holy1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_holy1_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16206_skill.L2EffectEmitter2'
+}

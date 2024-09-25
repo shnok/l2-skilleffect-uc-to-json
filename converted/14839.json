@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-3.000000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.mo_iron_will_ta","SimpleEffectClass": "ClassLineageEffect.mo_iron_will_ta_simple"}],
+"ShotActions": []
+}

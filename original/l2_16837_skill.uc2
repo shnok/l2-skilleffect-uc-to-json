@@ -1,0 +1,33 @@
+class l2_16837_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매스 데스 피어"
+     SkillID=16837
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wi_fear_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wi_fear_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16837_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wi_fear_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_fear_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16837_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_he_spanakim_tara'
+         SimpleEffectClass=Class'LineageEffect.d_he_spanakim_tara_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16837_skill.L2EffectEmitter1'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

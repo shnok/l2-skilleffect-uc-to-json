@@ -1,0 +1,5 @@
+{
+"SkillId": 1605,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=50.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.u_kn_templa_aura","SimpleEffectClass": "ClassLineageEffect.u_kn_templa_aura_simple"}],
+"ShotActions": []
+}

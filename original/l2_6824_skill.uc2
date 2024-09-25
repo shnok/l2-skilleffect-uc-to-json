@@ -1,0 +1,30 @@
+class l2_6824_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마나 스톰"
+     SkillID=1399
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u204_ca_mb'
+         SimpleEffectClass=Class'LineageEffect.s_u204_ca_mb_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6824_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u204_ta_mb'
+         SimpleEffectClass=Class'LineageEffect.s_u204_ta_mb_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6824_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u204_ta_ms'
+         SimpleEffectClass=Class'LineageEffect.s_u204_ta_ms_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6824_skill.L2EffectEmitter2'
+}

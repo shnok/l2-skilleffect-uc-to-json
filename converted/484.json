@@ -1,0 +1,5 @@
+{
+"SkillId": 484,
+"CastingActions": [{"Name": "L2EffectEmitter0", "bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u810_charge_test_a","SimpleEffectClass": "ClassLineageEffect.s_u810_charge_test_a_simple"},{"Name": "L2EffectEmitter1", "offset": "(X=8.000000)","bSpawnOnTarget": "False","SpawnDelay": "0.300000","EffectClass": "ClassLineageEffect.s_u810_charge_test_a","SimpleEffectClass": "ClassLineageEffect.s_u810_charge_test_a_simple"},{"Name": "L2EffectEmitter2", "offset": "(X=16.000000)","bSpawnOnTarget": "False","SpawnDelay": "0.600000","EffectClass": "ClassLineageEffect.s_u810_charge_test_a","SimpleEffectClass": "ClassLineageEffect.s_u810_charge_test_a_simple"},{"Name": "L2EffectEmitter3", "offset": "(X=24.000000)","bSpawnOnTarget": "False","SpawnDelay": "0.900000","EffectClass": "ClassLineageEffect.s_u810_charge_test_a","SimpleEffectClass": "ClassLineageEffect.s_u810_charge_test_a_simple"},{"Name": "L2EffectEmitter4", "offset": "(X=32.000000)","bSpawnOnTarget": "False","SpawnDelay": "1.050000","EffectClass": "ClassLineageEffect.s_u810_charge_test_a","SimpleEffectClass": "ClassLineageEffect.s_u810_charge_test_a_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wa_gd_ca","SimpleEffectClass": "ClassLineageEffect.d_wa_gd_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","SpawnDelay": "1.000000","EffectClass": "ClassLineageEffect.d_wa_gd_tara","SimpleEffectClass": "ClassLineageEffect.d_wa_gd_tara_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","SpawnDelay": "1.500000","EffectClass": "ClassLineageEffect.d_wa_furyst_ta","SimpleEffectClass": "ClassLineageEffect.d_wa_furyst_ta_simple"}]
+}

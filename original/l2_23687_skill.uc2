@@ -1,0 +1,23 @@
+class l2_23687_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="리플렉션 아머"
+     SkillID=23687
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kelbim_refarmor_ca'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_refarmor_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23687_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_kelbim_refarmor_ta'
+         SimpleEffectClass=Class'LineageEffect.u_kelbim_refarmor_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_23687_skill.L2EffectEmitter1'
+}

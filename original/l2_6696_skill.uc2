@@ -1,0 +1,12 @@
+class l2_6696_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_quest_complete_event_c'
+         SimpleEffectClass=Class'LineageEffect.z_quest_complete_event_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6696_skill.L2EffectEmitter0'
+}

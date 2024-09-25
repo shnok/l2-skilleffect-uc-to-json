@@ -1,0 +1,5 @@
+{
+"SkillId": 920,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_RA","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u215_ca","SimpleEffectClass": "ClassLineageEffect.s_u215_ca_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","bRibbonSet": "True","EffectClass": "ClassLineageEffect.RibbonSet_sword","SimpleEffectClass": "ClassLineageEffect.RibbonSet_sword_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.s_u015_b","SimpleEffectClass": "ClassLineageEffect.s_u015_b_simple"},{"Name": "L2EffectEmitter4", "AttachOn": "AM_Trail","offset": "(Z=-0.800000)","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u502_ta","SimpleEffectClass": "ClassLineageEffect.s_u502_ta_simple"}]
+}

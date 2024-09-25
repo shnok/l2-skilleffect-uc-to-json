@@ -1,0 +1,5 @@
+{
+"SkillId": 16623,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.130000","EffectClass": "ClassLineageEffect2.y_boss_helios_grandplasma_ca","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_grandplasma_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "offset": "(Z=-1.000000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_boss_helios_spear_blue_bot_ra","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_spear_blue_bot_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_alien_weapon_ta","SimpleEffectClass": "ClassLineageEffect.u_alien_weapon_ta_simple"},{"Name": "L2EffectEmitter4", "offset": "(Z=-1.000000)","ScaleSize": "3.800000","EffectClass": "ClassLineageEffect.d_mon_purple5_ra","SimpleEffectClass": "ClassLineageEffect.d_mon_purple5_ra_simple"}]
+}

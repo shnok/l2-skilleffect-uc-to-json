@@ -1,0 +1,5 @@
+{
+"SkillId": 16630,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneLocation","AttachBoneName": "Dummy01","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_boss_loepold_plasma_ca","SimpleEffectClass": "ClassLineageEffect2.y_boss_loepold_plasma_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "20.000000","EffectClass": "ClassLineageEffect2.y_boss_loepold_plasma_fl","SimpleEffectClass": "ClassLineageEffect2.y_boss_loepold_plasma_fl_simple","bHermiteInterpolation": "True"}]
+}

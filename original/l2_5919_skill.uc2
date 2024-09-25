@@ -1,0 +1,30 @@
+class l2_5919_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에키무스_오베이"
+     SkillID=5919
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.e_u613_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u613_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5919_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u211_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u211_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5919_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u329_ta_A'
+         SimpleEffectClass=Class'LineageEffect.e_u329_ta_A_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5919_skill.L2EffectEmitter3'
+}

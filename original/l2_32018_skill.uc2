@@ -1,0 +1,24 @@
+class l2_32018_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="성전의 외침"
+     SkillID=32018
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.300000)
+         bSpawnOnTarget=False
+         ScaleSize=0.220000
+         EffectClass=Class'LineageEffect2.y_mon_seal_redmark_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_redmark_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32018_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-0.900000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_mon_seal_redmark_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_mon_seal_redmark_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_32018_skill.L2EffectEmitter1'
+}

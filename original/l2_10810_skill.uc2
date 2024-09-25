@@ -1,0 +1,33 @@
+class l2_10810_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스나이프 포지션"
+     SkillID=10810
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.u_mo_dash_ca'
+         SimpleEffectClass=Class'LineageEffect.u_mo_dash_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10810_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.500000
+         EffectClass=Class'LineageEffect.u_ar_snipe_ta'
+         SimpleEffectClass=Class'LineageEffect.u_ar_snipe_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10810_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=1.700000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_ar_snipe_top'
+         SimpleEffectClass=Class'LineageEffect.u_ar_snipe_top_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10810_skill.L2EffectEmitter2'
+}

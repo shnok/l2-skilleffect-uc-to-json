@@ -1,0 +1,16 @@
+class l2_969_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="969"
+     SkillID=969
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.mo_dash_ca'
+         SimpleEffectClass=Class'LineageEffect.mo_dash_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_969_skill.L2EffectEmitter0'
+}

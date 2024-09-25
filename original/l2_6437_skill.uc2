@@ -1,0 +1,12 @@
+class l2_6437_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.s_u207_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u207_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6437_skill.L2EffectEmitter11'
+}

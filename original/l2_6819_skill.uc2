@@ -1,0 +1,14 @@
+class l2_6819_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="유고로스지대"
+     SkillID=6436
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.bl_curse_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.bl_curse_poison_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6819_skill.L2EffectEmitter2'
+}

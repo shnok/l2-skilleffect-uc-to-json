@@ -1,0 +1,15 @@
+class l2_5685_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="pvp무기_캐스팅"
+     SkillID=5685
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.su_acumen_ta'
+         SimpleEffectClass=Class'LineageEffect.su_acumen_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5685_skill.L2EffectEmitter0'
+}

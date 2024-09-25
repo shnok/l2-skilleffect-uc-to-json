@@ -1,0 +1,14 @@
+class l2_6667_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="마이트_펫"
+     SkillID=6667
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.wh_regeneration_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_regeneration_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6667_skill.L2EffectEmitter11'
+}

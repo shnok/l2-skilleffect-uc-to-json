@@ -1,0 +1,5 @@
+{
+"SkillId": 32001,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.150000)","bSpawnOnTarget": "False","ScaleSize": "0.600000","EffectClass": "ClassLineageEffect2.y_raid_etina_fire_apocalypse_ca","SimpleEffectClass": "ClassLineageEffect2.y_raid_etina_fire_apocalypse_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip001 R Finger2","bSpawnOnTarget": "False","ScaleSize": "0.150000","EffectClass": "ClassLineageEffect.u_kelbim_fear_handca","SimpleEffectClass": "ClassLineageEffect.u_kelbim_fear_handca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_boss_loepold_plasma_fl","SimpleEffectClass": "ClassLineageEffect2.y_boss_loepold_plasma_fl_simple"}]
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 32057,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.350000","EffectClass": "ClassLineageEffect.d_mon_purple4_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_purple4_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=1.000000,Z=0.400000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","SpawnDelay": "0.600000","EffectClass": "ClassLineageEffect2.y_mon_music_horen_ca","SimpleEffectClass": "ClassLineageEffect2.y_mon_music_horen_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.d_in_damageref2_ca","SimpleEffectClass": "ClassLineageEffect.d_in_damageref2_ca_simple"}]
+}

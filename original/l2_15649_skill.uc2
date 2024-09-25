@@ -1,0 +1,13 @@
+class l2_15649_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="모험가용-버서커스 하모니"
+     SkillID=15649
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.su_might_ta'
+         SimpleEffectClass=Class'LineageEffect.su_might_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15649_skill.L2EffectEmitter1'
+}

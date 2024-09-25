@@ -1,0 +1,14 @@
+class l2_11294_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="큐빅 루트"
+     SkillID=11294
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_wi_fear_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_fear_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11294_skill.L2EffectEmitter0'
+}

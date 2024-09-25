@@ -1,0 +1,5 @@
+{
+"SkillId": 907,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.s_u617_ca","SimpleEffectClass": "ClassLineageEffect.s_u617_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u617_ra","SimpleEffectClass": "ClassLineageEffect.s_u617_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.el_hydro_blast_ta","SimpleEffectClass": "ClassLineageEffect.el_hydro_blast_ta_simple"}]
+}

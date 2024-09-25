@@ -1,0 +1,20 @@
+class l2_5412_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발러연출_제자리점프"
+     SkillID=5412
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u099_jump_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u099_jump_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5412_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         EffectClass=Class'LineageEffect.e_u099_jump_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u099_jump_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5412_skill.L2EffectEmitter1'
+}

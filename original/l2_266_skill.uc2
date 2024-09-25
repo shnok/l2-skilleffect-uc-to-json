@@ -1,0 +1,15 @@
+class l2_266_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="송 오브 워터"
+     SkillID=266
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u009_a'
+         SimpleEffectClass=Class'LineageEffect.s_u009_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_266_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 10952,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_ar_longbow_ca","SimpleEffectClass": "ClassLineageEffect.u_ar_longbow_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=1.700000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_ar_longbow_ta","SimpleEffectClass": "ClassLineageEffect.u_ar_longbow_ta_simple"}],
+"ShotActions": []
+}

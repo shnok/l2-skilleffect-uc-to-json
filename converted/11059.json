@@ -1,0 +1,5 @@
+{
+"SkillId": 11059,
+"CastingActions": [{"Name": "L2EffectEmitter0", "offset": "(Z=1.000000)","bRelativeToCylinder": "False","ScaleSize": "25000.000000","EffectClass": "ClassLineageEffect.d_wizaant_ta","SimpleEffectClass": "ClassLineageEffect.d_wizaant_ta_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=1.000000)","bOnMultiTarget": "True","ScaleSize": "20000.000000","EffectClass": "ClassLineageEffect.d_wi_fear_ta","SimpleEffectClass": "ClassLineageEffect.d_wi_fear_ta_simple"}],
+"ShotActions": []
+}

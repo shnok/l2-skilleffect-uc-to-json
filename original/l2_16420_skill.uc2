@@ -1,0 +1,14 @@
+class l2_16420_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="양말 요정의 축복_즉시"
+     SkillID=16420
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_christmas_buff'
+         SimpleEffectClass=Class'LineageEffect.u_christmas_buff_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16420_skill.L2EffectEmitter3'
+}

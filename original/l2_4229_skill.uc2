@@ -1,0 +1,29 @@
+class l2_4229_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="npc double wind fast"
+     SkillID=4229
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=3.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u058_r'
+         SimpleEffectClass=Class'LineageEffect.e_u058_r_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4229_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u058_a'
+         SimpleEffectClass=Class'LineageEffect.e_u058_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4229_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u058_b'
+         SimpleEffectClass=Class'LineageEffect.e_u058_b_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4229_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

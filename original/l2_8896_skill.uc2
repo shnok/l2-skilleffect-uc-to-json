@@ -1,0 +1,35 @@
+class l2_8896_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발라 브레스"
+     SkillID=8896
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_vala_ca_long'
+         SimpleEffectClass=Class'LineageEffect.u_vala_ca_long_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_8896_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.u_vala_ta'
+         SimpleEffectClass=Class'LineageEffect.u_vala_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_8896_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.u_vala_ra'
+         SimpleEffectClass=Class'LineageEffect.u_vala_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_8896_skill.L2EffectEmitter3'
+}

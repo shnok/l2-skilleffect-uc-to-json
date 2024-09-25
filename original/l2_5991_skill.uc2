@@ -1,0 +1,7 @@
+class l2_5991_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="티아트 등장"
+     SkillID=5991
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 16856,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.150000","EffectClass": "ClassLineageEffect2.y_boss_helios_plasma_ca","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_plasma_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bone26","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect2.y_raid_mc_hyper_hammer_shot_hanc","SimpleEffectClass": "ClassLineageEffect2.y_raid_mc_hyper_hammer_shot_hanc_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "offset": "(Z=-1.000000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_er_wa_head_shot_b","SimpleEffectClass": "ClassLineageEffect.u_er_wa_head_shot_b_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.u_er_wa_head_ta_b","SimpleEffectClass": "ClassLineageEffect.u_er_wa_head_ta_b_simple"}]
+}

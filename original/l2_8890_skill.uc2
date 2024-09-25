@@ -1,0 +1,13 @@
+class l2_8890_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="보호"
+     SkillID=8890
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ta_b'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ta_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_8890_skill.L2EffectEmitter1'
+}

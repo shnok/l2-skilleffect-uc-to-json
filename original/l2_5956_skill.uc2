@@ -1,0 +1,16 @@
+class l2_5956_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온 재롱_분노"
+     SkillID=5956
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         SpawnDelay=1.500000
+         EffectClass=Class'LineageEffect.s_u021_aga_anger'
+         SimpleEffectClass=Class'LineageEffect.s_u021_aga_anger_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5956_skill.L2EffectEmitter0'
+}

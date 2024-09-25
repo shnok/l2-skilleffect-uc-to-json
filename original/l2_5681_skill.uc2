@@ -1,0 +1,14 @@
+class l2_5681_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="pvp CP드레인"
+     SkillID=5681
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.wh_cure_poison_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_cure_poison_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5681_skill.L2EffectEmitter0'
+}

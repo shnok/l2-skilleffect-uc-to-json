@@ -1,0 +1,16 @@
+class l2_16166_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="데스 이스케이프"
+     SkillID=16166
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.mo_ultimate_defence_cs'
+         SimpleEffectClass=Class'LineageEffect.mo_ultimate_defence_cs_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16166_skill.L2EffectEmitter0'
+}

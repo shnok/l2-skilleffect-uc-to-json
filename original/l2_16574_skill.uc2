@@ -1,0 +1,16 @@
+class l2_16574_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="무한의 방패"
+     SkillID=16574
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.950000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.s_u211_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u211_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16574_skill.L2EffectEmitter0'
+}

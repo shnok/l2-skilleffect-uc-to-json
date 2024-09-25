@@ -1,0 +1,5 @@
+{
+"SkillId": 4165,
+"CastingActions": [{"Name": "L2EffectEmitter0", "EtcEffect": "EET_Cubic"}],
+"ShotActions": []
+}

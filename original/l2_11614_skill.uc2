@@ -1,0 +1,24 @@
+class l2_11614_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="댄스 오브 배틀 랩소디"
+     SkillID=11614
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_in_dancerhapsody_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_dancerhapsody_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11614_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_in_songdance_ta'
+         SimpleEffectClass=Class'LineageEffect.u_in_songdance_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11614_skill.L2EffectEmitter2'
+}

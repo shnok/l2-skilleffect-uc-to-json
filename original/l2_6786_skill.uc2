@@ -1,0 +1,16 @@
+class l2_6786_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포스 블래스터"
+     SkillID=54
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.at_sonic_blast_ta'
+         SimpleEffectClass=Class'LineageEffect.at_sonic_blast_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6786_skill.L2EffectEmitter1'
+     FlyingTime=0.400000
+}

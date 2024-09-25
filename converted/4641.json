@@ -1,0 +1,5 @@
+{
+"SkillId": 4641,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.mp_super_strike_a_ca","SimpleEffectClass": "ClassLineageEffect.mp_super_strike_a_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.mp_super_strike_a_co","SimpleEffectClass": "ClassLineageEffect.mp_super_strike_a_co_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_RH","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.mp_super_strike_a_cs","SimpleEffectClass": "ClassLineageEffect.mp_super_strike_a_cs_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(X=-1.000000)","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.mp_super_strike_a_ta","SimpleEffectClass": "ClassLineageEffect.mp_super_strike_a_ta_simple"}]
+}

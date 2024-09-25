@@ -1,0 +1,15 @@
+class l2_2901_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에너지디치 2단계"
+     SkillID=2901
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u313_ta_a'
+         SimpleEffectClass=Class'LineageEffect.e_u313_ta_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_2901_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,21 @@
+class l2_9929_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="자이언트 크리티컬 데미지"
+     SkillID=9929
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u811_short_tole'
+         SimpleEffectClass=Class'LineageEffect.m_u811_short_tole_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9929_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.m_u807_tolerant_ta_b'
+         SimpleEffectClass=Class'LineageEffect.m_u807_tolerant_ta_b_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9929_skill.L2EffectEmitter1'
+}

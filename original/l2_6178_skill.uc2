@@ -1,0 +1,15 @@
+class l2_6178_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="최후의 봉인발동1"
+     SkillID=6178
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=9.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u845_ssq_dp'
+         SimpleEffectClass=Class'LineageEffect.e_u845_ssq_dp_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6178_skill.L2EffectEmitter0'
+}

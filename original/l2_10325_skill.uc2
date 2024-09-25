@@ -1,0 +1,31 @@
+class l2_10325_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="드레드 노어"
+     SkillID=10325
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.su_empower_ca'
+         SimpleEffectClass=Class'LineageEffect.su_empower_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10325_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.su_detection_ta'
+         SimpleEffectClass=Class'LineageEffect.su_detection_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10325_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_wa_vt2_ra'
+         SimpleEffectClass=Class'LineageEffect.d_wa_vt2_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10325_skill.L2EffectEmitter11'
+}

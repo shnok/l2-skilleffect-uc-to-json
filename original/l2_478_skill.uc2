@@ -1,0 +1,29 @@
+class l2_478_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="더블 피어스"
+     SkillID=478
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u023_lightening_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u023_lightening_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_478_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         bRibbonSet=True
+         EffectClass=Class'LineageEffect.RibbonSet_rapier'
+         SimpleEffectClass=Class'LineageEffect.RibbonSet_rapier_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_478_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u819_rapier_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u819_rapier_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_478_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 10104,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.u_kn_phoenix_aura","SimpleEffectClass": "ClassLineageEffect.u_kn_phoenix_aura_simple"}],
+"ShotActions": []
+}

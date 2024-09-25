@@ -1,0 +1,5 @@
+{
+"SkillId": 6045,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bone57","bSpawnOnTarget": "False","ScaleSize": "2.000000","EffectClass": "ClassLineageEffect.e_u306_sstar","SimpleEffectClass": "ClassLineageEffect.e_u306_sstar_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,24 @@
+class l2_16228_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스턴"
+     SkillID=16228
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_elec2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec2_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16228_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_elec1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16228_skill.L2EffectEmitter1'
+}

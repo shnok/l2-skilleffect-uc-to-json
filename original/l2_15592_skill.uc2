@@ -1,0 +1,31 @@
+class l2_15592_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르 데미지반사"
+     SkillID=15592
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.900000)
+         bSpawnOnTarget=False
+         ScaleSize=0.000100
+         EffectClass=Class'LineageEffect.u_lind_damageref'
+         SimpleEffectClass=Class'LineageEffect.u_lind_damageref_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15592_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.030000
+         EffectClass=Class'LineageEffect.u_lind_damageref'
+         SimpleEffectClass=Class'LineageEffect.u_lind_damageref_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15592_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.u_lind_common_ta'
+         SimpleEffectClass=Class'LineageEffect.u_lind_common_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15592_skill.L2EffectEmitter2'
+}

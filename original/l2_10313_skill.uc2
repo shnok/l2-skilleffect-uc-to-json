@@ -1,0 +1,46 @@
+class l2_10313_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="맥시멈 러시 임팩트"
+     SkillID=10313
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_doomattack3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_doomattack3_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10313_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(X=8.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_wa_rushslash3_ru'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash3_ru_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10313_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=16.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.350000
+         EffectClass=Class'LineageEffect.d_wa_rushslash3_ru'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash3_ru_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_10313_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=24.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.d_wa_rushslash3_ru'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash3_ru_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_10313_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(X=32.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.d_wa_rushslash3_ru'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash3_ru_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_10313_skill.L2EffectEmitter4'
+     CastingCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

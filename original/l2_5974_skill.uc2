@@ -1,0 +1,15 @@
+class l2_5974_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="티아트_변신"
+     SkillID=5974
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u609_tran_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u609_tran_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5974_skill.L2EffectEmitter0'
+}

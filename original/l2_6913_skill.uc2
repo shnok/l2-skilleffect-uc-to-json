@@ -1,0 +1,50 @@
+class l2_6913_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="첼린지 포 페이트"
+     SkillID=358
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=5.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.at_bluff_ca'
+         SimpleEffectClass=Class'LineageEffect.at_bluff_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6913_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=5.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.d_attacked_b'
+         SimpleEffectClass=Class'LineageEffect.d_attacked_b_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6913_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=1.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.at_bluff_cs'
+         SimpleEffectClass=Class'LineageEffect.at_bluff_cs_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6913_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.at_bluff_ta'
+         SimpleEffectClass=Class'LineageEffect.at_bluff_ta_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_6913_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.s_u204_ta_ms'
+         SimpleEffectClass=Class'LineageEffect.s_u204_ta_ms_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_6913_skill.L2EffectEmitter4'
+}

@@ -1,0 +1,38 @@
+class l2_11618_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프렛지 멜로디"
+     SkillID=11618
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_in_mel_g_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_mel_g_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11618_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_in_bloodmark'
+         SimpleEffectClass=Class'LineageEffect.u_in_bloodmark_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11618_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_in_mel_g_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_mel_g_ca_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11618_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_in_mel_shield'
+         SimpleEffectClass=Class'LineageEffect.u_in_mel_shield_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11618_skill.L2EffectEmitter5'
+}

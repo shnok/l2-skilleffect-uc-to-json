@@ -1,0 +1,15 @@
+class l2_16338_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스티프차지"
+     SkillID=16338
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.s_u227_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u227_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16338_skill.L2EffectEmitter1'
+}

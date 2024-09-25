@@ -1,0 +1,25 @@
+class l2_16624_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빛의방패 - 프라나라흐"
+     SkillID=16624
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_shield_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_shield_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16624_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_shield_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_shield_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16624_skill.L2EffectEmitter2'
+}

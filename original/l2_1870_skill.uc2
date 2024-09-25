@@ -1,0 +1,24 @@
+class l2_1870_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="바람의 망토"
+     SkillID=1870
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.950000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_er_wind_star_cloak_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_er_wind_star_cloak_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1870_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.950000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_er_wind_star_cloak_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_er_wind_star_cloak_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1870_skill.L2EffectEmitter1'
+}

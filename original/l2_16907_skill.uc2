@@ -1,0 +1,25 @@
+class l2_16907_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="뱀파이어의 수면"
+     SkillID=16907
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.950000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.u_er_wi_flare_ca_a'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_flare_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16907_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=0.100000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_su_buffy_ta'
+         SimpleEffectClass=Class'LineageEffect.d_su_buffy_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16907_skill.L2EffectEmitter1'
+}

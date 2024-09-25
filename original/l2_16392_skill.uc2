@@ -1,0 +1,14 @@
+class l2_16392_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="티르 워리어 힘"
+     SkillID=16392
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_wa_power_ta'
+         SimpleEffectClass=Class'LineageEffect.u_wa_power_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16392_skill.L2EffectEmitter4'
+}

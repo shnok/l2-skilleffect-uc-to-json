@@ -1,0 +1,5 @@
+{
+"SkillId": 1868,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_er_wind_cutter_ca","SimpleEffectClass": "ClassLineageEffect2.y_er_wind_cutter_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect2.y_er_wind_cutter_fl","SimpleEffectClass": "ClassLineageEffect2.y_er_wind_cutter_fl_simple"}]
+}

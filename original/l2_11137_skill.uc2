@@ -1,0 +1,25 @@
+class l2_11137_skill extends L2SkillEffect;
+
+	
+
+defaultproperties
+{
+     Desc="토네이도"
+     SkillID=11137
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_wi_tornado_ca'
+         SimpleEffectClass=Class'LineageEffect.u_wi_tornado_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11137_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter53
+         AttachOn=AM_Location
+         offset=(Z=-1.000000)
+         bAsyncLifeTime=True
+         EffectClass=Class'LineageEffect.u_wi_tornado_ra'
+         SimpleEffectClass=Class'LineageEffect.u_wi_tornado_ra_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11137_skill.L2EffectEmitter53'
+}

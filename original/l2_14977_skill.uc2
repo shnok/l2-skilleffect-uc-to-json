@@ -1,0 +1,15 @@
+class l2_14977_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="릴랙스 소나타"
+     SkillID=11532
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_attackmb_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_attackmb_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14977_skill.L2EffectEmitter2'
+}

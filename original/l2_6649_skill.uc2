@@ -1,0 +1,16 @@
+class l2_6649_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="트레이칸변신"
+     SkillID=6649
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.z_seed_reptiles_ent'
+         SimpleEffectClass=Class'LineageEffect.z_seed_reptiles_ent_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6649_skill.L2EffectEmitter0'
+}

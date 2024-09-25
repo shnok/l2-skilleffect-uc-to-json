@@ -1,0 +1,38 @@
+class l2_10501_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="더블캐스팅A"
+     SkillID=10301
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u226_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u226_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10501_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_DependOnMagicInfoInClient
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.s_u226_pr'
+         SimpleEffectClass=Class'LineageEffect.s_u226_pr_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10501_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_DependOnMagicInfoInClient
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.s_u226_fl'
+         SimpleEffectClass=Class'LineageEffect.s_u226_fl_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10501_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u226_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u226_ta_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10501_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+}

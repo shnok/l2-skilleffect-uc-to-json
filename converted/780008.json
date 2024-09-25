@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_wa_spsonics_ca","SimpleEffectClass": "ClassLineageEffect.d_wa_spsonics_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.d_wa_spsonics2_illu","SimpleEffectClass": "ClassLineageEffect.d_wa_spsonics2_illu_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","bOnMultiTarget": "True","SpawnDelay": "2.500000","EffectClass": "ClassLineageEffect.d_wa_spsonics1_tara","SimpleEffectClass": "ClassLineageEffect.d_wa_spsonics1_tara_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","SpawnDelay": "0.200000","EffectClass": "ClassLineageEffect.d_ro_yellow_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_yellow_ta_simple"}]
+}

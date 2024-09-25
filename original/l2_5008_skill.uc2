@@ -1,0 +1,14 @@
+class l2_5008_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프린테샤 연속 대쉬"
+     SkillID=5008
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.wh_heal_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_heal_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5008_skill.L2EffectEmitter0'
+}

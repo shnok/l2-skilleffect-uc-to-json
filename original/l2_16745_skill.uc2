@@ -1,0 +1,15 @@
+class l2_16745_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="카마엘 오리진 출동"
+     SkillID=16745
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-1.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect2.u_kamael_wakeup'
+         SimpleEffectClass=Class'LineageEffect2.u_kamael_wakeup_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16745_skill.L2EffectEmitter0'
+}

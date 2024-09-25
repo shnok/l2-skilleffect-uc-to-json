@@ -1,0 +1,25 @@
+class l2_5780_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="아가시온_채집"
+     SkillID=5780
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 Spine"
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u403_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u403_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5780_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-30.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         EffectClass=Class'LineageEffect.e_u403_drain'
+         SimpleEffectClass=Class'LineageEffect.e_u403_drain_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5780_skill.L2EffectEmitter1'
+     FlyingTime=0.400000
+}

@@ -1,0 +1,23 @@
+class l2_5863_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="발라카스_영혼의파멸"
+     SkillID=5863
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         ScaleSize=2.300000
+         EffectClass=Class'LineageEffect.e_u809_ra'
+         SimpleEffectClass=Class'LineageEffect.e_u809_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5863_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u204_ta_ms'
+         SimpleEffectClass=Class'LineageEffect.s_u204_ta_ms_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5863_skill.L2EffectEmitter1'
+}

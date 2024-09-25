@@ -1,0 +1,15 @@
+class l2_5923_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="소울 리테인"
+     SkillID=5923
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.250000
+         EffectClass=Class'LineageEffect.e_u619_soul_a'
+         SimpleEffectClass=Class'LineageEffect.e_u619_soul_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5923_skill.L2EffectEmitter0'
+}

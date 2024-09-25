@@ -1,0 +1,14 @@
+class l2_5019_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="전체 흡수"
+     SkillID=5019
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.mb_frintessa_drain_ta'
+         SimpleEffectClass=Class'LineageEffect.mb_frintessa_drain_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5019_skill.L2EffectEmitter0'
+}

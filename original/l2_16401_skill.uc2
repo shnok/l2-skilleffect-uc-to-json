@@ -1,0 +1,16 @@
+class l2_16401_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="디멘션 리플렉트"
+     SkillID=16401
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.300000
+         EffectClass=Class'LineageEffect.e_u849_defense_cs'
+         SimpleEffectClass=Class'LineageEffect.e_u849_defense_cs_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16401_skill.L2EffectEmitter1'
+}

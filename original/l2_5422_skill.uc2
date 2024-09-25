@@ -1,0 +1,15 @@
+class l2_5422_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="월드트랩 화염"
+     SkillID=5422
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-0.750000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.ct_npcev_c'
+         SimpleEffectClass=Class'LineageEffect.ct_npcev_c_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5422_skill.L2EffectEmitter0'
+}

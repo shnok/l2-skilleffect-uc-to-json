@@ -1,0 +1,15 @@
+class l2_5792_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="밴시퀸 소환"
+     SkillID=5792
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-8.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u102_spawn'
+         SimpleEffectClass=Class'LineageEffect.e_u102_spawn_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5792_skill.L2EffectEmitter0'
+}

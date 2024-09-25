@@ -1,0 +1,57 @@
+class l2_16618_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="에누마 에리슈 - 푸른 번개의 창"
+     SkillID=16618
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16618_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip02 R Hand"
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_hand'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_hand_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16618_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-1.000000)
+         ScaleSize=1.390000
+         SpawnDelay=0.080000
+         EffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_bot_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_bot_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16618_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.150000
+         EffectClass=Class'LineageEffect.d_attacked_arrowr'
+         SimpleEffectClass=Class'LineageEffect.d_attacked_arrowr_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16618_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Z=-1.000000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_spear_blue_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16618_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(Z=-0.800000)
+         ScaleSize=7.000000
+         SpawnDelay=0.100000
+         EffectClass=Class'LineageEffect.d_mon_elec2_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_elec2_ra_simple'
+     End Object
+     ShotAction(3)=L2EffectEmitter'LineageSkillEffect.l2_16618_skill.L2EffectEmitter5'
+}

@@ -1,0 +1,23 @@
+class l2_10020_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="미러링 실드"
+     SkillID=10020
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect2.y_kn_focus_shield_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_focus_shield_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10020_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_kn_focus_shield_buff'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_focus_shield_buff_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10020_a_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,22 @@
+class l2_15313_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="wind walk"
+     SkillID=1204
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.m_u010_a'
+         SimpleEffectClass=Class'LineageEffect.m_u010_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15313_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.m_u010_c'
+         SimpleEffectClass=Class'LineageEffect.m_u010_c_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15313_skill.L2EffectEmitter1'
+}

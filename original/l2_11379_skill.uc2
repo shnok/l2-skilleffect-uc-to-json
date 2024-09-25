@@ -1,0 +1,21 @@
+class l2_11379_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="랜서 러시"
+     SkillID=11379
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_wa_rushslash1_ru'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash1_ru_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11379_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         EffectClass=Class'LineageEffect.d_wa_rushslash_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11379_skill.L2EffectEmitter5'
+     CastingCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

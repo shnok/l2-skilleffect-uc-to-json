@@ -1,0 +1,5 @@
+{
+"SkillId": 1237,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.800000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.el_ice_dagger_ca","SimpleEffectClass": "ClassLineageEffect.el_ice_dagger_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=20.000000)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.el_ice_dagger_pr","SimpleEffectClass": "ClassLineageEffect.el_ice_dagger_pr_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "bSpawnOnTarget": "False","bRelativeToCylinder": "False","EffectClass": "ClassLineageEffect.el_ice_dagger_fl","SimpleEffectClass": "ClassLineageEffect.el_ice_dagger_fl_simple"}]
+}

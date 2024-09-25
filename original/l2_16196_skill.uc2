@@ -1,0 +1,31 @@
+class l2_16196_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="흩날리는 핏방울"
+     SkillID=16196
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_ro_darkp2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_ro_darkp2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16196_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ro_red_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ro_red_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16196_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter89
+         offset=(Z=-0.900000)
+         ScaleSize=1.200000
+         EffectClass=Class'LineageEffect.d_mon_red1_ra'
+         SimpleEffectClass=Class'LineageEffect.d_mon_red1_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16196_skill.L2EffectEmitter89'
+}

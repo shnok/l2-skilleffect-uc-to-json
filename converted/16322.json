@@ -1,0 +1,5 @@
+{
+"SkillId": 16322,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.950000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_event_wheelwind_ra","SimpleEffectClass": "ClassLineageEffect.u_event_wheelwind_ra_simple"}]
+}

@@ -1,0 +1,14 @@
+class l2_br_001_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="가위바위보 연승행진"
+     SkillID=23022
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.700000
+         EffectClass=Class'LineageEffect.br_s_u001_ca'
+         SimpleEffectClass=Class'LineageEffect.br_s_u001_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_br_001_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,51 @@
+class l2_11117_b_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="엘레멘탈 패스트 버스터(소울 암흑)"
+     SkillID=11117
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.700000,Z=-0.800000)
+         bSpawnOnTarget=False
+         ScaleSize=0.900000
+         EffectClass=Class'LineageEffect2.y_wi_elemnetalburst_dark_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elemnetalburst_dark_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11117_b_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_elementaldestroy_dark_handca'
+         SimpleEffectClass=Class'LineageEffect2.y_elementaldestroy_dark_handca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11117_b_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_elementaldestroy_dark_handca'
+         SimpleEffectClass=Class'LineageEffect2.y_elementaldestroy_dark_handca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11117_b_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=0.220000
+         EffectClass=Class'LineageEffect2.y_wi_elemnetalburst_dark_black_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elemnetalburst_dark_black_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11117_b_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect2.y_wi_elemnetalburst_dark_black2_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_wi_elemnetalburst_dark_black2_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11117_b_skill.L2EffectEmitter4'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_04s_delay'
+}

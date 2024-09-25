@@ -1,0 +1,22 @@
+class l2_3598_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="인피니티 파워 - 리미트 마나"
+     SkillID=3598
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_infinity_power_limit_mana_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_infinity_power_limit_mana_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3598_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.200000)
+         EffectClass=Class'LineageEffect2.y_infinity_power_limit_mana_ta'
+         SimpleEffectClass=Class'LineageEffect2.y_infinity_power_limit_mana_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_3598_skill.L2EffectEmitter1'
+}

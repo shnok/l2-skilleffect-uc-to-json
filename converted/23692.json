@@ -1,0 +1,5 @@
+{
+"SkillId": 23692,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_astatine_meteor_ra","SimpleEffectClass": "ClassLineageEffect.u_astatine_meteor_ra_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_astatine_meteor_ta","SimpleEffectClass": "ClassLineageEffect.u_astatine_meteor_ta_simple"}]
+}

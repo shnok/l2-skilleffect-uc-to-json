@@ -1,0 +1,23 @@
+class l2_761_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="시드 오브 리벤지"
+     SkillID=761
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u202_final'
+         SimpleEffectClass=Class'LineageEffect.s_u202_final_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_761_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u202_charge'
+         SimpleEffectClass=Class'LineageEffect.s_u202_charge_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_761_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 6300,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.m_u013_a","SimpleEffectClass": "ClassLineageEffect.m_u013_a_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.d_smoke_darkb","SimpleEffectClass": "ClassLineageEffect.d_smoke_darkb_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.e_u604_ta","SimpleEffectClass": "ClassLineageEffect.e_u604_ta_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","SpawnDelay": "0.050000","EffectClass": "ClassLineageEffect.s_u820_magic_ta","SimpleEffectClass": "ClassLineageEffect.s_u820_magic_ta_simple"}]
+}

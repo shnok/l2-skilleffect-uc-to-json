@@ -1,0 +1,22 @@
+class l2_30500_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="더블 사이드 어택_a"
+     SkillID=30500
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.g_wa_attack_blue_ca'
+         SimpleEffectClass=Class'LineageEffect.g_wa_attack_blue_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30500_a_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.g_wa_attack_blue_ta'
+         SimpleEffectClass=Class'LineageEffect.g_wa_attack_blue_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30500_a_skill.L2EffectEmitter22'
+}

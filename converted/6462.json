@@ -1,0 +1,5 @@
+{
+"SkillId": ,
+"CastingActions": [],
+"ShotActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.z_kegor_Fsmash_b_ca","SimpleEffectClass": "ClassLineageEffect.z_kegor_Fsmash_b_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "1.200000","EffectClass": "ClassLineageEffect.z_kegor_Fsmash_b_ta","SimpleEffectClass": "ClassLineageEffect.z_kegor_Fsmash_b_ta_simple"}]
+}

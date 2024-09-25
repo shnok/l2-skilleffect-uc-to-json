@@ -1,0 +1,34 @@
+class l2_14740_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="포엠 오브 드럼"
+     SkillID=11518
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_in_music3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_music3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14740_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=10.000000)
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectPawnClassID=13335
+         SequenceName="social01"
+         AnimStartFrame=0.010000
+         AnimEndFrame=0.990000
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14740_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_in_music3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_in_music3_ca_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14740_skill.L2EffectEmitter2'
+}

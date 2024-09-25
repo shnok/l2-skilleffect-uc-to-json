@@ -1,0 +1,15 @@
+class l2_18564_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="고급 탄자나이트 -  배리어"
+     SkillID=18564
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect2.y_jewel_tanzanite_high_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_jewel_tanzanite_high_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18564_skill.L2EffectEmitter0'
+}

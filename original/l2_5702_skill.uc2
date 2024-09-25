@@ -1,0 +1,29 @@
+class l2_5702_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파이어라운드_실제스킬"
+     SkillID=5702
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.800000)
+         EffectClass=Class'LineageEffect.e_u311_area'
+         SimpleEffectClass=Class'LineageEffect.e_u311_area_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5702_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.e_u311_ra'
+         SimpleEffectClass=Class'LineageEffect.e_u311_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5702_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.e_u311_ra'
+         SimpleEffectClass=Class'LineageEffect.e_u311_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5702_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,40 @@
+class l2_30003_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하이드로 플래어"
+     SkillID=30003
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_flare_hand'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_flare_hand_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30003_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_flare_ca'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_flare_ca_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30003_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-0.500000)
+         EffectClass=Class'LineageEffect.u_er_wi_flare_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_flare_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_30003_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_AliasSpecified
+         AttachBoneName="e_bone"
+         bAbsolute=True
+         offset=(Z=1.650000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_er_wi_flareave_ta'
+         SimpleEffectClass=Class'LineageEffect.u_er_wi_flareave_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_30003_skill.L2EffectEmitter3'
+}

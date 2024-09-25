@@ -1,0 +1,5 @@
+{
+"SkillId": 16616,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_boss_helios_eye_of_power_ca","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_eye_of_power_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-1.000000)","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_boss_helios_eye_of_power_ra","SimpleEffectClass": "ClassLineageEffect2.y_boss_helios_eye_of_power_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.z_seed_groykhan_ta","SimpleEffectClass": "ClassLineageEffect.z_seed_groykhan_ta_simple"}]
+}

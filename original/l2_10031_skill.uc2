@@ -1,0 +1,30 @@
+class l2_10031_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="챌린지 오라"
+     SkillID=10031
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.m_u809_spec_ca'
+         SimpleEffectClass=Class'LineageEffect.m_u809_spec_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10031_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u236_ra'
+         SimpleEffectClass=Class'LineageEffect.s_u236_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10031_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u236_ta'
+         SimpleEffectClass=Class'LineageEffect.s_u236_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10031_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,35 @@
+class l2_10305_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="맥시멈 프로보크"
+     SkillID=10305
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-0.200000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.750000
+         EffectClass=Class'LineageEffect.u_wa_provo_ca'
+         SimpleEffectClass=Class'LineageEffect.u_wa_provo_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10305_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.d_wa_gd_tara'
+         SimpleEffectClass=Class'LineageEffect.d_wa_gd_tara_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10305_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_AliasSpecified
+         AttachBoneName="e_bone"
+         bAbsolute=True
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.u_wa_provo_ta'
+         SimpleEffectClass=Class'LineageEffect.u_wa_provo_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_10305_skill.L2EffectEmitter3'
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

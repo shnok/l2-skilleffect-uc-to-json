@@ -1,0 +1,40 @@
+class l2_6293_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="팬형 강공격"
+     SkillID=6293
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.500000
+         EffectClass=Class'LineageEffect.z_ice_hknight_ca'
+         SimpleEffectClass=Class'LineageEffect.z_ice_hknight_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6293_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_ice_heavyknight_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_heavyknight_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6293_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Y=3.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.z_kegor_Fsmash_a_ca'
+         SimpleEffectClass=Class'LineageEffect.z_kegor_Fsmash_a_ca_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6293_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         offset=(X=3.000000,Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.z_ice_knight_a_ra'
+         SimpleEffectClass=Class'LineageEffect.z_ice_knight_a_ra_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_6293_skill.L2EffectEmitter11'
+}

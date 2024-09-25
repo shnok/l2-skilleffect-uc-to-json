@@ -1,0 +1,24 @@
+class l2_6556_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="낮은물근접공격"
+     SkillID=6556
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.200000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_ice_bolt_ca'
+         SimpleEffectClass=Class'LineageEffect.el_ice_bolt_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6556_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_aqua_swirl_ta'
+         SimpleEffectClass=Class'LineageEffect.el_aqua_swirl_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6556_skill.L2EffectEmitter2'
+}

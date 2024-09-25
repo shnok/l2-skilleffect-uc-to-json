@@ -1,0 +1,5 @@
+{
+"SkillId": 19435,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_blade_debuff_ca","SimpleEffectClass": "ClassLineageEffect2.y_in_blade_debuff_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_in_blade_debuff_ra_sword","SimpleEffectClass": "ClassLineageEffect2.y_in_blade_debuff_ra_sword_simple"}],
+"ShotActions": []
+}

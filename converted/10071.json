@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_ro_bleed_handca","SimpleEffectClass": "ClassLineageEffect.d_ro_bleed_handca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_ro_bleed_ca","SimpleEffectClass": "ClassLineageEffect.d_ro_bleed_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","EffectClass": "ClassLineageEffect.d_ro_bleed_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_bleed_ta_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.d_ro_darkp2_ta","SimpleEffectClass": "ClassLineageEffect.d_ro_darkp2_ta_simple"}]
+}

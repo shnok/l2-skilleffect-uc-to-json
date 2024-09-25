@@ -1,0 +1,22 @@
+class l2_5497_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="베레스 다크혼"
+     SkillID=5497
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.750000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u843_darkhorn_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u843_darkhorn_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5497_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-0.700000)
+         EffectClass=Class'LineageEffect.e_u843_darkhorn_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u843_darkhorn_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5497_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,23 @@
+class l2_6407_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="토룸바저주"
+     SkillID=6407
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.z_debuff_b'
+         SimpleEffectClass=Class'LineageEffect.z_debuff_b_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6407_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.z_common_debuff_d'
+         SimpleEffectClass=Class'LineageEffect.z_common_debuff_d_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_6407_skill.L2EffectEmitter2'
+}

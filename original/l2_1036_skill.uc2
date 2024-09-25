@@ -1,0 +1,23 @@
+class l2_1036_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매직 배리어"
+     SkillID=1036
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.wh_heal_ca'
+         SimpleEffectClass=Class'LineageEffect.wh_heal_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1036_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_magic_barrier_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_magic_barrier_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1036_skill.L2EffectEmitter1'
+}

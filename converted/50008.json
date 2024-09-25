@@ -1,0 +1,5 @@
+{
+"SkillId": 50008,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.100000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_raid_zaken_rage_king_ca","SimpleEffectClass": "ClassLineageEffect2.y_raid_zaken_rage_king_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","SpawnDelay": "0.030000","EffectClass": "ClassLineageEffect2.y_raid_zaken_rage_king_ra","SimpleEffectClass": "ClassLineageEffect2.y_raid_zaken_rage_king_ra_simple"},{"Name": "L2EffectEmitter2", "bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect2.y_mon_black_ra","SimpleEffectClass": "ClassLineageEffect2.y_mon_black_ra_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_kn_poison_ta","SimpleEffectClass": "ClassLineageEffect.u_kn_poison_ta_simple"}]
+}

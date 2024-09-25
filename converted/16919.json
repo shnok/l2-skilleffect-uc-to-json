@@ -1,0 +1,5 @@
+{
+"SkillId": 16919,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.e_u846_berethfire_ca_a","SimpleEffectClass": "ClassLineageEffect.e_u846_berethfire_ca_a_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_wi_meteor_ra","SimpleEffectClass": "ClassLineageEffect.u_wi_meteor_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.u_astatine_meteor_ta","SimpleEffectClass": "ClassLineageEffect.u_astatine_meteor_ta_simple"}]
+}

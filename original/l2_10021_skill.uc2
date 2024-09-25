@@ -1,0 +1,22 @@
+class l2_10021_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="스파이크 실드"
+     SkillID=10021
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.d_kn_alterdefense2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_kn_alterdefense2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10021_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_kn_alterdefense2_ta'
+         SimpleEffectClass=Class'LineageEffect.d_kn_alterdefense2_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10021_skill.L2EffectEmitter2'
+}

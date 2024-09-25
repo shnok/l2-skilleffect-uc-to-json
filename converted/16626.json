@@ -1,0 +1,5 @@
+{
+"SkillId": 16626,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect2.y_boss_item_helios_shied_ca","SimpleEffectClass": "ClassLineageEffect2.y_boss_item_helios_shied_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_LH","bSpawnOnTarget": "False","ScaleSize": "0.100000","SpawnDelay": "0.500000","EffectClass": "ClassLineageEffect.u_lind_ultimate_ca","SimpleEffectClass": "ClassLineageEffect.u_lind_ultimate_ca_simple"}],
+"ShotActions": []
+}

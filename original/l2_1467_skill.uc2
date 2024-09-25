@@ -1,0 +1,189 @@
+class l2_1467_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="메테오"
+     SkillID=1467
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.el_flame_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.el_flame_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.000000)
+         SpawnDelay=2.000000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(X=10.000000,Z=-1.000000)
+         SpawnDelay=2.200000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         offset=(X=-10.000000,Z=-1.000000)
+         SpawnDelay=2.500000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         offset=(Y=100.000000,Z=-1.000000)
+         SpawnDelay=2.300000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         offset=(Y=-100.000000,Z=-1.000000)
+         SpawnDelay=2.600000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(5)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         offset=(Z=-1.000000)
+         SpawnDelay=4.000000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(6)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter6'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter7
+         offset=(X=10.000000,Z=-1.000000)
+         SpawnDelay=4.200000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(7)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter7'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter8
+         offset=(X=-10.000000,Z=-1.000000)
+         SpawnDelay=4.500000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(8)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter8'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter9
+         offset=(Y=100.000000,Z=-1.000000)
+         SpawnDelay=4.300000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(9)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter9'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter10
+         offset=(Y=-100.000000,Z=-1.000000)
+         SpawnDelay=4.600000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(10)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter10'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         offset=(Z=-1.000000)
+         SpawnDelay=6.000000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(11)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter12
+         offset=(X=10.000000,Z=-1.000000)
+         SpawnDelay=6.200000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(12)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter12'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter13
+         offset=(X=-10.000000,Z=-1.000000)
+         SpawnDelay=6.500000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(13)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter13'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter14
+         offset=(Y=100.000000,Z=-1.000000)
+         SpawnDelay=6.300000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(14)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter14'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter15
+         offset=(Y=-100.000000,Z=-1.000000)
+         SpawnDelay=6.600000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(15)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter15'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter16
+         offset=(Z=-1.000000)
+         SpawnDelay=8.000000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(16)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter16'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter17
+         offset=(X=10.000000,Z=-1.000000)
+         SpawnDelay=8.200000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(17)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter17'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter18
+         offset=(X=-10.000000,Z=-1.000000)
+         SpawnDelay=8.500000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(18)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter18'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter19
+         offset=(Y=100.000000,Z=-1.000000)
+         SpawnDelay=8.300000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(19)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter19'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter20
+         offset=(Y=-100.000000,Z=-1.000000)
+         SpawnDelay=8.600000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(20)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter20'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(21)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter21'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter22
+         offset=(X=10.000000,Z=-1.000000)
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(22)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter22'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter23
+         offset=(X=-10.000000,Z=-1.000000)
+         SpawnDelay=0.500000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(23)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter23'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter24
+         offset=(Y=100.000000,Z=-1.000000)
+         SpawnDelay=0.300000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(24)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter24'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter25
+         offset=(Y=-100.000000,Z=-1.000000)
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.e_u836_meteo'
+         SimpleEffectClass=Class'LineageEffect.e_u836_meteo_simple'
+     End Object
+     CastingAction(25)=L2EffectEmitter'LineageSkillEffect.l2_1467_skill.L2EffectEmitter25'
+}

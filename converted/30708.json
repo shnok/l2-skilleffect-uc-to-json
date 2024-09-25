@@ -1,0 +1,5 @@
+{
+"SkillId": 30708,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneLocation","AttachBoneName": "Dummy_Effect","bSpawnOnTarget": "False","ScaleSize": "0.400000","SpawnDelay": "0.400000","EffectClass": "ClassLineageEffect.s_u223_ca","SimpleEffectClass": "ClassLineageEffect.s_u223_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Dummy_Effect","bAbsolute": "True","RelativeRotation": "(Pitch=-2096,Yaw=16384,Roll=8192)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.700000","EffectClass": "ClassLineageEffect.mo_rapid_shot_ta","SimpleEffectClass": "ClassLineageEffect.mo_rapid_shot_ta_simple"},{"Name": "L2EffectEmitter2", "AttachBoneName": "Dummy_Effect","RelativeRotation": "(Pitch=24576,Yaw=16384)","bSpawnOnTarget": "False","bRelativeToCylinder": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect2.y_boss_loepold_plasma_fl","SimpleEffectClass": "ClassLineageEffect2.y_boss_loepold_plasma_fl_simple","bBezierCurve": "True","ControlPointOffset(0)": "(Z=3.000000)"}]
+}

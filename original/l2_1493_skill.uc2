@@ -1,0 +1,24 @@
+class l2_1493_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프로스트 아머"
+     SkillID=1493
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.s_u208_ca'
+         SimpleEffectClass=Class'LineageEffect.s_u208_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1493_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.s_u208_ta_frost'
+         SimpleEffectClass=Class'LineageEffect.s_u208_ta_frost_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_1493_skill.L2EffectEmitter1'
+}

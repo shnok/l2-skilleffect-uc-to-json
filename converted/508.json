@@ -1,0 +1,5 @@
+{
+"SkillId": 508,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=2.000000,Y=6.000000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "2.000000","SpawnDelay": "1.200000","EffectClass": "ClassLineageEffect.s_u814_arrow_ca_test","SimpleEffectClass": "ClassLineageEffect.s_u814_arrow_ca_test_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(X=5.000000,Y=9.000000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "3.000000","SpawnDelay": "1.800000","EffectClass": "ClassLineageEffect.s_u814_arrow_ca_test","SimpleEffectClass": "ClassLineageEffect.s_u814_arrow_ca_test_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter10", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","EffectClass": "ClassLineageEffect.s_u814_range_ta_test","SimpleEffectClass": "ClassLineageEffect.s_u814_range_ta_test_simple"},{"Name": "L2EffectEmitter11", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.s_u814_arrow_ta_test","SimpleEffectClass": "ClassLineageEffect.s_u814_arrow_ta_test_simple"}]
+}

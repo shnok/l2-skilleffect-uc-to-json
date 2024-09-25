@@ -1,0 +1,5 @@
+{
+"SkillId": 54,
+"CastingActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.at_sonic_blast_ta","SimpleEffectClass": "ClassLineageEffect.at_sonic_blast_ta_simple"}],
+"ShotActions": []
+}

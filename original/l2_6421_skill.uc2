@@ -1,0 +1,22 @@
+class l2_6421_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="용사의분노"
+     SkillID=6421
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.ph_howl_ca'
+         SimpleEffectClass=Class'LineageEffect.ph_howl_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6421_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.z_custom_striking_ta'
+         SimpleEffectClass=Class'LineageEffect.z_custom_striking_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6421_skill.L2EffectEmitter1'
+}

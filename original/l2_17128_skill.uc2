@@ -1,0 +1,22 @@
+class l2_17128_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="운명의 계승자들"
+     SkillID=17128
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.it_quick_step_potion_ta'
+         SimpleEffectClass=Class'LineageEffect.it_quick_step_potion_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17128_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.u_particleup_g'
+         SimpleEffectClass=Class'LineageEffect.u_particleup_g_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17128_skill.L2EffectEmitter1'
+}

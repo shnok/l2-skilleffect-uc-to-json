@@ -1,0 +1,34 @@
+class l2_11604_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="실 오브 인빈시빌리티"
+     SkillID=11604
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_in_invin_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_invin_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11604_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(Z=1.000000)
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_in_invin_ta'
+         SimpleEffectClass=Class'LineageEffect.u_in_invin_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11604_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.150000
+         EffectClass=Class'LineageEffect.u_in_invin_ra'
+         SimpleEffectClass=Class'LineageEffect.u_in_invin_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11604_skill.L2EffectEmitter2'
+}

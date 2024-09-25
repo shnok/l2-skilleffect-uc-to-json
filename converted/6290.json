@@ -1,0 +1,5 @@
+{
+"SkillId": 6290,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(X=-0.500000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.800000","EffectClass": "ClassLineageEffect.z_knight_Sort_ca","SimpleEffectClass": "ClassLineageEffect.z_knight_Sort_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.z_ice_knight3_ta","SimpleEffectClass": "ClassLineageEffect.z_ice_knight3_ta_simple"}]
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 5718,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.mo_war_cry_ca","SimpleEffectClass": "ClassLineageEffect.mo_war_cry_ca_simple"}],
+"ShotActions": []
+}

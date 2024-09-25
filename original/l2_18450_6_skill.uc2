@@ -1,0 +1,25 @@
+class l2_18450_6_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="11 주년 숫자 이벤트 6_개인"
+     SkillID=18450
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter21
+         AttachOn=AM_Trail
+         offset=(Z=60.000000)
+         bRelativeToCylinder=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_event_number_ca'
+         SimpleEffectClass=Class'LineageEffect.u_event_number_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18450_6_skill.L2EffectEmitter21'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=60.000000)
+         bRelativeToCylinder=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_event_6number'
+         SimpleEffectClass=Class'LineageEffect.u_event_6number_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_18450_6_skill.L2EffectEmitter2'
+}

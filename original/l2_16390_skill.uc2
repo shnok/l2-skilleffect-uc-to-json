@@ -1,0 +1,14 @@
+class l2_16390_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="윈 서머너의 힘"
+     SkillID=16390
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_su_power_ta'
+         SimpleEffectClass=Class'LineageEffect.u_su_power_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16390_skill.L2EffectEmitter4'
+}

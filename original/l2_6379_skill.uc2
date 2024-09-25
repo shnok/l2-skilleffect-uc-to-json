@@ -1,0 +1,22 @@
+class l2_6379_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="샘플"
+     SkillID=6379
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter12
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.z_casting_fire_ca'
+         SimpleEffectClass=Class'LineageEffect.z_casting_fire_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6379_skill.L2EffectEmitter12'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.s_u820_range_ta_a'
+         SimpleEffectClass=Class'LineageEffect.s_u820_range_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6379_skill.L2EffectEmitter2'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 497,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_mon_buff1_ca","SimpleEffectClass": "ClassLineageEffect.d_mon_buff1_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter33", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "0.400000","EffectClass": "ClassLineageEffect.d_mon_mez2_ta","SimpleEffectClass": "ClassLineageEffect.d_mon_mez2_ta_simple"}]
+}

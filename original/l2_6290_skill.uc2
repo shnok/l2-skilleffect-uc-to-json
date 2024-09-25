@@ -1,0 +1,23 @@
+class l2_6290_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빙궁기사 강 공격"
+     SkillID=6290
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.z_knight_Sort_ca'
+         SimpleEffectClass=Class'LineageEffect.z_knight_Sort_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6290_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.z_ice_knight3_ta'
+         SimpleEffectClass=Class'LineageEffect.z_ice_knight3_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6290_skill.L2EffectEmitter1'
+}

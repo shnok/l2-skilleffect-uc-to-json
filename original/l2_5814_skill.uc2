@@ -1,0 +1,15 @@
+class l2_5814_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="붐아이_자폭"
+     SkillID=5814
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.e_u604_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u604_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5814_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 15573,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-0.500000)","bSpawnOnTarget": "False","ScaleSize": "0.300000","EffectClass": "ClassLineageEffect.u_golem_punch_ca","SimpleEffectClass": "ClassLineageEffect.u_golem_punch_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(Z=-0.900000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.u_golem_punch_ra","SimpleEffectClass": "ClassLineageEffect.u_golem_punch_ra_simple"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_golem_punch_ta","SimpleEffectClass": "ClassLineageEffect.u_golem_punch_ta_simple"}]
+}

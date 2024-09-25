@@ -1,0 +1,23 @@
+class l2_10326_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="블러드 퓨리"
+     SkillID=10326
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_wa_drainst2_ca'
+         SimpleEffectClass=Class'LineageEffect.d_wa_drainst2_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10326_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_wa_drainst_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_drainst_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10326_skill.L2EffectEmitter2'
+}

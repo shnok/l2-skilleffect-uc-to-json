@@ -1,0 +1,5 @@
+{
+"SkillId": 11382,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.u_su_touch_b_ca","SimpleEffectClass": "ClassLineageEffect.u_su_touch_b_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.el_ice_bolt_ta","SimpleEffectClass": "ClassLineageEffect.el_ice_bolt_ta_simple"},{"Name": "L2EffectEmitter2", "offset": "(Z=-0.900000)","EffectClass": "ClassLineageEffect.z_ice_knight_a_ra","SimpleEffectClass": "ClassLineageEffect.z_ice_knight_a_ra_simple"}]
+}

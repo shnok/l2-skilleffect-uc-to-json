@@ -1,0 +1,42 @@
+class l2_16611_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="헬리오스 고통의 왕좌"
+     SkillID=16611
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.130000
+         EffectClass=Class'LineageEffect2.y_boss_helios_thorne_of_pain_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_thorne_of_pain_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16611_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.100000)
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         SpawnDelay=0.070000
+         EffectClass=Class'LineageEffect2.y_boss_helios_thorne_of_pain_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_boss_helios_thorne_of_pain_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16611_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-1.100000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.d_ar_trapground_ra'
+         SimpleEffectClass=Class'LineageEffect.d_ar_trapground_ra_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_16611_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         SpawnDelay=0.090000
+         EffectClass=Class'LineageEffect.d_ar_raina_ta'
+         SimpleEffectClass=Class'LineageEffect.d_ar_raina_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_16611_skill.L2EffectEmitter3'
+}

@@ -1,0 +1,16 @@
+class l2_6440_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="강대함의 기운"
+     SkillID=6440
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.z_new_hp_heal_green'
+         SimpleEffectClass=Class'LineageEffect.z_new_hp_heal_green_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6440_skill.L2EffectEmitter0'
+}

@@ -1,0 +1,58 @@
+class l2_11138_skill extends L2SkillEffect;
+
+	
+
+defaultproperties
+{
+     Desc="소울봄버(레인)"
+     SkillID=11138
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.u_wi_soulbomb_ca'
+         SimpleEffectClass=Class'LineageEffect.u_wi_soulbomb_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11138_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_wi_soulbomb_hand'
+         SimpleEffectClass=Class'LineageEffect.u_wi_soulbomb_hand_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11138_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.u_wi_soulbomb_hand'
+         SimpleEffectClass=Class'LineageEffect.u_wi_soulbomb_hand_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_11138_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter53
+         AttachOn=AM_Location
+         offset=(Z=-1.000000)
+         bAsyncLifeTime=True
+         EffectClass=Class'LineageEffect.u_wi_soulbomb_ra'
+         SimpleEffectClass=Class'LineageEffect.u_wi_soulbomb_ra_simple'
+     End Object
+     ChannelingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11138_skill.L2EffectEmitter53'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter14
+         AttachOn=AM_Location
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bMyUnionTargetAction=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.u_wi_soulbomb_tara'
+         SimpleEffectClass=Class'LineageEffect.u_wi_soulbomb_tara_simple'
+     End Object
+     UnionTargetAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11138_skill.L2EffectEmitter14'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         SpawnDelay=0.150000
+         EffectClass=Class'LineageEffect.u_wi_soulbomb_ta'
+         SimpleEffectClass=Class'LineageEffect.u_wi_soulbomb_ta_simple'
+     End Object
+     UnionTargetAction(1)=L2EffectEmitter'LineageSkillEffect.l2_11138_skill.L2EffectEmitter5'
+}

@@ -1,0 +1,16 @@
+class l2_6285_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프레야_얼음의분노"
+     SkillID=6285
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         bSpawnOnTarget=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.wh_regeneration_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_regeneration_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6285_skill.L2EffectEmitter0'
+}

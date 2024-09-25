@@ -1,0 +1,39 @@
+class l2_5782_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드비오르_브레쓰으"
+     SkillID=5782
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 head"
+         bSpawnOnTarget=False
+         SpawnDelay=4.900000
+         EffectClass=Class'LineageEffect.e_u623_lindvior_breath'
+         SimpleEffectClass=Class'LineageEffect.e_u623_lindvior_breath_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5782_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_BoneSpecified
+         AttachBoneName="Bip01 head"
+         bSpawnOnTarget=False
+         SpawnDelay=5.400000
+         EffectClass=Class'LineageEffect.e_u623_lindvior_breath'
+         SimpleEffectClass=Class'LineageEffect.e_u623_lindvior_breath_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5782_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         SpawnDelay=5.500000
+         EffectClass=Class'LineageEffect.e_u623_lindvior_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u623_lindvior_ta_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_5782_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         SpawnDelay=6.500000
+         EffectClass=Class'LineageEffect.e_u623_lindvior_ta'
+         SimpleEffectClass=Class'LineageEffect.e_u623_lindvior_ta_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_5782_skill.L2EffectEmitter3'
+}

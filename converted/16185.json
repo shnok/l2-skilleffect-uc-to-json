@@ -1,0 +1,5 @@
+{
+"SkillId": 15534,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.z_seed_caiona_ta","SimpleEffectClass": "ClassLineageEffect.z_seed_caiona_ta_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bOnMultiTarget": "True","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.d_tauti_green_ta","SimpleEffectClass": "ClassLineageEffect.d_tauti_green_ta_simple"}]
+}

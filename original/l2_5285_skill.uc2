@@ -1,0 +1,23 @@
+class l2_5285_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="물리 단위 근거리 공격"
+     SkillID=5285
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.el_wind_strike_ca'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5285_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-1.000000)
+         EffectClass=Class'LineageEffect.el_wind_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5285_skill.L2EffectEmitter1'
+}

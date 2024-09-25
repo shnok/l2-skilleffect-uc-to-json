@@ -1,0 +1,5 @@
+{
+"SkillId": 5289,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.e_u835_sand_twist_b","SimpleEffectClass": "ClassLineageEffect.e_u835_sand_twist_b_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","offset": "(X=-1.000000)","EffectClass": "ClassLineageEffect.p_u005_a","SimpleEffectClass": "ClassLineageEffect.p_u005_a_simple"}]
+}

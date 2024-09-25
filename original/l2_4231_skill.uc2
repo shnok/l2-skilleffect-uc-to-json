@@ -1,0 +1,21 @@
+class l2_4231_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="NPC Spit Attack"
+     SkillID=4231
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.e_u072_a'
+         SimpleEffectClass=Class'LineageEffect.e_u072_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4231_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u072_b'
+         SimpleEffectClass=Class'LineageEffect.e_u072_b_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4231_skill.L2EffectEmitter1'
+     FlyingTime=0.400000
+}

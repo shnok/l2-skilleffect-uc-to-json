@@ -1,0 +1,24 @@
+class l2_9932_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="자이언트 셀레스티얼 실드"
+     SkillID=9932
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.d_he_shade_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_shade_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9932_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_shadeshelter_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_shadeshelter_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_9932_skill.L2EffectEmitter1'
+}

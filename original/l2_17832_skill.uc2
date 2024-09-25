@@ -1,0 +1,44 @@
+class l2_17832_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="하트 샷"
+     SkillID=9155
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.750000
+         EffectClass=Class'LineageEffect.e_u843_darkhorn_ca'
+         SimpleEffectClass=Class'LineageEffect.e_u843_darkhorn_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17832_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_spwave1_shot'
+         SimpleEffectClass=Class'LineageEffect.d_spwave1_shot_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_17832_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bOnMultiTarget=True
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_spwave2_shot'
+         SimpleEffectClass=Class'LineageEffect.d_spwave2_shot_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_17832_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.100000
+         EffectClass=Class'LineageEffect.d_wi_abnormalweakly_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wi_abnormalweakly_ta_simple'
+     End Object
+     ShotAction(2)=L2EffectEmitter'LineageSkillEffect.l2_17832_skill.L2EffectEmitter3'
+     FlyingTime=0.400000
+     ShotCameraEffectInfoClass=Class'CameraEffectInfo.CameraEffectInfo_02s'
+}

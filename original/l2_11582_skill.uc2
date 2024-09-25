@@ -1,0 +1,16 @@
+class l2_11582_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="매스 송 오브 사일런스"
+     SkillID=11582
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         SpawnDelay=0.800000
+         EffectClass=Class'LineageEffect.u_in_silence_ca'
+         SimpleEffectClass=Class'LineageEffect.u_in_silence_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11582_skill.L2EffectEmitter0'
+}

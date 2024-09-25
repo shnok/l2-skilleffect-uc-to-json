@@ -1,0 +1,23 @@
+class l2_10244_a_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="투핸드 스탠스"
+     SkillID=10244
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect2.y_kn_true_vanguard_ca'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_true_vanguard_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10244_a_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         ScaleSize=1.800000
+         EffectClass=Class'LineageEffect2.y_kn_true_vanguard_ra'
+         SimpleEffectClass=Class'LineageEffect2.y_kn_true_vanguard_ra_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10244_a_skill.L2EffectEmitter1'
+}

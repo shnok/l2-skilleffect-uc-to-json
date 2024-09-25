@@ -1,0 +1,15 @@
+class l2_15590_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="린드쫄 추락공포스킬"
+     SkillID=15590
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_unholy3_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_unholy3_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15590_skill.L2EffectEmitter1'
+}

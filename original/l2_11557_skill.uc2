@@ -1,0 +1,24 @@
+class l2_11557_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="파이널 스커지"
+     SkillID=11557
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         AttachOn=AM_Trail
+         offset=(X=-0.500000,Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_he_darkeating_ca'
+         SimpleEffectClass=Class'LineageEffect.d_he_darkeating_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11557_skill.L2EffectEmitter5'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter6
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_he_spanakim1_ta'
+         SimpleEffectClass=Class'LineageEffect.d_he_spanakim1_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_11557_skill.L2EffectEmitter6'
+}

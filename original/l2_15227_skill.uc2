@@ -1,0 +1,39 @@
+class l2_15227_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="빨려들어가는 버프"
+     SkillID=70
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_mon_purple3_ca'
+         SimpleEffectClass=Class'LineageEffect.d_mon_purple3_ca_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15227_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.d_mon_heal2_fl'
+         SimpleEffectClass=Class'LineageEffect.d_mon_heal2_fl_simple'
+         bBezierCurve=True
+         ControlPointOffset(0)=(Y=1.000000)
+         ControlPointOffset(1)=(X=3.000000,Y=-1.000000,Z=1.000000)
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15227_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter11
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.GstarFX_ghost_a'
+         SimpleEffectClass=Class'LineageEffect.GstarFX_ghost_a_simple'
+     End Object
+     ExplosionAction(0)=L2EffectEmitter'LineageSkillEffect.l2_15227_skill.L2EffectEmitter11'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter12
+         AttachOn=AM_Trail
+         ScaleSize=1.000000
+         EffectClass=Class'LineageEffect.d_mon_absorb_ta'
+         SimpleEffectClass=Class'LineageEffect.d_mon_absorb_ta_simple'
+     End Object
+     ExplosionAction(1)=L2EffectEmitter'LineageSkillEffect.l2_15227_skill.L2EffectEmitter12'
+}

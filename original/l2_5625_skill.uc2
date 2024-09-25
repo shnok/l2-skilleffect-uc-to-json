@@ -1,0 +1,23 @@
+class l2_5625_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="영혼의 구속2"
+     SkillID=5625
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         bRelativeToCylinder=False
+         ScaleSize=0.400000
+         EffectClass=Class'LineageEffect.e_u307_ca_a'
+         SimpleEffectClass=Class'LineageEffect.e_u307_ca_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5625_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.e_u307_ta_a'
+         SimpleEffectClass=Class'LineageEffect.e_u307_ta_a_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5625_skill.L2EffectEmitter1'
+}

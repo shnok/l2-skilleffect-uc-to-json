@@ -1,0 +1,5 @@
+{
+"SkillId": 15264,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_BoneSpecified","AttachBoneName": "Bip01 head","offset": "(X=-0.500000,Y=0.100000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect.u_lind_wind_ca_a","SimpleEffectClass": "ClassLineageEffect.u_lind_wind_ca_a_simple"}],
+"ShotActions": []
+}

@@ -1,0 +1,5 @@
+{
+"SkillId": 1534,
+"CastingActions": [{"Name": "L2EffectEmitter0", "": "","": "","": "","": "False","EffectClass": "ClassLineageEffect.m_u024_a","SimpleEffectClass": "ClassLineageEffect.m_u024_a_simple","bPawnLight": "","": ""}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "": "AM_Trail","bOnMultiTarget": "True","EffectClass": "ClassLineageEffect.m_u200_ta_combat","SimpleEffectClass": "ClassLineageEffect.m_u200_ta_combat_simple"}]
+}

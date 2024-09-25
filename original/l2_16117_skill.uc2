@@ -1,0 +1,13 @@
+class l2_16117_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="크리티컬앰플리파이"
+     SkillID=16117
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.su_death_whisper_ta'
+         SimpleEffectClass=Class'LineageEffect.su_death_whisper_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_16117_skill.L2EffectEmitter0'
+}

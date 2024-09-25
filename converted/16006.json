@@ -1,0 +1,5 @@
+{
+"SkillId": 16006,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Y=0.300000,Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "0.500000","EffectClass": "ClassLineageEffect.t_istina_02_sc","SimpleEffectClass": "ClassLineageEffect.t_istina_02_sc_simple"}],
+"ShotActions": []
+}

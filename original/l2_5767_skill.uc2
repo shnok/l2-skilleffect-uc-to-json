@@ -1,0 +1,31 @@
+class l2_5767_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="나이아 스프라우트_바람자폭"
+     SkillID=5767
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-0.400000)
+         bSpawnOnTarget=False
+         ScaleSize=1.300000
+         EffectClass=Class'LineageEffect.el_hurricane_pr'
+         SimpleEffectClass=Class'LineageEffect.el_hurricane_pr_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5767_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=1.700000
+         EffectClass=Class'LineageEffect.el_hurricane_ta'
+         SimpleEffectClass=Class'LineageEffect.el_hurricane_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_5767_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.el_wind_strike_ta'
+         SimpleEffectClass=Class'LineageEffect.el_wind_strike_ta_simple'
+     End Object
+     ShotAction(1)=L2EffectEmitter'LineageSkillEffect.l2_5767_skill.L2EffectEmitter2'
+}

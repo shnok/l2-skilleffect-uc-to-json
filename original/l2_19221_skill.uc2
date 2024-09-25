@@ -1,0 +1,20 @@
+class l2_19221_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="프리벤션데스"
+     SkillID=19221
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         EffectClass=Class'LineageEffect.u_preventiondeath_ta'
+         SimpleEffectClass=Class'LineageEffect.u_preventiondeath_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_19221_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         EffectClass=Class'LineageEffect.u_preventiondeath_screen'
+         SimpleEffectClass=Class'LineageEffect.u_preventiondeath_screen_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_19221_skill.L2EffectEmitter1'
+}

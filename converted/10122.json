@@ -1,0 +1,5 @@
+{
+"SkillId": 92,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_RH","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_ar_stunshot2_ca","SimpleEffectClass": "ClassLineageEffect.d_ar_stunshot2_ca_simple"},{"Name": "L2EffectEmitter3", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.d_ar_slows_ca","SimpleEffectClass": "ClassLineageEffect.d_ar_slows_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "1.500000","EffectClass": "ClassLineageEffect.d_ar_slows_fl","SimpleEffectClass": "ClassLineageEffect.d_ar_slows_fl_simple"}]
+}

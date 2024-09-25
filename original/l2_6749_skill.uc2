@@ -1,0 +1,24 @@
+class l2_6749_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="터치 오브 데스"
+     SkillID=342
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.700000
+         EffectClass=Class'LineageEffect.s_u020_a'
+         SimpleEffectClass=Class'LineageEffect.s_u020_a_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6749_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         bOnMultiTarget=True
+         ScaleSize=0.600000
+         EffectClass=Class'LineageEffect.at_shock_blast_ta'
+         SimpleEffectClass=Class'LineageEffect.at_shock_blast_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_6749_skill.L2EffectEmitter1'
+}

@@ -1,0 +1,15 @@
+class l2_10803_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="시한폭탄"
+     SkillID=1071
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(Z=-0.500000)
+         ScaleSize=-1.000000
+         EffectClass=Class'LineageEffect.d_ar_bomb_ra'
+         SimpleEffectClass=Class'LineageEffect.d_ar_bomb_ra_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_10803_skill.L2EffectEmitter2'
+}

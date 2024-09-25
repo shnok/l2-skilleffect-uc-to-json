@@ -1,0 +1,15 @@
+class l2_4326_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="초보용 리제너레이션"
+     SkillID=4326
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(Z=-1.000000)
+         bOnMultiTarget=True
+         EffectClass=Class'LineageEffect.wh_regeneration_ta'
+         SimpleEffectClass=Class'LineageEffect.wh_regeneration_ta_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_4326_skill.L2EffectEmitter0'
+}

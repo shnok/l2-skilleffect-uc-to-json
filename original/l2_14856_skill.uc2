@@ -1,0 +1,60 @@
+class l2_14856_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="허리케인 러시"
+     SkillID=10267
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_Trail
+         offset=(X=-32.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         EffectClass=Class'LineageEffect.d_wa_rushslash2_ru'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash2_ru_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14856_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_Trail
+         offset=(X=-24.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         SpawnDelay=0.200000
+         EffectClass=Class'LineageEffect.d_wa_rushslash2_ru'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash2_ru_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_14856_skill.L2EffectEmitter1'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter2
+         AttachOn=AM_Trail
+         offset=(X=-16.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         SpawnDelay=0.400000
+         EffectClass=Class'LineageEffect.d_wa_rushslash2_ru'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash2_ru_simple'
+     End Object
+     CastingAction(2)=L2EffectEmitter'LineageSkillEffect.l2_14856_skill.L2EffectEmitter2'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter3
+         AttachOn=AM_Trail
+         offset=(X=-8.000000)
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         SpawnDelay=0.600000
+         EffectClass=Class'LineageEffect.d_wa_rushslash2_ru'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash2_ru_simple'
+     End Object
+     CastingAction(3)=L2EffectEmitter'LineageSkillEffect.l2_14856_skill.L2EffectEmitter3'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter4
+         AttachOn=AM_Trail
+         bSpawnOnTarget=False
+         ScaleSize=0.800000
+         SpawnDelay=0.750000
+         EffectClass=Class'LineageEffect.d_wa_rushslash2_ru'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash2_ru_simple'
+     End Object
+     CastingAction(4)=L2EffectEmitter'LineageSkillEffect.l2_14856_skill.L2EffectEmitter4'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter5
+         EffectClass=Class'LineageEffect.d_wa_rushslash_ta'
+         SimpleEffectClass=Class'LineageEffect.d_wa_rushslash_ta_simple'
+     End Object
+     ShotAction(0)=L2EffectEmitter'LineageSkillEffect.l2_14856_skill.L2EffectEmitter5'
+}

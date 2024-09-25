@@ -1,0 +1,21 @@
+class l2_514_skill extends L2SkillEffect;
+
+defaultproperties
+{
+     Desc="익스플로젼 트랩"
+     SkillID=514
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter0
+         AttachOn=AM_RH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u813_hand_test'
+         SimpleEffectClass=Class'LineageEffect.s_u813_hand_test_simple'
+     End Object
+     CastingAction(0)=L2EffectEmitter'LineageSkillEffect.l2_514_skill.L2EffectEmitter0'
+     Begin Object Class=L2EffectEmitter Name=L2EffectEmitter1
+         AttachOn=AM_LH
+         bSpawnOnTarget=False
+         EffectClass=Class'LineageEffect.s_u813_hand_test'
+         SimpleEffectClass=Class'LineageEffect.s_u813_hand_test_simple'
+     End Object
+     CastingAction(1)=L2EffectEmitter'LineageSkillEffect.l2_514_skill.L2EffectEmitter1'
+}

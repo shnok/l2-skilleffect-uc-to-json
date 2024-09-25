@@ -1,0 +1,5 @@
+{
+"SkillId": 6308,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "1.300000","EffectClass": "ClassLineageEffect.el_wind_strike_ca","SimpleEffectClass": "ClassLineageEffect.el_wind_strike_ca_simple","bPawnLight": "True","PawnLightParam": "(PawnLightType=EPLT_SKILL,LightType=LT_Steady,LightEffectType=LE_Spotlight,LightColor=(W=1.000000,X=0.700000,Y=0.300000,Z=0.300000),LightRadius=30.000000,LightCoordSystem=PTCS_RelativeRotation)"},{"Name": "L2EffectEmitter2", "AttachOn": "AM_Trail","offset": "(Z=-0.300000)","bSpawnOnTarget": "False","ScaleSize": "1.000000","EffectClass": "ClassLineageEffect.el_wind_strike_ca","SimpleEffectClass": "ClassLineageEffect.el_wind_strike_ca_simple"}],
+"ShotActions": [{"Name": "L2EffectEmitter1", "offset": "(X=0.500000)","bSpawnOnTarget": "False","EffectClass": "ClassLineageEffect.s_u226_fl","SimpleEffectClass": "ClassLineageEffect.s_u226_fl_simple"}]
+}

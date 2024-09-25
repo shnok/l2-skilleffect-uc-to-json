@@ -1,0 +1,5 @@
+{
+"SkillId": 1878,
+"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_Trail","offset": "(Z=-1.000000)","bSpawnOnTarget": "False","ScaleSize": "-1.000000","EffectClass": "ClassLineageEffect2.y_er_summon_high_riki_ca","SimpleEffectClass": "ClassLineageEffect2.y_er_summon_high_riki_ca_simple"},{"Name": "L2EffectEmitter1", "AttachOn": "AM_Trail","bSpawnOnTarget": "False","ScaleSize": "-1.000000","SpawnDelay": "2.500000","EffectClass": "ClassLineageEffect2.y_er_summon_high_riki_ca_b","SimpleEffectClass": "ClassLineageEffect2.y_er_summon_high_riki_ca_b_simple"}],
+"ShotActions": []
+}
