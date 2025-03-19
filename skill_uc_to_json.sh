@@ -34,17 +34,17 @@ extract_action_details() {
     local block_name=""
 
     #echo "Debugging: Extracting $array_name" >&2
-   # echo "Debugging: Using pattern: $action_pattern" >&2
+    #echo "Debugging: Using pattern: $action_pattern" >&2
 
     # Extract the action lines matching the given pattern (case-insensitive)
     mapfile -t action_lines < <(grep -ioP $action_pattern "$input_file")
     
-   # echo "Debugging: Matched action lines:" >&2
-   # if [ ${#action_lines[@]} -eq 0 ]; then
-     #   echo "  No matches found" >&2
-   # else
-   #     printf '%s\n' "${action_lines[@]}" >&2
-   # fi
+   #echo "Debugging: Matched action lines:" >&2
+   #if [ ${#action_lines[@]} -eq 0 ]; then
+   #    echo "  No matches found" >&2
+   #else
+   #    printf '%s\n' "${action_lines[@]}" >&2
+   #fi
 
     # Read input file line by line
     while IFS= read -r line; do
@@ -101,6 +101,12 @@ json_output+=",\n"
 
 # Extract ShotActions based on their reference lines (case-insensitive)
 extract_action_details "ShotActions" "ShotAction\([0-9]+\)=L2EffectEmitter'LineageSkillEffect\.[^']+\.L2EffectEmitter[0-9]+'"
+
+# Add comma between CastingActions and ShotActions
+json_output+=",\n"
+
+# Extract ShotActions based on their reference lines (case-insensitive)
+extract_action_details "ExplosionActions" "ExplosionAction\([0-9]+\)=L2EffectEmitter'LineageSkillEffect\.[^']+\.L2EffectEmitter[0-9]+'"
 
 # Close JSON structure
 json_output+=$'\n}'

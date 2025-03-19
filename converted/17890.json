@@ -1,5 +1,0 @@
-{
-"SkillId": 17890,
-"CastingActions": [{"Name": "L2EffectEmitter0", "AttachOn": "AM_AliasSpecified","AttachBoneName": "soulshot1","bRelativeToCylinder": "False","EtcEffect": "EET_PetJewelShot"}],
-"ShotActions": []
-}
